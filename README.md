@@ -1,2 +1,2 @@
-# multithreading-Java
+# XML & JSON query
 Java Aplication with multithreading mecanism
