@@ -8,27 +8,29 @@
  *
  * @author vinicius
  */
-public class Work extends Thread{
-    public static final int min = Integer.MIN_VALUE;
-    public static final int max = Integer.MAX_VALUE;
-    
-    
-    public void run(){
-        long startTime = System.nanoTime();
-        this.countWork();
-        long endTime = System.nanoTime();
+public class Work implements Runnable {
 
-        long duration = (endTime - startTime)/1000000;  //divide by 1000000 to get milliseconds.
-        
-        System.out.println("\nTime in milliseconds: "+duration);
+    public static final double min = Double.MIN_VALUE;
+    public static final double max = Double.MAX_VALUE;
+    public int threadID;
+
+    public Work(int threadID) {
+        this.threadID = threadID;
     }
-    
-    public boolean countWork(){
-        for(int i = 0; i < this.max/1000 ; i += 100){
-            System.out.println(Thread.currentThread());
+
+    public void run() {
+        try {
+            System.out.println(Thread.currentThread().getId() + " is running");
+            for (int i = 0; i < this.max ; i+=0.1) {
+                
+            }
+        } catch (Exception e) {
+            System.out.println(e.getMessage());
         }
-        
+    }
+
+    public boolean countWork() {
         return true;
     }
-    
+
 }
