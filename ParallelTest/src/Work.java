@@ -10,18 +10,21 @@
  */
 public class Work implements Runnable {
 
-    public static final double min = Double.MIN_VALUE;
-    public static final double max = Double.MAX_VALUE;
+    public static final double max = Double.MAX_VALUE/10e299;
+    public int count;
+    public int nProcessors;
     public int threadID;
 
-    public Work(int threadID) {
+    public Work(int threadID, int nProcessors) {
         this.threadID = threadID;
+        this.nProcessors = nProcessors;
+        this.count = 0;
     }
 
     public void run() {
         try {
             System.out.println(Thread.currentThread().getId() + " is running");
-            for (int i = 0; i < this.max ; i+=0.1) {
+            for (int i = (int) ((this.max/nProcessors)*(this.threadID)); i < (this.max/this.nProcessors)*(this.threadID+1) ; i++) {
                 
             }
         } catch (Exception e) {
