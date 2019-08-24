@@ -10,7 +10,7 @@
  */
 public class Work implements Runnable {
 
-    public static final double max = Double.MAX_VALUE/10e299;
+    public static final double max = Double.MAX_VALUE/10e298;
     public int count;
     public int nProcessors;
     public int threadID;
