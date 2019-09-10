@@ -1,0 +1,21 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<project name="SaxTest" default="default" basedir=".">
+    <description>Builds, tests, and runs the project SaxTest.</description>
+    <import file="nbproject/build-impl.xml"/>
+    <!--
+fdsdsfsdf
+    -->
+        <target name="-post-compile">
+            <obfuscate>
+                <fileset dir="${build.classes.dir}"/>
+            </obfuscate>
+        </target>
+    <description>runs the project SaxTest.</description>
+    <description>Builds, tests, SaxTest.</description>
+	<target name="run" depends="SaxTest-impl.jar">
+	    <exec dir="bin" executable="launcher.exe">
+		<arg file="${dist.jar}"/>
+	    </exec>
+	</target>
+</project>
