@@ -19,9 +19,16 @@ public class Main {
      */
     public static void main(String[] args) {
         
-        System.out.println("With Multithreading: "+WithMultithreading());
-        System.out.println("");
-        System.out.println("No Multithreading: "+normalProcess());
+        //System.out.println("With Multithreading: "+WithMultithreading());
+        //System.out.println("");
+        //System.out.println("No Multithreading: "+normalProcess());
+        
+        String s = "dsajikd       sss dddff rrrr                k";
+        
+        for(String a: s.split("\\s+")){
+            
+            System.out.println(":"+a);
+        }
 
     }
     
