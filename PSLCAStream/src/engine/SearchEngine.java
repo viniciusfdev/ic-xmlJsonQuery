@@ -21,31 +21,64 @@ import query.QueryGroupHash;
  * 
  */
 public class SearchEngine extends DefaultHandler{
-    private Boolean semantic = true;                //true for SLCAStream
+    private Boolean semantic;                       //true for SLCAStream
     private StackNode currentNodeE;                 //ascending serial number
-    private Stack<QueryGroupHash> parsingStack;     //
+    private Stack<QueryGroupHash> parsingStack;     //uma pilha para manter os nos aberto durante o parser
+    private QueryGroupHash queryIndex;              //relaciona um termo e todas as consultas que o contém
     private HashMap<StackNode, Integer> matchTerms; //numero de combinacoes de termos que o no sendo processado possui
     private HashMap<String, List<Integer>> listG1;  //lista invertida G for ELCA
     private HashMap<String, List<Integer>> listG2;  //lista invertida g for ELCA
     private HashMap<String, Integer> listG3;        //lista simplificada invertida for SLCA
     
+    /**
+     * 
+     * @param semantic represents the semantic choice between ELCA or SLCA. SLCA as default.
+     * @param queryIndex represents a query term and refers to queries in which this term occurs.
+     */
+    public SearchEngine(Boolean semantic, QueryGroupHash queryIndex) {
+        super();
+        this.parsingStack = new Stack();
+        this.listG1 = new HashMap();
+        this.listG2 = new HashMap();
+        this.listG3 = new HashMap();
+        this.semantic = semantic;
+        this.queryIndex = queryIndex;
+    }
+    
+    /**
+     * 
+     * @param queryIndex represents a query term and refers to queries in which this term occurs.
+     */
+    public SearchEngine(QueryGroupHash queryIndex) {
+        super();
+        this.semantic = true;
+        this.queryIndex = queryIndex;
+    }
+    
+    /**
+     * Call back to indicate when the document traversal end
+     */
     @Override
     public void startDocument(){
         System.out.println("Start Document d");
     }
     
+    /**
+     * Call back to indicate when the document traversal start
+     */
     @Override
     public void endDocument(){
         System.out.println("End Document d");
     }
     
     /**
-     * Updates the parsing stack, generates each id node, 
+     * 
+     * Updates the parsing stack and generates each id node.
      * 
      * @param uri
-     * @param name
-     * @param qName
-     * @param atts 
+     * @param name the label value upon the traversal of a document.
+     * @param qName 
+     * @param atts the attributes is not used in this implementation.
      */
     @Override
     public void startElement(String uri, String name, String qName, Attributes atts){
@@ -55,14 +88,24 @@ public class SearchEngine extends DefaultHandler{
 	    System.out.println("Start element: {" + uri + "}" + name);
     }
     
+    /**
+     * Checks witch nodes or their descendants match the stored queries according
+     * to the semantic choice and evaluates if the current node or any of its 
+     * descendants match all current current query terms. Also checks if the node 
+     * is an LCA node.
+     * 
+     * @param uri
+     * @param name the closed label value upon the traversal of a document.
+     * @param qName 
+     */
     @Override
     public void endElement(String uri, String name, String qName){
         if(semantic){
-            
+            endELementSLCA(uri, name, qName);
         }else{
-            
+            endELementELCA(uri, name, qName);
         }
-        Boolean complete;
+        
         int id = this.currentNodeE.getNodeId();
         if ("".equals (uri))
 	    System.out.println("End element: " + qName);
@@ -70,14 +113,39 @@ public class SearchEngine extends DefaultHandler{
 	    System.out.println("End element: {" + uri + "}" + name);
     }
     
-    public void endELementSLCA(){
-        
+    /**
+     * Specialized endElement method for SLCA semantic.
+     * 
+     * @see #endElement(java.lang.String, java.lang.String, java.lang.String) 
+     * 
+     * @param uri
+     * @param name
+     * @param qName 
+     */
+    public void endELementSLCA(String uri, String name, String qName){
+        Boolean complete;
     }
     
-    public void endELementELCA(){
-        
+    /**
+     * Specialized endElement method for ELCA semantic.
+     * 
+     * @see #endElement(java.lang.String, java.lang.String, java.lang.String) 
+     * 
+     * @param uri
+     * @param name
+     * @param qName 
+     */
+    public void endELementELCA(String uri, String name, String qName){
+        Boolean complete;
     }
     
+    /**
+     * Updates the parsing stack if the queries include text tokens as a term.
+     * 
+     * @param ch
+     * @param start
+     * @param length 
+     */
     @Override
     public void characters (char ch[], int start, int length){
 	Boolean newStackEntry = false;
@@ -103,4 +171,70 @@ public class SearchEngine extends DefaultHandler{
         System.out.print("\"\n");
         
     }
+
+    public Boolean getSemantic() {
+        return semantic;
+    }
+
+    public void setSemantic(Boolean semantic) {
+        this.semantic = semantic;
+    }
+
+    public StackNode getCurrentNodeE() {
+        return currentNodeE;
+    }
+
+    public void setCurrentNodeE(StackNode currentNodeE) {
+        this.currentNodeE = currentNodeE;
+    }
+
+    public Stack<QueryGroupHash> getParsingStack() {
+        return parsingStack;
+    }
+
+    public void setParsingStack(Stack<QueryGroupHash> parsingStack) {
+        this.parsingStack = parsingStack;
+    }
+
+    public QueryGroupHash getQueryIndex() {
+        return queryIndex;
+    }
+
+    public void setQueryIndex(QueryGroupHash queryIndex) {
+        this.queryIndex = queryIndex;
+    }
+
+    public HashMap<StackNode, Integer> getMatchTerms() {
+        return matchTerms;
+    }
+
+    public void setMatchTerms(HashMap<StackNode, Integer> matchTerms) {
+        this.matchTerms = matchTerms;
+    }
+
+    public HashMap<String, List<Integer>> getListG1() {
+        return listG1;
+    }
+
+    public void setListG1(HashMap<String, List<Integer>> listG1) {
+        this.listG1 = listG1;
+    }
+
+    public HashMap<String, List<Integer>> getListG2() {
+        return listG2;
+    }
+
+    public void setListG2(HashMap<String, List<Integer>> listG2) {
+        this.listG2 = listG2;
+    }
+
+    public HashMap<String, Integer> getListG3() {
+        return listG3;
+    }
+
+    public void setListG3(HashMap<String, Integer> listG3) {
+        this.listG3 = listG3;
+    }
+    
+    
 }

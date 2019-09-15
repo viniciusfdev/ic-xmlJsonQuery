@@ -16,5 +16,23 @@ import java.util.List;
  */
 public class QueryGroupHash {
     private HashMap<String, List<Query>> queryGroupHash;
+
+    public QueryGroupHash() {
+        this.queryGroupHash = new HashMap<>();
+    }
+
+    public void addQuery(String term, Query query){
+        queryGroupHash.put(term, (List<Query>) query);
+    }
+    
+    public HashMap<String, List<Query>> getQueryGroupHash() {
+        return queryGroupHash;
+    }
+
+    public void setQueryGroupHash(HashMap<String, List<Query>> queryGroupHash) {
+        this.queryGroupHash = queryGroupHash;
+    }
+    
+    
 }
 
