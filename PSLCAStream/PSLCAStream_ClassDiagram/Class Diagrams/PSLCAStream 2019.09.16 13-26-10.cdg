@@ -1,0 +1,274 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<ClassDiagram name="PSLCAStream">
+  <ClassDiagramComponents>
+    <Class name="QueryProcessor" package="engine" visibility="public" xPosition="557.0" yPosition="495.0">
+      <Fields>
+        <Field name="queryIndex" type="QueryGroupHash" visibility="private"/>
+        <Field name="threads" type="List&lt;Thread&gt;" visibility="private"/>
+        <Field name="queryList" type="List&lt;Query&gt;" visibility="private"/>
+        <Field name="XMLFileList" type="String[]" visibility="private"/>
+        <Field name="XMLFilePath" type="String" visibility="private"/>
+        <Field name="results" type="HashMap&lt;Query, List&lt;Integer&gt;&gt;" visibility="private"/>
+      </Fields>
+      <Constructors>
+        <Constructor visibility="public">
+          <Argument type="String" name="queriesFileName"/>
+          <Argument type="String[]" name="XMLFileList"/>
+          <Argument type="String" name="XMLFilePath"/>
+        </Constructor>
+      </Constructors>
+      <Methods>
+        <Method name="start" returnType="void" visibility="public"/>
+        <Method name="multipleQueries" returnType="void" visibility="public"/>
+        <Method name="groupQueryWhithCommonTerms" returnType="void" visibility="public"/>
+        <Method name="buildQueryIndex" returnType="void" visibility="public"/>
+        <Method name="getQueryIndex" returnType="QueryGroupHash" visibility="public"/>
+        <Method name="setQueryIndex" returnType="void" visibility="public">
+          <Argument type="QueryGroupHash" name="queryIndex"/>
+        </Method>
+        <Method name="getQueryList" returnType="List&lt;Query&gt;" visibility="public"/>
+        <Method name="setQueryList" returnType="void" visibility="public">
+          <Argument type="List&lt;Query&gt;" name="queryList"/>
+        </Method>
+        <Method name="getXMLFileList" returnType="String[]" visibility="public"/>
+        <Method name="setXMLFileList" returnType="void" visibility="public">
+          <Argument type="String[]" name="XMLFileList"/>
+        </Method>
+        <Method name="getXMLFilePath" returnType="String" visibility="public"/>
+        <Method name="setXMLFilePath" returnType="void" visibility="public">
+          <Argument type="String" name="XMLFilePath"/>
+        </Method>
+        <Method name="getResults" returnType="HashMap&lt;Query, List&lt;Integer&gt;&gt;" visibility="public"/>
+        <Method name="setResults" returnType="void" visibility="public">
+          <Argument type="HashMap&lt;Query, List&lt;Integer&gt;&gt;" name="results"/>
+        </Method>
+      </Methods>
+    </Class>
+    <Class name="SearchEngine" package="engine" visibility="public" xPosition="2459.0" yPosition="382.0">
+      <Fields>
+        <Field name="semantic" type="Boolean" visibility="private"/>
+        <Field name="currentNodeE" type="StackNode" visibility="private"/>
+        <Field name="tn" type="StackNode" visibility="private"/>
+        <Field name="nodePath" type="List&lt;Integer&gt;" visibility="private"/>
+        <Field name="parsingStack" type="Stack&lt;QueryGroupHash&gt;" visibility="private"/>
+        <Field name="queryIndex" type="QueryGroupHash" visibility="private"/>
+        <Field name="matchTerms" type="HashMap&lt;StackNode, Integer&gt;" visibility="private"/>
+        <Field name="listG1" type="HashMap&lt;String, List&lt;Integer&gt;&gt;" visibility="private"/>
+        <Field name="listG2" type="HashMap&lt;String, List&lt;Integer&gt;&gt;" visibility="private"/>
+        <Field name="listG3" type="HashMap&lt;String, Integer&gt;" visibility="private"/>
+        <Field name="results" type="HashMap&lt;Query, List&lt;Integer&gt;&gt;" visibility="private"/>
+      </Fields>
+      <Constructors>
+        <Constructor visibility="public">
+          <Argument type="Boolean" name="semantic"/>
+          <Argument type="QueryGroupHash" name="queryIndex"/>
+        </Constructor>
+        <Constructor visibility="public">
+          <Argument type="QueryGroupHash" name="queryIndex"/>
+        </Constructor>
+      </Constructors>
+      <Methods>
+        <Method name="startDocument" returnType="void" visibility="public"/>
+        <Method name="endDocument" returnType="void" visibility="public"/>
+        <Method name="startElement" returnType="void" visibility="public">
+          <Argument type="String" name="uri"/>
+          <Argument type="String" name="name"/>
+          <Argument type="String" name="qName"/>
+          <Argument type="Attributes" name="atts"/>
+        </Method>
+        <Method name="endElement" returnType="void" visibility="public">
+          <Argument type="String" name="uri"/>
+          <Argument type="String" name="name"/>
+          <Argument type="String" name="qName"/>
+        </Method>
+        <Method name="endELementSLCA" returnType="void" visibility="public">
+          <Argument type="String" name="uri"/>
+          <Argument type="String" name="name"/>
+          <Argument type="String" name="qName"/>
+        </Method>
+        <Method name="endELementELCA" returnType="void" visibility="public">
+          <Argument type="String" name="uri"/>
+          <Argument type="String" name="name"/>
+          <Argument type="String" name="qName"/>
+        </Method>
+        <Method name="characters" returnType="void" visibility="public">
+          <Argument type="char" name="ch"/>
+          <Argument type="int" name="start"/>
+          <Argument type="int" name="length"/>
+        </Method>
+        <Method name="getResults" returnType="HashMap&lt;Query, List&lt;Integer&gt;&gt;" visibility="public"/>
+        <Method name="getSemantic" returnType="Boolean" visibility="public"/>
+        <Method name="setSemantic" returnType="void" visibility="public">
+          <Argument type="Boolean" name="semantic"/>
+        </Method>
+        <Method name="getCurrentNodeE" returnType="StackNode" visibility="public"/>
+        <Method name="setCurrentNodeE" returnType="void" visibility="public">
+          <Argument type="StackNode" name="currentNodeE"/>
+        </Method>
+        <Method name="getParsingStack" returnType="Stack&lt;QueryGroupHash&gt;" visibility="public"/>
+        <Method name="setParsingStack" returnType="void" visibility="public">
+          <Argument type="Stack&lt;QueryGroupHash&gt;" name="parsingStack"/>
+        </Method>
+        <Method name="getQueryIndex" returnType="QueryGroupHash" visibility="public"/>
+        <Method name="setQueryIndex" returnType="void" visibility="public">
+          <Argument type="QueryGroupHash" name="queryIndex"/>
+        </Method>
+        <Method name="getMatchTerms" returnType="HashMap&lt;StackNode, Integer&gt;" visibility="public"/>
+        <Method name="setMatchTerms" returnType="void" visibility="public">
+          <Argument type="HashMap&lt;StackNode, Integer&gt;" name="matchTerms"/>
+        </Method>
+        <Method name="getListG1" returnType="HashMap&lt;String, List&lt;Integer&gt;&gt;" visibility="public"/>
+        <Method name="setListG1" returnType="void" visibility="public">
+          <Argument type="HashMap&lt;String, List&lt;Integer&gt;&gt;" name="listG1"/>
+        </Method>
+        <Method name="getListG2" returnType="HashMap&lt;String, List&lt;Integer&gt;&gt;" visibility="public"/>
+        <Method name="setListG2" returnType="void" visibility="public">
+          <Argument type="HashMap&lt;String, List&lt;Integer&gt;&gt;" name="listG2"/>
+        </Method>
+        <Method name="getListG3" returnType="HashMap&lt;String, Integer&gt;" visibility="public"/>
+        <Method name="setListG3" returnType="void" visibility="public">
+          <Argument type="HashMap&lt;String, Integer&gt;" name="listG3"/>
+        </Method>
+      </Methods>
+    </Class>
+    <Class name="TaskControl" package="engine" visibility="public" xPosition="1548.0" yPosition="467.0">
+      <Fields>
+        <Field name="file" type="FileReader" visibility="private"/>
+        <Field name="search" type="SearchEngine" visibility="private"/>
+        <Field name="queryIndex" type="QueryGroupHash" visibility="private"/>
+      </Fields>
+      <Constructors>
+        <Constructor visibility="public">
+          <Argument type="FileReader" name="file"/>
+          <Argument type="QueryGroupHash" name="queryIndex"/>
+        </Constructor>
+      </Constructors>
+      <Methods>
+        <Method name="run" returnType="void" visibility="public"/>
+      </Methods>
+    </Class>
+    <Class name="PSLCAStreamException" package="exception" visibility="public" xPosition="1452.0" yPosition="31.0">
+      <Fields/>
+      <Constructors>
+        <Constructor visibility="public">
+          <Argument type="String" name="msg"/>
+        </Constructor>
+      </Constructors>
+      <Methods/>
+    </Class>
+    <Class name="Main" package="main" visibility="public" xPosition="1220.0" yPosition="20.0">
+      <Fields/>
+      <Constructors/>
+      <Methods>
+        <Method name="main" returnType="void" visibility="public" isStatic="true">
+          <Argument type="String[]" name="args"/>
+        </Method>
+      </Methods>
+    </Class>
+    <Class name="StackNode" package="node" visibility="public" xPosition="1790.0" yPosition="1319.0">
+      <Fields>
+        <Field name="nodeId" type="int" visibility="private"/>
+        <Field name="matchedTerms" type="long" visibility="private"/>
+        <Field name="usedQueries" type="QueryGroupHash" visibility="private"/>
+      </Fields>
+      <Constructors>
+        <Constructor visibility="public">
+          <Argument type="int" name="nodeId"/>
+          <Argument type="QueryGroupHash" name="usedQueries"/>
+        </Constructor>
+      </Constructors>
+      <Methods>
+        <Method name="getNodeId" returnType="int" visibility="public"/>
+        <Method name="setNodeId" returnType="void" visibility="public">
+          <Argument type="int" name="nodeId"/>
+        </Method>
+        <Method name="getUsedQueries" returnType="QueryGroupHash" visibility="public"/>
+        <Method name="setUsedQueries" returnType="void" visibility="public">
+          <Argument type="QueryGroupHash" name="usedQueries"/>
+        </Method>
+        <Method name="getMatchedTerms" returnType="long" visibility="public"/>
+        <Method name="setMatchedTerms" returnType="void" visibility="public">
+          <Argument type="long" name="matchedTerms"/>
+        </Method>
+      </Methods>
+    </Class>
+    <Class name="Query" package="query" visibility="public" xPosition="1835.0" yPosition="-6.0">
+      <Fields>
+        <Field name="queryID" type="int" visibility="private"/>
+        <Field name="lastResultId" type="int" visibility="private"/>
+        <Field name="queryTerms" type="List&lt;String&gt;" visibility="private"/>
+        <Field name="results" type="List&lt;Integer&gt;" visibility="private"/>
+      </Fields>
+      <Constructors>
+        <Constructor visibility="public">
+          <Argument type="int" name="queryID"/>
+          <Argument type="int" name="lastResultId"/>
+          <Argument type="List&lt;String&gt;" name="queryTerms"/>
+          <Argument type="List&lt;Integer&gt;" name="results"/>
+        </Constructor>
+      </Constructors>
+      <Methods>
+        <Method name="addResult" returnType="void" visibility="public">
+          <Argument type="Integer" name="nodeId"/>
+        </Method>
+        <Method name="getQueryID" returnType="int" visibility="public"/>
+        <Method name="setQueryID" returnType="void" visibility="public">
+          <Argument type="int" name="queryID"/>
+        </Method>
+        <Method name="getLastResultId" returnType="int" visibility="public"/>
+        <Method name="setLastResultId" returnType="void" visibility="public">
+          <Argument type="int" name="lastResultId"/>
+        </Method>
+        <Method name="getQueryTerms" returnType="List&lt;String&gt;" visibility="public"/>
+        <Method name="setQueryTerms" returnType="void" visibility="public">
+          <Argument type="List&lt;String&gt;" name="queryTerms"/>
+        </Method>
+        <Method name="getResults" returnType="List&lt;Integer&gt;" visibility="public"/>
+        <Method name="setResults" returnType="void" visibility="public">
+          <Argument type="List&lt;Integer&gt;" name="results"/>
+        </Method>
+      </Methods>
+    </Class>
+    <Class name="QueryGroupHash" package="query" visibility="public" xPosition="1705.0" yPosition="911.0">
+      <Fields>
+        <Field name="queryGroupHash" type="HashMap&lt;String, List&lt;Query&gt;&gt;" visibility="private"/>
+      </Fields>
+      <Constructors>
+        <Constructor visibility="public"/>
+      </Constructors>
+      <Methods>
+        <Method name="addQueries" returnType="void" visibility="public">
+          <Argument type="String" name="term"/>
+          <Argument type="Query" name="query"/>
+        </Method>
+        <Method name="getQueryGroupHash" returnType="HashMap&lt;String, List&lt;Query&gt;&gt;" visibility="public"/>
+        <Method name="setQueryGroupHash" returnType="void" visibility="public">
+          <Argument type="HashMap&lt;String, List&lt;Query&gt;&gt;" name="queryGroupHash"/>
+        </Method>
+      </Methods>
+    </Class>
+  </ClassDiagramComponents>
+  <ClassDiagramRelations>
+    <UseRelation source="engine.SearchEngine" target="query.QueryGroupHash" sourceCardinality="1..1" targetCardinality="1..1"/>
+    <HasRelation name="queryList" source="engine.QueryProcessor" target="query.Query" type="Aggregation" sourceCardinality="1..1" targetCardinality="0..*" collectionType="List&lt;Query&gt;"/>
+    <UseRelation source="engine.SearchEngine" target="node.StackNode" sourceCardinality="1..1" targetCardinality="1..1"/>
+    <HasRelation name="queryGroupHash" source="query.QueryGroupHash" target="query.Query" type="Aggregation" sourceCardinality="1..1" targetCardinality="0..*" collectionType="HashMap&lt;String, List&lt;Query&gt;&gt;"/>
+    <UseRelation source="query.QueryGroupHash" target="query.Query" sourceCardinality="1..1" targetCardinality="1..1"/>
+    <HasRelation name="results" source="engine.SearchEngine" target="query.Query" type="Aggregation" sourceCardinality="1..1" targetCardinality="0..*" collectionType="HashMap&lt;Query, List&lt;Integer&gt;&gt;"/>
+    <UseRelation source="node.StackNode" target="query.QueryGroupHash" sourceCardinality="1..1" targetCardinality="1..1"/>
+    <UseRelation source="engine.QueryProcessor" target="query.QueryGroupHash" sourceCardinality="1..1" targetCardinality="1..1"/>
+    <HasRelation name="parsingStack" source="engine.SearchEngine" target="query.QueryGroupHash" type="Aggregation" sourceCardinality="1..1" targetCardinality="1..1"/>
+    <HasRelation name="tn" source="engine.SearchEngine" target="node.StackNode" type="Aggregation" sourceCardinality="1..1" targetCardinality="1..1"/>
+    <HasRelation name="search" source="engine.TaskControl" target="engine.SearchEngine" type="Aggregation" sourceCardinality="1..1" targetCardinality="1..1"/>
+    <HasRelation name="results" source="engine.QueryProcessor" target="query.Query" type="Aggregation" sourceCardinality="1..1" targetCardinality="0..*" collectionType="HashMap&lt;Query, List&lt;Integer&gt;&gt;"/>
+    <HasRelation name="matchTerms" source="engine.SearchEngine" target="node.StackNode" type="Aggregation" sourceCardinality="1..1" targetCardinality="0..*" collectionType="HashMap&lt;StackNode, Integer&gt;"/>
+    <UseRelation source="engine.SearchEngine" target="query.Query" sourceCardinality="1..1" targetCardinality="1..1"/>
+    <HasRelation name="usedQueries" source="node.StackNode" target="query.QueryGroupHash" type="Aggregation" sourceCardinality="1..1" targetCardinality="1..1"/>
+    <UseRelation source="engine.QueryProcessor" target="query.Query" sourceCardinality="1..1" targetCardinality="1..1"/>
+    <HasRelation name="currentNodeE" source="engine.SearchEngine" target="node.StackNode" type="Aggregation" sourceCardinality="1..1" targetCardinality="1..1"/>
+    <HasRelation name="queryIndex" source="engine.SearchEngine" target="query.QueryGroupHash" type="Aggregation" sourceCardinality="1..1" targetCardinality="1..1"/>
+    <HasRelation name="queryIndex" source="engine.TaskControl" target="query.QueryGroupHash" type="Aggregation" sourceCardinality="1..1" targetCardinality="1..1"/>
+    <HasRelation name="queryIndex" source="engine.QueryProcessor" target="query.QueryGroupHash" type="Aggregation" sourceCardinality="1..1" targetCardinality="1..1"/>
+  </ClassDiagramRelations>
+</ClassDiagram>

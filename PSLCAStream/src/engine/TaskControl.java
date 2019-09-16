@@ -5,15 +5,19 @@
  */
 package engine;
 
+import exception.PSLCAStreamException;
 import java.io.File;
 import java.io.FileReader;
 import java.io.IOException;
+import java.util.HashMap;
+import java.util.List;
 import java.util.logging.Level;
 import java.util.logging.Logger;
 import org.xml.sax.InputSource;
 import org.xml.sax.SAXException;
 import org.xml.sax.XMLReader;
 import org.xml.sax.helpers.XMLReaderFactory;
+import query.Query;
 import query.QueryGroupHash;
 
 /**
@@ -22,32 +26,38 @@ import query.QueryGroupHash;
  */
 public class TaskControl implements Runnable{
     
-    private FileReader xmlFile;
+    private FileReader file;
     private SearchEngine search;
     private QueryGroupHash queryIndex;
-
-    public TaskControl(FileReader xmlFile, SearchEngine search, QueryGroupHash queryIndex) {
-        this.xmlFile = xmlFile;
+    
+    public TaskControl(FileReader file, QueryGroupHash queryIndex) {
+        this.file = file;
         this.search = search;
         this.queryIndex = queryIndex;
     }
-
+    
+    /**
+     * Automatically call when the parser start initializing the search.
+     */
     @Override
     public void run() {
-        XMLReader xr;
+        
         try {
             
-            xr = XMLReaderFactory.createXMLReader();
-            if(queryIndex != null)
-                if(queryIndex)
-                    SearchEngine handler = new SearchEngine(queryIndex);
-                else
-                    System.out.println("");
-            else
-            xr.setContentHandler(handler);
-            xr.setErrorHandler(handler);
-            FileReader fr = new FileReader(new File("xmlfile.xml").getAbsolutePath());
-            xr.parse(new InputSource(fr));
+            XMLReader xr = XMLReaderFactory.createXMLReader();
+            if(queryIndex != null){
+                if(!queryIndex.getQueryGroupHash().isEmpty()){
+                    search = new SearchEngine(queryIndex);
+                    xr.setContentHandler(search);
+                    xr.setErrorHandler(search);
+                    xr.parse(new InputSource(file));
+                    
+                }else{
+                    throw new PSLCAStreamException("Query Index => não possui consultas");
+                }
+            }else{
+                throw new PSLCAStreamException("Query Index => argumento nulo");
+            }
             
         } catch (SAXException ex) {
             Logger.getLogger(TaskControl.class.getName()).log(Level.SEVERE, null, ex);
@@ -57,4 +67,5 @@ public class TaskControl implements Runnable{
 	
     }
     
+ 
 }

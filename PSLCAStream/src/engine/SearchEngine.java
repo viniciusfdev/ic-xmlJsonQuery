@@ -23,12 +23,15 @@ import query.QueryGroupHash;
 public class SearchEngine extends DefaultHandler{
     private Boolean semantic;                       //true for SLCAStream
     private StackNode currentNodeE;                 //ascending serial number
+    private StackNode tn;                           //um conjunto de termos de consulta
+    private List<Integer> nodePath;                 //
     private Stack<QueryGroupHash> parsingStack;     //uma pilha para manter os nos aberto durante o parser
     private QueryGroupHash queryIndex;              //relaciona um termo e todas as consultas que o contém
     private HashMap<StackNode, Integer> matchTerms; //numero de combinacoes de termos que o no sendo processado possui
     private HashMap<String, List<Integer>> listG1;  //lista invertida G for ELCA
     private HashMap<String, List<Integer>> listG2;  //lista invertida g for ELCA
     private HashMap<String, Integer> listG3;        //lista simplificada invertida for SLCA
+    private HashMap<Query, List<Integer>> results;  //resultados referentes a cada consulta
     
     /**
      * 
@@ -37,20 +40,29 @@ public class SearchEngine extends DefaultHandler{
      */
     public SearchEngine(Boolean semantic, QueryGroupHash queryIndex) {
         super();
+        this.nodePath = new ArrayList<Integer>();
         this.parsingStack = new Stack();
-        this.listG1 = new HashMap();
-        this.listG2 = new HashMap();
-        this.listG3 = new HashMap();
+        this.listG1 = new HashMap<>();
+        this.listG2 = new HashMap<>();
+        this.listG3 = new HashMap<>();
+        this.results = new HashMap<>();
         this.semantic = semantic;
         this.queryIndex = queryIndex;
+        
     }
     
     /**
-     * 
+     * @serial semantic True as default for SLCAStream semantic
      * @param queryIndex represents a query term and refers to queries in which this term occurs.
      */
     public SearchEngine(QueryGroupHash queryIndex) {
         super();
+        this.nodePath = new ArrayList<Integer>();
+        this.parsingStack = new Stack();
+        this.listG1 = new HashMap<>();
+        this.listG2 = new HashMap<>();
+        this.listG3 = new HashMap<>();
+        this.results = new HashMap<>();
         this.semantic = true;
         this.queryIndex = queryIndex;
     }
@@ -170,6 +182,15 @@ public class SearchEngine extends DefaultHandler{
         }
         System.out.print("\"\n");
         
+    }
+    
+    /**
+     * Return the result, a structure composed of a key search and a set of nodes.
+     * 
+     * @return 
+     */
+    public HashMap<Query, List<Integer>> getResults(){
+        return null;
     }
 
     public Boolean getSemantic() {

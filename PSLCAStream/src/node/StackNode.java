@@ -10,12 +10,45 @@ import query.Query;
 import query.QueryGroupHash;
 
 /**
- *Parsing Stack Node to process open nodes during
- * parser
+ * Parsing Stack Node to process open nodes during
+ * parser.
  * 
  * @author vinicius franca, evandrino barros
  */
 public class StackNode {
     private int nodeId;
+    private long matchedTerms;
     private QueryGroupHash usedQueries;
+
+    public StackNode(int nodeId, QueryGroupHash usedQueries) {
+        this.nodeId = nodeId;
+        this.usedQueries = usedQueries;
+    }
+    
+    public int getNodeId() {
+        return nodeId;
+    }
+
+    public void setNodeId(int nodeId) {
+        this.nodeId = nodeId;
+    }
+
+    public QueryGroupHash getUsedQueries() {
+        return usedQueries;
+    }
+
+    public void setUsedQueries(QueryGroupHash usedQueries) {
+        this.usedQueries = usedQueries;
+    }
+
+    public long getMatchedTerms() {
+        return matchedTerms;
+    }
+
+    public void setMatchedTerms(long matchedTerms) {
+        this.matchedTerms = matchedTerms;
+    }
+    
+    
+    
 }

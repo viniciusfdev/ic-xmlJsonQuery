@@ -21,7 +21,7 @@ public class QueryGroupHash {
         this.queryGroupHash = new HashMap<>();
     }
 
-    public void addQuery(String term, Query query){
+    public void addQueries(String term, Query query){
         queryGroupHash.put(term, (List<Query>) query);
     }
     
@@ -32,7 +32,6 @@ public class QueryGroupHash {
     public void setQueryGroupHash(HashMap<String, List<Query>> queryGroupHash) {
         this.queryGroupHash = queryGroupHash;
     }
-    
     
 }
 

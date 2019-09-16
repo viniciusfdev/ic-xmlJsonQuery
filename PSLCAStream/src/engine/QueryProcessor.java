@@ -23,7 +23,6 @@ public class QueryProcessor {
     private String[] XMLFileList;
     private String XMLFilePath;
     private HashMap<Query, List<Integer>> results;
-
     /**
      * 
      * @param queriesFileName
@@ -40,6 +39,13 @@ public class QueryProcessor {
      * Initializes and separates the queries for parallel process.
      */
     public void start(){
+        
+    }
+    
+    /**
+     * Process multiple queries for each document D and set the results for each it.
+     */
+    public void multipleQueries(){
         
     }
     
