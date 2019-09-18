@@ -5,6 +5,7 @@
  */
 package query;
 
+import java.util.ArrayList;
 import java.util.HashMap;
 import java.util.List;
 
@@ -19,10 +20,13 @@ public class QueryGroupHash {
 
     public QueryGroupHash() {
         this.queryGroupHash = new HashMap<>();
+        
     }
-
+    
     public void addQueries(String term, Query query){
-        queryGroupHash.put(term, (List<Query>) query);
+        if(!queryGroupHash.containsKey(term));
+            queryGroupHash.put(term, new ArrayList<Query>());
+        queryGroupHash.get(term).add(query);
     }
     
     public HashMap<String, List<Query>> getQueryGroupHash() {

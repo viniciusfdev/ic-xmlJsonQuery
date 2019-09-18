@@ -13,13 +13,12 @@ import java.util.List;
  */
 public class Query {
     private int queryID;
-    private int lastResultId;
+    private int lastResultId = -1;
     private List<String> queryTerms;
     private List<Integer> results;
 
-    public Query(int queryID, int lastResultId, List<String> queryTerms, List<Integer> results) {
+    public Query(int queryID, List<String> queryTerms) {
         this.queryID = queryID;
-        this.lastResultId = lastResultId;
         this.queryTerms = queryTerms;
     }
     

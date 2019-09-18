@@ -118,7 +118,7 @@ public class SearchEngine extends DefaultHandler{
             endELementELCA(uri, name, qName);
         }
         
-        int id = this.currentNodeE.getNodeId();
+        //int id = this.currentNodeE.getNodeId();
         if ("".equals (uri))
 	    System.out.println("End element: " + qName);
 	else
