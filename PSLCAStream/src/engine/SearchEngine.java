@@ -21,17 +21,17 @@ import query.QueryGroupHash;
  * 
  */
 public class SearchEngine extends DefaultHandler{
-    private Boolean semantic;                       //true for SLCAStream
-    private StackNode currentNodeE;                 //ascending serial number
-    private StackNode tn;                           //um conjunto de termos de consulta
-    private List<Integer> nodePath;                 //
-    private Stack<QueryGroupHash> parsingStack;     //uma pilha para manter os nos aberto durante o parser
-    private QueryGroupHash queryIndex;              //relaciona um termo e todas as consultas que o contém
-    private HashMap<StackNode, Integer> matchTerms; //numero de combinacoes de termos que o no sendo processado possui
-    private HashMap<String, List<Integer>> listG1;  //lista invertida G for ELCA
-    private HashMap<String, List<Integer>> listG2;  //lista invertida g for ELCA
-    private HashMap<String, Integer> listG3;        //lista simplificada invertida for SLCA
-    private HashMap<Query, List<Integer>> results;  //resultados referentes a cada consulta
+    private Boolean semantic;                           //true for SLCAStream
+    private StackNode currentNodeE;                     //ascending serial number
+    private StackNode tn;                               //um conjunto de termos de consulta
+    private List<Integer> nodePath;                     //
+    private Stack<QueryGroupHash> parsingStack;         //uma pilha para manter os nos aberto durante o parser
+    private QueryGroupHash queryIndex;                  //relaciona um termo e todas as consultas que o contém
+    private HashMap<StackNode, Integer> matchTerms;     //numero de combinacoes de termos que o no sendo processado possui
+    private HashMap<String, List<Integer>> invertedG1;  //lista invertida G for ELCA
+    private HashMap<String, List<Integer>> invertedG2;  //lista invertida g for ELCA
+    private HashMap<String, Integer> simpleG3;            //lista simplificada invertida for SLCA
+    private HashMap<Query, List<Integer>> results;      //resultados referentes a cada consulta
     
     /**
      * 
@@ -42,9 +42,9 @@ public class SearchEngine extends DefaultHandler{
         super();
         this.nodePath = new ArrayList<Integer>();
         this.parsingStack = new Stack();
-        this.listG1 = new HashMap<>();
-        this.listG2 = new HashMap<>();
-        this.listG3 = new HashMap<>();
+        this.invertedG1 = new HashMap<>();
+        this.invertedG2 = new HashMap<>();
+        this.simpleG3 = new HashMap<>();
         this.results = new HashMap<>();
         this.semantic = semantic;
         this.queryIndex = queryIndex;
@@ -59,9 +59,9 @@ public class SearchEngine extends DefaultHandler{
         super();
         this.nodePath = new ArrayList<Integer>();
         this.parsingStack = new Stack();
-        this.listG1 = new HashMap<>();
-        this.listG2 = new HashMap<>();
-        this.listG3 = new HashMap<>();
+        this.invertedG1 = new HashMap<>();
+        this.invertedG2 = new HashMap<>();
+        this.simpleG3 = new HashMap<>();
         this.results = new HashMap<>();
         this.semantic = true;
         this.queryIndex = queryIndex;
@@ -234,27 +234,27 @@ public class SearchEngine extends DefaultHandler{
     }
 
     public HashMap<String, List<Integer>> getListG1() {
-        return listG1;
+        return invertedG1;
     }
 
-    public void setListG1(HashMap<String, List<Integer>> listG1) {
-        this.listG1 = listG1;
+    public void setListG1(HashMap<String, List<Integer>> invertedG1) {
+        this.invertedG1 = invertedG1;
     }
 
     public HashMap<String, List<Integer>> getListG2() {
-        return listG2;
+        return invertedG2;
     }
 
-    public void setListG2(HashMap<String, List<Integer>> listG2) {
-        this.listG2 = listG2;
+    public void setListG2(HashMap<String, List<Integer>> invertedG2) {
+        this.invertedG2 = invertedG2;
     }
 
     public HashMap<String, Integer> getListG3() {
-        return listG3;
+        return simpleG3;
     }
 
-    public void setListG3(HashMap<String, Integer> listG3) {
-        this.listG3 = listG3;
+    public void setListG3(HashMap<String, Integer> simpleG3) {
+        this.simpleG3 = simpleG3;
     }
     
     

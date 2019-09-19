@@ -95,9 +95,9 @@ public class QueryProcessor {
             List<String> terms = new ArrayList<String>();
             String line = "";
             for(int i = 0; (line = queryFile.readLine()) != null; i++){
-                queries.add(new Query(i++, Arrays.asList(line.split("(\\s+)|(\t)"))));
-                for(String term: line.split("(\\s+)|(\t)")){
-                    terms.add(term);
+                queries.add(new Query(i, Arrays.asList(line.split("\\s+"))));
+                for(String term: line.split("\\s+")){
+                    if(!terms.contains(term))terms.add(term);
                 }
             }
             for(String term: terms){
@@ -106,7 +106,7 @@ public class QueryProcessor {
                         queryIndex.addQueries(term, q);
                 }
             }
-            
+
         } catch (PSLCAStreamException ex) {
             Logger.getLogger(QueryProcessor.class.getName()).log(Level.SEVERE, null, ex);
         } catch (IOException ex) {

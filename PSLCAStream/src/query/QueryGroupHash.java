@@ -24,9 +24,11 @@ public class QueryGroupHash {
     }
     
     public void addQueries(String term, Query query){
-        if(!queryGroupHash.containsKey(term));
+        if(!queryGroupHash.containsKey(term))
             queryGroupHash.put(term, new ArrayList<Query>());
         queryGroupHash.get(term).add(query);
+                    
+        
     }
     
     public HashMap<String, List<Query>> getQueryGroupHash() {
@@ -35,6 +37,17 @@ public class QueryGroupHash {
 
     public void setQueryGroupHash(HashMap<String, List<Query>> queryGroupHash) {
         this.queryGroupHash = queryGroupHash;
+    }
+    
+    public void printQueriesByTerm(){
+        for(String s: this.queryGroupHash.keySet()){
+            System.out.println("Term:["+s+"]");
+            for(Query q: this.queryGroupHash.get(s)){
+                System.out.print("QID["+q.getQueryID()+"]");
+                q.printQueryTerms();
+            }
+            System.out.println("\n");
+        }
     }
     
 }

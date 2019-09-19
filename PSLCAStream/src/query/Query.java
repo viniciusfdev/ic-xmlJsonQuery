@@ -58,6 +58,11 @@ public class Query {
         this.results = results;
     }
     
-    
+    public void printQueryTerms(){
+        for(String a: this.queryTerms){
+            System.out.print(a+" ");
+        }
+        System.out.println("");
+    }
     
 }
