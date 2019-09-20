@@ -27,8 +27,6 @@ public class QueryGroupHash {
         if(!queryGroupHash.containsKey(term))
             queryGroupHash.put(term, new ArrayList<Query>());
         queryGroupHash.get(term).add(query);
-                    
-        
     }
     
     public HashMap<String, List<Query>> getQueryGroupHash() {

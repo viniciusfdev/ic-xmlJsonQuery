@@ -25,13 +25,13 @@ public class SearchEngine extends DefaultHandler{
     private StackNode currentNodeE;                     //ascending serial number
     private StackNode tn;                               //um conjunto de termos de consulta
     private List<Integer> nodePath;                     //
-    private Stack<QueryGroupHash> parsingStack;         //uma pilha para manter os nos aberto durante o parser
+    private Stack<StackNode> parsingStack;         //uma pilha para manter os nos aberto durante o parser
     private QueryGroupHash queryIndex;                  //relaciona um termo e todas as consultas que o contém
     private HashMap<StackNode, Integer> matchTerms;     //numero de combinacoes de termos que o no sendo processado possui
     private HashMap<String, List<Integer>> invertedG1;  //lista invertida G for ELCA
     private HashMap<String, List<Integer>> invertedG2;  //lista invertida g for ELCA
     private HashMap<String, Integer> simpleG3;            //lista simplificada invertida for SLCA
-    private HashMap<Query, List<Integer>> results;      //resultados referentes a cada consulta
+    private List<Integer> results;      //resultados referentes a cada consulta
     
     /**
      * 
@@ -40,12 +40,13 @@ public class SearchEngine extends DefaultHandler{
      */
     public SearchEngine(Boolean semantic, QueryGroupHash queryIndex) {
         super();
+        this.currentNodeE = new StackNode(0);
         this.nodePath = new ArrayList<Integer>();
+        this.results = new ArrayList<>();
         this.parsingStack = new Stack();
         this.invertedG1 = new HashMap<>();
         this.invertedG2 = new HashMap<>();
         this.simpleG3 = new HashMap<>();
-        this.results = new HashMap<>();
         this.semantic = semantic;
         this.queryIndex = queryIndex;
         
@@ -57,12 +58,13 @@ public class SearchEngine extends DefaultHandler{
      */
     public SearchEngine(QueryGroupHash queryIndex) {
         super();
+        currentNodeE = new StackNode(0);
         this.nodePath = new ArrayList<Integer>();
+        this.results = new ArrayList<>();
         this.parsingStack = new Stack();
         this.invertedG1 = new HashMap<>();
         this.invertedG2 = new HashMap<>();
         this.simpleG3 = new HashMap<>();
-        this.results = new HashMap<>();
         this.semantic = true;
         this.queryIndex = queryIndex;
     }
@@ -94,6 +96,28 @@ public class SearchEngine extends DefaultHandler{
      */
     @Override
     public void startElement(String uri, String name, String qName, Attributes atts){
+        String label = "";
+        if ("".equals (uri))
+	    label = qName;
+	else
+	    label = name;
+        nodePath.add(currentNodeE.getNodeId());                         
+        if(queryIndex.getQueryGroupHash().get(label) != null | 
+           queryIndex.getQueryGroupHash().get(label+"::") != null){
+            currentNodeE.setNodeId(currentNodeE.getNodeId()+1);             
+            if(!queryIndex.getQueryGroupHash().get(label).isEmpty()){
+                currentNodeE.addUsedQueries(uri, queryIndex.getQueryGroupHash().get(label));
+                simpleG3.put(label, currentNodeE.getNodeId());
+                currentNodeE.setMatchedTerms(currentNodeE.getMatchedTerms()+1);
+            }
+            if(!queryIndex.getQueryGroupHash().get(label+"::").isEmpty()){
+                currentNodeE.addUsedQueries(uri, queryIndex.getQueryGroupHash().get(label+"::"));
+                simpleG3.put(label+"::", currentNodeE.getNodeId());
+                currentNodeE.setMatchedTerms(currentNodeE.getMatchedTerms()+1);
+            }
+            parsingStack.push(currentNodeE);
+        }
+        //print xml
         if ("".equals (uri))
 	    System.out.println("Start element: " + qName);
 	else
@@ -189,8 +213,8 @@ public class SearchEngine extends DefaultHandler{
      * 
      * @return 
      */
-    public HashMap<Query, List<Integer>> getResults(){
-        return null;
+    public List<Integer> getResults(){
+        return this.results;
     }
 
     public Boolean getSemantic() {
@@ -209,11 +233,11 @@ public class SearchEngine extends DefaultHandler{
         this.currentNodeE = currentNodeE;
     }
 
-    public Stack<QueryGroupHash> getParsingStack() {
+    public Stack<StackNode> getParsingStack() {
         return parsingStack;
     }
 
-    public void setParsingStack(Stack<QueryGroupHash> parsingStack) {
+    public void setParsingStack(Stack<StackNode> parsingStack) {
         this.parsingStack = parsingStack;
     }
 
@@ -233,29 +257,26 @@ public class SearchEngine extends DefaultHandler{
         this.matchTerms = matchTerms;
     }
 
-    public HashMap<String, List<Integer>> getListG1() {
+    public StackNode getTn() {
+        return tn;
+    }
+
+    public List<Integer> getNodePath() {
+        return nodePath;
+    }
+
+    public HashMap<String, List<Integer>> getInvertedG1() {
         return invertedG1;
     }
 
-    public void setListG1(HashMap<String, List<Integer>> invertedG1) {
-        this.invertedG1 = invertedG1;
-    }
-
-    public HashMap<String, List<Integer>> getListG2() {
+    public HashMap<String, List<Integer>> getInvertedG2() {
         return invertedG2;
     }
 
-    public void setListG2(HashMap<String, List<Integer>> invertedG2) {
-        this.invertedG2 = invertedG2;
-    }
-
-    public HashMap<String, Integer> getListG3() {
+    public HashMap<String, Integer> getSimpleG3() {
         return simpleG3;
     }
-
-    public void setListG3(HashMap<String, Integer> simpleG3) {
-        this.simpleG3 = simpleG3;
-    }
+    
     
     
 }

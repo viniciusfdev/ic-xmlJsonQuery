@@ -20,7 +20,7 @@ public class Main {
     public static void main(String[] args) {
         // TODO code application logic here
         String xmlFilePath[] = {"xml_file_1.xml"};
-        String queryFileName = "query_test.txt";
+        String queryFileName = "query_test_1.txt";
         QueryProcessor qp = new QueryProcessor(queryFileName, xmlFilePath);
         qp.multipleQueriesStart();
     }

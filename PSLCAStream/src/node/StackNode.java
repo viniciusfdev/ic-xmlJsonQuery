@@ -25,6 +25,11 @@ public class StackNode {
         this.usedQueries = usedQueries;
     }
     
+    public StackNode(int nodeId) {
+        this.nodeId = nodeId;
+        this.usedQueries = usedQueries;
+    }
+    
     public int getNodeId() {
         return nodeId;
     }
@@ -39,6 +44,12 @@ public class StackNode {
 
     public void setUsedQueries(QueryGroupHash usedQueries) {
         this.usedQueries = usedQueries;
+    }
+    
+    public void addUsedQueries(String term, List<Query> usedQueries) {
+        for(Query query: usedQueries){
+            this.usedQueries.addQueries(term, query);
+        }
     }
 
     public long getMatchedTerms() {
