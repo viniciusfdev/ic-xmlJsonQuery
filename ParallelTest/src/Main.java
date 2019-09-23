@@ -1,4 +1,8 @@
 
+import java.util.ArrayList;
+import java.util.HashSet;
+import java.util.List;
+import java.util.Set;
 import java.util.logging.Level;
 import java.util.logging.Logger;
 
@@ -23,12 +27,20 @@ public class Main {
         //System.out.println("");
         //System.out.println("No Multithreading: "+normalProcess());
         
-        String s = "dsajikd       sss dddff rrrr                k";
+//        String s = "dsajikd       sss dddff rrrr                k";
+//        
+//        for(String a: s.split("\\s+")){
+//            
+//            System.out.println(":"+a);
+//        }
         
-        for(String a: s.split("\\s+")){
-            
-            System.out.println(":"+a);
-        }
+        
+        Set<Teste> st = new HashSet<>();
+        
+        st.add(new Teste(1, 2));
+        st.add(new Teste(1, 2));
+        
+        System.out.println("");
 
     }
     

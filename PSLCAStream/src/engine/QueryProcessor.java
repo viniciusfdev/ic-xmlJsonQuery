@@ -103,7 +103,7 @@ public class QueryProcessor {
             for(String term: terms){
                 for(Query q: queries){
                     if(q.getQueryTerms().contains(term))
-                        queryIndex.addQueries(term, q);
+                        queryIndex.addQuery(term, q);
                 }
             }
 

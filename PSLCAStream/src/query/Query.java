@@ -5,6 +5,7 @@
  */
 package query;
 
+import java.util.ArrayList;
 import java.util.List;
 
 /**
@@ -18,6 +19,7 @@ public class Query {
     private List<Integer> results;
 
     public Query(int queryID, List<String> queryTerms) {
+        this.results = new ArrayList<Integer>();
         this.queryID = queryID;
         this.queryTerms = queryTerms;
     }
@@ -54,8 +56,8 @@ public class Query {
         return results;
     }
 
-    public void setResults(List<Integer> results) {
-        this.results = results;
+    public void addResult(int result) {
+        this.results.add(result);
     }
     
     public void printQueryTerms(){

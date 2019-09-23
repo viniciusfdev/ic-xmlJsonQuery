@@ -51,7 +51,9 @@ public class TaskControl implements Runnable{
                     xr.setContentHandler(search);
                     xr.setErrorHandler(search);
                     xr.parse(new InputSource(file));
-                    
+                    for(int nodeId: search.getResults()){
+                        System.out.println("Nó SLCA:"+nodeId);
+                    }
                 }else{
                     throw new PSLCAStreamException("Query Index => não possui consultas");
                 }

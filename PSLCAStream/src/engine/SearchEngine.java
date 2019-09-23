@@ -5,6 +5,7 @@
  */
 package engine;
 
+import exception.PSLCAStreamException;
 import java.util.ArrayList;
 import java.util.HashMap;
 import java.util.List;
@@ -21,17 +22,18 @@ import query.QueryGroupHash;
  * 
  */
 public class SearchEngine extends DefaultHandler{
+    private int height;                                 //the height of the tree
     private Boolean semantic;                           //true for SLCAStream
     private StackNode currentNodeE;                     //ascending serial number
-    private StackNode tn;                               //um conjunto de termos de consulta
+    private StackNode topNode;                          
     private List<Integer> nodePath;                     //
-    private Stack<StackNode> parsingStack;         //uma pilha para manter os nos aberto durante o parser
+    private Stack<StackNode> parsingStack;              //uma pilha para manter os nos aberto durante o parser
     private QueryGroupHash queryIndex;                  //relaciona um termo e todas as consultas que o contém
     private HashMap<StackNode, Integer> matchTerms;     //numero de combinacoes de termos que o no sendo processado possui
     private HashMap<String, List<Integer>> invertedG1;  //lista invertida G for ELCA
     private HashMap<String, List<Integer>> invertedG2;  //lista invertida g for ELCA
-    private HashMap<String, Integer> simpleG3;            //lista simplificada invertida for SLCA
-    private List<Integer> results;      //resultados referentes a cada consulta
+    private HashMap<String, Integer> simpleG3;          //lista simplificada invertida for SLCA
+    private List<Integer> results;                      //todos os nos SLCA encontrados
     
     /**
      * 
@@ -40,13 +42,16 @@ public class SearchEngine extends DefaultHandler{
      */
     public SearchEngine(Boolean semantic, QueryGroupHash queryIndex) {
         super();
-        this.currentNodeE = new StackNode(0);
+        this.height = 0;
+        this.topNode = new StackNode();
+        this.currentNodeE = new StackNode();
         this.nodePath = new ArrayList<Integer>();
         this.results = new ArrayList<>();
         this.parsingStack = new Stack();
-        this.invertedG1 = new HashMap<>();
-        this.invertedG2 = new HashMap<>();
-        this.simpleG3 = new HashMap<>();
+        this.matchTerms = new HashMap<StackNode, Integer>();
+        this.invertedG1 = new HashMap<String, List<Integer>>();
+        this.invertedG2 = new HashMap<String, List<Integer>>();
+        this.simpleG3 = new HashMap<String, Integer>();
         this.semantic = semantic;
         this.queryIndex = queryIndex;
         
@@ -58,13 +63,15 @@ public class SearchEngine extends DefaultHandler{
      */
     public SearchEngine(QueryGroupHash queryIndex) {
         super();
-        currentNodeE = new StackNode(0);
+        this.topNode = new StackNode();
+        this.currentNodeE = new StackNode();
         this.nodePath = new ArrayList<Integer>();
         this.results = new ArrayList<>();
         this.parsingStack = new Stack();
-        this.invertedG1 = new HashMap<>();
-        this.invertedG2 = new HashMap<>();
-        this.simpleG3 = new HashMap<>();
+        this.matchTerms = new HashMap<StackNode, Integer>();
+        this.invertedG1 = new HashMap<String, List<Integer>>();
+        this.invertedG2 = new HashMap<String, List<Integer>>();
+        this.simpleG3 = new HashMap<String, Integer>();
         this.semantic = true;
         this.queryIndex = queryIndex;
     }
@@ -96,27 +103,31 @@ public class SearchEngine extends DefaultHandler{
      */
     @Override
     public void startElement(String uri, String name, String qName, Attributes atts){
+        height++;
         String label = "";
         if ("".equals (uri))
 	    label = qName;
 	else
 	    label = name;
-        nodePath.add(currentNodeE.getNodeId());                         
+        currentNodeE = new StackNode(label, currentNodeE.getNodeId()+1);
+        nodePath.add(currentNodeE.getNodeId());
         if(queryIndex.getQueryGroupHash().get(label) != null | 
            queryIndex.getQueryGroupHash().get(label+"::") != null){
-            currentNodeE.setNodeId(currentNodeE.getNodeId()+1);             
-            if(!queryIndex.getQueryGroupHash().get(label).isEmpty()){
-                currentNodeE.addUsedQueries(uri, queryIndex.getQueryGroupHash().get(label));
+            if(queryIndex.getQueryGroupHash().get(label) != null &&
+               !queryIndex.getQueryGroupHash().get(label).isEmpty()){
+                currentNodeE.addUsedQueries(queryIndex.getQueryGroupHash().get(label));
                 simpleG3.put(label, currentNodeE.getNodeId());
                 currentNodeE.setMatchedTerms(currentNodeE.getMatchedTerms()+1);
             }
-            if(!queryIndex.getQueryGroupHash().get(label+"::").isEmpty()){
-                currentNodeE.addUsedQueries(uri, queryIndex.getQueryGroupHash().get(label+"::"));
+            if(queryIndex.getQueryGroupHash().get(label+"::") != null &&
+               !queryIndex.getQueryGroupHash().get(label+"::").isEmpty()){
+                currentNodeE.addUsedQueries(queryIndex.getQueryGroupHash().get(label+"::"));
                 simpleG3.put(label+"::", currentNodeE.getNodeId());
                 currentNodeE.setMatchedTerms(currentNodeE.getMatchedTerms()+1);
             }
-            parsingStack.push(currentNodeE);
+            parsingStack.push(new StackNode(currentNodeE));
         }
+        
         //print xml
         if ("".equals (uri))
 	    System.out.println("Start element: " + qName);
@@ -142,7 +153,6 @@ public class SearchEngine extends DefaultHandler{
             endELementELCA(uri, name, qName);
         }
         
-        //int id = this.currentNodeE.getNodeId();
         if ("".equals (uri))
 	    System.out.println("End element: " + qName);
 	else
@@ -159,7 +169,40 @@ public class SearchEngine extends DefaultHandler{
      * @param qName 
      */
     public void endELementSLCA(String uri, String name, String qName){
-        Boolean complete;
+        try{
+            if(!parsingStack.isEmpty() && parsingStack.lastElement().getNodeId() == nodePath.remove(nodePath.size()-1)){
+                Boolean complete= false;
+                currentNodeE = parsingStack.pop();
+                for(Query query: currentNodeE.getUsedQueries()){
+                    if(currentNodeE.getMatchedTerms() >= query.getQueryTerms().size()){
+                        complete = true;
+                        for(String term: query.getQueryTerms()){
+                            if(currentNodeE.getNodeId() < simpleG3.get(term)){
+                                complete = false;
+                            }
+                        }
+                        if(complete && (currentNodeE.getNodeId() > query.getLastResultId())){
+                            query.addResult(currentNodeE.getNodeId());
+                            query.setLastResultId(currentNodeE.getNodeId());
+                            results.add(currentNodeE.getNodeId());
+                        }
+                    }
+                }
+                if(!parsingStack.empty())
+                    topNode = parsingStack.peek();
+                if(!parsingStack.empty() && (currentNodeE.getNodeId() - topNode.getNodeId()) == 1){
+                    topNode.addUsedQueries(topNode.getUsedQueries());
+                    topNode.addUsedQueries(currentNodeE.getUsedQueries());
+                    topNode.setMatchedTerms(topNode.getMatchedTerms()+currentNodeE.getMatchedTerms());
+                }else{
+                    currentNodeE.setNodeId(nodePath.get(height-1));
+                    parsingStack.push(new StackNode(currentNodeE));
+                }
+                height--;
+            }
+        }catch(PSLCAStreamException ex){
+            System.out.println("Bad closed xml node:"+ex.getCause());
+        }
     }
     
     /**
@@ -173,6 +216,12 @@ public class SearchEngine extends DefaultHandler{
      */
     public void endELementELCA(String uri, String name, String qName){
         Boolean complete;
+        
+        try{
+            
+        }catch(PSLCAStreamException ex){
+            System.out.println("Bad closed xml node:"+ex.getCause());
+        }
     }
     
     /**
@@ -257,8 +306,8 @@ public class SearchEngine extends DefaultHandler{
         this.matchTerms = matchTerms;
     }
 
-    public StackNode getTn() {
-        return tn;
+    public StackNode getTopNode() {
+        return this.topNode;
     }
 
     public List<Integer> getNodePath() {
