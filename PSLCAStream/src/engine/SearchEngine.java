@@ -180,7 +180,6 @@ public class SearchEngine extends DefaultHandler{
                         for(String term: query.getQueryTerms()){
                             if(currentNodeE.getNodeId() < simpleG3.get(term)){
                                 complete = false;
-                                ///????????????
                             }
                         }
                         if(complete && (currentNodeE.getNodeId() > query.getLastResultId())){
@@ -198,7 +197,10 @@ public class SearchEngine extends DefaultHandler{
                     topNode.setMatchedTerms(topNode.getMatchedTerms()+currentNodeE.getMatchedTerms());
                     ////????????????????
                 }else{
-                    parsingStack.push(new StackNode(name, currentNodeE.getHeight()-1, nodePath.get(currentNodeE.getHeight()-1).getNodeId()));
+                    if(!nodePath.isEmpty()){
+                        parsingStack.push(new StackNode(name, currentNodeE.getHeight()-1, nodePath.get(currentNodeE.getHeight()-1).getNodeId()));
+                        parsingStack.lastElement().setMatchedTerms(currentNodeE.getMatchedTerms());
+                    }
                 }
             }
             height--;
