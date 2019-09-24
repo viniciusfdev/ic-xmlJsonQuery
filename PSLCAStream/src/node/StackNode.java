@@ -30,8 +30,8 @@ public class StackNode {
         this.usedQueries = new ArrayList<Query>();
     }
 
-    public StackNode(String label, int nodeId) {
-        this.height = 0;
+    public StackNode(String label, int height, int nodeId) {
+        this.height = height;
         this.nodeId = nodeId;
         this.label = label;
         this.matchedTerms = 0;
