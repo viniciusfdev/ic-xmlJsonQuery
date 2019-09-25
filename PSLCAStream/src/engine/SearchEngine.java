@@ -23,10 +23,10 @@ import query.QueryGroupHash;
  */
 public class SearchEngine extends DefaultHandler{
     private int height;                                 //the height of the tree
+    private int id;
     private Boolean semantic;                           //true for SLCAStream
-    private StackNode currentNodeE;                     //ascending serial number
-    private StackNode topNode;                          
-    private List<StackNode> nodePath;                     //
+    private StackNode currentNodeE;                     
+    private List<StackNode> nodePath;                   //
     private Stack<StackNode> parsingStack;              //uma pilha para manter os nos aberto durante o parser
     private QueryGroupHash queryIndex;                  //relaciona um termo e todas as consultas que o contém
     private HashMap<StackNode, Integer> matchTerms;     //numero de combinacoes de termos que o no sendo processado possui
@@ -42,8 +42,8 @@ public class SearchEngine extends DefaultHandler{
      */
     public SearchEngine(Boolean semantic, QueryGroupHash queryIndex) {
         super();
+        this.id = -1;
         this.height = -1;
-        this.topNode = new StackNode();
         this.currentNodeE = new StackNode();
         this.nodePath = new ArrayList<StackNode>();
         this.results = new ArrayList<>();
@@ -63,8 +63,8 @@ public class SearchEngine extends DefaultHandler{
      */
     public SearchEngine(QueryGroupHash queryIndex) {
         super();
+        this.id = -1;
         this.height = -1;
-        this.topNode = new StackNode();
         this.currentNodeE = new StackNode();
         this.nodePath = new ArrayList<StackNode>();
         this.results = new ArrayList<>();
@@ -110,7 +110,7 @@ public class SearchEngine extends DefaultHandler{
 	    label = qName;
 	else
 	    label = name;
-        currentNodeE = new StackNode(label, height, currentNodeE.getNodeId()+1);
+        currentNodeE = new StackNode(label, height, ++id);
         nodePath.add(height, new StackNode(currentNodeE));
         if(queryIndex.getQueryGroupHash().get(label) != null |
            queryIndex.getQueryGroupHash().get(label+"::") != null){
@@ -171,14 +171,19 @@ public class SearchEngine extends DefaultHandler{
      */
     public void endELementSLCA(String uri, String name, String qName){
         try{
-            if(!parsingStack.isEmpty() && parsingStack.peek().getNodeId() == nodePath.remove(nodePath.size()-1).getNodeId()){
-                Boolean complete= false;
+            if(!parsingStack.isEmpty() && parsingStack.peek().getNodeId() == nodePath.get(nodePath.size()-1).getNodeId()){
+                Boolean complete = false;
+                Boolean SLCAfound = false;
+                StackNode topNode = new StackNode();
                 currentNodeE = parsingStack.pop();
+                if(currentNodeE.getNodeId() == 4){
+                    System.out.println("cheguei");
+                }
                 for(Query query: currentNodeE.getUsedQueries()){
                     if(currentNodeE.getMatchedTerms() >= query.getQueryTerms().size()){
                         complete = true;
                         for(String term: query.getQueryTerms()){
-                            if(currentNodeE.getNodeId() < simpleG3.get(term)){
+                            if(currentNodeE.getNodeId() > simpleG3.get(term)){
                                 complete = false;
                             }
                         }
@@ -186,23 +191,23 @@ public class SearchEngine extends DefaultHandler{
                             query.addResult(currentNodeE.getNodeId());
                             query.setLastResultId(currentNodeE.getNodeId());
                             results.add(currentNodeE.getNodeId());
+                            SLCAfound = true;
                         }
                     }
                 }
                 if(!parsingStack.empty())
                     topNode = parsingStack.peek();
                 if(!parsingStack.empty() && (currentNodeE.getHeight() - topNode.getHeight()) == 1){
-                    topNode.addUsedQueries(topNode.getUsedQueries());
                     topNode.addUsedQueries(currentNodeE.getUsedQueries());
                     topNode.setMatchedTerms(topNode.getMatchedTerms()+currentNodeE.getMatchedTerms());
-                    ////????????????????
                 }else{
-                    if(!nodePath.isEmpty()){
+                    if(!nodePath.isEmpty() && !SLCAfound && currentNodeE.getHeight() != 0){
                         parsingStack.push(new StackNode(name, currentNodeE.getHeight()-1, nodePath.get(currentNodeE.getHeight()-1).getNodeId()));
                         parsingStack.lastElement().setMatchedTerms(currentNodeE.getMatchedTerms());
                     }
                 }
             }
+            nodePath.remove(nodePath.size()-1);
             height--;
         }catch(PSLCAStreamException ex){
             System.out.println("Bad closed xml node:"+ex.getCause());
@@ -308,10 +313,6 @@ public class SearchEngine extends DefaultHandler{
 
     public void setMatchTerms(HashMap<StackNode, Integer> matchTerms) {
         this.matchTerms = matchTerms;
-    }
-
-    public StackNode getTopNode() {
-        return this.topNode;
     }
 
     public List<StackNode> getNodePath() {
