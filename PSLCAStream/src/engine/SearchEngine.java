@@ -104,31 +104,34 @@ public class SearchEngine extends DefaultHandler{
      */
     @Override
     public void startElement(String uri, String name, String qName, Attributes atts){
-        height++;
-        String label = "";
-        if ("".equals (uri))
-	    label = qName;
-	else
-	    label = name;
-        currentNodeE = new StackNode(label, height, ++id);
-        nodePath.add(height, new StackNode(currentNodeE));
-        if(queryIndex.getQueryGroupHash().get(label) != null |
-           queryIndex.getQueryGroupHash().get(label+"::") != null){
-            if(queryIndex.getQueryGroupHash().get(label) != null &&
-               !queryIndex.getQueryGroupHash().get(label).isEmpty()){
-                currentNodeE.addUsedQueries(queryIndex.getQueryGroupHash().get(label));
-                simpleG3.put(label, currentNodeE.getNodeId());
-                currentNodeE.setMatchedTerms(currentNodeE.getMatchedTerms()+1);
+        try{
+            height++;
+            String label = "";
+            if ("".equals (uri))
+                label = qName;
+            else
+                label = name;
+            currentNodeE = new StackNode(label, height, ++id);
+            nodePath.add(height, new StackNode(currentNodeE));
+            if(queryIndex.getQueryGroupHash().get(label) != null |
+               queryIndex.getQueryGroupHash().get(label+"::") != null){
+                if(queryIndex.getQueryGroupHash().get(label) != null &&
+                   !queryIndex.getQueryGroupHash().get(label).isEmpty()){
+                    currentNodeE.addUsedQueries(queryIndex.getQueryGroupHash().get(label));
+                    simpleG3.put(label, currentNodeE.getNodeId());
+                    currentNodeE.setMatchedTerms(currentNodeE.getMatchedTerms()+1);
+                }
+                if(queryIndex.getQueryGroupHash().get(label+"::") != null &&
+                   !queryIndex.getQueryGroupHash().get(label+"::").isEmpty()){
+                    currentNodeE.addUsedQueries(queryIndex.getQueryGroupHash().get(label+"::"));
+                    simpleG3.put(label+"::", currentNodeE.getNodeId());
+                    currentNodeE.setMatchedTerms(currentNodeE.getMatchedTerms()+1);
+                }
+                parsingStack.push(new StackNode(currentNodeE));
             }
-            if(queryIndex.getQueryGroupHash().get(label+"::") != null &&
-               !queryIndex.getQueryGroupHash().get(label+"::").isEmpty()){
-                currentNodeE.addUsedQueries(queryIndex.getQueryGroupHash().get(label+"::"));
-                simpleG3.put(label+"::", currentNodeE.getNodeId());
-                currentNodeE.setMatchedTerms(currentNodeE.getMatchedTerms()+1);
-            }
-            parsingStack.push(new StackNode(currentNodeE));
+        }catch(PSLCAStreamException ex){
+            throw new PSLCAStreamException("Bad open xml node");
         }
-        
         //print xml
         if ("".equals (uri))
 	    System.out.println("Start element: " + qName);
@@ -228,6 +231,7 @@ public class SearchEngine extends DefaultHandler{
         
         try{
             
+            
         }catch(PSLCAStreamException ex){
             System.out.println("Bad closed xml node:"+ex.getCause());
         }
@@ -242,23 +246,53 @@ public class SearchEngine extends DefaultHandler{
      */
     @Override
     public void characters (char ch[], int start, int length){
-	Boolean newStackEntry = false;
-        
         String s = "";
-        List<String> elementTerms = new ArrayList<String>();
+        List<String> nodeTokens = new ArrayList<String>();
         System.out.print("Characters:    \"");
         //String tokens[] = nodeContent.split("([.,;:_ /#@!?~`|\"'{})(*&^%$-])+");
 	for (int i = start; i < start + length; i++) {
 	    if((ch[i] == '\\') || (ch[i] == '"') || (ch[i] == '\n') || (ch[i] == '\r') 
             || (ch[i] == '\t') || (ch[i] == ' ') || (ch[i] == ',') || (ch[i] == '.')){
                 if(Character.isLetterOrDigit(ch[i+1])){
-                    elementTerms.add(s);
+                    nodeTokens.add(s);
                     s = "";
                 }
             }else{
                 s += ch[i];
 	    }
 	}
+        try{
+            Boolean newStackEntry = false;
+            if(!parsingStack.isEmpty() && parsingStack.peek().getNodeId() == nodePath.get(nodePath.size()-1).getNodeId()){
+                
+            }else{
+                
+            }
+            for(String term: nodeTokens){
+                nodeTokens.add("::"+term);
+                nodeTokens.add(currentNodeE.getLabel()+"::"+term);
+            }
+            for(String term: nodeTokens){
+                if(queryIndex.getQueryGroupHash().get(term) != null
+                   && !queryIndex.getQueryGroupHash().get(term).isEmpty()){
+                    
+                }
+            }
+            
+            
+            
+        }catch(PSLCAStreamException ex){
+            throw new PSLCAStreamException("Error during characters parser");
+        }
+        
+        
+        
+        
+        
+        
+        
+        
+        
         for(String a: elementTerms){
             System.out.print(a+" ");
         }
