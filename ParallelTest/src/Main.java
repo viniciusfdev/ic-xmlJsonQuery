@@ -34,13 +34,13 @@ public class Main {
 //            System.out.println(":"+a);
 //        }
         
-        
-        Set<Teste> st = new HashSet<>();
-        
-        st.add(new Teste(1, 2));
-        st.add(new Teste(1, 2));
-        
-        System.out.println("");
+        List<String> nodeTokens = new ArrayList<>();
+        nodeTokens.add("faca");
+        nodeTokens.add("colher");
+        for(String term: new ArrayList<String>(nodeTokens)){
+            nodeTokens.add("::"+term);
+            nodeTokens.add(term+"--"+term);
+        }
 
     }
     

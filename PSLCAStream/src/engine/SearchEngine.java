@@ -7,7 +7,9 @@ package engine;
 
 import exception.PSLCAStreamException;
 import java.util.ArrayList;
+import java.util.Arrays;
 import java.util.HashMap;
+import java.util.Iterator;
 import java.util.List;
 import java.util.Stack;
 import node.StackNode;
@@ -246,58 +248,78 @@ public class SearchEngine extends DefaultHandler{
      */
     @Override
     public void characters (char ch[], int start, int length){
-        String s = "";
+        String nodeContent = "";
         List<String> nodeTokens = new ArrayList<String>();
-        System.out.print("Characters:    \"");
-        //String tokens[] = nodeContent.split("([.,;:_ /#@!?~`|\"'{})(*&^%$-])+");
 	for (int i = start; i < start + length; i++) {
-	    if((ch[i] == '\\') || (ch[i] == '"') || (ch[i] == '\n') || (ch[i] == '\r') 
-            || (ch[i] == '\t') || (ch[i] == ' ') || (ch[i] == ',') || (ch[i] == '.')){
-                if(Character.isLetterOrDigit(ch[i+1])){
-                    nodeTokens.add(s);
-                    s = "";
-                }
-            }else{
-                s += ch[i];
+	    switch (ch[i]) {
+	    case '\\':
+		System.out.print("\\\\");
+		break;
+	    case '"':
+		System.out.print("\\\"");
+		break;
+	    case '\n':
+		System.out.print("\\n");
+		break;
+	    case '\r':
+		System.out.print("\\r");
+		break;
+	    case '\t':
+		System.out.print("\\t");
+		break;
+	    default:
+                System.out.print(""+ch[i]);
+                nodeContent = nodeContent+(Character.toString(ch[i]));
+		break;
 	    }
 	}
-        try{
-            Boolean newStackEntry = false;
-            if(!parsingStack.isEmpty() && parsingStack.peek().getNodeId() == nodePath.get(nodePath.size()-1).getNodeId()){
-                
-            }else{
-                
-            }
-            for(String term: nodeTokens){
-                nodeTokens.add("::"+term);
-                nodeTokens.add(currentNodeE.getLabel()+"::"+term);
-            }
-            for(String term: nodeTokens){
-                if(queryIndex.getQueryGroupHash().get(term) != null
-                   && !queryIndex.getQueryGroupHash().get(term).isEmpty()){
-                    
+        nodeTokens = Arrays.asList(nodeContent.split("([.,;:_ /#@!?~`|\"'{})(*&^%$-])+"));
+	System.out.println("");
+        
+//        try{
+//            for(String term: new ArrayList<String>(nodeTokens)){
+//                nodeTokens.add("::"+term);
+//                nodeTokens.add(currentNodeE.getLabel()+"::"+term);
+//            }
+//            for(String term: nodeTokens){
+//                if(queryIndex.getQueryGroupHash().get(term) != null
+//                   && !queryIndex.getQueryGroupHash().get(term).isEmpty()){
+//                    simpleG3.put(term, currentNodeE.getNodeId());
+//                    currentNodeE.addUsedQueries(queryIndex.getQueryGroupHash().get(term));
+//                    currentNodeE.setMatchedTerms(currentNodeE.getMatchedTerms()+1);
+//                    
+//                    String contains[] = containsNode(currentNodeE.getNodeId()).split(".");
+//                    if(contains[1].equalsIgnoreCase("true")){
+//                        parsingStack.set(Integer.parseInt(contains[0]), new StackNode(currentNodeE));
+//                    }else{
+//                        parsingStack.push(new StackNode(currentNodeE));
+//                    }
+//                    
+//                }
+//            }
+//            
+//        }catch(PSLCAStreamException ex){
+//            throw new PSLCAStreamException("Error during characters parser");
+//        }
+    }
+    
+    /**
+     * Return true and the position if a node id exist in stack
+     * Otherwise return false
+     * @param nodeId
+     * @return String
+     */
+    public String containsNode(int nodeId){
+        if(!parsingStack.isEmpty()){
+            int snPosition;
+            Iterator<StackNode> stackElements = parsingStack.iterator();
+            for(snPosition = 0; stackElements.hasNext() ; snPosition++){
+                if(stackElements.next().getNodeId() == nodeId){
+                    return snPosition+".true";
                 }
             }
-            
-            
-            
-        }catch(PSLCAStreamException ex){
-            throw new PSLCAStreamException("Error during characters parser");
         }
-        
-        
-        
-        
-        
-        
-        
-        
-        
-        for(String a: elementTerms){
-            System.out.print(a+" ");
-        }
-        System.out.print("\"\n");
-        
+        return "-1"+".false";
     }
     
     /**
