@@ -181,14 +181,11 @@ public class SearchEngine extends DefaultHandler{
                 Boolean SLCAfound = false;
                 StackNode topNode = new StackNode();
                 currentNodeE = parsingStack.pop();
-                if(currentNodeE.getNodeId() == 4){
-                    System.out.println("cheguei");
-                }
                 for(Query query: currentNodeE.getUsedQueries()){
                     if(currentNodeE.getMatchedTerms() >= query.getQueryTerms().size()){
                         complete = true;
                         for(String term: query.getQueryTerms()){
-                            if(currentNodeE.getNodeId() > simpleG3.get(term)){
+                            if((simpleG3.get(term) != null) && (currentNodeE.getNodeId() > simpleG3.get(term))){
                                 complete = false;
                             }
                         }
@@ -249,58 +246,41 @@ public class SearchEngine extends DefaultHandler{
     @Override
     public void characters (char ch[], int start, int length){
         String nodeContent = "";
-        List<String> nodeTokens = new ArrayList<String>();
+        List<String> nodeTokens = new ArrayList<>();
 	for (int i = start; i < start + length; i++) {
-	    switch (ch[i]) {
-	    case '\\':
-		System.out.print("\\\\");
-		break;
-	    case '"':
-		System.out.print("\\\"");
-		break;
-	    case '\n':
-		System.out.print("\\n");
-		break;
-	    case '\r':
-		System.out.print("\\r");
-		break;
-	    case '\t':
-		System.out.print("\\t");
-		break;
-	    default:
+	    if(!(ch[i] == '\\' || ch[i] == '"' || ch[i] == '\r' || ch[i] == '\t')){
                 System.out.print(""+ch[i]);
-                nodeContent = nodeContent+(Character.toString(ch[i]));
-		break;
-	    }
+                nodeContent = nodeContent+ch[i];
+            }
 	}
-        nodeTokens = Arrays.asList(nodeContent.split("([.,;:_ /#@!?~`|\"'{})(*&^%$-])+"));
-	System.out.println("");
         
-//        try{
-//            for(String term: new ArrayList<String>(nodeTokens)){
-//                nodeTokens.add("::"+term);
-//                nodeTokens.add(currentNodeE.getLabel()+"::"+term);
-//            }
-//            for(String term: nodeTokens){
-//                if(queryIndex.getQueryGroupHash().get(term) != null
-//                   && !queryIndex.getQueryGroupHash().get(term).isEmpty()){
-//                    simpleG3.put(term, currentNodeE.getNodeId());
-//                    currentNodeE.addUsedQueries(queryIndex.getQueryGroupHash().get(term));
-//                    currentNodeE.setMatchedTerms(currentNodeE.getMatchedTerms()+1);
-//                    
-//                    String contains[] = containsNode(currentNodeE.getNodeId()).split(".");
-//                    if(contains[1].equalsIgnoreCase("true")){
-//                        parsingStack.set(Integer.parseInt(contains[0]), new StackNode(currentNodeE));
-//                    }else{
-//                        parsingStack.push(new StackNode(currentNodeE));
-//                    }
-//                    
-//                }
-//            }
-//            
-//        }catch(PSLCAStreamException ex){
-//            throw new PSLCAStreamException("Error during characters parser");
-//        }
+        System.out.println("");
+        nodeTokens = new ArrayList<>(Arrays.asList(nodeContent.split("([.,;:_ /#@!?~`|\"'{})(*&^%$-])+")));
+        
+        try{
+            if(!nodeTokens.isEmpty()){
+                for(String term: new ArrayList<String>(nodeTokens)){
+                    nodeTokens.add("::"+term);
+                    nodeTokens.add(currentNodeE.getLabel()+"::"+term);
+                }
+                for(String term: nodeTokens){
+                    if(queryIndex.getQueryGroupHash().get(term) != null
+                       && !queryIndex.getQueryGroupHash().get(term).isEmpty()){
+                        simpleG3.put(term, currentNodeE.getNodeId());
+                        currentNodeE.addUsedQueries(queryIndex.getQueryGroupHash().get(term));
+                        currentNodeE.setMatchedTerms(currentNodeE.getMatchedTerms()+1);
+                        String contains[] = containsNode(currentNodeE.getNodeId());
+                        if(contains[1].equalsIgnoreCase("true")){
+                            parsingStack.set(Integer.parseInt(contains[0]), new StackNode(currentNodeE));
+                        }else{
+                            parsingStack.push(new StackNode(currentNodeE));
+                        }
+                    }
+                }
+            }
+        }catch(PSLCAStreamException ex){
+           throw new PSLCAStreamException("Error during characters parser");
+        }
     }
     
     /**
@@ -309,17 +289,19 @@ public class SearchEngine extends DefaultHandler{
      * @param nodeId
      * @return String
      */
-    public String containsNode(int nodeId){
+    public String[] containsNode(int nodeId){
         if(!parsingStack.isEmpty()){
-            int snPosition;
+            int snPosition = 0;
             Iterator<StackNode> stackElements = parsingStack.iterator();
             for(snPosition = 0; stackElements.hasNext() ; snPosition++){
                 if(stackElements.next().getNodeId() == nodeId){
-                    return snPosition+".true";
+                    String tupla[] = {""+snPosition, "true"};
+                    return tupla;
                 }
             }
         }
-        return "-1"+".false";
+        String tupla[] = {"-1", "true"};
+        return tupla;
     }
     
     /**

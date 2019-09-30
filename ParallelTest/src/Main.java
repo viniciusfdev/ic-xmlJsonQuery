@@ -39,9 +39,10 @@ public class Main {
         nodeTokens.add("colher");
         for(String term: new ArrayList<String>(nodeTokens)){
             nodeTokens.add("::"+term);
-            nodeTokens.add(term+"--"+term);
         }
-
+        for(String term: new ArrayList<String>(nodeTokens)){
+            nodeTokens.add("::"+term);
+        }
     }
     
     public static long WithMultithreading(){
