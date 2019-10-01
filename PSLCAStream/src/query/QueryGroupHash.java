@@ -50,5 +50,8 @@ public class QueryGroupHash {
         else queryGroupHash.get(term).add(query);
     }
     
+    public List<Query> getQueries(String term){
+        return queryGroupHash.get(term);
+    }
 }
 

@@ -6,18 +6,14 @@
 package engine;
 
 import exception.PSLCAStreamException;
-import java.io.File;
 import java.io.FileReader;
 import java.io.IOException;
-import java.util.HashMap;
-import java.util.List;
 import java.util.logging.Level;
 import java.util.logging.Logger;
 import org.xml.sax.InputSource;
 import org.xml.sax.SAXException;
 import org.xml.sax.XMLReader;
 import org.xml.sax.helpers.XMLReaderFactory;
-import query.Query;
 import query.QueryGroupHash;
 
 /**
