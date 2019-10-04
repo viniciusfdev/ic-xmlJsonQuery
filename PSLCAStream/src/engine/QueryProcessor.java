@@ -26,6 +26,7 @@ import query.QueryGroupHash;
  * @author vinicius
  */
 public class QueryProcessor {
+    private int nProcessors = 1;
     private QueryGroupHash[] queryIndex;
     private List<Thread> threads;
     private List<Query> queryList;
@@ -58,13 +59,13 @@ public class QueryProcessor {
         for(String xmlFileName: xmlFileList){
             
             try {                
-                int nProcessors = Runtime.getRuntime().availableProcessors();
+                nProcessors = Runtime.getRuntime().availableProcessors();
                 queryIndex = new QueryGroupHash[nProcessors];
                 buildQueryIndex(nProcessors);
-                FileReader xmlFile = new FileReader(new File("src/xml/"+xmlFileName).getAbsolutePath());
                 
                 for(int i = 0; i < nProcessors ; i++){
-                    threads.add(new Thread(new TaskControl(xmlFile, queryIndex[i])));
+                    threads.add(new Thread(new TaskControl(new FileReader
+                        (new File("src/xml/"+xmlFileName).getAbsolutePath()), queryIndex[i])));
                 }
                 for(Thread t: threads){
                     t.start();
@@ -97,6 +98,7 @@ public class QueryProcessor {
      */
     public void buildQueryIndex(int TAM){
         try {
+            int j = 0;
             BufferedReader queryFile = new BufferedReader(new FileReader(new File("src/query_test/"+queryFileName).getAbsolutePath()));
             List<Query> queries = new ArrayList<Query>();
             List<String> terms = new ArrayList<String>();
@@ -109,15 +111,22 @@ public class QueryProcessor {
                     if(!terms.contains(term))terms.add(term);
                 }
             }
+            if(queries.size() < nProcessors){
+                nProcessors = 1;
+                TAM = 1;
+            }
             for(String term: terms){
-                for(Query q: queries){
-                    if(q.getQueryID() == (queries.size()/TAM)*(index+1)){
+                if(j == (terms.size()/TAM)*(index+1)){
+                    if(index+1 < TAM){
                         index++;
                         queryIndex[index] = new QueryGroupHash();
                     }
+                }
+                for(Query q: queries){
                     if(q.getQueryTerms().contains(term))
                         queryIndex[index].addQuery(term, q);
                 }
+                j++;
             }
 
         } catch (PSLCAStreamException ex) {
