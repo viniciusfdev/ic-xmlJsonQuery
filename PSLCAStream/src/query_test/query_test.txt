@@ -4,3 +4,6 @@ title::XML author::John
 title::XML John
 XML author::John
 XML John
+title::XML author::
+tittle author::
+title XML John

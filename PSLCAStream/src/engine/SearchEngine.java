@@ -31,9 +31,8 @@ public class SearchEngine extends DefaultHandler{
     private List<StackNode> nodePath;                   //
     private Stack<StackNode> parsingStack;              //uma pilha para manter os nos aberto durante o parser
     private QueryGroupHash queryIndex;                  //relaciona um termo e todas as consultas que o contém
-    private HashMap<StackNode, Integer> matchTerms;     //numero de combinacoes de termos que o no sendo processado possui
-    private HashMap<String, List<Integer>> invertedG1;  //lista invertida G for ELCA
-    private HashMap<String, List<Integer>> invertedG2;  //lista invertida g for ELCA
+//    private HashMap<String, List<Integer>> invertedG1;  //lista invertida G for ELCA
+//    private HashMap<String, List<Integer>> invertedG2;  //lista invertida g for ELCA
     private HashMap<String, Integer> simpleG3;          //lista simplificada invertida for SLCA
     private List<Integer> results;                      //todos os nos SLCA encontrados
     
@@ -50,9 +49,8 @@ public class SearchEngine extends DefaultHandler{
         this.nodePath = new ArrayList<StackNode>();
         this.results = new ArrayList<>();
         this.parsingStack = new Stack();
-        this.matchTerms = new HashMap<StackNode, Integer>();
-        this.invertedG1 = new HashMap<String, List<Integer>>();
-        this.invertedG2 = new HashMap<String, List<Integer>>();
+//        this.invertedG1 = new HashMap<String, List<Integer>>();
+//        this.invertedG2 = new HashMap<String, List<Integer>>();
         this.simpleG3 = new HashMap<String, Integer>();
         this.semantic = semantic;
         this.queryIndex = queryIndex;
@@ -71,9 +69,8 @@ public class SearchEngine extends DefaultHandler{
         this.nodePath = new ArrayList<StackNode>();
         this.results = new ArrayList<>();
         this.parsingStack = new Stack();
-        this.matchTerms = new HashMap<StackNode, Integer>();
-        this.invertedG1 = new HashMap<String, List<Integer>>();
-        this.invertedG2 = new HashMap<String, List<Integer>>();
+//        this.invertedG1 = new HashMap<String, List<Integer>>();
+//        this.invertedG2 = new HashMap<String, List<Integer>>();
         this.simpleG3 = new HashMap<String, Integer>();
         this.semantic = true;
         this.queryIndex = queryIndex;
@@ -84,7 +81,7 @@ public class SearchEngine extends DefaultHandler{
      */
     @Override
     public void startDocument(){
-        System.out.println("Start Document d");
+        //System.out.println("####Start Document:"+this);
     }
     
     /**
@@ -92,7 +89,7 @@ public class SearchEngine extends DefaultHandler{
      */
     @Override
     public void endDocument(){
-        System.out.println("End Document d");
+        //System.out.println("####End Document:"+this);
     }
     
     /**
@@ -135,10 +132,10 @@ public class SearchEngine extends DefaultHandler{
             throw new PSLCAStreamException("Bad open xml node");
         }
         //print xml
-        if ("".equals (uri))
-	    System.out.println("Start element: " + qName);
-	else
-	    System.out.println("Start element: {" + uri + "}" + name);
+//        if ("".equals (uri))
+//	    System.out.println("Start element: " + qName);
+//	else
+//	    System.out.println("Start element: {" + uri + "}" + name);
     }
     
     /**
@@ -158,11 +155,11 @@ public class SearchEngine extends DefaultHandler{
         }else{
             endELementELCA(uri, name, qName);
         }
-        
-        if ("".equals (uri))
-	    System.out.println("End element: " + qName);
-	else
-	    System.out.println("End element: {" + uri + "}" + name);
+//        
+//        if ("".equals (uri))
+//	    System.out.println("End element: " + qName);
+//	else
+//	    System.out.println("End element: {" + uri + "}" + name);
     }
     
     /**
@@ -192,7 +189,8 @@ public class SearchEngine extends DefaultHandler{
                         if(complete && (currentNodeE.getNodeId() > query.getLastResultId())){
                             query.addResult(currentNodeE.getNodeId());
                             query.setLastResultId(currentNodeE.getNodeId());
-                            results.add(currentNodeE.getNodeId());
+                            if(!results.contains(currentNodeE.getNodeId()))
+                                results.add(currentNodeE.getNodeId());
                             SLCAfound = true;
                         }
                     }
@@ -248,13 +246,12 @@ public class SearchEngine extends DefaultHandler{
         String nodeContent = "";
         List<String> nodeTokens = new ArrayList<>();
 	for (int i = start; i < start + length; i++) {
-	    if(!(ch[i] == '\\' || ch[i] == '"' || ch[i] == '\r' || ch[i] == '\t')){
-                System.out.print(""+ch[i]);
-                nodeContent = nodeContent+ch[i];
+	    if(!(ch[i] == '\\' || ch[i] == '"' || ch[i] == '\r' || ch[i] == '\t' || ch[i] == '\n')){
+                //System.out.print(""+ch[i]);
+                nodeContent = (nodeContent+ch[i]);
             }
 	}
-        
-        System.out.println("");
+        //System.out.println("");
         nodeTokens = new ArrayList<>(Arrays.asList(nodeContent.split("([.,;:_ /#@!?~`|\"'{})(*&^%$-])+")));
         
         try{
@@ -300,7 +297,7 @@ public class SearchEngine extends DefaultHandler{
                 }
             }
         }
-        String tupla[] = {"-1", "true"};
+        String tupla[] = {"-1", "false"};
         return tupla;
     }
     
@@ -345,30 +342,12 @@ public class SearchEngine extends DefaultHandler{
         this.queryIndex = queryIndex;
     }
 
-    public HashMap<StackNode, Integer> getMatchTerms() {
-        return matchTerms;
-    }
-
-    public void setMatchTerms(HashMap<StackNode, Integer> matchTerms) {
-        this.matchTerms = matchTerms;
-    }
-
     public List<StackNode> getNodePath() {
         return nodePath;
-    }
-
-    public HashMap<String, List<Integer>> getInvertedG1() {
-        return invertedG1;
-    }
-
-    public HashMap<String, List<Integer>> getInvertedG2() {
-        return invertedG2;
     }
 
     public HashMap<String, Integer> getSimpleG3() {
         return simpleG3;
     }
-    
-    
     
 }

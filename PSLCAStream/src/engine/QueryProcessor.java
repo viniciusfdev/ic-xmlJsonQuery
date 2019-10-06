@@ -26,10 +26,9 @@ import query.QueryGroupHash;
  * @author vinicius
  */
 public class QueryProcessor {
-    private int nProcessors = 1;
+    private int nThreads = 1;
     private QueryGroupHash[] queryIndex;
     private List<Thread> threads;
-    private List<Query> queryList;
     private String queryFileName;
     private String[] xmlFileList;
     private HashMap<Query, List<Integer>> results;
@@ -51,19 +50,15 @@ public class QueryProcessor {
      */
     public void multipleQueriesStart(){
       
-//        int numProcessors = Runtime.getRuntime().availableProcessors();
-//        for(int i = 0; i < numProcessors ; i++){
-//            
-//        }
         
         for(String xmlFileName: xmlFileList){
-            
             try {                
-                nProcessors = Runtime.getRuntime().availableProcessors();
-                queryIndex = new QueryGroupHash[nProcessors];
-                buildQueryIndex(nProcessors);
+                nThreads = Runtime.getRuntime().availableProcessors();
+                //nThreads = 1;
+                queryIndex = new QueryGroupHash[nThreads];
+                buildQueryIndexGroup(nThreads);
                 
-                for(int i = 0; i < nProcessors ; i++){
+                for(int i = 0; i < nThreads ; i++){
                     threads.add(new Thread(new TaskControl(new FileReader
                         (new File("src/xml/"+xmlFileName).getAbsolutePath()), queryIndex[i])));
                 }
@@ -96,39 +91,40 @@ public class QueryProcessor {
     /**
      * Creates the query_index data.
      */
-    public void buildQueryIndex(int TAM){
+    public void buildQueryIndexGroup(int nThreads){
         try {
-            int j = 0;
+            
             BufferedReader queryFile = new BufferedReader(new FileReader(new File("src/query_test/"+queryFileName).getAbsolutePath()));
-            List<Query> queries = new ArrayList<Query>();
-            List<String> terms = new ArrayList<String>();
+            int nQueriesPerGroup = this.countQueriesFile()/nThreads;
+            List<List<Query>> queryGroup = new ArrayList<>();
+            List<List<String>> termGroup = new ArrayList<>();
+            queryGroup.add(new ArrayList<>());
+            termGroup.add(new ArrayList<>());
+            int i = 0, index = 0;
             String line = "";
-            queryIndex[0] = new QueryGroupHash();
-            int index = 0;
-            for(int i = 0; (line = queryFile.readLine()) != null; i++){
-                queries.add(new Query(i, Arrays.asList(line.split("\\s+"))));
+            
+            for(;(line = queryFile.readLine()) != null; i++){
+                if(i == nQueriesPerGroup*(index+1) && nQueriesPerGroup > 0 && index+1 < nThreads){
+                    queryGroup.add(new ArrayList<>());
+                    termGroup.add(new ArrayList<>());
+                    index++;
+                }
+                queryGroup.get(index).add(new Query(i, Arrays.asList(line.split("\\s+"))));
                 for(String term: line.split("\\s+")){
-                    if(!terms.contains(term))terms.add(term);
+                    if(!termGroup.get(index).contains(term))
+                        termGroup.get(index).add(term);
                 }
             }
-            if(queries.size() < nProcessors){
-                nProcessors = 1;
-                TAM = 1;
-            }
-            for(String term: terms){
-                if(j == (terms.size()/TAM)*(index+1)){
-                    if(index+1 < TAM){
-                        index++;
-                        queryIndex[index] = new QueryGroupHash();
+            for(index = 0; index < nThreads; index++){
+                queryIndex[index] = new QueryGroupHash();
+                for(String term: termGroup.get(index)){
+                    for(Query q: queryGroup.get(index)){
+                        if(q.getQueryTerms().contains(term))
+                            queryIndex[index].addQuery(term, q);
                     }
                 }
-                for(Query q: queries){
-                    if(q.getQueryTerms().contains(term))
-                        queryIndex[index].addQuery(term, q);
-                }
-                j++;
             }
-
+            
         } catch (PSLCAStreamException ex) {
             Logger.getLogger(QueryProcessor.class.getName()).log(Level.SEVERE, null, ex);
         } catch (IOException ex) {
@@ -137,17 +133,17 @@ public class QueryProcessor {
 
         
     }
+    
+    public int countQueriesFile() throws FileNotFoundException, IOException{
+        BufferedReader reader = new BufferedReader(new FileReader(new File("src/query_test/"+queryFileName).getAbsolutePath()));
+        int lines = 0;
+        while (reader.readLine() != null) lines++;
+        reader.close();
+        return lines;
+    }
 
     public QueryGroupHash[] getQueryIndex() {
         return queryIndex;
-    }
-
-    public List<Query> getQueryList() {
-        return queryList;
-    }
-
-    public void setQueryList(List<Query> queryList) {
-        this.queryList = queryList;
     }
 
     public String[] getxmlFileList() {

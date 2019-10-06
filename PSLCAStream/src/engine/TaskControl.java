@@ -28,7 +28,6 @@ public class TaskControl implements Runnable{
     
     public TaskControl(FileReader file, QueryGroupHash queryIndex) {
         this.file = file;
-        this.search = search;
         this.queryIndex = queryIndex;
     }
     
