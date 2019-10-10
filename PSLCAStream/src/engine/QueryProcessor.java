@@ -53,15 +53,17 @@ public class QueryProcessor {
         
         for(String xmlFileName: xmlFileList){
             try {                
-                nThreads = Runtime.getRuntime().availableProcessors();
-                //nThreads = 1;
+                //nThreads = Runtime.getRuntime().availableProcessors();
+                nThreads = 1;
                 queryIndex = new QueryGroupHash[nThreads];
-                buildQueryIndexGroup(nThreads);
-                
-                for(int i = 0; i < nThreads ; i++){
+                if(buildQueryIndexGroup(nThreads))
+                    for(int i = 0; i < nThreads ; i++){
+                        threads.add(new Thread(new TaskControl(new FileReader
+                            (new File("src/xml/"+xmlFileName).getAbsolutePath()), queryIndex[i], false)));
+                    }
+                else
                     threads.add(new Thread(new TaskControl(new FileReader
-                        (new File("src/xml/"+xmlFileName).getAbsolutePath()), queryIndex[i])));
-                }
+                            (new File("src/xml/"+xmlFileName).getAbsolutePath()), queryIndex[0], false)));
                 for(Thread t: threads){
                     t.start();
                 }
@@ -89,13 +91,13 @@ public class QueryProcessor {
     }
     
     /**
-     * Creates the query_index data.
+     * Creates the query_index data and returns true if exist groups enough to
+     * distribute into n threads
      */
-    public void buildQueryIndexGroup(int nThreads){
+    public Boolean buildQueryIndexGroup(int nThreads){
+        int nQueriesPerGroup = this.countQueriesFile()/nThreads;
         try {
-            
             BufferedReader queryFile = new BufferedReader(new FileReader(new File("src/query_test/"+queryFileName).getAbsolutePath()));
-            int nQueriesPerGroup = this.countQueriesFile()/nThreads;
             List<List<Query>> queryGroup = new ArrayList<>();
             List<List<String>> termGroup = new ArrayList<>();
             queryGroup.add(new ArrayList<>());
@@ -115,6 +117,7 @@ public class QueryProcessor {
                         termGroup.get(index).add(term);
                 }
             }
+            if(nQueriesPerGroup > 0)
             for(index = 0; index < nThreads; index++){
                 queryIndex[index] = new QueryGroupHash();
                 for(String term: termGroup.get(index)){
@@ -124,21 +127,38 @@ public class QueryProcessor {
                     }
                 }
             }
+            else{
+                queryIndex[0] = new QueryGroupHash();
+                for(String term: termGroup.get(0)){
+                    for(Query q: queryGroup.get(0)){
+                        if(q.getQueryTerms().contains(term))
+                            queryIndex[0].addQuery(term, q);
+                    }
+                }
+            }
+               
+            if(nQueriesPerGroup > 0) return true;
             
         } catch (PSLCAStreamException ex) {
             Logger.getLogger(QueryProcessor.class.getName()).log(Level.SEVERE, null, ex);
         } catch (IOException ex) {
             Logger.getLogger(QueryProcessor.class.getName()).log(Level.SEVERE, null, ex);
         }
-
-        
+        return false;
     }
     
-    public int countQueriesFile() throws FileNotFoundException, IOException{
-        BufferedReader reader = new BufferedReader(new FileReader(new File("src/query_test/"+queryFileName).getAbsolutePath()));
+    public int countQueriesFile(){
         int lines = 0;
-        while (reader.readLine() != null) lines++;
-        reader.close();
+        try {
+            BufferedReader reader = null;
+            reader = new BufferedReader(new FileReader(new File("src/query_test/"+queryFileName).getAbsolutePath()));
+            while (reader.readLine() != null) lines++;
+            reader.close();
+        } catch (FileNotFoundException ex) {
+            Logger.getLogger(QueryProcessor.class.getName()).log(Level.SEVERE, null, ex);
+        } catch(IOException ex){
+            Logger.getLogger(QueryProcessor.class.getName()).log(Level.SEVERE, null, ex);
+        }
         return lines;
     }
 

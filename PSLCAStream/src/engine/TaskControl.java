@@ -25,10 +25,12 @@ public class TaskControl implements Runnable{
     private FileReader file;
     private SearchEngine search;
     private QueryGroupHash queryIndex;
+    private boolean semantic = true;
     
-    public TaskControl(FileReader file, QueryGroupHash queryIndex) {
+    public TaskControl(FileReader file, QueryGroupHash queryIndex, boolean semantic) {
         this.file = file;
         this.queryIndex = queryIndex;
+        this.semantic = semantic;
     }
     
     /**
@@ -42,12 +44,12 @@ public class TaskControl implements Runnable{
             XMLReader xr = XMLReaderFactory.createXMLReader();
             if(queryIndex != null){
                 if(!queryIndex.getQueryGroupHash().isEmpty()){
-                    search = new SearchEngine(queryIndex);
+                    search = new SearchEngine(queryIndex, semantic);
                     xr.setContentHandler(search);
                     xr.setErrorHandler(search);
                     xr.parse(new InputSource(file));
                     for(int nodeId: search.getResults()){
-                        System.out.println("Nó SLCA:"+nodeId);
+                        System.out.println("Nós candidatos a semantica:"+nodeId);
                     }
                 }else{
                     throw new PSLCAStreamException("Query Index => não possui consultas");

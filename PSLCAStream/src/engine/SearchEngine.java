@@ -31,8 +31,8 @@ public class SearchEngine extends DefaultHandler{
     private List<StackNode> nodePath;                   //
     private Stack<StackNode> parsingStack;              //uma pilha para manter os nos aberto durante o parser
     private QueryGroupHash queryIndex;                  //relaciona um termo e todas as consultas que o contém
-//    private HashMap<String, List<Integer>> invertedG1;  //lista invertida G for ELCA
-//    private HashMap<String, List<Integer>> invertedG2;  //lista invertida g for ELCA
+    private HashMap<String, List<Integer>> invertedG1;  //lista invertida G for ELCA
+    private HashMap<String, List<Integer>> invertedg2;  //lista invertida g for ELCA
     private HashMap<String, Integer> simpleG3;          //lista simplificada invertida for SLCA
     private List<Integer> results;                      //todos os nos SLCA encontrados
     
@@ -41,7 +41,7 @@ public class SearchEngine extends DefaultHandler{
      * @param semantic represents the semantic choice between ELCA or SLCA. SLCA as default.
      * @param queryIndex represents a query term and refers to queries in which this term occurs.
      */
-    public SearchEngine(Boolean semantic, QueryGroupHash queryIndex) {
+    public SearchEngine(QueryGroupHash queryIndex, Boolean semantic) {
         super();
         this.id = -1;
         this.height = -1;
@@ -49,30 +49,10 @@ public class SearchEngine extends DefaultHandler{
         this.nodePath = new ArrayList<StackNode>();
         this.results = new ArrayList<>();
         this.parsingStack = new Stack();
-//        this.invertedG1 = new HashMap<String, List<Integer>>();
-//        this.invertedG2 = new HashMap<String, List<Integer>>();
+        this.invertedG1 = new HashMap<String, List<Integer>>();
+        this.invertedg2 = new HashMap<String, List<Integer>>();
         this.simpleG3 = new HashMap<String, Integer>();
         this.semantic = semantic;
-        this.queryIndex = queryIndex;
-        this.nodePath.add(this.currentNodeE);
-    }
-    
-    /**
-     * @serial semantic True as default for SLCAStream semantic
-     * @param queryIndex represents a query term and refers to queries in which this term occurs.
-     */
-    public SearchEngine(QueryGroupHash queryIndex) {
-        super();
-        this.id = -1;
-        this.height = -1;
-        this.currentNodeE = new StackNode();
-        this.nodePath = new ArrayList<StackNode>();
-        this.results = new ArrayList<>();
-        this.parsingStack = new Stack();
-//        this.invertedG1 = new HashMap<String, List<Integer>>();
-//        this.invertedG2 = new HashMap<String, List<Integer>>();
-        this.simpleG3 = new HashMap<String, Integer>();
-        this.semantic = true;
         this.queryIndex = queryIndex;
     }
     
@@ -116,15 +96,39 @@ public class SearchEngine extends DefaultHandler{
                queryIndex.getQueryGroupHash().get(label+"::") != null){
                 if(queryIndex.getQueryGroupHash().get(label) != null &&
                    !queryIndex.getQueryGroupHash().get(label).isEmpty()){
-                    currentNodeE.addUsedQueries(queryIndex.getQueryGroupHash().get(label));
-                    simpleG3.put(label, currentNodeE.getNodeId());
+                    currentNodeE.addUsedQueries(queryIndex.getQueries(label));
                     currentNodeE.setMatchedTerms(currentNodeE.getMatchedTerms()+1);
+                    simpleG3.put(label, currentNodeE.getNodeId());
+                    
+                    //ELCA SEMANTIC
+                    if(!semantic){
+                        List<Integer> nodes = new ArrayList<>();
+                        if((nodes = invertedG1.get(label)) != null){
+                            nodes.add(currentNodeE.getNodeId());
+                        }else{
+                            invertedG1.put(label, new ArrayList<>());
+                            invertedG1.get(label).add(currentNodeE.getNodeId());
+                        }
+                    }
+                    //
                 }
                 if(queryIndex.getQueryGroupHash().get(label+"::") != null &&
                    !queryIndex.getQueryGroupHash().get(label+"::").isEmpty()){
-                    currentNodeE.addUsedQueries(queryIndex.getQueryGroupHash().get(label+"::"));
-                    simpleG3.put(label+"::", currentNodeE.getNodeId());
+                    currentNodeE.addUsedQueries(queryIndex.getQueries(label+"::"));
                     currentNodeE.setMatchedTerms(currentNodeE.getMatchedTerms()+1);
+                    simpleG3.put(label+"::", currentNodeE.getNodeId());
+
+                    //ELCA SEMANTIC
+                    if(!semantic){
+                        List<Integer> nodes = new ArrayList<>();
+                        if((nodes = invertedG1.get(label+"::")) != null){
+                            nodes.add(currentNodeE.getNodeId());
+                        }else{
+                            invertedG1.put(label+"::", new ArrayList<>());
+                            invertedG1.get(label+"::").add(currentNodeE.getNodeId());
+                        }
+                    }
+                    //
                 }
                 parsingStack.push(new StackNode(currentNodeE));
             }
@@ -178,6 +182,9 @@ public class SearchEngine extends DefaultHandler{
                 Boolean SLCAfound = false;
                 StackNode topNode = new StackNode();
                 currentNodeE = parsingStack.pop();
+                if(currentNodeE.getNodeId() == 0){
+                    System.out.println("");
+                }
                 for(Query query: currentNodeE.getUsedQueries()){
                     if(currentNodeE.getMatchedTerms() >= query.getQueryTerms().size()){
                         complete = true;
@@ -224,10 +231,78 @@ public class SearchEngine extends DefaultHandler{
      * @param qName 
      */
     public void endELementELCA(String uri, String name, String qName){
-        Boolean complete;
-        
         try{
-            
+            if(!parsingStack.isEmpty() && parsingStack.peek().getNodeId() == nodePath.get(nodePath.size()-1).getNodeId()){
+                Boolean complete = false;
+                Boolean ELCAfound = false;
+                StackNode topNode = new StackNode();
+                currentNodeE = parsingStack.pop();
+                if(currentNodeE.getNodeId() == 4){
+                    System.out.println("");
+                }
+                for(Query query: currentNodeE.getUsedQueries()){
+                    if(currentNodeE.getMatchedTerms() >= query.getQueryTerms().size()){
+                        complete = true;
+                        for(String term: query.getQueryTerms()){
+                            if((simpleG3.get(term) != null) && (currentNodeE.getNodeId() > simpleG3.get(term))){
+                                complete = false;
+                            }
+                        }
+                        if(complete && (currentNodeE.getNodeId() > query.getLastResultId())){
+                            query.addResult(currentNodeE.getNodeId());
+                            query.setLastResultId(currentNodeE.getNodeId());
+                            if(!results.contains(currentNodeE.getNodeId()))
+                                results.add(currentNodeE.getNodeId());
+                            ELCAfound = true;
+                            
+                        //ELCA SEMANTIC
+                            for(String term: query.getQueryTerms()){
+                                List<Integer> nodes = new ArrayList<>();
+                                if(invertedG1.get(term) != null)
+                                    for(Integer idi: invertedG1.get(term)){
+                                        if(idi >= currentNodeE.getNodeId())
+                                            nodes.add(idi);
+                                    }
+                                invertedg2.put(term, nodes);
+                            }
+                        }else{
+                            Boolean canBeElca = true;
+                            List<Integer> idList = new ArrayList<>();
+                            for(String term: query.getQueryTerms()){
+                                if(invertedG1.get(term) != null)
+                                    for(Integer idi: invertedG1.get(term)){
+                                        if(idi >= currentNodeE.getNodeId() && !invertedg2.get(term).contains(idi))
+                                            idList.add(idi);
+                                    }
+                                if(idList.isEmpty()){
+                                    canBeElca = false;
+                                }else{
+                                    invertedg2.get(term).addAll(idList);
+                                }
+                            }
+                            if(canBeElca){
+                                query.addResult(currentNodeE.getNodeId());
+                                if(!results.contains(currentNodeE.getNodeId()))
+                                    results.add(currentNodeE.getNodeId());
+                            }
+                        }
+                        //
+                    }
+                }
+                if(!parsingStack.empty())
+                    topNode = parsingStack.peek();
+                if(!parsingStack.empty() && (currentNodeE.getHeight() - topNode.getHeight()) == 1){
+                    topNode.addUsedQueries(currentNodeE.getUsedQueries());
+                    topNode.setMatchedTerms(topNode.getMatchedTerms()+currentNodeE.getMatchedTerms());
+                }else{
+                    if(!nodePath.isEmpty() && !ELCAfound && currentNodeE.getHeight() != 0){
+                        parsingStack.push(new StackNode(name, currentNodeE.getHeight()-1, nodePath.get(currentNodeE.getHeight()-1).getNodeId()));
+                        parsingStack.lastElement().setMatchedTerms(currentNodeE.getMatchedTerms());
+                    }
+                }
+            }
+            nodePath.remove(nodePath.size()-1);
+            height--;
             
         }catch(PSLCAStreamException ex){
             System.out.println("Bad closed xml node:"+ex.getCause());
