@@ -329,6 +329,8 @@ public class SearchEngine extends DefaultHandler{
         //System.out.println("");
         nodeTokens = new ArrayList<>(Arrays.asList(nodeContent.split("([.,;:_ /#@!?~`|\"'{})(*&^%$-])+")));
         
+        nodeTokens.remove("");
+        
         try{
             if(!nodeTokens.isEmpty()){
                 for(String term: new ArrayList<String>(nodeTokens)){

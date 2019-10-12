@@ -26,21 +26,24 @@ import query.QueryGroupHash;
  * @author vinicius
  */
 public class QueryProcessor {
+
+    private boolean semantic;
     private int nThreads = 1;
-    private QueryGroupHash[] queryIndex;
     private List<Thread> threads;
     private String queryFileName;
     private String[] xmlFileList;
+    private QueryGroupHash[] queryIndex;
     private HashMap<Query, List<Integer>> results;
     /**
      * 
      * @param queriesFileName
      * @param xmlFileList The list of documents 
-     * @param xmlFilePath 
+     * @param sematic
      */
-    public QueryProcessor(String queryFileName, String[] xmlFileList) {
-        threads = new ArrayList<Thread>();
+    public QueryProcessor(String queryFileName, String[] xmlFileList, boolean semantic) {
+        this.semantic = semantic;
         this.xmlFileList = xmlFileList;
+        this.threads = new ArrayList<Thread>();
         this.queryFileName = queryFileName;
     }
     
@@ -59,11 +62,11 @@ public class QueryProcessor {
                 if(buildQueryIndexGroup(nThreads))
                     for(int i = 0; i < nThreads ; i++){
                         threads.add(new Thread(new TaskControl(new FileReader
-                            (new File("src/xml/"+xmlFileName).getAbsolutePath()), queryIndex[i], false)));
+                            (new File("src/xml/"+xmlFileName).getAbsolutePath()), queryIndex[i], semantic)));
                     }
                 else
                     threads.add(new Thread(new TaskControl(new FileReader
-                            (new File("src/xml/"+xmlFileName).getAbsolutePath()), queryIndex[0], false)));
+                            (new File("src/xml/"+xmlFileName).getAbsolutePath()), queryIndex[0], semantic)));
                 for(Thread t: threads){
                     t.start();
                 }

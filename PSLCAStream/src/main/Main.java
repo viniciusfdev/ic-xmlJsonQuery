@@ -19,9 +19,12 @@ public class Main {
      */
     public static void main(String[] args) {
         // TODO code application logic here
-        String xmlFilePath[] = {"xml_file_1.xml"};
+        String xmlFilePath[] = {"xml_file_3.xml"};
         String queryFileName = "query_test_1.txt";
-        QueryProcessor qp = new QueryProcessor(queryFileName, xmlFilePath);
+        boolean semantic = true;
+        //true = SLCA
+        //false = ELCA
+        QueryProcessor qp = new QueryProcessor(queryFileName, xmlFilePath, semantic);
         qp.multipleQueriesStart();
     }
     

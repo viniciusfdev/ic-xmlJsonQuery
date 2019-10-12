@@ -1,0 +1,3009 @@
+<dblp>
+    <inproceedings mdate="2008-05-05" key="conf/icde/WangXHZWZS08">
+<author>Mei Wang</author>
+<author>Hongtao Xu</author>
+<author>Guoyu Hao</author>
+<author>Xiangdong Zhou</author>
+<author>Wei Wang</author>
+<author>Qi Zhang</author>
+<author>Baile Shi</author>
+<title>PictureBook: A Text-and-Image Summary System for Web Search Result.</title>
+<pages>1612-1615</pages>
+<year>2008</year>
+<booktitle>ICDE</booktitle>
+<ee>http://dx.doi.org/10.1109/ICDE.2008.4497634</ee>
+<crossref>conf/icde/2008</crossref>
+<url>db/conf/icde/icde2008.html#WangXHZWZS08</url>
+</inproceedings>
+    <inproceedings mdate="2008-05-05" key="conf/icde/X08">
+<title>In Memoriam Klaus R. Dittrich (1950-2007).</title>
+<year>2008</year>
+<booktitle>ICDE</booktitle>
+<ee>http://dx.doi.org/10.1109/ICDE.2008.4497397</ee>
+<crossref>conf/icde/2008</crossref>
+<url>db/conf/icde/icde2008.html#X08</url>
+</inproceedings>
+    <inproceedings mdate="2008-05-06" key="conf/icde/LiuYCW08">
+<author>Zheng Liu</author>
+<author>Jeffrey Xu Yu</author>
+<author>Lei Chen 0002</author>
+<author>Di Wu</author>
+<title>Detection of Shape Anomalies: A Probabilistic Approach Using Hidden Markov Models.</title>
+<pages>1325-1327</pages>
+<year>2008</year>
+<booktitle>ICDE</booktitle>
+<ee>http://dx.doi.org/10.1109/ICDE.2008.4497544</ee>
+<crossref>conf/icde/2008</crossref>
+<url>db/conf/icde/icde2008.html#LiuYCW08</url>
+</inproceedings>
+    <inproceedings mdate="2008-05-05" key="conf/icde/AntovaJKO08">
+<author>Lyublena Antova</author>
+<author>Thomas Jansen</author>
+<author>Christoph Koch</author>
+<author>Dan Olteanu</author>
+<title>Fast and Simple Relational Processing of Uncertain Data.</title>
+<pages>983-992</pages>
+<year>2008</year>
+<booktitle>ICDE</booktitle>
+<ee>http://dx.doi.org/10.1109/ICDE.2008.4497507</ee>
+<crossref>conf/icde/2008</crossref>
+<url>db/conf/icde/icde2008.html#AntovaJKO08</url>
+</inproceedings>
+    <inproceedings mdate="2008-05-05" key="conf/icde/AhmadABM08">
+<author>Mumtaz Ahmad</author>
+<author>Ashraf Aboulnaga</author>
+<author>Shivnath Babu</author>
+<author>Kamesh Munagala</author>
+<title>QShuffler: Getting the Query Mix Right.</title>
+<pages>1415-1417</pages>
+<year>2008</year>
+<booktitle>ICDE</booktitle>
+<ee>http://dx.doi.org/10.1109/ICDE.2008.4497574</ee>
+<crossref>conf/icde/2008</crossref>
+<url>db/conf/icde/icde2008.html#AhmadABM08</url>
+</inproceedings>
+    <inproceedings mdate="2008-05-05" key="conf/icde/SinhaWWSS08">
+<author>Rishi Rakesh Sinha</author>
+<author>Marianne Winslett</author>
+<author>Kesheng Wu</author>
+<author>Kurt Stockinger</author>
+<author>Arie Shoshani</author>
+<title>Adaptive Bitmap Indexes for Space-Constrained Systems.</title>
+<pages>1418-1420</pages>
+<year>2008</year>
+<booktitle>ICDE</booktitle>
+<ee>http://dx.doi.org/10.1109/ICDE.2008.4497575</ee>
+<crossref>conf/icde/2008</crossref>
+<url>db/conf/icde/icde2008.html#SinhaWWSS08</url>
+</inproceedings>
+    <inproceedings mdate="2008-05-05" key="conf/icde/ElmeleegyOE08">
+<author>Hazem Elmeleegy</author>
+<author>Mourad Ouzzani</author>
+<author>Ahmed K. Elmagarmid</author>
+<title>Usage-Based Schema Matching.</title>
+<pages>20-29</pages>
+<year>2008</year>
+<booktitle>ICDE</booktitle>
+<ee>http://dx.doi.org/10.1109/ICDE.2008.4497410</ee>
+<crossref>conf/icde/2008</crossref>
+<url>db/conf/icde/icde2008.html#ElmeleegyOE08</url>
+</inproceedings>
+    <inproceedings mdate="2008-05-05" key="conf/icde/KhalefaML08">
+<author>Mohamed E. Khalefa</author>
+<author>Mohamed F. Mokbel</author>
+<author>Justin J. Levandoski</author>
+<title>Skyline Query Processing for Incomplete Data.</title>
+<pages>556-565</pages>
+<year>2008</year>
+<booktitle>ICDE</booktitle>
+<ee>http://dx.doi.org/10.1109/ICDE.2008.4497464</ee>
+<crossref>conf/icde/2008</crossref>
+<url>db/conf/icde/icde2008.html#KhalefaML08</url>
+</inproceedings>
+    <inproceedings mdate="2008-05-05" key="conf/icde/KasneciSIRW08">
+<author>Gjergji Kasneci</author>
+<author>Fabian M. Suchanek</author>
+<author>Georgiana Ifrim</author>
+<author>Maya Ramanath</author>
+<author>Gerhard Weikum</author>
+<title>NAGA: Searching and Ranking Knowledge.</title>
+<pages>953-962</pages>
+<year>2008</year>
+<booktitle>ICDE</booktitle>
+<ee>http://dx.doi.org/10.1109/ICDE.2008.4497504</ee>
+<crossref>conf/icde/2008</crossref>
+<url>db/conf/icde/icde2008.html#KasneciSIRW08</url>
+</inproceedings>
+    <inproceedings mdate="2008-05-05" key="conf/icde/BinnigKLS08">
+<author>Carsten Binnig</author>
+<author>Donald Kossmann</author>
+<author>Eric Lo</author>
+<author>Angel Saenz-Badillos</author>
+<title>Automatic Result Verification for the Functional Testing of a Query Language.</title>
+<pages>1534-1536</pages>
+<year>2008</year>
+<booktitle>ICDE</booktitle>
+<ee>http://dx.doi.org/10.1109/ICDE.2008.4497614</ee>
+<crossref>conf/icde/2008</crossref>
+<url>db/conf/icde/icde2008.html#BinnigKLS08</url>
+</inproceedings>
+    <inproceedings mdate="2008-05-05" key="conf/icde/SinghMSPHNC08">
+<author>Sarvjeet Singh</author>
+<author>Chris Mayfield</author>
+<author>Rahul Shah</author>
+<author>Sunil Prabhakar</author>
+<author>Susanne E. Hambrusch</author>
+<author>Jennifer Neville</author>
+<author>Reynold Cheng</author>
+<title>Database Support for Probabilistic Attributes and Tuples.</title>
+<pages>1053-1061</pages>
+<year>2008</year>
+<booktitle>ICDE</booktitle>
+<ee>http://dx.doi.org/10.1109/ICDE.2008.4497514</ee>
+<crossref>conf/icde/2008</crossref>
+<url>db/conf/icde/icde2008.html#SinghMSPHNC08</url>
+</inproceedings>
+    <inproceedings mdate="2008-05-05" key="conf/icde/ShalemB08">
+<author>Mirit Shalem</author>
+<author>Ziv Bar-Yossef</author>
+<title>The Space Complexity of Processing XML Twig Queries Over Indexed Documents.</title>
+<pages>824-832</pages>
+<year>2008</year>
+<booktitle>ICDE</booktitle>
+<ee>http://dx.doi.org/10.1109/ICDE.2008.4497491</ee>
+<crossref>conf/icde/2008</crossref>
+<url>db/conf/icde/icde2008.html#ShalemB08</url>
+</inproceedings>
+    <inproceedings mdate="2008-05-05" key="conf/icde/MartinGH08">
+<author>David J. Martin</author>
+<author>Johannes Gehrke</author>
+<author>Joseph Y. Halpern</author>
+<title>Toward Expressive and Scalable Sponsored Search Auctions.</title>
+<pages>237-246</pages>
+<year>2008</year>
+<booktitle>ICDE</booktitle>
+<ee>http://dx.doi.org/10.1109/ICDE.2008.4497432</ee>
+<crossref>conf/icde/2008</crossref>
+<url>db/conf/icde/icde2008.html#MartinGH08</url>
+</inproceedings>
+    <inproceedings mdate="2008-05-05" key="conf/icde/BabuDM08">
+<author>Shivnath Babu</author>
+<author>Songyun Duan</author>
+<author>Kamesh Munagala</author>
+<title>Processing Diagnosis Queries: A Principled and Scalable Approach.</title>
+<pages>1468-1470</pages>
+<year>2008</year>
+<booktitle>ICDE</booktitle>
+<ee>http://dx.doi.org/10.1109/ICDE.2008.4497592</ee>
+<crossref>conf/icde/2008</crossref>
+<url>db/conf/icde/icde2008.html#BabuDM08</url>
+</inproceedings>
+    <inproceedings mdate="2008-05-05" key="conf/icde/ZhangLRB08">
+<author>Rui Zhang 0003</author>
+<author>Dan Lin</author>
+<author>Kotagiri Ramamohanarao</author>
+<author>Elisa Bertino</author>
+<title>Continuous Intersection Joins Over Moving Objects.</title>
+<pages>863-872</pages>
+<year>2008</year>
+<booktitle>ICDE</booktitle>
+<ee>http://dx.doi.org/10.1109/ICDE.2008.4497495</ee>
+<crossref>conf/icde/2008</crossref>
+<url>db/conf/icde/icde2008.html#ZhangLRB08</url>
+</inproceedings>
+    <inproceedings mdate="2008-05-05" key="conf/icde/Aggarwal08">
+<author>Charu C. Aggarwal</author>
+<title>On Unifying Privacy and Uncertain Data Models.</title>
+<pages>386-395</pages>
+<year>2008</year>
+<booktitle>ICDE</booktitle>
+<ee>http://dx.doi.org/10.1109/ICDE.2008.4497447</ee>
+<crossref>conf/icde/2008</crossref>
+<url>db/conf/icde/icde2008.html#Aggarwal08</url>
+</inproceedings>
+    <inproceedings mdate="2008-05-05" key="conf/icde/KhoussainovaBS08">
+<author>Nodira Khoussainova</author>
+<author>Magdalena Balazinska</author>
+<author>Dan Suciu</author>
+<title>Probabilistic Event Extraction from RFID Data.</title>
+<pages>1480-1482</pages>
+<year>2008</year>
+<booktitle>ICDE</booktitle>
+<ee>http://dx.doi.org/10.1109/ICDE.2008.4497596</ee>
+<crossref>conf/icde/2008</crossref>
+<url>db/conf/icde/icde2008.html#KhoussainovaBS08</url>
+</inproceedings>
+    <inproceedings mdate="2008-05-05" key="conf/icde/LuccheseVRY08">
+<author>Claudio Lucchese</author>
+<author>Michail Vlachos</author>
+<author>Deepak Rajan</author>
+<author>Philip S. Yu</author>
+<title>Rights Protection of Trajectory Datasets.</title>
+<pages>1349-1351</pages>
+<year>2008</year>
+<booktitle>ICDE</booktitle>
+<ee>http://dx.doi.org/10.1109/ICDE.2008.4497552</ee>
+<crossref>conf/icde/2008</crossref>
+<url>db/conf/icde/icde2008.html#LuccheseVRY08</url>
+</inproceedings>
+    <inproceedings mdate="2008-05-05" key="conf/icde/KwietniewskiWTGGJJN08">
+<author>Marcin Kwietniewski</author>
+<author>Stephanie Wilson</author>
+<author>Anna Topol</author>
+<author>Sunbir Gill</author>
+<author>Jarek Gryz</author>
+<author>Michael Jenkin</author>
+<author>Piotr Jasiobedzki</author>
+<author>Ho-Kong Ng</author>
+<title>MED: A Multimedia Event Database for 3D Crime Scene Representation and Analysis.</title>
+<pages>1592-1595</pages>
+<year>2008</year>
+<booktitle>ICDE</booktitle>
+<ee>http://dx.doi.org/10.1109/ICDE.2008.4497629</ee>
+<crossref>conf/icde/2008</crossref>
+<url>db/conf/icde/icde2008.html#KwietniewskiWTGGJJN08</url>
+</inproceedings>
+    <inproceedings mdate="2008-05-05" key="conf/icde/WiwatwattanaJ08">
+<author>Nuwee Wiwatwattana</author>
+<author>H. V. Jagadish</author>
+<title>A Query Processing Architecture for an XML Data Warehouse.</title>
+<pages>1513-1515</pages>
+<year>2008</year>
+<booktitle>ICDE</booktitle>
+<ee>http://dx.doi.org/10.1109/ICDE.2008.4497607</ee>
+<crossref>conf/icde/2008</crossref>
+<url>db/conf/icde/icde2008.html#WiwatwattanaJ08</url>
+</inproceedings>
+    <inproceedings mdate="2008-05-05" key="conf/icde/DasCWAS08">
+<author>Souripriya Das</author>
+<author>Eugene Inseok Chong</author>
+<author>Zhe Wu</author>
+<author>Melliyal Annamalai</author>
+<author>Jagannathan Srinivasan</author>
+<title>A Scalable Scheme for Bulk Loading Large RDF Graphs into Oracle.</title>
+<pages>1297-1306</pages>
+<year>2008</year>
+<booktitle>ICDE</booktitle>
+<ee>http://dx.doi.org/10.1109/ICDE.2008.4497539</ee>
+<crossref>conf/icde/2008</crossref>
+<url>db/conf/icde/icde2008.html#DasCWAS08</url>
+</inproceedings>
+    <inproceedings mdate="2008-05-05" key="conf/icde/PitouraT08">
+<author>Theoni Pitoura</author>
+<author>Peter Triantafillou</author>
+<title>Self-Join Size Estimation in Large-scale Distributed Data Systems.</title>
+<pages>764-773</pages>
+<year>2008</year>
+<booktitle>ICDE</booktitle>
+<ee>http://dx.doi.org/10.1109/ICDE.2008.4497485</ee>
+<crossref>conf/icde/2008</crossref>
+<url>db/conf/icde/icde2008.html#PitouraT08</url>
+</inproceedings>
+    <inproceedings mdate="2008-05-05" key="conf/icde/SarmaTW08">
+<author>Anish Das Sarma</author>
+<author>Martin Theobald</author>
+<author>Jennifer Widom</author>
+<title>Exploiting Lineage for Confidence Computation in Uncertain and Probabilistic Databases.</title>
+<pages>1023-1032</pages>
+<year>2008</year>
+<booktitle>ICDE</booktitle>
+<ee>http://dx.doi.org/10.1109/ICDE.2008.4497511</ee>
+<crossref>conf/icde/2008</crossref>
+<url>db/conf/icde/icde2008.html#SarmaTW08</url>
+</inproceedings>
+    <inproceedings mdate="2008-05-05" key="conf/icde/VaradarajanHR08">
+<author>Ramakrishna Varadarajan</author>
+<author>Vagelis Hristidis</author>
+<author>Louiqa Raschid</author>
+<title>Explaining and Reformulating Authority Flow Queries.</title>
+<pages>883-892</pages>
+<year>2008</year>
+<booktitle>ICDE</booktitle>
+<ee>http://dx.doi.org/10.1109/ICDE.2008.4497497</ee>
+<crossref>conf/icde/2008</crossref>
+<url>db/conf/icde/icde2008.html#VaradarajanHR08</url>
+</inproceedings>
+    <inproceedings mdate="2008-05-05" key="conf/icde/AugstenBDG08">
+<author>Nikolaus Augsten</author>
+<author>Michael H. Bhlen</author>
+<author>Curtis E. Dyreson</author>
+<author>Johann Gamper</author>
+<title>Approximate Joins for Data-Centric XML.</title>
+<pages>814-823</pages>
+<year>2008</year>
+<booktitle>ICDE</booktitle>
+<ee>http://dx.doi.org/10.1109/ICDE.2008.4497490</ee>
+<crossref>conf/icde/2008</crossref>
+<url>db/conf/icde/icde2008.html#AugstenBDG08</url>
+</inproceedings>
+    <inproceedings mdate="2008-05-05" key="conf/icde/PhanL08">
+<author>Thomas Phan</author>
+<author>Wen-Syan Li</author>
+<title>Dynamic Materialization of Query Views for Data Warehouse Workloads.</title>
+<pages>436-445</pages>
+<year>2008</year>
+<booktitle>ICDE</booktitle>
+<ee>http://dx.doi.org/10.1109/ICDE.2008.4497452</ee>
+<crossref>conf/icde/2008</crossref>
+<url>db/conf/icde/icde2008.html#PhanL08</url>
+</inproceedings>
+    <inproceedings mdate="2008-05-05" key="conf/icde/VrhovnikSRM08">
+<author>Marko Vrhovnik</author>
+<author>Holger Schwarz</author>
+<author>Sylvia Radeschutz</author>
+<author>Bernhard Mitschang</author>
+<title>An Overview of SQL Support in Workflow Products.</title>
+<pages>1287-1296</pages>
+<year>2008</year>
+<booktitle>ICDE</booktitle>
+<ee>http://dx.doi.org/10.1109/ICDE.2008.4497538</ee>
+<crossref>conf/icde/2008</crossref>
+<url>db/conf/icde/icde2008.html#VrhovnikSRM08</url>
+</inproceedings>
+    <inproceedings mdate="2008-05-05" key="conf/icde/AbiteboulMB08">
+<author>Serge Abiteboul</author>
+<author>Bogdan Marinoiu</author>
+<author>Pierre Bourhis</author>
+<title>Distributed Monitoring of Peer-to-Peer Systems.</title>
+<pages>1572-1575</pages>
+<year>2008</year>
+<booktitle>ICDE</booktitle>
+<ee>http://dx.doi.org/10.1109/ICDE.2008.4497624</ee>
+<crossref>conf/icde/2008</crossref>
+<url>db/conf/icde/icde2008.html#AbiteboulMB08</url>
+</inproceedings>
+    <inproceedings mdate="2008-05-05" key="conf/icde/ZhouP08">
+<author>Bin Zhou</author>
+<author>Jian Pei</author>
+<title>Preserving Privacy in Social Networks Against Neighborhood Attacks.</title>
+<pages>506-515</pages>
+<year>2008</year>
+<booktitle>ICDE</booktitle>
+<ee>http://dx.doi.org/10.1109/ICDE.2008.4497459</ee>
+<crossref>conf/icde/2008</crossref>
+<url>db/conf/icde/icde2008.html#ZhouP08</url>
+</inproceedings>
+    <inproceedings mdate="2008-05-05" key="conf/icde/GyllstromADI08">
+<author>Daniel Gyllstrom</author>
+<author>Jagrati Agrawal</author>
+<author>Yanlei Diao</author>
+<author>Neil Immerman</author>
+<title>On Supporting Kleene Closure over Event Streams.</title>
+<pages>1391-1393</pages>
+<year>2008</year>
+<booktitle>ICDE</booktitle>
+<ee>http://dx.doi.org/10.1109/ICDE.2008.4497566</ee>
+<crossref>conf/icde/2008</crossref>
+<url>db/conf/icde/icde2008.html#GyllstromADI08</url>
+</inproceedings>
+    <inproceedings mdate="2008-05-05" key="conf/icde/AfanasievGMRT08">
+<author>Loredana Afanasiev</author>
+<author>Torsten Grust</author>
+<author>Maarten Marx</author>
+<author>Jan Rittinger</author>
+<author>Jens Teubner</author>
+<title>An Inflationary Fixed Point Operator in XQuery.</title>
+<pages>1504-1506</pages>
+<year>2008</year>
+<booktitle>ICDE</booktitle>
+<ee>http://dx.doi.org/10.1109/ICDE.2008.4497604</ee>
+<crossref>conf/icde/2008</crossref>
+<url>db/conf/icde/icde2008.html#AfanasievGMRT08</url>
+</inproceedings>
+    <inproceedings mdate="2008-05-05" key="conf/icde/NagarajNRS08">
+<author>Kanthi Nagaraj</author>
+<author>K. V. M. Naidu</author>
+<author>Rajeev Rastogi</author>
+<author>Scott Satkin</author>
+<title>Efficient Aggregate Computation over Data Streams.</title>
+<pages>1382-1384</pages>
+<year>2008</year>
+<booktitle>ICDE</booktitle>
+<ee>http://dx.doi.org/10.1109/ICDE.2008.4497563</ee>
+<crossref>conf/icde/2008</crossref>
+<url>db/conf/icde/icde2008.html#NagarajNRS08</url>
+</inproceedings>
+    <inproceedings mdate="2008-05-05" key="conf/icde/ZhangLW08">
+<author>Qi Zhang</author>
+<author>Jinze Liu</author>
+<author>Wei Wang</author>
+<title>Approximate Clustering on Distributed Data Streams.</title>
+<pages>1131-1139</pages>
+<year>2008</year>
+<booktitle>ICDE</booktitle>
+<ee>http://dx.doi.org/10.1109/ICDE.2008.4497522</ee>
+<crossref>conf/icde/2008</crossref>
+<url>db/conf/icde/icde2008.html#ZhangLW08</url>
+</inproceedings>
+    <inproceedings mdate="2008-05-05" key="conf/icde/DebLRS08">
+<author>Supratim Deb</author>
+<author>Prakash Linga</author>
+<author>Rajeev Rastogi</author>
+<author>Anand Srinivasan</author>
+<title>Accelerating Lookups in P2P Systems using Peer Caching.</title>
+<pages>1003-1012</pages>
+<year>2008</year>
+<booktitle>ICDE</booktitle>
+<ee>http://dx.doi.org/10.1109/ICDE.2008.4497509</ee>
+<crossref>conf/icde/2008</crossref>
+<url>db/conf/icde/icde2008.html#DebLRS08</url>
+</inproceedings>
+    <inproceedings mdate="2008-05-05" key="conf/icde/CaiHH08">
+<author>Deng Cai</author>
+<author>Xiaofei He</author>
+<author>Jiawei Han</author>
+<title>Training Linear Discriminant Analysis in Linear Time.</title>
+<pages>209-217</pages>
+<year>2008</year>
+<booktitle>ICDE</booktitle>
+<ee>http://dx.doi.org/10.1109/ICDE.2008.4497429</ee>
+<crossref>conf/icde/2008</crossref>
+<url>db/conf/icde/icde2008.html#CaiHH08</url>
+</inproceedings>
+    <inproceedings mdate="2008-05-05" key="conf/icde/BalminOST08">
+<author>Andrey Balmin</author>
+<author>Fatma Ozcan</author>
+<author>Ashutosh Singh</author>
+<author>Edison Ting</author>
+<title>Grouping and Optimization of XPath Expressions in System RX.</title>
+<pages>1507-1509</pages>
+<year>2008</year>
+<booktitle>ICDE</booktitle>
+<ee>http://dx.doi.org/10.1109/ICDE.2008.4497605</ee>
+<crossref>conf/icde/2008</crossref>
+<url>db/conf/icde/icde2008.html#BalminOST08</url>
+</inproceedings>
+    <inproceedings mdate="2008-05-05" key="conf/icde/BitonBDH08">
+<author>Olivier Biton</author>
+<author>Sarah Cohen Boulakia</author>
+<author>Susan B. Davidson</author>
+<author>Carmem S. Hara</author>
+<title>Querying and Managing Provenance through User Views in Scientific Workflows.</title>
+<pages>1072-1081</pages>
+<year>2008</year>
+<booktitle>ICDE</booktitle>
+<ee>http://dx.doi.org/10.1109/ICDE.2008.4497516</ee>
+<crossref>conf/icde/2008</crossref>
+<url>db/conf/icde/icde2008.html#BitonBDH08</url>
+</inproceedings>
+    <inproceedings mdate="2008-05-05" key="conf/icde/FelipeHR08">
+<author>Ian De Felipe</author>
+<author>Vagelis Hristidis</author>
+<author>Naphtali Rishe</author>
+<title>Keyword Search on Spatial Databases.</title>
+<pages>656-665</pages>
+<year>2008</year>
+<booktitle>ICDE</booktitle>
+<ee>http://dx.doi.org/10.1109/ICDE.2008.4497474</ee>
+<crossref>conf/icde/2008</crossref>
+<url>db/conf/icde/icde2008.html#FelipeHR08</url>
+</inproceedings>
+    <inproceedings mdate="2008-05-05" key="conf/icde/ElghandourAZCBBZ08">
+<author>Iman Elghandour</author>
+<author>Ashraf Aboulnaga</author>
+<author>Daniel C. Zilio</author>
+<author>Fei Chiang</author>
+<author>Andrey Balmin</author>
+<author>Kevin S. Beyer</author>
+<author>Calisto Zuzarte</author>
+<title>XML Index Recommendation with Tight Optimizer Coupling.</title>
+<pages>833-842</pages>
+<year>2008</year>
+<booktitle>ICDE</booktitle>
+<ee>http://dx.doi.org/10.1109/ICDE.2008.4497492</ee>
+<crossref>conf/icde/2008</crossref>
+<url>db/conf/icde/icde2008.html#ElghandourAZCBBZ08</url>
+</inproceedings>
+    <inproceedings mdate="2008-05-05" key="conf/icde/ArasuCK08">
+<author>Arvind Arasu</author>
+<author>Surajit Chaudhuri</author>
+<author>Raghav Kaushik</author>
+<title>Transformation-based Framework for Record Matching.</title>
+<pages>40-49</pages>
+<year>2008</year>
+<booktitle>ICDE</booktitle>
+<ee>http://dx.doi.org/10.1109/ICDE.2008.4497412</ee>
+<crossref>conf/icde/2008</crossref>
+<url>db/conf/icde/icde2008.html#ArasuCK08</url>
+</inproceedings>
+    <inproceedings mdate="2008-05-05" key="conf/icde/KanagalD08">
+<author>Bhargav Kanagal</author>
+<author>Amol Deshpande</author>
+<title>Online Filtering, Smoothing and Probabilistic Modeling of Streaming data.</title>
+<pages>1160-1169</pages>
+<year>2008</year>
+<booktitle>ICDE</booktitle>
+<ee>http://dx.doi.org/10.1109/ICDE.2008.4497525</ee>
+<crossref>conf/icde/2008</crossref>
+<url>db/conf/icde/icde2008.html#KanagalD08</url>
+</inproceedings>
+    <inproceedings mdate="2008-05-05" key="conf/icde/KrauthgamerMRR08">
+<author>Robert Krauthgamer</author>
+<author>Aranyak Mehta</author>
+<author>Vijayshankar Raman</author>
+<author>Atri Rudra</author>
+<title>Greedy List Intersection.</title>
+<pages>1033-1042</pages>
+<year>2008</year>
+<booktitle>ICDE</booktitle>
+<ee>http://dx.doi.org/10.1109/ICDE.2008.4497512</ee>
+<crossref>conf/icde/2008</crossref>
+<url>db/conf/icde/icde2008.html#KrauthgamerMRR08</url>
+</inproceedings>
+    <inproceedings mdate="2008-05-05" key="conf/icde/ZhangWL08">
+<author>Mengsheng Zhang</author>
+<author>Wei Wang</author>
+<author>Jinze Liu</author>
+<title>Mining Approximate Order Preserving Clusters in the Presence of Noise.</title>
+<pages>160-168</pages>
+<year>2008</year>
+<booktitle>ICDE</booktitle>
+<ee>http://dx.doi.org/10.1109/ICDE.2008.4497424</ee>
+<crossref>conf/icde/2008</crossref>
+<url>db/conf/icde/icde2008.html#ZhangWL08</url>
+</inproceedings>
+    <inproceedings mdate="2008-05-05" key="conf/icde/ZhangGW08">
+<author>Ji Zhang</author>
+<author>Qigang Gao</author>
+<author>Hai Wang</author>
+<title>SPOT: A System for Detecting Projected Outliers From High-dimensional Data Streams.</title>
+<pages>1628-1631</pages>
+<year>2008</year>
+<booktitle>ICDE</booktitle>
+<ee>http://dx.doi.org/10.1109/ICDE.2008.4497638</ee>
+<crossref>conf/icde/2008</crossref>
+<url>db/conf/icde/icde2008.html#ZhangGW08</url>
+</inproceedings>
+    <inproceedings mdate="2008-05-05" key="conf/icde/LiuC08">
+<author>Ziyang Liu</author>
+<author>Yi Chen</author>
+<title>Answering Keyword Queries on XML Using Materialized Views.</title>
+<pages>1501-1503</pages>
+<year>2008</year>
+<booktitle>ICDE</booktitle>
+<ee>http://dx.doi.org/10.1109/ICDE.2008.4497603</ee>
+<crossref>conf/icde/2008</crossref>
+<url>db/conf/icde/icde2008.html#LiuC08</url>
+</inproceedings>
+    <inproceedings mdate="2008-05-05" key="conf/icde/DeligiannakisSKVD08">
+<author>Antonios Deligiannakis</author>
+<author>Vassilis Stoumpos</author>
+<author>Yannis Kotidis</author>
+<author>Vasilis Vassalos</author>
+<author>Alex Delis</author>
+<title>Outlier-Aware Data Aggregation in Sensor Networks.</title>
+<pages>1448-1450</pages>
+<year>2008</year>
+<booktitle>ICDE</booktitle>
+<ee>http://dx.doi.org/10.1109/ICDE.2008.4497585</ee>
+<crossref>conf/icde/2008</crossref>
+<url>db/conf/icde/icde2008.html#DeligiannakisSKVD08</url>
+</inproceedings>
+    <inproceedings mdate="2008-05-05" key="conf/icde/LevandoskiKM08">
+<author>Justin J. Levandoski</author>
+<author>Mohamed E. Khalefa</author>
+<author>Mohamed F. Mokbel</author>
+<title>PermJoin: An Efficient Algorithm for Producing Early Results in Multi-join Query Plans.</title>
+<pages>1433-1435</pages>
+<year>2008</year>
+<booktitle>ICDE</booktitle>
+<ee>http://dx.doi.org/10.1109/ICDE.2008.4497580</ee>
+<crossref>conf/icde/2008</crossref>
+<url>db/conf/icde/icde2008.html#LevandoskiKM08</url>
+</inproceedings>
+    <inproceedings mdate="2008-05-05" key="conf/icde/ChengYDYW08">
+<author>Jiefeng Cheng</author>
+<author>Jeffrey Xu Yu</author>
+<author>Bolin Ding</author>
+<author>Philip S. Yu</author>
+<author>Haixun Wang</author>
+<title>Fast Graph Pattern Matching.</title>
+<pages>913-922</pages>
+<year>2008</year>
+<booktitle>ICDE</booktitle>
+<ee>http://dx.doi.org/10.1109/ICDE.2008.4497500</ee>
+<crossref>conf/icde/2008</crossref>
+<url>db/conf/icde/icde2008.html#ChengYDYW08</url>
+</inproceedings>
+    <inproceedings mdate="2008-05-05" key="conf/icde/ConsensRV08">
+<author>Mariano P. Consens</author>
+<author>Flavio Rizzolo</author>
+<author>Alejandro A. Vaisman</author>
+<title>AxPRE Summaries: Exploring the (Semi-)Structure of XML Web Collections.</title>
+<pages>1519-1521</pages>
+<year>2008</year>
+<booktitle>ICDE</booktitle>
+<ee>http://dx.doi.org/10.1109/ICDE.2008.4497609</ee>
+<crossref>conf/icde/2008</crossref>
+<url>db/conf/icde/icde2008.html#ConsensRV08</url>
+</inproceedings>
+    <inproceedings mdate="2008-05-05" key="conf/icde/CampenXRGFSPL08">
+<author>Andrew Campen</author>
+<author>Yuni Xia</author>
+<author>Dan Rigsby</author>
+<author>Ying Guo</author>
+<author>Xingdong Feng</author>
+<author>Eric W. Su</author>
+<author>Mathew Palakal</author>
+<author>Shuyu Li</author>
+<title>Mining Gene Expression Database for Primary Human Disease Tissues.</title>
+<pages>1604-1607</pages>
+<year>2008</year>
+<booktitle>ICDE</booktitle>
+<ee>http://dx.doi.org/10.1109/ICDE.2008.4497632</ee>
+<crossref>conf/icde/2008</crossref>
+<url>db/conf/icde/icde2008.html#CampenXRGFSPL08</url>
+</inproceedings>
+    <inproceedings mdate="2008-05-05" key="conf/icde/LimB08">
+<author>Lipyeow Lim</author>
+<author>Bishwaranjan Bhattacharjee</author>
+<title>Optimizing Hierarchical Access in OLAP Environment.</title>
+<pages>1531-1533</pages>
+<year>2008</year>
+<booktitle>ICDE</booktitle>
+<ee>http://dx.doi.org/10.1109/ICDE.2008.4497613</ee>
+<crossref>conf/icde/2008</crossref>
+<url>db/conf/icde/icde2008.html#LimB08</url>
+</inproceedings>
+    <inproceedings mdate="2008-05-05" key="conf/icde/AntonyWAA08">
+<author>Shyam Antony</author>
+<author>Ping Wu</author>
+<author>Divyakant Agrawal</author>
+<author>Amr El Abbadi</author>
+<title>MOOLAP: Towards Multi-Objective OLAP.</title>
+<pages>1394-1396</pages>
+<year>2008</year>
+<booktitle>ICDE</booktitle>
+<ee>http://dx.doi.org/10.1109/ICDE.2008.4497567</ee>
+<crossref>conf/icde/2008</crossref>
+<url>db/conf/icde/icde2008.html#AntonyWAA08</url>
+</inproceedings>
+    <inproceedings mdate="2008-05-05" key="conf/icde/TrombettaJBB08">
+<author>Alberto Trombetta</author>
+<author>Wei Jiang</author>
+<author>Elisa Bertino</author>
+<author>Lorenzo Bossi</author>
+<title>Privately Updating Suppression and Generalization based k-Anonymous Databases.</title>
+<pages>1370-1372</pages>
+<year>2008</year>
+<booktitle>ICDE</booktitle>
+<ee>http://dx.doi.org/10.1109/ICDE.2008.4497559</ee>
+<crossref>conf/icde/2008</crossref>
+<url>db/conf/icde/icde2008.html#TrombettaJBB08</url>
+</inproceedings>
+    <inproceedings mdate="2008-05-05" key="conf/icde/YanOZ08">
+<author>Ying Yan</author>
+<author>Beng Chin Ooi</author>
+<author>Aoying Zhou</author>
+<title>Continuous Content-Based Copy Detection over Streaming Videos.</title>
+<pages>853-862</pages>
+<year>2008</year>
+<booktitle>ICDE</booktitle>
+<ee>http://dx.doi.org/10.1109/ICDE.2008.4497494</ee>
+<crossref>conf/icde/2008</crossref>
+<url>db/conf/icde/icde2008.html#YanOZ08</url>
+</inproceedings>
+    <inproceedings mdate="2008-05-05" key="conf/icde/WangXLW08">
+<author>Dan Wang</author>
+<author>Jianliang Xu</author>
+<author>Jiangchuan Liu</author>
+<author>Feng Wang</author>
+<title>Mobile Filter: Exploring Migration of Filters for Error-Bounded Data Collection in Sensor Networks.</title>
+<pages>1483-1485</pages>
+<year>2008</year>
+<booktitle>ICDE</booktitle>
+<ee>http://dx.doi.org/10.1109/ICDE.2008.4497597</ee>
+<crossref>conf/icde/2008</crossref>
+<url>db/conf/icde/icde2008.html#WangXLW08</url>
+</inproceedings>
+    <inproceedings mdate="2008-05-05" key="conf/icde/AggarwalY08b">
+<author>Charu C. Aggarwal</author>
+<author>Philip S. Yu</author>
+<title>On High Dimensional Indexing of Uncertain Data.</title>
+<pages>1460-1461</pages>
+<year>2008</year>
+<booktitle>ICDE</booktitle>
+<ee>http://dx.doi.org/10.1109/ICDE.2008.4497589</ee>
+<crossref>conf/icde/2008</crossref>
+<url>db/conf/icde/icde2008.html#AggarwalY08b</url>
+</inproceedings>
+    <inproceedings mdate="2008-05-05" key="conf/icde/AnciauxBHPA08">
+<author>Nicolas Anciaux</author>
+<author>Luc Bouganim</author>
+<author>Harold van Heerde</author>
+<author>Philippe Pucheral</author>
+<author>Peter M. G. Apers</author>
+<title>InstantDB: Enforcing Timely Degradation of Sensitive Data.</title>
+<pages>1373-1375</pages>
+<year>2008</year>
+<booktitle>ICDE</booktitle>
+<ee>http://dx.doi.org/10.1109/ICDE.2008.4497560</ee>
+<crossref>conf/icde/2008</crossref>
+<url>db/conf/icde/icde2008.html#AnciauxBHPA08</url>
+</inproceedings>
+    <inproceedings mdate="2008-05-14" key="conf/icde/AbiteboulMZ08">
+<author>Serge Abiteboul</author>
+<author>Ioana Manolescu</author>
+<author>Spyros Zoupanos</author>
+<title>OptimAX: efficient support for data-intensive mash-ups.</title>
+<pages>1564-1567</pages>
+<year>2008</year>
+<booktitle>ICDE</booktitle>
+<ee>http://dx.doi.org/10.1109/ICDE.2008.4497622</ee>
+<crossref>conf/icde/2008</crossref>
+<url>db/conf/icde/icde2008.html#AbiteboulMZ08</url>
+</inproceedings>
+    <inproceedings mdate="2008-05-05" key="conf/icde/ZhaoIG08">
+<author>Kai Zhao</author>
+<author>Robert Ikeda</author>
+<author>Hector Garcia-Molina</author>
+<title>Merging Hierarchies Using Object Placement.</title>
+<pages>1317-1318</pages>
+<year>2008</year>
+<booktitle>ICDE</booktitle>
+<ee>http://dx.doi.org/10.1109/ICDE.2008.4497541</ee>
+<crossref>conf/icde/2008</crossref>
+<url>db/conf/icde/icde2008.html#ZhaoIG08</url>
+</inproceedings>
+    <inproceedings mdate="2008-05-05" key="conf/icde/McCannSD08">
+<author>Robert McCann</author>
+<author>Warren Shen</author>
+<author>AnHai Doan</author>
+<title>Matching Schemas in Online Communities: A Web 2.0 Approach.</title>
+<pages>110-119</pages>
+<year>2008</year>
+<booktitle>ICDE</booktitle>
+<ee>http://dx.doi.org/10.1109/ICDE.2008.4497419</ee>
+<crossref>conf/icde/2008</crossref>
+<url>db/conf/icde/icde2008.html#McCannSD08</url>
+</inproceedings>
+    <inproceedings mdate="2008-05-05" key="conf/icde/LiebermanSS08">
+<author>Michael D. Lieberman</author>
+<author>Jagan Sankaranarayanan</author>
+<author>Hanan Samet</author>
+<title>A Fast Similarity Join Algorithm Using Graphics Processing Units.</title>
+<pages>1111-1120</pages>
+<year>2008</year>
+<booktitle>ICDE</booktitle>
+<ee>http://dx.doi.org/10.1109/ICDE.2008.4497520</ee>
+<crossref>conf/icde/2008</crossref>
+<url>db/conf/icde/icde2008.html#LiebermanSS08</url>
+</inproceedings>
+    <inproceedings mdate="2008-05-06" key="conf/icde/BurnsDILP08">
+<author>Randal C. Burns</author>
+<author>Susan B. Davidson</author>
+<author>Yannis E. Ioannidis</author>
+<author>Miron Livny</author>
+<author>Jignesh M. Patel</author>
+<title>Scientific Data Management: An Orphan in the Database Community?</title>
+<pages>9</pages>
+<year>2008</year>
+<booktitle>ICDE</booktitle>
+<ee>http://dx.doi.org/10.1109/ICDE.2008.4497408</ee>
+<crossref>conf/icde/2008</crossref>
+<url>db/conf/icde/icde2008.html#BurnsDILP08</url>
+</inproceedings>
+    <inproceedings mdate="2008-05-05" key="conf/icde/BlockeelCFGP08">
+<author>Hendrik Blockeel</author>
+<author>Toon Calders</author>
+<author>lisa Fromont</author>
+<author>Bart Goethals</author>
+<author>Adriana Prado</author>
+<title>Mining Views: Database Views for Data Mining.</title>
+<pages>1608-1611</pages>
+<year>2008</year>
+<booktitle>ICDE</booktitle>
+<ee>http://dx.doi.org/10.1109/ICDE.2008.4497633</ee>
+<crossref>conf/icde/2008</crossref>
+<url>db/conf/icde/icde2008.html#BlockeelCFGP08</url>
+</inproceedings>
+    <inproceedings mdate="2008-05-05" key="conf/icde/IwenLP08">
+<author>Mark A. Iwen</author>
+<author>Willis Lang</author>
+<author>Jignesh M. Patel</author>
+<title>Scalable Rule-Based Gene Expression Data Classification.</title>
+<pages>1062-1071</pages>
+<year>2008</year>
+<booktitle>ICDE</booktitle>
+<ee>http://dx.doi.org/10.1109/ICDE.2008.4497515</ee>
+<crossref>conf/icde/2008</crossref>
+<url>db/conf/icde/icde2008.html#IwenLP08</url>
+</inproceedings>
+    <inproceedings mdate="2008-05-05" key="conf/icde/Garcia-Molina08">
+<author>Hector Garcia-Molina</author>
+<title>PhotoSpread: A Spreadsheet for Managing Photos.</title>
+<pages>5-6</pages>
+<year>2008</year>
+<booktitle>ICDE</booktitle>
+<ee>http://dx.doi.org/10.1109/ICDE.2008.4497405</ee>
+<crossref>conf/icde/2008</crossref>
+<url>db/conf/icde/icde2008.html#Garcia-Molina08</url>
+</inproceedings>
+    <inproceedings mdate="2008-05-05" key="conf/icde/FerlezFLMG08">
+<author>Jure Ferlez</author>
+<author>Christos Faloutsos</author>
+<author>Jure Leskovec</author>
+<author>Dunja Mladenic</author>
+<author>Marko Grobelnik</author>
+<title>Monitoring Network Evolution using MDL.</title>
+<pages>1328-1330</pages>
+<year>2008</year>
+<booktitle>ICDE</booktitle>
+<ee>http://dx.doi.org/10.1109/ICDE.2008.4497545</ee>
+<crossref>conf/icde/2008</crossref>
+<url>db/conf/icde/icde2008.html#FerlezFLMG08</url>
+</inproceedings>
+    <inproceedings mdate="2008-05-05" key="conf/icde/Ramakrishnan08">
+<author>Raghu Ramakrishnan</author>
+<title>Cloud Computing - Was Thomas Watson Right After All?</title>
+<pages>8</pages>
+<year>2008</year>
+<booktitle>ICDE</booktitle>
+<ee>http://dx.doi.org/10.1109/ICDE.2008.4497407</ee>
+<crossref>conf/icde/2008</crossref>
+<url>db/conf/icde/icde2008.html#Ramakrishnan08</url>
+</inproceedings>
+    <inproceedings mdate="2008-05-05" key="conf/icde/KohLHA08">
+<author>Judice L. Y. Koh</author>
+<author>Mong-Li Lee</author>
+<author>Wynne Hsu</author>
+<author>Wee Tiong Ang</author>
+<title>Correlation-based Attribute Outlier Detection in XML.</title>
+<pages>1522-1524</pages>
+<year>2008</year>
+<booktitle>ICDE</booktitle>
+<ee>http://dx.doi.org/10.1109/ICDE.2008.4497610</ee>
+<crossref>conf/icde/2008</crossref>
+<url>db/conf/icde/icde2008.html#KohLHA08</url>
+</inproceedings>
+    <inproceedings mdate="2008-05-05" key="conf/icde/AliZTK08">
+<author>Mohammed Eunus Ali</author>
+<author>Rui Zhang</author>
+<author>Egemen Tanin</author>
+<author>Lars Kulik</author>
+<title>A Motion-Aware Approach to Continuous Retrieval of 3D Objects.</title>
+<pages>843-852</pages>
+<year>2008</year>
+<booktitle>ICDE</booktitle>
+<ee>http://dx.doi.org/10.1109/ICDE.2008.4497493</ee>
+<crossref>conf/icde/2008</crossref>
+<url>db/conf/icde/icde2008.html#AliZTK08</url>
+</inproceedings>
+    <inproceedings mdate="2008-05-05" key="conf/icde/WuEDCKAS08">
+<author>Zhe Wu</author>
+<author>George Eadon</author>
+<author>Souripriya Das</author>
+<author>Eugene Inseok Chong</author>
+<author>Vladimir Kolovski</author>
+<author>Melliyal Annamalai</author>
+<author>Jagannathan Srinivasan</author>
+<title>Implementing an Inference Engine for RDFS/OWL Constructs and User-Defined Rules in Oracle.</title>
+<pages>1239-1248</pages>
+<year>2008</year>
+<booktitle>ICDE</booktitle>
+<ee>http://dx.doi.org/10.1109/ICDE.2008.4497533</ee>
+<crossref>conf/icde/2008</crossref>
+<url>db/conf/icde/icde2008.html#WuEDCKAS08</url>
+</inproceedings>
+    <inproceedings mdate="2008-05-05" key="conf/icde/ChenWZY08">
+<author>Shixi Chen</author>
+<author>Haixun Wang</author>
+<author>Shuigeng Zhou</author>
+<author>Philip S. Yu</author>
+<title>Stop Chasing Trends: Discovering High Order Models in Evolving Data.</title>
+<pages>923-932</pages>
+<year>2008</year>
+<booktitle>ICDE</booktitle>
+<ee>http://dx.doi.org/10.1109/ICDE.2008.4497501</ee>
+<crossref>conf/icde/2008</crossref>
+<url>db/conf/icde/icde2008.html#ChenWZY08</url>
+</inproceedings>
+    <inproceedings mdate="2008-05-05" key="conf/icde/CormodeKMW08">
+<author>Graham Cormode</author>
+<author>Flip Korn</author>
+<author>S. Muthukrishnan</author>
+<author>Yihua Wu</author>
+<title>On Signatures for Communication Graphs.</title>
+<pages>189-198</pages>
+<year>2008</year>
+<booktitle>ICDE</booktitle>
+<ee>http://dx.doi.org/10.1109/ICDE.2008.4497427</ee>
+<crossref>conf/icde/2008</crossref>
+<url>db/conf/icde/icde2008.html#CormodeKMW08</url>
+</inproceedings>
+    <inproceedings mdate="2008-05-05" key="conf/icde/DeshpandeH08">
+<author>Amol Deshpande</author>
+<author>Lisa Hellerstein</author>
+<title>Flow Algorithms for Parallel Query Optimization.</title>
+<pages>754-763</pages>
+<year>2008</year>
+<booktitle>ICDE</booktitle>
+<ee>http://dx.doi.org/10.1109/ICDE.2008.4497484</ee>
+<crossref>conf/icde/2008</crossref>
+<url>db/conf/icde/icde2008.html#DeshpandeH08</url>
+</inproceedings>
+    <inproceedings mdate="2008-05-05" key="conf/icde/AlomariCFR08">
+<author>Mohammad Alomari</author>
+<author>Michael Cahill</author>
+<author>Alan Fekete</author>
+<author>Uwe Rhm</author>
+<title>The Cost of Serializability on Platforms That Use Snapshot Isolation.</title>
+<pages>576-585</pages>
+<year>2008</year>
+<booktitle>ICDE</booktitle>
+<ee>http://dx.doi.org/10.1109/ICDE.2008.4497466</ee>
+<crossref>conf/icde/2008</crossref>
+<url>db/conf/icde/icde2008.html#AlomariCFR08</url>
+</inproceedings>
+    <inproceedings mdate="2008-05-05" key="conf/icde/GhinitaTK08">
+<author>Gabriel Ghinita</author>
+<author>Yufei Tao</author>
+<author>Panos Kalnis</author>
+<title>On the Anonymization of Sparse High-Dimensional Data.</title>
+<pages>715-724</pages>
+<year>2008</year>
+<booktitle>ICDE</booktitle>
+<ee>http://dx.doi.org/10.1109/ICDE.2008.4497480</ee>
+<crossref>conf/icde/2008</crossref>
+<url>db/conf/icde/icde2008.html#GhinitaTK08</url>
+</inproceedings>
+    <inproceedings mdate="2008-05-05" key="conf/icde/YiuJHL08">
+<author>Man Lung Yiu</author>
+<author>Christian S. Jensen</author>
+<author>Xuegang Huang</author>
+<author>Hua Lu</author>
+<title>SpaceTwist: Managing the Trade-Offs Among Location Privacy, Query Performance, and Query Accuracy in Mobile Services.</title>
+<pages>366-375</pages>
+<year>2008</year>
+<booktitle>ICDE</booktitle>
+<ee>http://dx.doi.org/10.1109/ICDE.2008.4497445</ee>
+<crossref>conf/icde/2008</crossref>
+<url>db/conf/icde/icde2008.html#YiuJHL08</url>
+</inproceedings>
+    <inproceedings mdate="2008-05-05" key="conf/icde/ChenC08">
+<author>Yangjun Chen</author>
+<author>Yibin Chen</author>
+<title>An Efficient Algorithm for Answering Graph Reachability Queries.</title>
+<pages>893-902</pages>
+<year>2008</year>
+<booktitle>ICDE</booktitle>
+<ee>http://dx.doi.org/10.1109/ICDE.2008.4497498</ee>
+<crossref>conf/icde/2008</crossref>
+<url>db/conf/icde/icde2008.html#ChenC08</url>
+</inproceedings>
+    <inproceedings mdate="2008-05-05" key="conf/icde/LiuLG08">
+<author>Yong Liu</author>
+<author>Jianzhong Li</author>
+<author>Hong Gao</author>
+<title>Summarizing Graph Patterns.</title>
+<pages>903-912</pages>
+<year>2008</year>
+<booktitle>ICDE</booktitle>
+<ee>http://dx.doi.org/10.1109/ICDE.2008.4497499</ee>
+<crossref>conf/icde/2008</crossref>
+<url>db/conf/icde/icde2008.html#LiuLG08</url>
+</inproceedings>
+    <inproceedings mdate="2008-05-05" key="conf/icde/InanKBS08">
+<author>Ali Inan</author>
+<author>Murat Kantarcioglu</author>
+<author>Elisa Bertino</author>
+<author>Monica Scannapieco</author>
+<title>A Hybrid Approach to Private Record Linkage.</title>
+<pages>496-505</pages>
+<year>2008</year>
+<booktitle>ICDE</booktitle>
+<ee>http://dx.doi.org/10.1109/ICDE.2008.4497458</ee>
+<crossref>conf/icde/2008</crossref>
+<url>db/conf/icde/icde2008.html#InanKBS08</url>
+</inproceedings>
+    <inproceedings mdate="2008-05-05" key="conf/icde/AssentWMS08">
+<author>Ira Assent</author>
+<author>Marc Wichterich</author>
+<author>Tobias Meisen</author>
+<author>Thomas Seidl</author>
+<title>Efficient similarity search using the Earth Mover's Distance for large multimedia databases.</title>
+<pages>307-316</pages>
+<year>2008</year>
+<booktitle>ICDE</booktitle>
+<ee>http://dx.doi.org/10.1109/ICDE.2008.4497439</ee>
+<crossref>conf/icde/2008</crossref>
+<url>db/conf/icde/icde2008.html#AssentWMS08</url>
+</inproceedings>
+    <inproceedings mdate="2008-05-05" key="conf/icde/BohmHLW08">
+<author>Matthias Bhm</author>
+<author>Dirk Habich</author>
+<author>Wolfgang Lehner</author>
+<author>Uwe Wloka</author>
+<title>DIPBench Toolsuite: A Framework for Benchmarking Integration Systems.</title>
+<pages>1596-1599</pages>
+<year>2008</year>
+<booktitle>ICDE</booktitle>
+<ee>http://dx.doi.org/10.1109/ICDE.2008.4497630</ee>
+<crossref>conf/icde/2008</crossref>
+<url>db/conf/icde/icde2008.html#BohmHLW08</url>
+</inproceedings>
+    <inproceedings mdate="2008-05-05" key="conf/icde/JainDG08">
+<author>Alpa Jain</author>
+<author>AnHai Doan</author>
+<author>Luis Gravano</author>
+<title>Optimizing SQL Queries over Text Databases.</title>
+<pages>636-645</pages>
+<year>2008</year>
+<booktitle>ICDE</booktitle>
+<ee>http://dx.doi.org/10.1109/ICDE.2008.4497472</ee>
+<crossref>conf/icde/2008</crossref>
+<url>db/conf/icde/icde2008.html#JainDG08</url>
+</inproceedings>
+    <inproceedings mdate="2008-05-05" key="conf/icde/IvanovaKN08">
+<author>Milena Ivanova</author>
+<author>Martin L. Kersten</author>
+<author>Niels Nes</author>
+<title>Adaptive Segmentation for Scientific Databases.</title>
+<pages>1412-1414</pages>
+<year>2008</year>
+<booktitle>ICDE</booktitle>
+<ee>http://dx.doi.org/10.1109/ICDE.2008.4497573</ee>
+<crossref>conf/icde/2008</crossref>
+<url>db/conf/icde/icde2008.html#IvanovaKN08</url>
+</inproceedings>
+    <inproceedings mdate="2008-05-05" key="conf/icde/GedikWYL08">
+<author>Bugra Gedik</author>
+<author>Kun-Lung Wu</author>
+<author>Philip S. Yu</author>
+<author>Ling Liu</author>
+<title>MobiQual: QoS-aware Load Shedding in Mobile CQ Systems.</title>
+<pages>1121-1130</pages>
+<year>2008</year>
+<booktitle>ICDE</booktitle>
+<ee>http://dx.doi.org/10.1109/ICDE.2008.4497521</ee>
+<crossref>conf/icde/2008</crossref>
+<url>db/conf/icde/icde2008.html#GedikWYL08</url>
+</inproceedings>
+    <inproceedings mdate="2008-05-05" key="conf/icde/KarrasM08">
+<author>Panagiotis Karras</author>
+<author>Nikos Mamoulis</author>
+<title>Lattice Histograms: a Resilient Synopsis Structure.</title>
+<pages>247-256</pages>
+<year>2008</year>
+<booktitle>ICDE</booktitle>
+<ee>http://dx.doi.org/10.1109/ICDE.2008.4497433</ee>
+<crossref>conf/icde/2008</crossref>
+<url>db/conf/icde/icde2008.html#KarrasM08</url>
+</inproceedings>
+    <inproceedings mdate="2008-05-05" key="conf/icde/WuCL08">
+<author>Yipu Wu</author>
+<author>Jing Chen</author>
+<author>Qing Li</author>
+<title>Extracting Loosely Structured Data Records Through Mining Strict Patterns.</title>
+<pages>1322-1324</pages>
+<year>2008</year>
+<booktitle>ICDE</booktitle>
+<ee>http://dx.doi.org/10.1109/ICDE.2008.4497543</ee>
+<crossref>conf/icde/2008</crossref>
+<url>db/conf/icde/icde2008.html#WuCL08</url>
+</inproceedings>
+    <inproceedings mdate="2008-05-05" key="conf/icde/DakkaI08">
+<author>Wisam Dakka</author>
+<author>Panagiotis G. Ipeirotis</author>
+<title>Automatic Extraction of Useful Facet Hierarchies from Text Databases.</title>
+<pages>466-475</pages>
+<year>2008</year>
+<booktitle>ICDE</booktitle>
+<ee>http://dx.doi.org/10.1109/ICDE.2008.4497455</ee>
+<crossref>conf/icde/2008</crossref>
+<url>db/conf/icde/icde2008.html#DakkaI08</url>
+</inproceedings>
+    <inproceedings mdate="2008-05-05" key="conf/icde/MorishimaNISK08">
+<author>Atsuyuki Morishima</author>
+<author>Akiyoshi Nakamizo</author>
+<author>Toshinari Iida</author>
+<author>Shigeo Sugimoto</author>
+<author>Hiroyuki Kitagawa</author>
+<title>PageChaser: A Tool for the Automatic Correction of Broken Web Links.</title>
+<pages>1486-1488</pages>
+<year>2008</year>
+<booktitle>ICDE</booktitle>
+<ee>http://dx.doi.org/10.1109/ICDE.2008.4497598</ee>
+<crossref>conf/icde/2008</crossref>
+<url>db/conf/icde/icde2008.html#MorishimaNISK08</url>
+</inproceedings>
+    <inproceedings mdate="2008-05-05" key="conf/icde/AggarwalY08a">
+<author>Charu C. Aggarwal</author>
+<author>Philip S. Yu</author>
+<title>LOCUST: An Online Analytical Processing Framework for High Dimensional Classification of Data Streams.</title>
+<pages>426-435</pages>
+<year>2008</year>
+<booktitle>ICDE</booktitle>
+<ee>http://dx.doi.org/10.1109/ICDE.2008.4497451</ee>
+<crossref>conf/icde/2008</crossref>
+<url>db/conf/icde/icde2008.html#AggarwalY08a</url>
+</inproceedings>
+    <inproceedings mdate="2008-05-05" key="conf/icde/JeungSZ08">
+<author>Hoyoung Jeung</author>
+<author>Heng Tao Shen</author>
+<author>Xiaofang Zhou</author>
+<title>Convoy Queries in Spatio-Temporal Databases.</title>
+<pages>1457-1459</pages>
+<year>2008</year>
+<booktitle>ICDE</booktitle>
+<ee>http://dx.doi.org/10.1109/ICDE.2008.4497588</ee>
+<crossref>conf/icde/2008</crossref>
+<url>db/conf/icde/icde2008.html#JeungSZ08</url>
+</inproceedings>
+    <inproceedings mdate="2008-05-05" key="conf/icde/ZhouZVQ08">
+<author>Aoying Zhou</author>
+<author>Rong Zhang</author>
+<author>Quang Hieu Vu</author>
+<author>Weining Qian</author>
+<title>COSTA: Adaptive Indexing for Terms in a Large-scale Distributed System.</title>
+<pages>1544-1547</pages>
+<year>2008</year>
+<booktitle>ICDE</booktitle>
+<ee>http://dx.doi.org/10.1109/ICDE.2008.4497617</ee>
+<crossref>conf/icde/2008</crossref>
+<url>db/conf/icde/icde2008.html#ZhouZVQ08</url>
+</inproceedings>
+    <inproceedings mdate="2008-05-05" key="conf/icde/VrhovnikSES08">
+<author>Marko Vrhovnik</author>
+<author>Oliver Suhre</author>
+<author>Stephan Ewen</author>
+<author>Holger Schwarz</author>
+<title>PGM/F: A Framework for the Optimization of Data Processing in Business Processes.</title>
+<pages>1584-1587</pages>
+<year>2008</year>
+<booktitle>ICDE</booktitle>
+<ee>http://dx.doi.org/10.1109/ICDE.2008.4497627</ee>
+<crossref>conf/icde/2008</crossref>
+<url>db/conf/icde/icde2008.html#VrhovnikSES08</url>
+</inproceedings>
+    <inproceedings mdate="2008-05-05" key="conf/icde/Fegaras08">
+<author>Leonidas Fegaras</author>
+<title>Efficient Processing of XML Update Streams.</title>
+<pages>616-625</pages>
+<year>2008</year>
+<booktitle>ICDE</booktitle>
+<ee>http://dx.doi.org/10.1109/ICDE.2008.4497470</ee>
+<crossref>conf/icde/2008</crossref>
+<url>db/conf/icde/icde2008.html#Fegaras08</url>
+</inproceedings>
+    <inproceedings mdate="2008-05-05" key="conf/icde/JeungLSZ08">
+<author>Hoyoung Jeung</author>
+<author>Qing Liu</author>
+<author>Heng Tao Shen</author>
+<author>Xiaofang Zhou</author>
+<title>A Hybrid Prediction Model for Moving Objects.</title>
+<pages>70-79</pages>
+<year>2008</year>
+<booktitle>ICDE</booktitle>
+<ee>http://dx.doi.org/10.1109/ICDE.2008.4497415</ee>
+<crossref>conf/icde/2008</crossref>
+<url>db/conf/icde/icde2008.html#JeungLSZ08</url>
+</inproceedings>
+    <inproceedings mdate="2008-05-05" key="conf/icde/AliCKR08">
+<author>M. S. Ali</author>
+<author>Mariano P. Consens</author>
+<author>Shahan Khatchadourian</author>
+<author>Flavio Rizzolo</author>
+<title>DescribeX: Interacting with AxPRE Summaries.</title>
+<pages>1540-1543</pages>
+<year>2008</year>
+<booktitle>ICDE</booktitle>
+<ee>http://dx.doi.org/10.1109/ICDE.2008.4497616</ee>
+<crossref>conf/icde/2008</crossref>
+<url>db/conf/icde/icde2008.html#AliCKR08</url>
+</inproceedings>
+    <inproceedings mdate="2008-05-05" key="conf/icde/JohnsonMSS08">
+<author>Theodore Johnson</author>
+<author>S. Muthukrishnan</author>
+<author>Vladislav Shkapenyuk</author>
+<author>Oliver Spatscheck</author>
+<title>Query-Aware Partitioning for Monitoring Massive Network Data Streams.</title>
+<pages>1528-1530</pages>
+<year>2008</year>
+<booktitle>ICDE</booktitle>
+<ee>http://dx.doi.org/10.1109/ICDE.2008.4497612</ee>
+<crossref>conf/icde/2008</crossref>
+<url>db/conf/icde/icde2008.html#JohnsonMSS08</url>
+</inproceedings>
+    <inproceedings mdate="2008-05-05" key="conf/icde/HwangCZ08">
+<author>Jeong-Hyon Hwang</author>
+<author>Ugur etintemel</author>
+<author>Stanley B. Zdonik</author>
+<title>Fast and Highly-Available Stream Processing over Wide Area Networks.</title>
+<pages>804-813</pages>
+<year>2008</year>
+<booktitle>ICDE</booktitle>
+<ee>http://dx.doi.org/10.1109/ICDE.2008.4497489</ee>
+<crossref>conf/icde/2008</crossref>
+<url>db/conf/icde/icde2008.html#HwangCZ08</url>
+</inproceedings>
+    <inproceedings mdate="2008-05-05" key="conf/icde/Ahn08">
+<author>Luis von Ahn</author>
+<title>Human Computation.</title>
+<pages>1-2</pages>
+<year>2008</year>
+<booktitle>ICDE</booktitle>
+<ee>http://dx.doi.org/10.1109/ICDE.2008.4497403</ee>
+<crossref>conf/icde/2008</crossref>
+<url>db/conf/icde/icde2008.html#Ahn08</url>
+</inproceedings>
+    <inproceedings mdate="2008-05-05" key="conf/icde/KriegelKPS08">
+<author>Hans-Peter Kriegel</author>
+<author>Peter Kunath</author>
+<author>Alexey Pryakhin</author>
+<author>Matthias Schubert</author>
+<title>MUSE: Multi-Represented Similarity Estimation.</title>
+<pages>1340-1342</pages>
+<year>2008</year>
+<booktitle>ICDE</booktitle>
+<ee>http://dx.doi.org/10.1109/ICDE.2008.4497549</ee>
+<crossref>conf/icde/2008</crossref>
+<url>db/conf/icde/icde2008.html#KriegelKPS08</url>
+</inproceedings>
+    <inproceedings mdate="2008-05-05" key="conf/icde/WangBTD08">
+<author>Xiaodan Wang</author>
+<author>Randal C. Burns</author>
+<author>Andreas Terzis</author>
+<author>Amol Deshpande</author>
+<title>Network-Aware Join Processing in Global-Scale Database Federations.</title>
+<pages>586-595</pages>
+<year>2008</year>
+<booktitle>ICDE</booktitle>
+<ee>http://dx.doi.org/10.1109/ICDE.2008.4497467</ee>
+<crossref>conf/icde/2008</crossref>
+<url>db/conf/icde/icde2008.html#WangBTD08</url>
+</inproceedings>
+    <inproceedings mdate="2008-05-05" key="conf/icde/CaliM08">
+<author>Andrea Cal</author>
+<author>Davide Martinenghi</author>
+<title>Querying Data under Access Limitations.</title>
+<pages>50-59</pages>
+<year>2008</year>
+<booktitle>ICDE</booktitle>
+<ee>http://dx.doi.org/10.1109/ICDE.2008.4497413</ee>
+<crossref>conf/icde/2008</crossref>
+<url>db/conf/icde/icde2008.html#CaliM08</url>
+</inproceedings>
+    <inproceedings mdate="2008-05-05" key="conf/icde/YangP08">
+<author>Yin Yang</author>
+<author>Dimitris Papadias</author>
+<title>Just-In-Time Processing of Continuous Queries.</title>
+<pages>1150-1159</pages>
+<year>2008</year>
+<booktitle>ICDE</booktitle>
+<ee>http://dx.doi.org/10.1109/ICDE.2008.4497524</ee>
+<crossref>conf/icde/2008</crossref>
+<url>db/conf/icde/icde2008.html#YangP08</url>
+</inproceedings>
+    <inproceedings mdate="2008-05-05" key="conf/icde/LiL08">
+<author>Tiancheng Li</author>
+<author>Ninghui Li</author>
+<title>Injector: Mining Background Knowledge for Data Anonymization.</title>
+<pages>446-455</pages>
+<year>2008</year>
+<booktitle>ICDE</booktitle>
+<ee>http://dx.doi.org/10.1109/ICDE.2008.4497453</ee>
+<crossref>conf/icde/2008</crossref>
+<url>db/conf/icde/icde2008.html#LiL08</url>
+</inproceedings>
+    <inproceedings mdate="2008-05-15" key="conf/icde/ZouC08">
+<author>Lei Zou</author>
+<author>Lei Chen 0002</author>
+<title>Dominant Graph: An Efficient Indexing Structure to Answer Top-K Queries.</title>
+<pages>536-545</pages>
+<year>2008</year>
+<booktitle>ICDE</booktitle>
+<ee>http://dx.doi.org/10.1109/ICDE.2008.4497462</ee>
+<crossref>conf/icde/2008</crossref>
+<url>db/conf/icde/icde2008.html#ZouC08</url>
+</inproceedings>
+    <inproceedings mdate="2008-05-05" key="conf/icde/PeeryWMN08">
+<author>Christopher Peery</author>
+<author>Wei Wang</author>
+<author>Amlie Marian</author>
+<author>Thu D. Nguyen</author>
+<title>Fuzzy Multi-Dimensional Search in the Wayfinder File System.</title>
+<pages>1588-1591</pages>
+<year>2008</year>
+<booktitle>ICDE</booktitle>
+<ee>http://dx.doi.org/10.1109/ICDE.2008.4497628</ee>
+<crossref>conf/icde/2008</crossref>
+<url>db/conf/icde/icde2008.html#PeeryWMN08</url>
+</inproceedings>
+    <inproceedings mdate="2008-05-05" key="conf/icde/GuptaCG08">
+<author>Sandeep Gupta</author>
+<author>Christopher Condit</author>
+<author>Amarnath Gupta</author>
+<title>Graphitti: An Annotation Management System for Heterogeneous Objects.</title>
+<pages>1568-1571</pages>
+<year>2008</year>
+<booktitle>ICDE</booktitle>
+<ee>http://dx.doi.org/10.1109/ICDE.2008.4497623</ee>
+<crossref>conf/icde/2008</crossref>
+<url>db/conf/icde/icde2008.html#GuptaCG08</url>
+</inproceedings>
+    <inproceedings mdate="2008-05-05" key="conf/icde/AgrawalCGMM08">
+<author>Himanshu Agrawal</author>
+<author>Girish Chafle</author>
+<author>Sunil Goyal</author>
+<author>Sumit Mittal</author>
+<author>Sougata Mukherjea</author>
+<title>An Enhanced Extract-Transform-Load System for Migrating Data in Telecom Billing.</title>
+<pages>1277-1286</pages>
+<year>2008</year>
+<booktitle>ICDE</booktitle>
+<ee>http://dx.doi.org/10.1109/ICDE.2008.4497537</ee>
+<crossref>conf/icde/2008</crossref>
+<url>db/conf/icde/icde2008.html#AgrawalCGMM08</url>
+</inproceedings>
+    <inproceedings mdate="2008-05-05" key="conf/icde/GedikWY08">
+<author>Bugra Gedik</author>
+<author>Kun-Lung Wu</author>
+<author>Philip S. Yu</author>
+<title>Efficient Construction of Compact Shedding Filters for Data Stream Processing.</title>
+<pages>396-405</pages>
+<year>2008</year>
+<booktitle>ICDE</booktitle>
+<ee>http://dx.doi.org/10.1109/ICDE.2008.4497448</ee>
+<crossref>conf/icde/2008</crossref>
+<url>db/conf/icde/icde2008.html#GedikWY08</url>
+</inproceedings>
+    <inproceedings mdate="2008-05-05" key="conf/icde/PattersonBA08">
+<author>Stacy Patterson</author>
+<author>Bassam Bamieh</author>
+<author>Amr El Abbadi</author>
+<title>Environmental Tomography: Ubiquitous Sensing with Mobile Devices.</title>
+<pages>1560-1563</pages>
+<year>2008</year>
+<booktitle>ICDE</booktitle>
+<ee>http://dx.doi.org/10.1109/ICDE.2008.4497621</ee>
+<crossref>conf/icde/2008</crossref>
+<url>db/conf/icde/icde2008.html#PattersonBA08</url>
+</inproceedings>
+    <inproceedings mdate="2008-05-05" key="conf/icde/IvesT08">
+<author>Zachary G. Ives</author>
+<author>Nicholas E. Taylor</author>
+<title>Sideways Information Passing for Push-Style Query Processing.</title>
+<pages>774-783</pages>
+<year>2008</year>
+<booktitle>ICDE</booktitle>
+<ee>http://dx.doi.org/10.1109/ICDE.2008.4497486</ee>
+<crossref>conf/icde/2008</crossref>
+<url>db/conf/icde/icde2008.html#IvesT08</url>
+</inproceedings>
+    <inproceedings mdate="2008-05-05" key="conf/icde/CastellanosBR08">
+<author>Mal Castellanos</author>
+<author>Alejandro P. Buchmann</author>
+<author>Krithi Ramamritham</author>
+<title>ICDE 2008 General Chairs Message.</title>
+<year>2008</year>
+<booktitle>ICDE</booktitle>
+<ee>http://dx.doi.org/10.1109/ICDE.2008.4497398</ee>
+<crossref>conf/icde/2008</crossref>
+<url>db/conf/icde/icde2008.html#CastellanosBR08</url>
+</inproceedings>
+    <inproceedings mdate="2008-05-05" key="conf/icde/MaddenG08">
+<author>Samuel Madden</author>
+<author>Johannes Gehrke</author>
+<title>Declarative, Domain-Specific Languages - Elegant Simplicity or a Hammer in Search of a Nail?</title>
+<pages>7</pages>
+<year>2008</year>
+<booktitle>ICDE</booktitle>
+<ee>http://dx.doi.org/10.1109/ICDE.2008.4497406</ee>
+<crossref>conf/icde/2008</crossref>
+<url>db/conf/icde/icde2008.html#MaddenG08</url>
+</inproceedings>
+    <inproceedings mdate="2008-05-05" key="conf/icde/MoerkotteN08">
+<author>Guido Moerkotte</author>
+<author>Thomas Neumann</author>
+<title>Faster Join Enumeration for Complex Queries.</title>
+<pages>1430-1432</pages>
+<year>2008</year>
+<booktitle>ICDE</booktitle>
+<ee>http://dx.doi.org/10.1109/ICDE.2008.4497579</ee>
+<crossref>conf/icde/2008</crossref>
+<url>db/conf/icde/icde2008.html#MoerkotteN08</url>
+</inproceedings>
+    <inproceedings mdate="2008-05-05" key="conf/icde/ZhangDH08">
+<author>Donghui Zhang</author>
+<author>Yang Du</author>
+<author>Ling Hu</author>
+<title>On Monitoring the top-k Unsafe Places.</title>
+<pages>337-345</pages>
+<year>2008</year>
+<booktitle>ICDE</booktitle>
+<ee>http://dx.doi.org/10.1109/ICDE.2008.4497442</ee>
+<crossref>conf/icde/2008</crossref>
+<url>db/conf/icde/icde2008.html#ZhangDH08</url>
+</inproceedings>
+    <inproceedings mdate="2008-05-05" key="conf/icde/RoitmanGR08a">
+<author>Haggai Roitman</author>
+<author>Avigdor Gal</author>
+<author>Louiqa Raschid</author>
+<title>Capturing Approximated Data Delivery Tradeoffs.</title>
+<pages>1471-1473</pages>
+<year>2008</year>
+<booktitle>ICDE</booktitle>
+<ee>http://dx.doi.org/10.1109/ICDE.2008.4497593</ee>
+<crossref>conf/icde/2008</crossref>
+<url>db/conf/icde/icde2008.html#RoitmanGR08a</url>
+</inproceedings>
+    <inproceedings mdate="2008-05-05" key="conf/icde/AhmadN08">
+<author>Yanif Ahmad</author>
+<author>Suman Nath</author>
+<title>COLR-Tree: Communication-Efficient Spatio-Temporal Indexing for a Sensor Data Web Portal.</title>
+<pages>784-793</pages>
+<year>2008</year>
+<booktitle>ICDE</booktitle>
+<ee>http://dx.doi.org/10.1109/ICDE.2008.4497487</ee>
+<crossref>conf/icde/2008</crossref>
+<url>db/conf/icde/icde2008.html#AhmadN08</url>
+</inproceedings>
+    <inproceedings mdate="2008-05-05" key="conf/icde/ZhangG08">
+<author>Linfeng Zhang</author>
+<author>Yong Guan</author>
+<title>Frequency Estimation over Sliding Windows.</title>
+<pages>1385-1387</pages>
+<year>2008</year>
+<booktitle>ICDE</booktitle>
+<ee>http://dx.doi.org/10.1109/ICDE.2008.4497564</ee>
+<crossref>conf/icde/2008</crossref>
+<url>db/conf/icde/icde2008.html#ZhangG08</url>
+</inproceedings>
+    <inproceedings mdate="2008-05-05" key="conf/icde/GeorgiadisKCNS08">
+<author>Periklis Georgiadis</author>
+<author>Ioannis Kapantaidakis</author>
+<author>Vassilis Christophides</author>
+<author>Elhadji Mamadou Nguer</author>
+<author>Nicolas Spyratos</author>
+<title>Efficient Rewriting Algorithms for Preference Queries.</title>
+<pages>1101-1110</pages>
+<year>2008</year>
+<booktitle>ICDE</booktitle>
+<ee>http://dx.doi.org/10.1109/ICDE.2008.4497519</ee>
+<crossref>conf/icde/2008</crossref>
+<url>db/conf/icde/icde2008.html#GeorgiadisKCNS08</url>
+</inproceedings>
+    <inproceedings mdate="2008-05-06" key="conf/icde/BorkarCELWW08">
+<author>Vinayak R. Borkar</author>
+<author>Michael J. Carey</author>
+<author>Daniel Engovatov</author>
+<author>Dmitry Lychagin</author>
+<author>Till Westmann</author>
+<author>Warren Wong</author>
+<title>XQSE: An XQuery Scripting Extension for the AquaLogic Data Services Platform.</title>
+<pages>1229-1238</pages>
+<year>2008</year>
+<booktitle>ICDE</booktitle>
+<ee>http://dx.doi.org/10.1109/ICDE.2008.4497532</ee>
+<crossref>conf/icde/2008</crossref>
+<url>db/conf/icde/icde2008.html#BorkarCELWW08</url>
+</inproceedings>
+    <inproceedings mdate="2008-05-05" key="conf/icde/XiaZT08">
+<author>Tian Xia</author>
+<author>Donghui Zhang</author>
+<author>Yufei Tao</author>
+<title>On Skylining with Flexible Dominance Relation.</title>
+<pages>1397-1399</pages>
+<year>2008</year>
+<booktitle>ICDE</booktitle>
+<ee>http://dx.doi.org/10.1109/ICDE.2008.4497568</ee>
+<crossref>conf/icde/2008</crossref>
+<url>db/conf/icde/icde2008.html#XiaZT08</url>
+</inproceedings>
+    <inproceedings mdate="2008-05-05" key="conf/icde/VeeSSBA08">
+<author>Erik Vee</author>
+<author>Utkarsh Srivastava</author>
+<author>Jayavel Shanmugasundaram</author>
+<author>Prashant Bhat</author>
+<author>Sihem Amer-Yahia</author>
+<title>Efficient Computation of Diverse Query Results.</title>
+<pages>228-236</pages>
+<year>2008</year>
+<booktitle>ICDE</booktitle>
+<ee>http://dx.doi.org/10.1109/ICDE.2008.4497431</ee>
+<crossref>conf/icde/2008</crossref>
+<url>db/conf/icde/icde2008.html#VeeSSBA08</url>
+</inproceedings>
+    <inproceedings mdate="2008-05-05" key="conf/icde/LuVA08">
+<author>Haibing Lu</author>
+<author>Jaideep Vaidya</author>
+<author>Vijayalakshmi Atluri</author>
+<title>Optimal Boolean Matrix Decomposition: Application to Role Engineering.</title>
+<pages>297-306</pages>
+<year>2008</year>
+<booktitle>ICDE</booktitle>
+<ee>http://dx.doi.org/10.1109/ICDE.2008.4497438</ee>
+<crossref>conf/icde/2008</crossref>
+<url>db/conf/icde/icde2008.html#LuVA08</url>
+</inproceedings>
+    <inproceedings mdate="2008-05-05" key="conf/icde/LuoWL08">
+<author>Yi Luo</author>
+<author>Wei Wang</author>
+<author>Xuemin Lin</author>
+<title>SPARK: A Keyword Search Engine on Relational Databases.</title>
+<pages>1552-1555</pages>
+<year>2008</year>
+<booktitle>ICDE</booktitle>
+<ee>http://dx.doi.org/10.1109/ICDE.2008.4497619</ee>
+<crossref>conf/icde/2008</crossref>
+<url>db/conf/icde/icde2008.html#LuoWL08</url>
+</inproceedings>
+    <inproceedings mdate="2008-05-05" key="conf/icde/WangRL08">
+<author>Fusheng Wang</author>
+<author>Cornelius Rabsch</author>
+<author>Peiya Liu</author>
+<title>Native Web Browser Enabled SVG-based Collaborative Multimedia Annotation for Medical Images.</title>
+<pages>1219-1228</pages>
+<year>2008</year>
+<booktitle>ICDE</booktitle>
+<ee>http://dx.doi.org/10.1109/ICDE.2008.4497531</ee>
+<crossref>conf/icde/2008</crossref>
+<url>db/conf/icde/icde2008.html#WangRL08</url>
+</inproceedings>
+    <inproceedings mdate="2008-05-05" key="conf/icde/MotwaniNT08">
+<author>Rajeev Motwani</author>
+<author>Shubha U. Nabar</author>
+<author>Dilys Thomas</author>
+<title>Auditing SQL Queries.</title>
+<pages>287-296</pages>
+<year>2008</year>
+<booktitle>ICDE</booktitle>
+<ee>http://dx.doi.org/10.1109/ICDE.2008.4497437</ee>
+<crossref>conf/icde/2008</crossref>
+<url>db/conf/icde/icde2008.html#MotwaniNT08</url>
+</inproceedings>
+    <inproceedings mdate="2008-05-05" key="conf/icde/ThomsenPL08">
+<author>Christian Thomsen</author>
+<author>Torben Bach Pedersen</author>
+<author>Wolfgang Lehner</author>
+<title>RiTE: Providing On-Demand Data for Right-Time Data Warehousing.</title>
+<pages>456-465</pages>
+<year>2008</year>
+<booktitle>ICDE</booktitle>
+<ee>http://dx.doi.org/10.1109/ICDE.2008.4497454</ee>
+<crossref>conf/icde/2008</crossref>
+<url>db/conf/icde/icde2008.html#ThomsenPL08</url>
+</inproceedings>
+    <inproceedings mdate="2008-05-05" key="conf/icde/ChenOO08">
+<author>Xuedong Chen</author>
+<author>Patrick E. O'Neil</author>
+<author>Elizabeth J. O'Neil</author>
+<title>Adjoined Dimension Column Clustering to Improve Data Warehouse Query Performance.</title>
+<pages>1409-1411</pages>
+<year>2008</year>
+<booktitle>ICDE</booktitle>
+<ee>http://dx.doi.org/10.1109/ICDE.2008.4497572</ee>
+<crossref>conf/icde/2008</crossref>
+<url>db/conf/icde/icde2008.html#ChenOO08</url>
+</inproceedings>
+    <inproceedings mdate="2008-05-05" key="conf/icde/LjosaS08">
+<author>Vebjorn Ljosa</author>
+<author>Ambuj K. Singh</author>
+<title>Top-k Spatial Joins of Probabilistic Objects.</title>
+<pages>566-575</pages>
+<year>2008</year>
+<booktitle>ICDE</booktitle>
+<ee>http://dx.doi.org/10.1109/ICDE.2008.4497465</ee>
+<crossref>conf/icde/2008</crossref>
+<url>db/conf/icde/icde2008.html#LjosaS08</url>
+</inproceedings>
+    <inproceedings mdate="2008-05-05" key="conf/icde/KorolovaMNX08">
+<author>Aleksandra Korolova</author>
+<author>Rajeev Motwani</author>
+<author>Shubha U. Nabar</author>
+<author>Ying Xu 0002</author>
+<title>Link Privacy in Social Networks.</title>
+<pages>1355-1357</pages>
+<year>2008</year>
+<booktitle>ICDE</booktitle>
+<ee>http://dx.doi.org/10.1109/ICDE.2008.4497554</ee>
+<crossref>conf/icde/2008</crossref>
+<url>db/conf/icde/icde2008.html#KorolovaMNX08</url>
+</inproceedings>
+    <inproceedings mdate="2008-05-05" key="conf/icde/ZhouW08">
+<author>Mi Zhou</author>
+<author>Man Hon Wong</author>
+<title>Efficient Online Subsequence Searching in Data Streams under Dynamic Time Warping Distance.</title>
+<pages>686-695</pages>
+<year>2008</year>
+<booktitle>ICDE</booktitle>
+<ee>http://dx.doi.org/10.1109/ICDE.2008.4497477</ee>
+<crossref>conf/icde/2008</crossref>
+<url>db/conf/icde/icde2008.html#ZhouW08</url>
+</inproceedings>
+    <inproceedings mdate="2008-05-05" key="conf/icde/YangPPK08">
+<author>Yin Yang</author>
+<author>Stavros Papadopoulos</author>
+<author>Dimitris Papadias</author>
+<author>George Kollios</author>
+<title>Spatial Outsourcing for Location-based Services.</title>
+<pages>1082-1091</pages>
+<year>2008</year>
+<booktitle>ICDE</booktitle>
+<ee>http://dx.doi.org/10.1109/ICDE.2008.4497517</ee>
+<crossref>conf/icde/2008</crossref>
+<url>db/conf/icde/icde2008.html#YangPPK08</url>
+</inproceedings>
+    <inproceedings mdate="2008-05-05" key="conf/icde/CastroN08">
+<author>Pablo Castro</author>
+<author>Anil Nori</author>
+<title>Astoria: A Programming Model for Data on the Web.</title>
+<pages>1556-1559</pages>
+<year>2008</year>
+<booktitle>ICDE</booktitle>
+<ee>http://dx.doi.org/10.1109/ICDE.2008.4497620</ee>
+<crossref>conf/icde/2008</crossref>
+<url>db/conf/icde/icde2008.html#CastroN08</url>
+</inproceedings>
+    <inproceedings mdate="2008-05-05" key="conf/icde/Kersten08">
+<author>Martin L. Kersten</author>
+<title>The Database Architecture Jigsaw Puzzle.</title>
+<pages>3-4</pages>
+<year>2008</year>
+<booktitle>ICDE</booktitle>
+<ee>http://dx.doi.org/10.1109/ICDE.2008.4497404</ee>
+<crossref>conf/icde/2008</crossref>
+<url>db/conf/icde/icde2008.html#Kersten08</url>
+</inproceedings>
+    <inproceedings mdate="2008-05-05" key="conf/icde/AthitsosPPK08">
+<author>Vassilis Athitsos</author>
+<author>Michalis Potamias</author>
+<author>Panagiotis Papapetrou</author>
+<author>George Kollios</author>
+<title>Nearest Neighbor Retrieval Using Distance-Based Hashing.</title>
+<pages>327-336</pages>
+<year>2008</year>
+<booktitle>ICDE</booktitle>
+<ee>http://dx.doi.org/10.1109/ICDE.2008.4497441</ee>
+<crossref>conf/icde/2008</crossref>
+<url>db/conf/icde/icde2008.html#AthitsosPPK08</url>
+</inproceedings>
+    <inproceedings mdate="2008-05-05" key="conf/icde/GionisMT08">
+<author>Aristides Gionis</author>
+<author>Arnon Mazza</author>
+<author>Tamir Tassa</author>
+<title>k-Anonymization Revisited.</title>
+<pages>744-753</pages>
+<year>2008</year>
+<booktitle>ICDE</booktitle>
+<ee>http://dx.doi.org/10.1109/ICDE.2008.4497483</ee>
+<crossref>conf/icde/2008</crossref>
+<url>db/conf/icde/icde2008.html#GionisMT08</url>
+</inproceedings>
+    <inproceedings mdate="2008-05-05" key="conf/icde/GalpinBJFP08">
+<author>Ixent Galpin</author>
+<author>Christian Y. A. Brenninkmeijer</author>
+<author>Farhana Jabeen</author>
+<author>Alvaro A. A. Fernandes</author>
+<author>Norman W. Paton</author>
+<title>An Architecture for Query Optimization in Sensor Networks.</title>
+<pages>1439-1441</pages>
+<year>2008</year>
+<booktitle>ICDE</booktitle>
+<ee>http://dx.doi.org/10.1109/ICDE.2008.4497582</ee>
+<crossref>conf/icde/2008</crossref>
+<url>db/conf/icde/icde2008.html#GalpinBJFP08</url>
+</inproceedings>
+    <inproceedings mdate="2008-05-05" key="conf/icde/KeijzerK08">
+<author>Ander de Keijzer</author>
+<author>Maurice van Keulen</author>
+<title>IMPrECISE: Good-is-good-enough data integration.</title>
+<pages>1548-1551</pages>
+<year>2008</year>
+<booktitle>ICDE</booktitle>
+<ee>http://dx.doi.org/10.1109/ICDE.2008.4497618</ee>
+<crossref>conf/icde/2008</crossref>
+<url>db/conf/icde/icde2008.html#KeijzerK08</url>
+</inproceedings>
+    <inproceedings mdate="2008-05-05" key="conf/icde/NguyenD08">
+<author>Hung V. Nguyen</author>
+<author>Hasan Davulcu</author>
+<title>Mining Search-Phrase Definitions from Item Descriptions.</title>
+<pages>1346-1348</pages>
+<year>2008</year>
+<booktitle>ICDE</booktitle>
+<ee>http://dx.doi.org/10.1109/ICDE.2008.4497551</ee>
+<crossref>conf/icde/2008</crossref>
+<url>db/conf/icde/icde2008.html#NguyenD08</url>
+</inproceedings>
+    <inproceedings mdate="2008-05-05" key="conf/icde/ZhouYGCD08">
+<author>Aoying Zhou</author>
+<author>Ying Yan</author>
+<author>Xueqing Gong</author>
+<author>Jianlong Chang</author>
+<author>Dai Dai</author>
+<title>SMART: A System for Online Monitoring Large Volumes of Network Traffic.</title>
+<pages>1576-1579</pages>
+<year>2008</year>
+<booktitle>ICDE</booktitle>
+<ee>http://dx.doi.org/10.1109/ICDE.2008.4497625</ee>
+<crossref>conf/icde/2008</crossref>
+<url>db/conf/icde/icde2008.html#ZhouYGCD08</url>
+</inproceedings>
+    <inproceedings mdate="2008-05-05" key="conf/icde/ObermeierBHCS08">
+<author>Sebastian Obermeier</author>
+<author>Stefan Bttcher</author>
+<author>Martin Hett</author>
+<author>Panos K. Chrysanthis</author>
+<author>George Samaras</author>
+<title>Adjourn State Concurrency Control Avoiding Time-Out Problems in Atomic Commit Protocols.</title>
+<pages>1477-1479</pages>
+<year>2008</year>
+<booktitle>ICDE</booktitle>
+<ee>http://dx.doi.org/10.1109/ICDE.2008.4497595</ee>
+<crossref>conf/icde/2008</crossref>
+<url>db/conf/icde/icde2008.html#ObermeierBHCS08</url>
+</inproceedings>
+    <inproceedings mdate="2008-05-05" key="conf/icde/ChenJOT08">
+<author>Yueguo Chen</author>
+<author>Shouxu Jiang</author>
+<author>Beng Chin Ooi</author>
+<author>Anthony K. H. Tung</author>
+<title>Querying Complex Spatio-Temporal Sequences in Human Motion Databases.</title>
+<pages>90-99</pages>
+<year>2008</year>
+<booktitle>ICDE</booktitle>
+<ee>http://dx.doi.org/10.1109/ICDE.2008.4497417</ee>
+<crossref>conf/icde/2008</crossref>
+<url>db/conf/icde/icde2008.html#ChenJOT08</url>
+</inproceedings>
+    <inproceedings mdate="2008-05-05" key="conf/icde/FarfanHRB08">
+<author>Fernando Farfn</author>
+<author>Vagelis Hristidis</author>
+<author>Anand Ranganathan</author>
+<author>Redmond P. Burke</author>
+<title>Ontology-Aware Search on XML-based Electronic Medical Records.</title>
+<pages>1525-1527</pages>
+<year>2008</year>
+<booktitle>ICDE</booktitle>
+<ee>http://dx.doi.org/10.1109/ICDE.2008.4497611</ee>
+<crossref>conf/icde/2008</crossref>
+<url>db/conf/icde/icde2008.html#FarfanHRB08</url>
+</inproceedings>
+    <inproceedings mdate="2008-05-05" key="conf/icde/EltabakhOAELASB08">
+<author>Mohamed Y. Eltabakh</author>
+<author>Mourad Ouzzani</author>
+<author>Walid G. Aref</author>
+<author>Ahmed K. Elmagarmid</author>
+<author>Yasin Laura-Silva</author>
+<author>Muhammad U. Arshad</author>
+<author>David Salt</author>
+<author>Ivan Baxter</author>
+<title>Managing Biological Data using bdbms.</title>
+<pages>1600-1603</pages>
+<year>2008</year>
+<booktitle>ICDE</booktitle>
+<ee>http://dx.doi.org/10.1109/ICDE.2008.4497631</ee>
+<crossref>conf/icde/2008</crossref>
+<url>db/conf/icde/icde2008.html#EltabakhOAELASB08</url>
+</inproceedings>
+    <inproceedings mdate="2008-05-05" key="conf/icde/GubanovBM08">
+<author>Michael N. Gubanov</author>
+<author>Philip A. Bernstein</author>
+<author>Alexander Moshchuk</author>
+<title>Model Management Engine for Data Integration with Reverse-Engineering Support.</title>
+<pages>1319-1321</pages>
+<year>2008</year>
+<booktitle>ICDE</booktitle>
+<ee>http://dx.doi.org/10.1109/ICDE.2008.4497542</ee>
+<crossref>conf/icde/2008</crossref>
+<url>db/conf/icde/icde2008.html#GubanovBM08</url>
+</inproceedings>
+    <inproceedings mdate="2008-05-05" key="conf/icde/RaffioBCPH08">
+<author>Alessandro Raffio</author>
+<author>Daniele Braga</author>
+<author>Stefano Ceri</author>
+<author>Paolo Papotti</author>
+<author>Mauricio A. Hernndez</author>
+<title>Clip: a Visual Language for Explicit Schema Mappings.</title>
+<pages>30-39</pages>
+<year>2008</year>
+<booktitle>ICDE</booktitle>
+<ee>http://dx.doi.org/10.1109/ICDE.2008.4497411</ee>
+<crossref>conf/icde/2008</crossref>
+<url>db/conf/icde/icde2008.html#RaffioBCPH08</url>
+</inproceedings>
+    <inproceedings mdate="2008-05-05" key="conf/icde/BryanEF08">
+<author>Brent Bryan</author>
+<author>Frederick Eberhardt</author>
+<author>Christos Faloutsos</author>
+<title>Compact Similarity Joins.</title>
+<pages>346-355</pages>
+<year>2008</year>
+<booktitle>ICDE</booktitle>
+<ee>http://dx.doi.org/10.1109/ICDE.2008.4497443</ee>
+<crossref>conf/icde/2008</crossref>
+<url>db/conf/icde/icde2008.html#BryanEF08</url>
+</inproceedings>
+    <inproceedings mdate="2008-05-05" key="conf/icde/PathakCG08">
+<author>Amit Pathak</author>
+<author>Soumen Chakrabarti</author>
+<author>Manish Gupta</author>
+<title>Index Design for Dynamic Personalized PageRank.</title>
+<pages>1489-1491</pages>
+<year>2008</year>
+<booktitle>ICDE</booktitle>
+<ee>http://dx.doi.org/10.1109/ICDE.2008.4497599</ee>
+<crossref>conf/icde/2008</crossref>
+<url>db/conf/icde/icde2008.html#PathakCG08</url>
+</inproceedings>
+    <inproceedings mdate="2008-05-05" key="conf/icde/HeinzKRS08">
+<author>Christoph Heinz</author>
+<author>Jrgen Krmer</author>
+<author>Tobias Riemenschneider</author>
+<author>Bernhard Seeger</author>
+<title>Toward Simulation-Based Optimization in Data Stream Management Systems.</title>
+<pages>1580-1583</pages>
+<year>2008</year>
+<booktitle>ICDE</booktitle>
+<ee>http://dx.doi.org/10.1109/ICDE.2008.4497626</ee>
+<crossref>conf/icde/2008</crossref>
+<url>db/conf/icde/icde2008.html#HeinzKRS08</url>
+</inproceedings>
+    <inproceedings mdate="2008-05-05" key="conf/icde/GeZ08">
+<author>Tingjian Ge</author>
+<author>Stanley B. Zdonik</author>
+<title>Handling Uncertain Data in Array Database Systems.</title>
+<pages>1140-1149</pages>
+<year>2008</year>
+<booktitle>ICDE</booktitle>
+<ee>http://dx.doi.org/10.1109/ICDE.2008.4497523</ee>
+<crossref>conf/icde/2008</crossref>
+<url>db/conf/icde/icde2008.html#GeZ08</url>
+</inproceedings>
+    <inproceedings mdate="2008-05-05" key="conf/icde/MachanavajjhalaKAGV08">
+<author>Ashwin Machanavajjhala</author>
+<author>Daniel Kifer</author>
+<author>John M. Abowd</author>
+<author>Johannes Gehrke</author>
+<author>Lars Vilhuber</author>
+<title>Privacy: Theory meets Practice on the Map.</title>
+<pages>277-286</pages>
+<year>2008</year>
+<booktitle>ICDE</booktitle>
+<ee>http://dx.doi.org/10.1109/ICDE.2008.4497436</ee>
+<crossref>conf/icde/2008</crossref>
+<url>db/conf/icde/icde2008.html#MachanavajjhalaKAGV08</url>
+</inproceedings>
+    <inproceedings mdate="2008-05-05" key="conf/icde/BhideCGGMPRRS08">
+<author>Manish Bhide</author>
+<author>V. Chakravarthy</author>
+<author>Ajay Gupta</author>
+<author>Himanshu Gupta</author>
+<author>Mukesh K. Mohania</author>
+<author>K. Puniyani</author>
+<author>Prasan Roy</author>
+<author>S. Roy</author>
+<author>Vibhuti S. Sengar</author>
+<title>Enhanced Business Intelligence using EROCS.</title>
+<pages>1616-1619</pages>
+<year>2008</year>
+<booktitle>ICDE</booktitle>
+<ee>http://dx.doi.org/10.1109/ICDE.2008.4497635</ee>
+<crossref>conf/icde/2008</crossref>
+<url>db/conf/icde/icde2008.html#BhideCGGMPRRS08</url>
+</inproceedings>
+    <inproceedings mdate="2008-05-05" key="conf/icde/ShrivastavaMR08">
+<author>Nisheeth Shrivastava</author>
+<author>Anirban Majumder</author>
+<author>Rajeev Rastogi</author>
+<title>Mining (Social) Network Graphs to Detect Random Link Attacks.</title>
+<pages>486-495</pages>
+<year>2008</year>
+<booktitle>ICDE</booktitle>
+<ee>http://dx.doi.org/10.1109/ICDE.2008.4497457</ee>
+<crossref>conf/icde/2008</crossref>
+<url>db/conf/icde/icde2008.html#ShrivastavaMR08</url>
+</inproceedings>
+    <inproceedings mdate="2008-05-05" key="conf/icde/AtallahCK08">
+<author>Mikhail J. Atallah</author>
+<author>YounSun Cho</author>
+<author>Ashish Kundu</author>
+<title>Efficient Data Authentication in an Environment of Untrusted Third-Party Distributors.</title>
+<pages>696-704</pages>
+<year>2008</year>
+<booktitle>ICDE</booktitle>
+<ee>http://dx.doi.org/10.1109/ICDE.2008.4497478</ee>
+<crossref>conf/icde/2008</crossref>
+<url>db/conf/icde/icde2008.html#AtallahCK08</url>
+</inproceedings>
+    <inproceedings mdate="2008-05-05" key="conf/icde/ZhangPW08">
+<author>Xiang Zhang</author>
+<author>Feng Pan</author>
+<author>Wei Wang</author>
+<title>CARE: Finding Local Linear Correlations in High Dimensional Data.</title>
+<pages>130-139</pages>
+<year>2008</year>
+<booktitle>ICDE</booktitle>
+<ee>http://dx.doi.org/10.1109/ICDE.2008.4497421</ee>
+<crossref>conf/icde/2008</crossref>
+<url>db/conf/icde/icde2008.html#ZhangPW08</url>
+</inproceedings>
+    <inproceedings mdate="2008-05-05" key="conf/icde/TianP08">
+<author>Yuanyuan Tian</author>
+<author>Jignesh M. Patel</author>
+<title>TALE: A Tool for Approximate Large Graph Matching.</title>
+<pages>963-972</pages>
+<year>2008</year>
+<booktitle>ICDE</booktitle>
+<ee>http://dx.doi.org/10.1109/ICDE.2008.4497505</ee>
+<crossref>conf/icde/2008</crossref>
+<url>db/conf/icde/icde2008.html#TianP08</url>
+</inproceedings>
+    <inproceedings mdate="2008-05-05" key="conf/icde/NguyenKF08">
+<author>Hoa Nguyen</author>
+<author>Eun Yong Kang</author>
+<author>Juliana Freire</author>
+<title>Automatically Extracting Form Labels.</title>
+<pages>1498-1500</pages>
+<year>2008</year>
+<booktitle>ICDE</booktitle>
+<ee>http://dx.doi.org/10.1109/ICDE.2008.4497602</ee>
+<crossref>conf/icde/2008</crossref>
+<url>db/conf/icde/icde2008.html#NguyenKF08</url>
+</inproceedings>
+    <inproceedings mdate="2008-05-05" key="conf/icde/AbiteboulMPPS08">
+<author>Serge Abiteboul</author>
+<author>Ioana Manolescu</author>
+<author>Neoklis Polyzotis</author>
+<author>Nicoleta Preda</author>
+<author>Chong Sun</author>
+<title>XML processing in DHT networks.</title>
+<pages>606-615</pages>
+<year>2008</year>
+<booktitle>ICDE</booktitle>
+<ee>http://dx.doi.org/10.1109/ICDE.2008.4497469</ee>
+<crossref>conf/icde/2008</crossref>
+<url>db/conf/icde/icde2008.html#AbiteboulMPPS08</url>
+</inproceedings>
+    <inproceedings mdate="2008-05-05" key="conf/icde/DeRoseCGSDBZ08">
+<author>Pedro DeRose</author>
+<author>Xiaoyong Chai</author>
+<author>Byron J. Gao</author>
+<author>Warren Shen</author>
+<author>AnHai Doan</author>
+<author>Philip Bohannon</author>
+<author>Xiaojin Zhu</author>
+<title>Building Community Wikipedias: A Machine-Human Partnership Approach.</title>
+<pages>646-655</pages>
+<year>2008</year>
+<booktitle>ICDE</booktitle>
+<ee>http://dx.doi.org/10.1109/ICDE.2008.4497473</ee>
+<crossref>conf/icde/2008</crossref>
+<url>db/conf/icde/icde2008.html#DeRoseCGSDBZ08</url>
+</inproceedings>
+    <inproceedings mdate="2008-05-05" key="conf/icde/ChenDYR08">
+<author>Fei Chen 0002</author>
+<author>AnHai Doan</author>
+<author>Jun Yang</author>
+<author>Raghu Ramakrishnan</author>
+<title>Efficient Information Extraction over Evolving Text Data.</title>
+<pages>943-952</pages>
+<year>2008</year>
+<booktitle>ICDE</booktitle>
+<ee>http://dx.doi.org/10.1109/ICDE.2008.4497503</ee>
+<crossref>conf/icde/2008</crossref>
+<url>db/conf/icde/icde2008.html#ChenDYR08</url>
+</inproceedings>
+    <inproceedings mdate="2008-05-05" key="conf/icde/KhaitanRJC08">
+<author>Sanjeet Khaitan</author>
+<author>Ganesh Ramakrishnan</author>
+<author>Sachindra Joshi</author>
+<author>Anup Chalamalla</author>
+<title>RAD: A Scalable Framework for Annotator Development.</title>
+<pages>1624-1627</pages>
+<year>2008</year>
+<booktitle>ICDE</booktitle>
+<ee>http://dx.doi.org/10.1109/ICDE.2008.4497637</ee>
+<crossref>conf/icde/2008</crossref>
+<url>db/conf/icde/icde2008.html#KhaitanRJC08</url>
+</inproceedings>
+    <inproceedings mdate="2008-05-05" key="conf/icde/HuaPZL08">
+<author>Ming Hua</author>
+<author>Jian Pei</author>
+<author>Wenjie Zhang</author>
+<author>Xuemin Lin</author>
+<title>Efficiently Answering Probabilistic Threshold Top-k Queries on Uncertain Data.</title>
+<pages>1403-1405</pages>
+<year>2008</year>
+<booktitle>ICDE</booktitle>
+<ee>http://dx.doi.org/10.1109/ICDE.2008.4497570</ee>
+<crossref>conf/icde/2008</crossref>
+<url>db/conf/icde/icde2008.html#HuaPZL08</url>
+</inproceedings>
+    <inproceedings mdate="2008-05-05" key="conf/icde/ShaullSX08">
+<author>Ross Shaull</author>
+<author>Liuba Shrira</author>
+<author>Hao Xu</author>
+<title>Skippy: Enabling Long-Lived Snapshots of the Long-Lived Past.</title>
+<pages>1474-1476</pages>
+<year>2008</year>
+<booktitle>ICDE</booktitle>
+<ee>http://dx.doi.org/10.1109/ICDE.2008.4497594</ee>
+<crossref>conf/icde/2008</crossref>
+<url>db/conf/icde/icde2008.html#ShaullSX08</url>
+</inproceedings>
+    <inproceedings mdate="2008-05-05" key="conf/icde/BakalovT08">
+<author>Petko Bakalov</author>
+<author>Vassilis J. Tsotras</author>
+<title>A Generic Framework for Continuous Motion Pattern Query Evaluation.</title>
+<pages>80-89</pages>
+<year>2008</year>
+<booktitle>ICDE</booktitle>
+<ee>http://dx.doi.org/10.1109/ICDE.2008.4497416</ee>
+<crossref>conf/icde/2008</crossref>
+<url>db/conf/icde/icde2008.html#BakalovT08</url>
+</inproceedings>
+    <inproceedings mdate="2008-05-05" key="conf/icde/LiOW08">
+<author>Jianzhong Li</author>
+<author>Beng Chin Ooi</author>
+<author>Weiping Wang</author>
+<title>Anonymizing Streaming Data for Privacy Protection.</title>
+<pages>1367-1369</pages>
+<year>2008</year>
+<booktitle>ICDE</booktitle>
+<ee>http://dx.doi.org/10.1109/ICDE.2008.4497558</ee>
+<crossref>conf/icde/2008</crossref>
+<url>db/conf/icde/icde2008.html#LiOW08</url>
+</inproceedings>
+    <inproceedings mdate="2008-05-05" key="conf/icde/NehmeRB08">
+<author>Rimma V. Nehme</author>
+<author>Elke A. Rundensteiner</author>
+<author>Elisa Bertino</author>
+<title>A Security Punctuation Framework for Enforcing Access Control on Streaming Data.</title>
+<pages>406-415</pages>
+<year>2008</year>
+<booktitle>ICDE</booktitle>
+<ee>http://dx.doi.org/10.1109/ICDE.2008.4497449</ee>
+<crossref>conf/icde/2008</crossref>
+<url>db/conf/icde/icde2008.html#NehmeRB08</url>
+</inproceedings>
+    <inproceedings mdate="2008-05-05" key="conf/icde/HadjieleftheriouCKS08">
+<author>Marios Hadjieleftheriou</author>
+<author>Amit Chandel</author>
+<author>Nick Koudas</author>
+<author>Divesh Srivastava</author>
+<title>Fast Indexes and Algorithms for Set Similarity Selection Queries.</title>
+<pages>267-276</pages>
+<year>2008</year>
+<booktitle>ICDE</booktitle>
+<ee>http://dx.doi.org/10.1109/ICDE.2008.4497435</ee>
+<crossref>conf/icde/2008</crossref>
+<url>db/conf/icde/icde2008.html#HadjieleftheriouCKS08</url>
+</inproceedings>
+    <inproceedings mdate="2008-05-05" key="conf/icde/LiC08">
+<author>Yaping Li</author>
+<author>Minghua Chen</author>
+<title>Privacy Preserving Joins.</title>
+<pages>1352-1354</pages>
+<year>2008</year>
+<booktitle>ICDE</booktitle>
+<ee>http://dx.doi.org/10.1109/ICDE.2008.4497553</ee>
+<crossref>conf/icde/2008</crossref>
+<url>db/conf/icde/icde2008.html#LiC08</url>
+</inproceedings>
+    <inproceedings mdate="2008-05-05" key="conf/icde/Shirani-MehrLLS08">
+<author>Houtan Shirani-Mehr</author>
+<author>Chen Li</author>
+<author>Gang Liang</author>
+<author>Michal Shmueli-Scheuer</author>
+<title>Quality-Aware Retrieval of Data Objects from Autonomous Sources for Web-Based Repositories.</title>
+<pages>1492-1494</pages>
+<year>2008</year>
+<booktitle>ICDE</booktitle>
+<ee>http://dx.doi.org/10.1109/ICDE.2008.4497600</ee>
+<crossref>conf/icde/2008</crossref>
+<url>db/conf/icde/icde2008.html#Shirani-MehrLLS08</url>
+</inproceedings>
+    <inproceedings mdate="2008-05-05" key="conf/icde/RoitmanGR08">
+<author>Haggai Roitman</author>
+<author>Avigdor Gal</author>
+<author>Louiqa Raschid</author>
+<title>Satisfying Complex Data Needs using Pull-Based Online Monitoring of Volatile Data Sources.</title>
+<pages>1465-1467</pages>
+<year>2008</year>
+<booktitle>ICDE</booktitle>
+<ee>http://dx.doi.org/10.1109/ICDE.2008.4497591</ee>
+<crossref>conf/icde/2008</crossref>
+<url>db/conf/icde/icde2008.html#RoitmanGR08</url>
+</inproceedings>
+    <inproceedings mdate="2008-05-05" key="conf/icde/CuiLXCDZ08">
+<author>Bin Cui</author>
+<author>Hua Lu</author>
+<author>Quanqing Xu</author>
+<author>Lijiang Chen</author>
+<author>Yafei Dai</author>
+<author>Yongluan Zhou</author>
+<title>Parallel Distributed Processing of Constrained Skyline Queries by Filtering.</title>
+<pages>546-555</pages>
+<year>2008</year>
+<booktitle>ICDE</booktitle>
+<ee>http://dx.doi.org/10.1109/ICDE.2008.4497463</ee>
+<crossref>conf/icde/2008</crossref>
+<url>db/conf/icde/icde2008.html#CuiLXCDZ08</url>
+</inproceedings>
+    <inproceedings mdate="2008-05-05" key="conf/icde/YiLKS08">
+<author>Ke Yi</author>
+<author>Feifei Li</author>
+<author>George Kollios</author>
+<author>Divesh Srivastava</author>
+<title>Efficient Processing of Top-k Queries in Uncertain Databases.</title>
+<pages>1406-1408</pages>
+<year>2008</year>
+<booktitle>ICDE</booktitle>
+<ee>http://dx.doi.org/10.1109/ICDE.2008.4497571</ee>
+<crossref>conf/icde/2008</crossref>
+<url>db/conf/icde/icde2008.html#YiLKS08</url>
+</inproceedings>
+    <inproceedings mdate="2008-05-05" key="conf/icde/ChaudhuriNR08">
+<author>Surajit Chaudhuri</author>
+<author>Vivek R. Narasayya</author>
+<author>Ravishankar Ramamurthy</author>
+<title>Diagnosing Estimation Errors in Page Counts Using Execution Feedback.</title>
+<pages>1013-1022</pages>
+<year>2008</year>
+<booktitle>ICDE</booktitle>
+<ee>http://dx.doi.org/10.1109/ICDE.2008.4497510</ee>
+<crossref>conf/icde/2008</crossref>
+<url>db/conf/icde/icde2008.html#ChaudhuriNR08</url>
+</inproceedings>
+    <inproceedings mdate="2008-05-05" key="conf/icde/DengDRZ08">
+<author>Yu Deng</author>
+<author>Murthy V. Devarakonda</author>
+<author>Nithya Rajamani</author>
+<author>Wlodek Zadrozny</author>
+<title>Improving Information Access for a Community of Practice Using Business Process as Context.</title>
+<pages>1537-1539</pages>
+<year>2008</year>
+<booktitle>ICDE</booktitle>
+<ee>http://dx.doi.org/10.1109/ICDE.2008.4497615</ee>
+<crossref>conf/icde/2008</crossref>
+<url>db/conf/icde/icde2008.html#DengDRZ08</url>
+</inproceedings>
+    <inproceedings mdate="2008-05-05" key="conf/icde/PanZW08">
+<author>Feng Pan</author>
+<author>Xiang Zhang</author>
+<author>Wei Wang</author>
+<title>A General Framework for Fast Co-clustering on Large Datasets Using Matrix Decomposition.</title>
+<pages>1337-1339</pages>
+<year>2008</year>
+<booktitle>ICDE</booktitle>
+<ee>http://dx.doi.org/10.1109/ICDE.2008.4497548</ee>
+<crossref>conf/icde/2008</crossref>
+<url>db/conf/icde/icde2008.html#PanZW08</url>
+</inproceedings>
+    <inproceedings mdate="2008-05-05" key="conf/icde/JiangMCS08">
+<author>Wei Jiang</author>
+<author>Mummoorthy Murugesan</author>
+<author>Chris Clifton</author>
+<author>Luo Si</author>
+<title>Similar Document Detection with Limited Information Disclosure.</title>
+<pages>735-743</pages>
+<year>2008</year>
+<booktitle>ICDE</booktitle>
+<ee>http://dx.doi.org/10.1109/ICDE.2008.4497482</ee>
+<crossref>conf/icde/2008</crossref>
+<url>db/conf/icde/icde2008.html#JiangMCS08</url>
+</inproceedings>
+    <inproceedings mdate="2008-05-05" key="conf/icde/ChengCMC08">
+<author>Reynold Cheng</author>
+<author>Jinchuan Chen</author>
+<author>Mohamed F. Mokbel</author>
+<author>Chi-Yin Chow</author>
+<title>Probabilistic Verifiers: Evaluating Constrained Nearest-Neighbor Queries over Uncertain Data.</title>
+<pages>973-982</pages>
+<year>2008</year>
+<booktitle>ICDE</booktitle>
+<ee>http://dx.doi.org/10.1109/ICDE.2008.4497506</ee>
+<crossref>conf/icde/2008</crossref>
+<url>db/conf/icde/icde2008.html#ChengCMC08</url>
+</inproceedings>
+    <inproceedings mdate="2008-05-05" key="conf/icde/LiLL08">
+<author>Chen Li</author>
+<author>Jiaheng Lu</author>
+<author>Yiming Lu</author>
+<title>Efficient Merging and Filtering Algorithms for Approximate String Searches.</title>
+<pages>257-266</pages>
+<year>2008</year>
+<booktitle>ICDE</booktitle>
+<ee>http://dx.doi.org/10.1109/ICDE.2008.4497434</ee>
+<crossref>conf/icde/2008</crossref>
+<url>db/conf/icde/icde2008.html#LiLL08</url>
+</inproceedings>
+    <inproceedings mdate="2008-05-05" key="conf/icde/GounarisYSD08">
+<author>Anastasios Gounaris</author>
+<author>Christos Yfoulis</author>
+<author>Rizos Sakellariou</author>
+<author>Marios D. Dikaiakos</author>
+<title>Robust Runtime Optimization of Data Transfer in Queries over Web Services.</title>
+<pages>596-605</pages>
+<year>2008</year>
+<booktitle>ICDE</booktitle>
+<ee>http://dx.doi.org/10.1109/ICDE.2008.4497468</ee>
+<crossref>conf/icde/2008</crossref>
+<url>db/conf/icde/icde2008.html#GounarisYSD08</url>
+</inproceedings>
+    <inproceedings mdate="2008-05-05" key="conf/icde/WangL08">
+<author>Ting Wang</author>
+<author>Ling Liu</author>
+<title>Butterfly: Protecting Output Privacy in Stream Mining.</title>
+<pages>1170-1179</pages>
+<year>2008</year>
+<booktitle>ICDE</booktitle>
+<ee>http://dx.doi.org/10.1109/ICDE.2008.4497526</ee>
+<crossref>conf/icde/2008</crossref>
+<url>db/conf/icde/icde2008.html#WangL08</url>
+</inproceedings>
+    <inproceedings mdate="2008-05-05" key="conf/icde/MozafariTZ08">
+<author>Barzan Mozafari</author>
+<author>Hetal Thakkar</author>
+<author>Carlo Zaniolo</author>
+<title>Verifying and Mining Frequent Patterns from Large Windows over Data Streams.</title>
+<pages>179-188</pages>
+<year>2008</year>
+<booktitle>ICDE</booktitle>
+<ee>http://dx.doi.org/10.1109/ICDE.2008.4497426</ee>
+<crossref>conf/icde/2008</crossref>
+<url>db/conf/icde/icde2008.html#MozafariTZ08</url>
+</inproceedings>
+    <inproceedings mdate="2008-05-05" key="conf/icde/ChenLL08">
+<author>Qun Chen</author>
+<author>Zhanhuai Li</author>
+<author>Hailong Liu</author>
+<title>Optimizing Complex Event Processing over RFID Data Streams.</title>
+<pages>1442-1444</pages>
+<year>2008</year>
+<booktitle>ICDE</booktitle>
+<ee>http://dx.doi.org/10.1109/ICDE.2008.4497583</ee>
+<crossref>conf/icde/2008</crossref>
+<url>db/conf/icde/icde2008.html#ChenLL08</url>
+</inproceedings>
+    <inproceedings mdate="2008-05-05" key="conf/icde/CocciTDS08">
+<author>Richard Cocci</author>
+<author>Thanh Tran</author>
+<author>Yanlei Diao</author>
+<author>Prashant J. Shenoy</author>
+<title>Efficient Data Interpretation and Compression over RFID Streams.</title>
+<pages>1445-1447</pages>
+<year>2008</year>
+<booktitle>ICDE</booktitle>
+<ee>http://dx.doi.org/10.1109/ICDE.2008.4497584</ee>
+<crossref>conf/icde/2008</crossref>
+<url>db/conf/icde/icde2008.html#CocciTDS08</url>
+</inproceedings>
+    <inproceedings mdate="2008-05-05" key="conf/icde/GirodMNRTBM08">
+<author>Lewis Girod</author>
+<author>Yuan Mei</author>
+<author>Ryan Newton</author>
+<author>Stanislav Rost</author>
+<author>Arvind Thiagarajan</author>
+<author>Hari Balakrishnan</author>
+<author>Samuel Madden</author>
+<title>XStream: a Signal-Oriented Data Stream Management System.</title>
+<pages>1180-1189</pages>
+<year>2008</year>
+<booktitle>ICDE</booktitle>
+<ee>http://dx.doi.org/10.1109/ICDE.2008.4497527</ee>
+<crossref>conf/icde/2008</crossref>
+<url>db/conf/icde/icde2008.html#GirodMNRTBM08</url>
+</inproceedings>
+    <inproceedings mdate="2008-05-05" key="conf/icde/DingCRTHC08">
+<author>Luping Ding</author>
+<author>Songting Chen</author>
+<author>Elke A. Rundensteiner</author>
+<author>Jun'ichi Tatemura</author>
+<author>Wang-Pin Hsiung</author>
+<author>K. Seluk Candan</author>
+<title>Runtime Semantic Query Optimization for Event Stream Processing.</title>
+<pages>676-685</pages>
+<year>2008</year>
+<booktitle>ICDE</booktitle>
+<ee>http://dx.doi.org/10.1109/ICDE.2008.4497476</ee>
+<crossref>conf/icde/2008</crossref>
+<url>db/conf/icde/icde2008.html#DingCRTHC08</url>
+</inproceedings>
+    <inproceedings mdate="2008-05-05" key="conf/icde/HuangD08">
+<author>Zhengli Huang</author>
+<author>Wenliang Du</author>
+<title>OptRR: Optimizing Randomized Response Schemes for Privacy-Preserving Data Mining.</title>
+<pages>705-714</pages>
+<year>2008</year>
+<booktitle>ICDE</booktitle>
+<ee>http://dx.doi.org/10.1109/ICDE.2008.4497479</ee>
+<crossref>conf/icde/2008</crossref>
+<url>db/conf/icde/icde2008.html#HuangD08</url>
+</inproceedings>
+    <inproceedings mdate="2008-05-05" key="conf/icde/AhmadPCR08">
+<author>Yanif Ahmad</author>
+<author>Olga Papaemmanouil</author>
+<author>Ugur etintemel</author>
+<author>Jennie Rogers</author>
+<title>Simultaneous Equation Systems for Query Processing on Continuous-Time Data Streams.</title>
+<pages>666-675</pages>
+<year>2008</year>
+<booktitle>ICDE</booktitle>
+<ee>http://dx.doi.org/10.1109/ICDE.2008.4497475</ee>
+<crossref>conf/icde/2008</crossref>
+<url>db/conf/icde/icde2008.html#AhmadPCR08</url>
+</inproceedings>
+    <inproceedings mdate="2008-05-05" key="conf/icde/LianCY08">
+<author>Xiang Lian</author>
+<author>Lei Chen 0002</author>
+<author>Jeffrey Xu Yu</author>
+<title>Pattern Matching over Cloaked Time Series.</title>
+<pages>1462-1464</pages>
+<year>2008</year>
+<booktitle>ICDE</booktitle>
+<ee>http://dx.doi.org/10.1109/ICDE.2008.4497590</ee>
+<crossref>conf/icde/2008</crossref>
+<url>db/conf/icde/icde2008.html#LianCY08</url>
+</inproceedings>
+    <inproceedings mdate="2008-05-05" key="conf/icde/AggarwalY08">
+<author>Charu C. Aggarwal</author>
+<author>Philip S. Yu</author>
+<title>A Framework for Clustering Uncertain Data Streams.</title>
+<pages>150-159</pages>
+<year>2008</year>
+<booktitle>ICDE</booktitle>
+<ee>http://dx.doi.org/10.1109/ICDE.2008.4497423</ee>
+<crossref>conf/icde/2008</crossref>
+<url>db/conf/icde/icde2008.html#AggarwalY08</url>
+</inproceedings>
+    <inproceedings mdate="2008-05-05" key="conf/icde/DaiKSTV08">
+<author>Bing Tian Dai</author>
+<author>Nick Koudas</author>
+<author>Divesh Srivastava</author>
+<author>Anthony K. H. Tung</author>
+<author>Suresh Venkatasubramanian</author>
+<title>Validating Multi-column Schema Matchings by Type.</title>
+<pages>120-129</pages>
+<year>2008</year>
+<booktitle>ICDE</booktitle>
+<ee>http://dx.doi.org/10.1109/ICDE.2008.4497420</ee>
+<crossref>conf/icde/2008</crossref>
+<url>db/conf/icde/icde2008.html#DaiKSTV08</url>
+</inproceedings>
+    <inproceedings mdate="2008-05-05" key="conf/icde/QiaoRNPCFRCYL08">
+<author>Lin Qiao</author>
+<author>Vijayshankar Raman</author>
+<author>Inderpal Narang</author>
+<author>Prashant Pandey</author>
+<author>David D. Chambliss</author>
+<author>Gene Fuh</author>
+<author>James Ruddy</author>
+<author>Ying-Lin Chen</author>
+<author>Kou-Horng Yang</author>
+<author>Fen-Ling Ling</author>
+<title>Integration of Server, Storage and Database Stack: Moving Processing Towards Data.</title>
+<pages>1200-1208</pages>
+<year>2008</year>
+<booktitle>ICDE</booktitle>
+<ee>http://dx.doi.org/10.1109/ICDE.2008.4497529</ee>
+<crossref>conf/icde/2008</crossref>
+<url>db/conf/icde/icde2008.html#QiaoRNPCFRCYL08</url>
+</inproceedings>
+    <inproceedings mdate="2008-05-05" key="conf/icde/StoumposDKD08">
+<author>Vassilis Stoumpos</author>
+<author>Antonios Deligiannakis</author>
+<author>Yannis Kotidis</author>
+<author>Alex Delis</author>
+<title>Processing Event-Monitoring Queries in Sensor Networks.</title>
+<pages>1436-1438</pages>
+<year>2008</year>
+<booktitle>ICDE</booktitle>
+<ee>http://dx.doi.org/10.1109/ICDE.2008.4497581</ee>
+<crossref>conf/icde/2008</crossref>
+<url>db/conf/icde/icde2008.html#StoumposDKD08</url>
+</inproceedings>
+    <inproceedings mdate="2008-05-05" key="conf/icde/ReissRKZV08">
+<author>Frederick Reiss</author>
+<author>Sriram Raghavan</author>
+<author>Rajasekar Krishnamurthy</author>
+<author>Huaiyu Zhu</author>
+<author>Shivakumar Vaithyanathan</author>
+<title>An Algebraic Approach to Rule-Based Information Extraction.</title>
+<pages>933-942</pages>
+<year>2008</year>
+<booktitle>ICDE</booktitle>
+<ee>http://dx.doi.org/10.1109/ICDE.2008.4497502</ee>
+<crossref>conf/icde/2008</crossref>
+<url>db/conf/icde/icde2008.html#ReissRKZV08</url>
+</inproceedings>
+    <inproceedings mdate="2008-05-05" key="conf/icde/TataP08">
+<author>Sandeep Tata</author>
+<author>Jignesh M. Patel</author>
+<title>FLAME: Shedding Light on Hidden Frequent Patterns in Sequence Datasets.</title>
+<pages>1343-1345</pages>
+<year>2008</year>
+<booktitle>ICDE</booktitle>
+<ee>http://dx.doi.org/10.1109/ICDE.2008.4497550</ee>
+<crossref>conf/icde/2008</crossref>
+<url>db/conf/icde/icde2008.html#TataP08</url>
+</inproceedings>
+    <inproceedings mdate="2008-05-05" key="conf/icde/BakalovHHT08">
+<author>Petko Bakalov</author>
+<author>Erik G. Hoel</author>
+<author>Wee-Liang Heng</author>
+<author>Vassilis J. Tsotras</author>
+<title>Maintaining Connectivity in Dynamic Multimodal Network Models.</title>
+<pages>1267-1276</pages>
+<year>2008</year>
+<booktitle>ICDE</booktitle>
+<ee>http://dx.doi.org/10.1109/ICDE.2008.4497536</ee>
+<crossref>conf/icde/2008</crossref>
+<url>db/conf/icde/icde2008.html#BakalovHHT08</url>
+</inproceedings>
+    <inproceedings mdate="2008-05-05" key="conf/icde/RamanSQRDKNS08">
+<author>Vijayshankar Raman</author>
+<author>Garret Swart</author>
+<author>Lin Qiao</author>
+<author>Frederick Reiss</author>
+<author>Vijay Dialani</author>
+<author>Donald Kossmann</author>
+<author>Inderpal Narang</author>
+<author>Richard Sidle</author>
+<title>Constant-Time Query Processing.</title>
+<pages>60-69</pages>
+<year>2008</year>
+<booktitle>ICDE</booktitle>
+<ee>http://dx.doi.org/10.1109/ICDE.2008.4497414</ee>
+<crossref>conf/icde/2008</crossref>
+<url>db/conf/icde/icde2008.html#RamanSQRDKNS08</url>
+</inproceedings>
+    <inproceedings mdate="2008-05-05" key="conf/icde/LeeHL08">
+<author>Jae-Gil Lee</author>
+<author>Jiawei Han</author>
+<author>Xiaolei Li</author>
+<title>Trajectory Outlier Detection: A Partition-and-Detect Framework.</title>
+<pages>140-149</pages>
+<year>2008</year>
+<booktitle>ICDE</booktitle>
+<ee>http://dx.doi.org/10.1109/ICDE.2008.4497422</ee>
+<crossref>conf/icde/2008</crossref>
+<url>db/conf/icde/icde2008.html#LeeHL08</url>
+</inproceedings>
+    <inproceedings mdate="2008-05-05" key="conf/icde/JoshiJ08">
+<author>Shantanu Joshi</author>
+<author>Christopher M. Jermaine</author>
+<title>Robust Stratified Sampling Plans for Low Selectivity Queries.</title>
+<pages>199-208</pages>
+<year>2008</year>
+<booktitle>ICDE</booktitle>
+<ee>http://dx.doi.org/10.1109/ICDE.2008.4497428</ee>
+<crossref>conf/icde/2008</crossref>
+<url>db/conf/icde/icde2008.html#JoshiJ08</url>
+</inproceedings>
+    <inproceedings mdate="2008-05-05" key="conf/icde/ChengYHY08">
+<author>Hong Cheng</author>
+<author>Xifeng Yan</author>
+<author>Jiawei Han</author>
+<author>Philip S. Yu</author>
+<title>Direct Discriminative Pattern Mining for Effective Classification.</title>
+<pages>169-178</pages>
+<year>2008</year>
+<booktitle>ICDE</booktitle>
+<ee>http://dx.doi.org/10.1109/ICDE.2008.4497425</ee>
+<crossref>conf/icde/2008</crossref>
+<url>db/conf/icde/icde2008.html#ChengYHY08</url>
+</inproceedings>
+    <inproceedings mdate="2008-05-05" key="conf/icde/MiahDHM08">
+<author>Muhammed Miah</author>
+<author>Gautam Das</author>
+<author>Vagelis Hristidis</author>
+<author>Heikki Mannila</author>
+<title>Standing Out in a Crowd: Selecting Attributes for Maximum Visibility.</title>
+<pages>356-365</pages>
+<year>2008</year>
+<booktitle>ICDE</booktitle>
+<ee>http://dx.doi.org/10.1109/ICDE.2008.4497444</ee>
+<crossref>conf/icde/2008</crossref>
+<url>db/conf/icde/icde2008.html#MiahDHM08</url>
+</inproceedings>
+    <inproceedings mdate="2008-05-05" key="conf/icde/AssfalgKKKPR08">
+<author>Johannes Afalg</author>
+<author>Hans-Peter Kriegel</author>
+<author>Peer Krger</author>
+<author>Peter Kunath</author>
+<author>Alexey Pryakhin</author>
+<author>Matthias Renz</author>
+<title>T-Time: Threshold-Based Data Mining on Time Series.</title>
+<pages>1620-1623</pages>
+<year>2008</year>
+<booktitle>ICDE</booktitle>
+<ee>http://dx.doi.org/10.1109/ICDE.2008.4497636</ee>
+<crossref>conf/icde/2008</crossref>
+<url>db/conf/icde/icde2008.html#AssfalgKKKPR08</url>
+</inproceedings>
+    <inproceedings mdate="2008-05-05" key="conf/icde/KochSS08">
+<author>Christoph Koch</author>
+<author>Stefanie Scherzinger</author>
+<author>Michael Schmidt</author>
+<title>XML Prefiltering as a String Matching Problem.</title>
+<pages>626-635</pages>
+<year>2008</year>
+<booktitle>ICDE</booktitle>
+<ee>http://dx.doi.org/10.1109/ICDE.2008.4497471</ee>
+<crossref>conf/icde/2008</crossref>
+<url>db/conf/icde/icde2008.html#KochSS08</url>
+</inproceedings>
+    <inproceedings mdate="2008-05-05" key="conf/icde/KumarLMT08">
+<author>Ravi Kumar</author>
+<author>Kevin Lang</author>
+<author>Cameron Marlow</author>
+<author>Andrew Tomkins</author>
+<title>Efficient Discovery of Authoritative Resources.</title>
+<pages>1495-1497</pages>
+<year>2008</year>
+<booktitle>ICDE</booktitle>
+<ee>http://dx.doi.org/10.1109/ICDE.2008.4497601</ee>
+<crossref>conf/icde/2008</crossref>
+<url>db/conf/icde/icde2008.html#KumarLMT08</url>
+</inproceedings>
+    <inproceedings mdate="2008-05-05" key="conf/icde/LinAGD08">
+<author>Song Lin</author>
+<author>Benjamin Arai</author>
+<author>Dimitrios Gunopulos</author>
+<author>Gautam Das</author>
+<title>Region Sampling: Continuous Adaptive Sampling on Sensor Networks.</title>
+<pages>794-803</pages>
+<year>2008</year>
+<booktitle>ICDE</booktitle>
+<ee>http://dx.doi.org/10.1109/ICDE.2008.4497488</ee>
+<crossref>conf/icde/2008</crossref>
+<url>db/conf/icde/icde2008.html#LinAGD08</url>
+</inproceedings>
+    <inproceedings mdate="2008-05-05" key="conf/icde/KoloniariP08">
+<author>Georgia Koloniari</author>
+<author>Evaggelia Pitoura</author>
+<title>A Clustered Index Approach to Distributed XPath Processing.</title>
+<pages>1516-1518</pages>
+<year>2008</year>
+<booktitle>ICDE</booktitle>
+<ee>http://dx.doi.org/10.1109/ICDE.2008.4497608</ee>
+<crossref>conf/icde/2008</crossref>
+<url>db/conf/icde/icde2008.html#KoloniariP08</url>
+</inproceedings>
+    <inproceedings mdate="2008-05-05" key="conf/icde/AcharyaGJKST08">
+<author>Srini Acharya</author>
+<author>Csar A. Galindo-Legaria</author>
+<author>Milind Joshi</author>
+<author>Babu Krishnaswamy</author>
+<author>Stefano Stefani</author>
+<author>Pawel Terlecki</author>
+<title>Filtered Indices and Their Use in Flexible Schema Scenarios.</title>
+<pages>1259-1266</pages>
+<year>2008</year>
+<booktitle>ICDE</booktitle>
+<ee>http://dx.doi.org/10.1109/ICDE.2008.4497535</ee>
+<crossref>conf/icde/2008</crossref>
+<url>db/conf/icde/icde2008.html#AcharyaGJKST08</url>
+</inproceedings>
+    <inproceedings mdate="2008-05-05" key="conf/icde/TaoXLZ08">
+<author>Yufei Tao</author>
+<author>Xiaokui Xiao</author>
+<author>Jiexing Li</author>
+<author>Donghui Zhang</author>
+<title>On Anti-Corruption Privacy Preserving Publication.</title>
+<pages>725-734</pages>
+<year>2008</year>
+<booktitle>ICDE</booktitle>
+<ee>http://dx.doi.org/10.1109/ICDE.2008.4497481</ee>
+<crossref>conf/icde/2008</crossref>
+<url>db/conf/icde/icde2008.html#TaoXLZ08</url>
+</inproceedings>
+    <inproceedings mdate="2008-05-05" key="conf/icde/XinH08">
+<author>Dong Xin</author>
+<author>Jiawei Han</author>
+<title>P-Cube: Answering Preference Queries in Multi-Dimensional Space.</title>
+<pages>1092-1100</pages>
+<year>2008</year>
+<booktitle>ICDE</booktitle>
+<ee>http://dx.doi.org/10.1109/ICDE.2008.4497518</ee>
+<crossref>conf/icde/2008</crossref>
+<url>db/conf/icde/icde2008.html#XinH08</url>
+</inproceedings>
+    <inproceedings mdate="2008-05-05" key="conf/icde/GaoZCLLC08">
+<author>Yunjun Gao</author>
+<author>Jing Zhang</author>
+<author>Gencai Chen</author>
+<author>Qing Li</author>
+<author>Shen Liu</author>
+<author>Chun Chen</author>
+<title>Optimal-Nearest-Neighbor Queries.</title>
+<pages>1454-1456</pages>
+<year>2008</year>
+<booktitle>ICDE</booktitle>
+<ee>http://dx.doi.org/10.1109/ICDE.2008.4497587</ee>
+<crossref>conf/icde/2008</crossref>
+<url>db/conf/icde/icde2008.html#GaoZCLLC08</url>
+</inproceedings>
+    <inproceedings mdate="2008-05-05" key="conf/icde/SquicciariniPB08">
+<author>Anna Cinzia Squicciarini</author>
+<author>Ivan Paloscia</author>
+<author>Elisa Bertino</author>
+<title>Protecting Databases from Query Flood Attacks.</title>
+<pages>1358-1360</pages>
+<year>2008</year>
+<booktitle>ICDE</booktitle>
+<ee>http://dx.doi.org/10.1109/ICDE.2008.4497555</ee>
+<crossref>conf/icde/2008</crossref>
+<url>db/conf/icde/icde2008.html#SquicciariniPB08</url>
+</inproceedings>
+    <inproceedings mdate="2008-05-05" key="conf/icde/VlachouDNV08">
+<author>Akrivi Vlachou</author>
+<author>Christos Doulkeridis</author>
+<author>Kjetil Nrvg</author>
+<author>Michalis Vazirgiannis</author>
+<title>Skyline-based Peer-to-Peer Top-k Query Processing.</title>
+<pages>1421-1423</pages>
+<year>2008</year>
+<booktitle>ICDE</booktitle>
+<ee>http://dx.doi.org/10.1109/ICDE.2008.4497576</ee>
+<crossref>conf/icde/2008</crossref>
+<url>db/conf/icde/icde2008.html#VlachouDNV08</url>
+</inproceedings>
+    <inproceedings mdate="2008-05-05" key="conf/icde/KashyapRRS08">
+<author>Srinivas R. Kashyap</author>
+<author>Jeyashankher Ramamirtham</author>
+<author>Rajeev Rastogi</author>
+<author>Pushpraj Shukla</author>
+<title>Efficient Constraint Monitoring Using Adaptive Thresholds.</title>
+<pages>526-535</pages>
+<year>2008</year>
+<booktitle>ICDE</booktitle>
+<ee>http://dx.doi.org/10.1109/ICDE.2008.4497461</ee>
+<crossref>conf/icde/2008</crossref>
+<url>db/conf/icde/icde2008.html#KashyapRRS08</url>
+</inproceedings>
+    <inproceedings mdate="2008-05-05" key="conf/icde/AbulBN08">
+<author>Osman Abul</author>
+<author>Francesco Bonchi</author>
+<author>Mirco Nanni</author>
+<title>Never Walk Alone: Uncertainty for Anonymity in Moving Objects Databases.</title>
+<pages>376-385</pages>
+<year>2008</year>
+<booktitle>ICDE</booktitle>
+<ee>http://dx.doi.org/10.1109/ICDE.2008.4497446</ee>
+<crossref>conf/icde/2008</crossref>
+<url>db/conf/icde/icde2008.html#AbulBN08</url>
+</inproceedings>
+    <inproceedings mdate="2008-05-05" key="conf/icde/BravoFGM08">
+<author>Loreto Bravo</author>
+<author>Wenfei Fan</author>
+<author>Floris Geerts</author>
+<author>Shuai Ma</author>
+<title>Increasing the Expressivity of Conditional Functional Dependencies without Extra Complexity.</title>
+<pages>516-525</pages>
+<year>2008</year>
+<booktitle>ICDE</booktitle>
+<ee>http://dx.doi.org/10.1109/ICDE.2008.4497460</ee>
+<crossref>conf/icde/2008</crossref>
+<url>db/conf/icde/icde2008.html#BravoFGM08</url>
+</inproceedings>
+    <inproceedings mdate="2008-05-05" key="conf/icde/YiuMK08">
+<author>Man Lung Yiu</author>
+<author>Nikos Mamoulis</author>
+<author>Panagiotis Karras</author>
+<title>Common Influence Join: A Natural Join Operation for Spatial Pointsets.</title>
+<pages>100-109</pages>
+<year>2008</year>
+<booktitle>ICDE</booktitle>
+<ee>http://dx.doi.org/10.1109/ICDE.2008.4497418</ee>
+<crossref>conf/icde/2008</crossref>
+<url>db/conf/icde/icde2008.html#YiuMK08</url>
+</inproceedings>
+    <inproceedings mdate="2008-05-05" key="conf/icde/SinghL08">
+<author>Aameek Singh</author>
+<author>Ling Liu</author>
+<title>Sharoes: A Data Sharing Platform for Outsourced Enterprise Storage Environments.</title>
+<pages>993-1002</pages>
+<year>2008</year>
+<booktitle>ICDE</booktitle>
+<ee>http://dx.doi.org/10.1109/ICDE.2008.4497508</ee>
+<crossref>conf/icde/2008</crossref>
+<url>db/conf/icde/icde2008.html#SinghL08</url>
+</inproceedings>
+    <inproceedings mdate="2008-05-05" key="conf/icde/TangYOW08">
+<author>Nan Tang</author>
+<author>Jeffrey Xu Yu</author>
+<author>M. Tamer zsu</author>
+<author>Kam-Fai Wong</author>
+<title>Hierarchical Indexing Approach to Support XPath Queries.</title>
+<pages>1510-1512</pages>
+<year>2008</year>
+<booktitle>ICDE</booktitle>
+<ee>http://dx.doi.org/10.1109/ICDE.2008.4497606</ee>
+<crossref>conf/icde/2008</crossref>
+<url>db/conf/icde/icde2008.html#TangYOW08</url>
+</inproceedings>
+    <inproceedings mdate="2008-05-05" key="conf/icde/AlonsoBC08">
+<author>Gustavo Alonso</author>
+<author>Jos A. Blakeley</author>
+<author>Arbee L. P. Chen</author>
+<title>ICDE 2008 PC Chairs Message.</title>
+<year>2008</year>
+<booktitle>ICDE</booktitle>
+<ee>http://dx.doi.org/10.1109/ICDE.2008.4497399</ee>
+<crossref>conf/icde/2008</crossref>
+<url>db/conf/icde/icde2008.html#AlonsoBC08</url>
+</inproceedings>
+    <inproceedings mdate="2008-05-05" key="conf/icde/DewriRRW08">
+<author>Rinku Dewri</author>
+<author>Indrajit Ray</author>
+<author>Indrakshi Ray</author>
+<author>Darrell Whitley</author>
+<title>On the Optimal Selection of k in the k-Anonymity Problem.</title>
+<pages>1364-1366</pages>
+<year>2008</year>
+<booktitle>ICDE</booktitle>
+<ee>http://dx.doi.org/10.1109/ICDE.2008.4497557</ee>
+<crossref>conf/icde/2008</crossref>
+<url>db/conf/icde/icde2008.html#DewriRRW08</url>
+</inproceedings>
+    <inproceedings mdate="2008-05-05" key="conf/icde/ProcopiucS08">
+<author>Cecilia M. Procopiuc</author>
+<author>Divesh Srivastava</author>
+<title>Database Exploration Using Join Paths.</title>
+<pages>1331-1333</pages>
+<year>2008</year>
+<booktitle>ICDE</booktitle>
+<ee>http://dx.doi.org/10.1109/ICDE.2008.4497546</ee>
+<crossref>conf/icde/2008</crossref>
+<url>db/conf/icde/icde2008.html#ProcopiucS08</url>
+</inproceedings>
+    <inproceedings mdate="2008-05-05" key="conf/icde/SedmidubskyBDZ08">
+<author>Jan Sedmidubsk</author>
+<author>Stanislav Barton</author>
+<author>Vlastislav Dohnal</author>
+<author>Pavel Zezula</author>
+<title>Adaptive Approximate Similarity Searching through Metric Social Networks.</title>
+<pages>1424-1426</pages>
+<year>2008</year>
+<booktitle>ICDE</booktitle>
+<ee>http://dx.doi.org/10.1109/ICDE.2008.4497577</ee>
+<crossref>conf/icde/2008</crossref>
+<url>db/conf/icde/icde2008.html#SedmidubskyBDZ08</url>
+</inproceedings>
+    <inproceedings mdate="2008-05-05" key="conf/icde/ShahR08">
+<author>Shetal Shah</author>
+<author>Krithi Ramamritham</author>
+<title>Handling Non-linear Polynomial Queries over Dynamic Data.</title>
+<pages>1043-1052</pages>
+<year>2008</year>
+<booktitle>ICDE</booktitle>
+<ee>http://dx.doi.org/10.1109/ICDE.2008.4497513</ee>
+<crossref>conf/icde/2008</crossref>
+<url>db/conf/icde/icde2008.html#ShahR08</url>
+</inproceedings>
+    <inproceedings mdate="2008-05-05" key="conf/icde/ChenOR08">
+<author>Lei Chen 0003</author>
+<author>Christopher Olston</author>
+<author>Raghu Ramakrishnan</author>
+<title>Parallel Evaluation of Composite Aggregate Queries.</title>
+<pages>218-227</pages>
+<year>2008</year>
+<booktitle>ICDE</booktitle>
+<ee>http://dx.doi.org/10.1109/ICDE.2008.4497430</ee>
+<crossref>conf/icde/2008</crossref>
+<url>db/conf/icde/icde2008.html#ChenOR08</url>
+</inproceedings>
+    <inproceedings mdate="2008-05-05" key="conf/icde/LakshmananRS08">
+<author>L. V. S. Lakshmanan</author>
+<author>A. Russakovsky</author>
+<author>V. Sashikanth</author>
+<title>What-if OLAP Queries with Changing Dimensions.</title>
+<pages>1334-1336</pages>
+<year>2008</year>
+<booktitle>ICDE</booktitle>
+<ee>http://dx.doi.org/10.1109/ICDE.2008.4497547</ee>
+<crossref>conf/icde/2008</crossref>
+<url>db/conf/icde/icde2008.html#LakshmananRS08</url>
+</inproceedings>
+    <inproceedings mdate="2008-05-05" key="conf/icde/AlexeCMT08">
+<author>Bogdan Alexe</author>
+<author>Laura Chiticariu</author>
+<author>Rene J. Miller</author>
+<author>Wang Chiew Tan</author>
+<title>Muse: Mapping Understanding and deSign by Example.</title>
+<pages>10-19</pages>
+<year>2008</year>
+<booktitle>ICDE</booktitle>
+<ee>http://dx.doi.org/10.1109/ICDE.2008.4497409</ee>
+<crossref>conf/icde/2008</crossref>
+<url>db/conf/icde/icde2008.html#AlexeCMT08</url>
+</inproceedings>
+    <inproceedings mdate="2008-05-05" key="conf/icde/TangYOCW08">
+<author>Nan Tang</author>
+<author>Jeffrey Xu Yu</author>
+<author>M. Tamer zsu</author>
+<author>Byron Choi</author>
+<author>Kam-Fai Wong</author>
+<title>Multiple Materialized View Selection for XPath Query Rewriting.</title>
+<pages>873-882</pages>
+<year>2008</year>
+<booktitle>ICDE</booktitle>
+<ee>http://dx.doi.org/10.1109/ICDE.2008.4497496</ee>
+<crossref>conf/icde/2008</crossref>
+<url>db/conf/icde/icde2008.html#TangYOCW08</url>
+</inproceedings>
+    <inproceedings mdate="2008-05-05" key="conf/icde/YiLHKS08">
+<author>Ke Yi</author>
+<author>Feifei Li</author>
+<author>Marios Hadjieleftheriou</author>
+<author>George Kollios</author>
+<author>Divesh Srivastava</author>
+<title>Randomized Synopses for Query Assurance on Data Streams.</title>
+<pages>416-425</pages>
+<year>2008</year>
+<booktitle>ICDE</booktitle>
+<ee>http://dx.doi.org/10.1109/ICDE.2008.4497450</ee>
+<crossref>conf/icde/2008</crossref>
+<url>db/conf/icde/icde2008.html#YiLHKS08</url>
+</inproceedings>
+    <inproceedings mdate="2008-05-05" key="conf/icde/Galindo-LegariaGGHSWYZZ08">
+<author>Csar A. Galindo-Legaria</author>
+<author>Torsten Grabs</author>
+<author>Sreenivas Gukal</author>
+<author>Steve Herbert</author>
+<author>Aleksandras Surna</author>
+<author>Shirley Wang</author>
+<author>Wei Yu</author>
+<author>Peter Zabback</author>
+<author>Shin Zhang</author>
+<title>Optimizing Star Join Queries for Data Warehousing in Microsoft SQL Server.</title>
+<pages>1190-1199</pages>
+<year>2008</year>
+<booktitle>ICDE</booktitle>
+<ee>http://dx.doi.org/10.1109/ICDE.2008.4497528</ee>
+<crossref>conf/icde/2008</crossref>
+<url>db/conf/icde/icde2008.html#Galindo-LegariaGGHSWYZZ08</url>
+</inproceedings>
+    <inproceedings mdate="2008-05-05" key="conf/icde/CormodeKT08">
+<author>Graham Cormode</author>
+<author>Flip Korn</author>
+<author>Srikanta Tirthapura</author>
+<title>Exponentially Decayed Aggregates on Data Streams.</title>
+<pages>1379-1381</pages>
+<year>2008</year>
+<booktitle>ICDE</booktitle>
+<ee>http://dx.doi.org/10.1109/ICDE.2008.4497562</ee>
+<crossref>conf/icde/2008</crossref>
+<url>db/conf/icde/icde2008.html#CormodeKT08</url>
+</inproceedings>
+    <inproceedings mdate="2008-05-05" key="conf/icde/BrunoC08">
+<author>Nicolas Bruno</author>
+<author>Pablo Castro</author>
+<title>Towards Declarative Queries on Adaptive Data Structures.</title>
+<pages>1249-1258</pages>
+<year>2008</year>
+<booktitle>ICDE</booktitle>
+<ee>http://dx.doi.org/10.1109/ICDE.2008.4497534</ee>
+<crossref>conf/icde/2008</crossref>
+<url>db/conf/icde/icde2008.html#BrunoC08</url>
+</inproceedings>
+    <inproceedings mdate="2008-05-05" key="conf/icde/ChiuehB08">
+<author>Tzi-cker Chiueh</author>
+<author>Shweta Bajpai</author>
+<title>Accurate and Efficient Inter-Transaction Dependency Tracking.</title>
+<pages>1209-1218</pages>
+<year>2008</year>
+<booktitle>ICDE</booktitle>
+<ee>http://dx.doi.org/10.1109/ICDE.2008.4497530</ee>
+<crossref>conf/icde/2008</crossref>
+<url>db/conf/icde/icde2008.html#ChiuehB08</url>
+</inproceedings>
+    <inproceedings mdate="2008-05-05" key="conf/icde/NabeelB08">
+<author>Mohamed Nabeel</author>
+<author>Elisa Bertino</author>
+<title>Secure Delta-Publishing of XML Content.</title>
+<pages>1361-1363</pages>
+<year>2008</year>
+<booktitle>ICDE</booktitle>
+<ee>http://dx.doi.org/10.1109/ICDE.2008.4497556</ee>
+<crossref>conf/icde/2008</crossref>
+<url>db/conf/icde/icde2008.html#NabeelB08</url>
+</inproceedings>
+    <inproceedings mdate="2008-05-05" key="conf/icde/GuPYC08">
+<author>Xiaohui Gu</author>
+<author>Spiros Papadimitriou</author>
+<author>Philip S. Yu</author>
+<author>Shu-Ping Chang</author>
+<title>Online Failure Forecast for Fault-Tolerant Data Stream Processing.</title>
+<pages>1388-1390</pages>
+<year>2008</year>
+<booktitle>ICDE</booktitle>
+<ee>http://dx.doi.org/10.1109/ICDE.2008.4497565</ee>
+<crossref>conf/icde/2008</crossref>
+<url>db/conf/icde/icde2008.html#GuPYC08</url>
+</inproceedings>
+    <inproceedings mdate="2008-05-05" key="conf/icde/KashaniS08">
+<author>Farnoush Banaei Kashani</author>
+<author>Cyrus Shahabi</author>
+<title>Fixed-Precision Approximate Continuous Aggregate Queries in Peer-to-Peer Databases.</title>
+<pages>1427-1429</pages>
+<year>2008</year>
+<booktitle>ICDE</booktitle>
+<ee>http://dx.doi.org/10.1109/ICDE.2008.4497578</ee>
+<crossref>conf/icde/2008</crossref>
+<url>db/conf/icde/icde2008.html#KashaniS08</url>
+</inproceedings>
+    <inproceedings mdate="2008-05-05" key="conf/icde/XieYCWY08">
+<author>Junyi Xie</author>
+<author>Jun Yang</author>
+<author>Yuguo Chen</author>
+<author>Haixun Wang</author>
+<author>Philip S. Yu</author>
+<title>A Sampling-Based Approach to Information Recovery.</title>
+<pages>476-485</pages>
+<year>2008</year>
+<booktitle>ICDE</booktitle>
+<ee>http://dx.doi.org/10.1109/ICDE.2008.4497456</ee>
+<crossref>conf/icde/2008</crossref>
+<url>db/conf/icde/icde2008.html#XieYCWY08</url>
+</inproceedings>
+    <inproceedings mdate="2008-05-05" key="conf/icde/DesslochHWRZ08">
+<author>Stefan Dessloch</author>
+<author>Mauricio A. Hernndez</author>
+<author>Ryan Wisnesky</author>
+<author>Ahmed Radwan</author>
+<author>Jindan Zhou</author>
+<title>Orchid: Integrating Schema Mapping and ETL.</title>
+<pages>1307-1316</pages>
+<year>2008</year>
+<booktitle>ICDE</booktitle>
+<ee>http://dx.doi.org/10.1109/ICDE.2008.4497540</ee>
+<crossref>conf/icde/2008</crossref>
+<url>db/conf/icde/icde2008.html#DesslochHWRZ08</url>
+</inproceedings>
+    <inproceedings mdate="2008-05-05" key="conf/icde/CaoCFT08">
+<author>Jianneng Cao</author>
+<author>Barbara Carminati</author>
+<author>Elena Ferrari</author>
+<author>Kian-Lee Tan</author>
+<title>CASTLE: A delay-constrained scheme for ks-anonymizing data streams.</title>
+<pages>1376-1378</pages>
+<year>2008</year>
+<booktitle>ICDE</booktitle>
+<ee>http://dx.doi.org/10.1109/ICDE.2008.4497561</ee>
+<crossref>conf/icde/2008</crossref>
+<url>db/conf/icde/icde2008.html#CaoCFT08</url>
+</inproceedings>
+    <inproceedings mdate="2008-05-05" key="conf/icde/LianC08">
+<author>Xiang Lian</author>
+<author>Lei Chen 0002</author>
+<title>Similarity Search in Arbitrary Subspaces Under Lp-Norm.</title>
+<pages>317-326</pages>
+<year>2008</year>
+<booktitle>ICDE</booktitle>
+<ee>http://dx.doi.org/10.1109/ICDE.2008.4497440</ee>
+<crossref>conf/icde/2008</crossref>
+<url>db/conf/icde/icde2008.html#LianC08</url>
+</inproceedings>
+    <inproceedings mdate="2008-05-05" key="conf/icde/RoschGL08">
+<author>Philipp Rsch</author>
+<author>Rainer Gemulla</author>
+<author>Wolfgang Lehner</author>
+<title>Designing Random Sample Synopses with Outliers.</title>
+<pages>1400-1402</pages>
+<year>2008</year>
+<booktitle>ICDE</booktitle>
+<ee>http://dx.doi.org/10.1109/ICDE.2008.4497569</ee>
+<crossref>conf/icde/2008</crossref>
+<url>db/conf/icde/icde2008.html#RoschGL08</url>
+</inproceedings>
+    <inproceedings mdate="2008-05-05" key="conf/icde/KriegelKKRS08">
+<author>Hans-Peter Kriegel</author>
+<author>Peer Krger</author>
+<author>Peter Kunath</author>
+<author>Matthias Renz</author>
+<author>Tim Schmidt</author>
+<title>Efficient Query Processing in Large Traffic Networks.</title>
+<pages>1451-1453</pages>
+<year>2008</year>
+<booktitle>ICDE</booktitle>
+<ee>http://dx.doi.org/10.1109/ICDE.2008.4497586</ee>
+<crossref>conf/icde/2008</crossref>
+<url>db/conf/icde/icde2008.html#KriegelKKRS08</url>
+</inproceedings>
+</dblp>
