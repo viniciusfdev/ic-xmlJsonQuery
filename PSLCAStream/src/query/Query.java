@@ -6,6 +6,7 @@
 package query;
 
 import java.util.ArrayList;
+import java.util.HashMap;
 import java.util.List;
 
 /**
@@ -14,18 +15,36 @@ import java.util.List;
  */
 public class Query {
     private int queryID;
-    private int lastResultId = -1;
+    private int lastResultId;
     private List<String> queryTerms;
     private List<Integer> results;
+    private HashMap<Integer, Integer> machedTerms; //needs be a hash HashMaps<id do no, machedValue>()
 
     public Query(int queryID, List<String> queryTerms) {
         this.results = new ArrayList<Integer>();
         this.queryID = queryID;
         this.queryTerms = queryTerms;
+        this.lastResultId = -1;
+        this.machedTerms = new HashMap<>();
     }
-    
+
     public void addResult(Integer nodeId){
         this.results.add(nodeId);
+    }
+    
+    public void printQueryTerms(){
+        for(String a: this.queryTerms){
+            System.out.print(a+" ");
+        }
+        System.out.println("");
+    }
+    
+    public void increaseMachedTermsById(Integer id) {
+        Integer mt;
+        if((mt = machedTerms.get(id)) != null)
+            this.machedTerms.put(id, mt+1);
+        else
+            this.machedTerms.put(id, 1);
     }
 
     public int getQueryID() {
@@ -59,12 +78,8 @@ public class Query {
     public void addResult(int result) {
         this.results.add(result);
     }
-    
-    public void printQueryTerms(){
-        for(String a: this.queryTerms){
-            System.out.print(a+" ");
-        }
-        System.out.println("");
+
+    public HashMap<Integer, Integer> getMachedTerms() {
+        return this.machedTerms;
     }
-    
 }

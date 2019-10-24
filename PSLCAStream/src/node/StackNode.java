@@ -19,14 +19,12 @@ import query.QueryGroupHash;
 public class StackNode {
     private int nodeId;
     private int height;
-    private long matchedTerms;
     private String label;
     private List<Query> usedQueries;
 
     public StackNode() {
         this.height = 0;
         this.nodeId = -1;
-        this.matchedTerms = 0;
         this.usedQueries = new ArrayList<Query>();
     }
 
@@ -34,7 +32,6 @@ public class StackNode {
         this.height = height;
         this.nodeId = nodeId;
         this.label = label;
-        this.matchedTerms = 0;
         this.usedQueries = new ArrayList<Query>();
     }
     
@@ -42,10 +39,33 @@ public class StackNode {
         this.height = sn.getHeight();
         this.nodeId = sn.getNodeId();
         this.label = sn.getLabel();
-        this.matchedTerms = sn.getMatchedTerms();
         this.usedQueries = sn.getUsedQueries();
     }
     
+    public void addUsedQueries(List<Query> queries) {
+        for(Query query: queries){
+            if(this.usedQueries == null){
+                this.usedQueries = new ArrayList<Query>();
+            }
+            if(!existQuery(query)){
+                this.usedQueries.add(query);
+            }
+        }
+    }
+    
+    public void inheritMachedTerms(Integer fId, Integer cId){
+        for(Query query: usedQueries){
+            Integer fmt = query.getMachedTerms().get(fId);
+            Integer cmt = query.getMachedTerms().get(cId);
+            if(cmt != null){
+                if(fmt != null)
+                    query.getMachedTerms().put(fId, fmt+cmt);
+                else
+                    query.getMachedTerms().put(fId, cmt);
+            }
+        }
+    }
+        
     public int getNodeId() {
         return nodeId;
     }
@@ -58,24 +78,6 @@ public class StackNode {
         return usedQueries;
     }
 
-    public void addUsedQueries(List<Query> queries) {
-        for(Query query: queries){
-            if(this.usedQueries == null){
-                this.usedQueries = new ArrayList<Query>();
-            }
-            if(!existQuery(query)){
-                this.usedQueries.add(query);
-            }
-        }
-    }
-
-    public long getMatchedTerms() {
-        return matchedTerms;
-    }
-
-    public void setMatchedTerms(long matchedTerms) {
-        this.matchedTerms = matchedTerms;
-    }
 
     public String getLabel() {
         return label;
