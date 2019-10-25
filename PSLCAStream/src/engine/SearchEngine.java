@@ -8,9 +8,12 @@ package engine;
 import exception.PSLCAStreamException;
 import java.util.ArrayList;
 import java.util.Arrays;
+import java.util.Collection;
 import java.util.HashMap;
+import java.util.HashSet;
 import java.util.Iterator;
 import java.util.List;
+import java.util.Set;
 import java.util.Stack;
 import node.StackNode;
 import org.xml.sax.Attributes;
@@ -202,8 +205,6 @@ public class SearchEngine extends DefaultHandler{
                         if(complete && (currentNodeE.getNodeId() > query.getLastResultId())){
                             query.addResult(currentNodeE.getNodeId());
                             query.setLastResultId(currentNodeE.getNodeId());
-                            if(!results.contains(currentNodeE.getNodeId()))
-                                results.add(currentNodeE.getNodeId());
                             SLCAfound = true;
                         }
                     }
@@ -259,9 +260,6 @@ public class SearchEngine extends DefaultHandler{
                         if(complete && (currentNodeE.getNodeId() > query.getLastResultId())){
                             query.addResult(currentNodeE.getNodeId());
                             query.setLastResultId(currentNodeE.getNodeId());
-                            if(!results.contains(currentNodeE.getNodeId()))
-                                results.add(currentNodeE.getNodeId());
-                            ELCAfound = true;
                             
                         //ELCA SEMANTIC
                             for(String term: query.getQueryTerms()){
@@ -291,8 +289,7 @@ public class SearchEngine extends DefaultHandler{
                             }
                             if(canBeElca){
                                 query.addResult(currentNodeE.getNodeId());
-                                if(!results.contains(currentNodeE.getNodeId()))
-                                    results.add(currentNodeE.getNodeId());
+                                ELCAfound = true;
                             }
                         }
                         //
@@ -391,6 +388,28 @@ public class SearchEngine extends DefaultHandler{
         }
         String tupla[] = {"-1", "false"};
         return tupla;
+    }
+    
+    public Set<Query> getResultsByQuery(){
+        List<Query> queries = new ArrayList<Query>();
+        for (List<Query> value : queryIndex.getQueryGroupHash().values()) {
+            queries.addAll(value);
+        }
+        Set<Query> queries_ = new HashSet<>();
+        for(Query query: queries){
+            queries_.add(query);
+        }
+        return queries_;
+    }
+    
+    public void printResultsByQuery(){
+        for(Query query: getResultsByQuery()){
+            System.out.print(query.getQueryID()+"::");
+            for(Integer r: query.getResults()){
+                System.out.print(r+".");
+            }
+            System.out.println("\n");
+        }
     }
     
     /**

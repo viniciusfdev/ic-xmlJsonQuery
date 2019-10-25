@@ -1,4 +1,10 @@
-<mike>
-    <author>XML Data</author>
-    <mike>bib is data structure based on Three's, i that way she something better!</mike>
-</mike>
+<book>
+    <title>XML Search</title>
+    <chapter>
+        <title>XPath</title>
+        <author>John</author>
+    </chapter>
+    <author>
+        Mike
+    </author>
+</book>

@@ -48,9 +48,7 @@ public class TaskControl implements Runnable{
                     xr.setContentHandler(search);
                     xr.setErrorHandler(search);
                     xr.parse(new InputSource(file));
-                    for(int nodeId: search.getResults()){
-                        System.out.println("Nós candidatos a semantica:"+nodeId);
-                    }
+                    search.printResultsByQuery();
                 }else{
                     throw new PSLCAStreamException("Query Index => não possui consultas");
                 }
