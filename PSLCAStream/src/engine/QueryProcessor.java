@@ -19,7 +19,6 @@ import java.util.logging.Level;
 import java.util.logging.Logger;
 import query.Query;
 import query.QueryGroupHash;
-import query.Term;
 
 /**
  * Process the queries for each Document.
@@ -115,11 +114,7 @@ public class QueryProcessor {
                     termGroup.add(new ArrayList<>());
                     index++;
                 }
-                List<Term> terms = new ArrayList<>();
-                for(String t: Arrays.asList(line.split("\\s+"))){
-                    terms.add(new Term(t));
-                }
-                queryGroup.get(index).add(new Query(i, terms));
+                queryGroup.get(index).add(new Query(i, Arrays.asList(line.split("\\s+"))));
                 for(String term: line.split("\\s+")){
                     if(!termGroup.get(index).contains(term))
                         termGroup.get(index).add(term);
@@ -130,7 +125,7 @@ public class QueryProcessor {
                 queryIndex[index] = new QueryGroupHash();
                 for(String term: termGroup.get(index)){
                     for(Query q: queryGroup.get(index)){
-                        if(q.contains(term))
+                        if(q.getQueryTerms().contains(term))
                             queryIndex[index].addQuery(term, q);
                     }
                 }

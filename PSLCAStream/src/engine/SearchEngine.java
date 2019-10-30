@@ -20,7 +20,6 @@ import org.xml.sax.Attributes;
 import org.xml.sax.helpers.DefaultHandler;
 import query.Query;
 import query.QueryGroupHash;
-import query.Term;
 
 /**
  *
@@ -104,9 +103,8 @@ public class SearchEngine extends DefaultHandler{
                    !queryIndex.getQueryGroupHash().get(label).isEmpty()){
                     currentNodeE.addUsedQueries(queryIndex.getQueries(label));
                     for(Query query: currentNodeE.getUsedQueries()){
-                        if(query.contains(label)){
-                            query.increaseMachedTermsById(currentNodeE.getNodeId(), label);
-                        }
+                        if(query.getQueryTerms().contains(label))
+                            query.increaseMachedTermsById(currentNodeE.getNodeId());
                     }
                     simpleG3.put(label, currentNodeE.getNodeId());
                     //ELCA SEMANTIC
@@ -125,8 +123,8 @@ public class SearchEngine extends DefaultHandler{
                    !queryIndex.getQueryGroupHash().get(label+"::").isEmpty()){
                     currentNodeE.addUsedQueries(queryIndex.getQueries(label+"::"));
                     for(Query query: currentNodeE.getUsedQueries()){
-                        if(query.contains(label+"::"))
-                            query.increaseMachedTermsById(currentNodeE.getNodeId(), label+"::");
+                        if(query.getQueryTerms().contains(label+"::"))
+                            query.increaseMachedTermsById(currentNodeE.getNodeId());
                     }
                     simpleG3.put(label+"::", currentNodeE.getNodeId());
 
@@ -194,13 +192,13 @@ public class SearchEngine extends DefaultHandler{
                 Boolean SLCAfound = false;
                 StackNode topNode = new StackNode();
                 currentNodeE = parsingStack.pop();
-
+                
                 for(Query query: currentNodeE.getUsedQueries()){
                     if(query.getMachedTerms().get(currentNodeE.getNodeId()) != null &&
                        query.getMachedTerms().get(currentNodeE.getNodeId()) >= query.getQueryTerms().size()){
                         complete = true;
-                        for(Term term: query.getQueryTerms()){
-                            if((simpleG3.get(term.getTerm()) != null) && (currentNodeE.getNodeId() > simpleG3.get(term.getTerm()))){
+                        for(String term: query.getQueryTerms()){
+                            if((simpleG3.get(term) != null) && (currentNodeE.getNodeId() > simpleG3.get(term))){
                                 complete = false;
                             }
                         }
@@ -247,43 +245,46 @@ public class SearchEngine extends DefaultHandler{
                 Boolean ELCAfound = false;
                 StackNode topNode = new StackNode();
                 currentNodeE = parsingStack.pop();
+                if(currentNodeE.getNodeId() == 4){
+                    System.out.println("");
+                }
                 for(Query query: currentNodeE.getUsedQueries()){
                     if(query.getMachedTerms().get(currentNodeE.getNodeId()) != null &&
                        query.getMachedTerms().get(currentNodeE.getNodeId()) >= query.getQueryTerms().size()){
                         complete = true;
-                        for(Term term: query.getQueryTerms()){
-                            if((simpleG3.get(term.getTerm()) != null) && (currentNodeE.getNodeId() > simpleG3.get(term.getTerm()))){
+                        for(String term: query.getQueryTerms()){
+                            if((simpleG3.get(term) != null) && (currentNodeE.getNodeId() > simpleG3.get(term))){
                                 complete = false;
                             }
                         }
                         if(complete && (currentNodeE.getNodeId() > query.getLastResultId())){
                             query.addResult(currentNodeE.getNodeId());
                             query.setLastResultId(currentNodeE.getNodeId());
-                            ELCAfound = true;
+                            
                         //ELCA SEMANTIC
-                            for(Term term: query.getQueryTerms()){
+                            for(String term: query.getQueryTerms()){
                                 List<Integer> nodes = new ArrayList<>();
-                                if(invertedG1.get(term.getTerm()) != null)
-                                    for(Integer idi: invertedG1.get(term.getTerm())){
+                                if(invertedG1.get(term) != null)
+                                    for(Integer idi: invertedG1.get(term)){
                                         if(idi >= currentNodeE.getNodeId())
                                             nodes.add(idi);
                                     }
-                                invertedg2.put(term.getTerm(), nodes);
+                                invertedg2.put(term, nodes);
                             }
-                        }else if(complete){
+                        }else{
                             Boolean canBeElca = true;
                             List<Integer> idList = new ArrayList<>();
-                            for(Term term: query.getQueryTerms()){
-                                if(invertedG1.get(term.getTerm()) != null)
-                                    for(Integer idi: invertedG1.get(term.getTerm())){
-                                        if(invertedg2.get(term.getTerm()) != null && idi != null &&
-                                           idi >= currentNodeE.getNodeId() && !invertedg2.get(term.getTerm()).contains(idi))
+                            for(String term: query.getQueryTerms()){
+                                if(invertedG1.get(term) != null)
+                                    for(Integer idi: invertedG1.get(term)){
+                                        if(invertedg2.get(term) != null && idi != null &&
+                                           idi >= currentNodeE.getNodeId() && !invertedg2.get(term).contains(idi))
                                             idList.add(idi);
                                     }
                                 if(idList.isEmpty()){
                                     canBeElca = false;
                                 }else{
-                                    invertedg2.get(term.getTerm()).addAll(idList);
+                                    invertedg2.get(term).addAll(idList);
                                 }
                             }
                             if(canBeElca){
@@ -293,7 +294,7 @@ public class SearchEngine extends DefaultHandler{
                         }
                         //
                     }
-                }                
+                }
                 if(!parsingStack.empty())
                     topNode = parsingStack.peek();
                 if(!parsingStack.empty() && (currentNodeE.getHeight() - topNode.getHeight()) == 1){
@@ -350,8 +351,8 @@ public class SearchEngine extends DefaultHandler{
                         currentNodeE.addUsedQueries(queryIndex.getQueryGroupHash().get(term));
                         //increment all query matches
                         for(Query query: currentNodeE.getUsedQueries()){
-                            if(query.contains(term))
-                                query.increaseMachedTermsById(currentNodeE.getNodeId(), term);
+                            if(query.getQueryTerms().contains(term))
+                                query.increaseMachedTermsById(currentNodeE.getNodeId());
                         }
                         //currentNodeE.setMatchedTerms(currentNodeE.getMatchedTerms()+1);
                         String contains[] = containsNode(currentNodeE.getNodeId());
@@ -403,7 +404,7 @@ public class SearchEngine extends DefaultHandler{
     
     public void printResultsByQuery(){
         for(Query query: getResultsByQuery()){
-            System.out.print(query.getQueryID()+" = ");
+            System.out.print(query.getQueryID()+"::");
             for(Integer r: query.getResults()){
                 System.out.print(r+".");
             }

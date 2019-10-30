@@ -16,11 +16,11 @@ import java.util.List;
 public class Query {
     private int queryID;
     private int lastResultId;
-    private List<Term> queryTerms;
+    private List<String> queryTerms;
     private List<Integer> results;
     private HashMap<Integer, Integer> machedTerms; //needs be a hash HashMaps<id do no, machedValue>()
 
-    public Query(int queryID, List<Term> queryTerms) {
+    public Query(int queryID, List<String> queryTerms) {
         this.results = new ArrayList<Integer>();
         this.queryID = queryID;
         this.queryTerms = queryTerms;
@@ -33,56 +33,20 @@ public class Query {
     }
     
     public void printQueryTerms(){
-        for(Term a: this.queryTerms){
-            System.out.print(a.getTerm()+" ");
+        for(String a: this.queryTerms){
+            System.out.print(a+" ");
         }
         System.out.println("");
     }
     
-    public void increaseMachedTermsById(Integer id, String term) {
+    public void increaseMachedTermsById(Integer id) {
         Integer mt;
-        if((mt = machedTerms.get(id)) != null && !isMatched(term)){
+        if((mt = machedTerms.get(id)) != null)
             this.machedTerms.put(id, mt+1);
-            setMatched(term);
-        }else if(!isMatched(term)){
+        else
             this.machedTerms.put(id, 1);
-            setMatched(term);
-        }
     }
-    
-    public boolean contains(String term){
-        for(Term t: this.queryTerms){
-            if(t.getTerm().equalsIgnoreCase(term)){
-                return true;
-            }
-        }
-        return false;
-    }
-    
-    public boolean isMatched(String term){
-        for(Term t: queryTerms){
-            if(t.getTerm().equalsIgnoreCase(term)){
-                return t.getStatus();
-            }
-        }
-        return false;
-    }
-    
-    public void setMatched(String term){
-        for(Term t: queryTerms){
-            if(t.getTerm().equalsIgnoreCase(term)){
-                t.setStatus(true);
-                break;
-            }
-        }
-    }
-    
-    public void restartQueryForAnotherNode(){
-        for(Term t: queryTerms){
-            t.setStatus(false);
-        }
-    }
-    
+
     public int getQueryID() {
         return queryID;
     }
@@ -99,11 +63,11 @@ public class Query {
         this.lastResultId = lastResultId;
     }
 
-    public List<Term> getQueryTerms() {
+    public List<String> getQueryTerms() {
         return queryTerms;
     }
 
-    public void setQueryTerms(List<Term> queryTerms) {
+    public void setQueryTerms(List<String> queryTerms) {
         this.queryTerms = queryTerms;
     }
 
