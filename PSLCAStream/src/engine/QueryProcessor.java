@@ -28,7 +28,7 @@ import query.QueryGroupHash;
 public class QueryProcessor {
 
     private boolean semantic;
-    private int nThreads = 1;
+    private int nThreads;
     private List<Thread> threads;
     private String queryFileName;
     private String[] xmlFileList;
@@ -40,7 +40,8 @@ public class QueryProcessor {
      * @param xmlFileList The list of documents 
      * @param sematic
      */
-    public QueryProcessor(String queryFileName, String[] xmlFileList, boolean semantic) {
+    public QueryProcessor(String queryFileName, String[] xmlFileList, boolean semantic, int nThreads) {
+        this.nThreads = nThreads;
         this.semantic = semantic;
         this.xmlFileList = xmlFileList;
         this.threads = new ArrayList<Thread>();
@@ -56,8 +57,8 @@ public class QueryProcessor {
         
         for(String xmlFileName: xmlFileList){
             try {                
-                //nThreads = Runtime.getRuntime().availableProcessors();
-                nThreads = 1;
+                if(nThreads > Runtime.getRuntime().availableProcessors())
+                    nThreads = Runtime.getRuntime().availableProcessors();
                 queryIndex = new QueryGroupHash[nThreads];
                 if(buildQueryIndexGroup(nThreads))
                     for(int i = 0; i < nThreads ; i++){
@@ -69,6 +70,7 @@ public class QueryProcessor {
                             (new File("src/xml/"+xmlFileName).getAbsolutePath()), queryIndex[0], semantic)));
                 for(Thread t: threads){
                     t.start();
+                    t.sleep(t.getId()*100);
                 }
                 for(Thread t: threads){
                     t.join();

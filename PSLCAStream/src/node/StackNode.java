@@ -9,6 +9,7 @@ import java.util.ArrayList;
 import java.util.List;
 import query.Query;
 import query.QueryGroupHash;
+import query.TermOcurrence;
 
 /**
  * Parsing Stack Node to process open nodes during
@@ -53,15 +54,23 @@ public class StackNode {
         }
     }
     
-    public void inheritMachedTerms(Integer fId, Integer cId){
+    public void inheritMachedTerms(Integer upwardId, Integer downwardId){
         for(Query query: usedQueries){
-            Integer fmt = query.getMachedTerms().get(fId);
-            Integer cmt = query.getMachedTerms().get(cId);
-            if(cmt != null){
-                if(fmt != null)
-                    query.getMachedTerms().put(fId, fmt+cmt);
-                else
-                    query.getMachedTerms().put(fId, cmt);
+            TermOcurrence upwardTO = query.getMatchedTerms().get(upwardId);
+            TermOcurrence downwardTO = query.getMatchedTerms().get(downwardId);
+            if(upwardTO == null){
+                query.getMatchedTerms().put(upwardId, new TermOcurrence());
+                upwardTO = query.getMatchedTerms().get(upwardId);
+            }
+            for(String term: query.getQueryTerms()){
+                if(downwardTO != null && downwardTO.getTermOcurrences().get(term) != null && 
+                   downwardTO.getTermOcurrences().get(term)){
+                    if(upwardTO.getTermOcurrences().get(term) == null){
+                        upwardTO.setOcurrence(term);
+                    }else if(!upwardTO.getTermOcurrences().get(term)){
+                        upwardTO.setOcurrence(term);
+                    }
+                }
             }
         }
     }

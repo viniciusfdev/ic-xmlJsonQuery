@@ -40,7 +40,6 @@ public class TaskControl implements Runnable{
     public void run() {
         
         try {
-            
             XMLReader xr = XMLReaderFactory.createXMLReader();
             if(queryIndex != null){
                 if(!queryIndex.getQueryGroupHash().isEmpty()){

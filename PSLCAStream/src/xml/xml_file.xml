@@ -1,10 +1,6 @@
-<book>
-    <title>XML Search</title>
-    <chapter>
-        <title>XPath</title>
+<bib>
+    <book>
+        <title>XML</title>
         <author>John</author>
-    </chapter>
-    <author>
-        Mike
-    </author>
-</book>
+    </book>   
+</bib>

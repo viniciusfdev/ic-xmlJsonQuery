@@ -104,7 +104,7 @@ public class SearchEngine extends DefaultHandler{
                     currentNodeE.addUsedQueries(queryIndex.getQueries(label));
                     for(Query query: currentNodeE.getUsedQueries()){
                         if(query.getQueryTerms().contains(label))
-                            query.increaseMachedTermsById(currentNodeE.getNodeId());
+                            query.increaseMachedTermsById(currentNodeE.getNodeId(), label);
                     }
                     simpleG3.put(label, currentNodeE.getNodeId());
                     //ELCA SEMANTIC
@@ -124,7 +124,7 @@ public class SearchEngine extends DefaultHandler{
                     currentNodeE.addUsedQueries(queryIndex.getQueries(label+"::"));
                     for(Query query: currentNodeE.getUsedQueries()){
                         if(query.getQueryTerms().contains(label+"::"))
-                            query.increaseMachedTermsById(currentNodeE.getNodeId());
+                            query.increaseMachedTermsById(currentNodeE.getNodeId(), label+"::");
                     }
                     simpleG3.put(label+"::", currentNodeE.getNodeId());
 
@@ -189,13 +189,11 @@ public class SearchEngine extends DefaultHandler{
         try{
             if(!parsingStack.isEmpty() && parsingStack.peek().getNodeId() == nodePath.get(nodePath.size()-1).getNodeId()){
                 Boolean complete = false;
-                Boolean SLCAfound = false;
                 StackNode topNode = new StackNode();
                 currentNodeE = parsingStack.pop();
                 
                 for(Query query: currentNodeE.getUsedQueries()){
-                    if(query.getMachedTerms().get(currentNodeE.getNodeId()) != null &&
-                       query.getMachedTerms().get(currentNodeE.getNodeId()) >= query.getQueryTerms().size()){
+                    if(query.nMatches(currentNodeE.getNodeId()) >= query.getQueryTerms().size()){
                         complete = true;
                         for(String term: query.getQueryTerms()){
                             if((simpleG3.get(term) != null) && (currentNodeE.getNodeId() > simpleG3.get(term))){
@@ -205,7 +203,6 @@ public class SearchEngine extends DefaultHandler{
                         if(complete && (currentNodeE.getNodeId() > query.getLastResultId())){
                             query.addResult(currentNodeE.getNodeId());
                             query.setLastResultId(currentNodeE.getNodeId());
-                            SLCAfound = true;
                         }
                     }
                 }
@@ -215,7 +212,7 @@ public class SearchEngine extends DefaultHandler{
                     topNode.addUsedQueries(currentNodeE.getUsedQueries());
                     topNode.inheritMachedTerms(topNode.getNodeId(), currentNodeE.getNodeId());
                 }else{
-                    if(!nodePath.isEmpty() && !SLCAfound && currentNodeE.getHeight() != 0){
+                    if(!nodePath.isEmpty() && currentNodeE.getHeight() != 0){
                         parsingStack.push(new StackNode(name, currentNodeE.getHeight()-1, nodePath.get(currentNodeE.getHeight()-1).getNodeId()));
                         parsingStack.lastElement().addUsedQueries(currentNodeE.getUsedQueries());
                         parsingStack.lastElement().inheritMachedTerms(parsingStack.lastElement().getNodeId(), currentNodeE.getNodeId());
@@ -242,15 +239,13 @@ public class SearchEngine extends DefaultHandler{
         try{
             if(!parsingStack.isEmpty() && parsingStack.peek().getNodeId() == nodePath.get(nodePath.size()-1).getNodeId()){
                 Boolean complete = false;
-                Boolean ELCAfound = false;
                 StackNode topNode = new StackNode();
                 currentNodeE = parsingStack.pop();
                 if(currentNodeE.getNodeId() == 4){
                     System.out.println("");
                 }
                 for(Query query: currentNodeE.getUsedQueries()){
-                    if(query.getMachedTerms().get(currentNodeE.getNodeId()) != null &&
-                       query.getMachedTerms().get(currentNodeE.getNodeId()) >= query.getQueryTerms().size()){
+                    if(query.nMatches(currentNodeE.getNodeId()) >= query.getQueryTerms().size()){
                         complete = true;
                         for(String term: query.getQueryTerms()){
                             if((simpleG3.get(term) != null) && (currentNodeE.getNodeId() > simpleG3.get(term))){
@@ -260,7 +255,6 @@ public class SearchEngine extends DefaultHandler{
                         if(complete && (currentNodeE.getNodeId() > query.getLastResultId())){
                             query.addResult(currentNodeE.getNodeId());
                             query.setLastResultId(currentNodeE.getNodeId());
-                            
                         //ELCA SEMANTIC
                             for(String term: query.getQueryTerms()){
                                 List<Integer> nodes = new ArrayList<>();
@@ -271,7 +265,7 @@ public class SearchEngine extends DefaultHandler{
                                     }
                                 invertedg2.put(term, nodes);
                             }
-                        }else{
+                        }else if(complete){
                             Boolean canBeElca = true;
                             List<Integer> idList = new ArrayList<>();
                             for(String term: query.getQueryTerms()){
@@ -289,7 +283,6 @@ public class SearchEngine extends DefaultHandler{
                             }
                             if(canBeElca){
                                 query.addResult(currentNodeE.getNodeId());
-                                ELCAfound = true;
                             }
                         }
                         //
@@ -301,7 +294,7 @@ public class SearchEngine extends DefaultHandler{
                     topNode.addUsedQueries(currentNodeE.getUsedQueries());
                     topNode.inheritMachedTerms(topNode.getNodeId(), currentNodeE.getNodeId());
                 }else{
-                    if(!nodePath.isEmpty() && !ELCAfound && currentNodeE.getHeight() != 0){
+                    if(!nodePath.isEmpty() && currentNodeE.getHeight() != 0){
                         parsingStack.push(new StackNode(name, currentNodeE.getHeight()-1, nodePath.get(currentNodeE.getHeight()-1).getNodeId()));
                         parsingStack.lastElement().addUsedQueries(currentNodeE.getUsedQueries());
                         parsingStack.lastElement().inheritMachedTerms(parsingStack.lastElement().getNodeId(), currentNodeE.getNodeId());
@@ -352,7 +345,7 @@ public class SearchEngine extends DefaultHandler{
                         //increment all query matches
                         for(Query query: currentNodeE.getUsedQueries()){
                             if(query.getQueryTerms().contains(term))
-                                query.increaseMachedTermsById(currentNodeE.getNodeId());
+                                query.increaseMachedTermsById(currentNodeE.getNodeId(), term);
                         }
                         //currentNodeE.setMatchedTerms(currentNodeE.getMatchedTerms()+1);
                         String contains[] = containsNode(currentNodeE.getNodeId());
@@ -404,10 +397,8 @@ public class SearchEngine extends DefaultHandler{
     
     public void printResultsByQuery(){
         for(Query query: getResultsByQuery()){
-            System.out.print(query.getQueryID()+"::");
-            for(Integer r: query.getResults()){
-                System.out.print(r+".");
-            }
+            System.out.print(query.getQueryID()+"="+query.getQueryTerms().toString()+"=");
+            System.out.println(query.getResults().toString());
             System.out.println("\n");
         }
     }
