@@ -70,7 +70,7 @@ public class QueryProcessor {
                             (new File("src/xml/"+xmlFileName).getAbsolutePath()), queryIndex[0], semantic)));
                 for(Thread t: threads){
                     t.start();
-                    t.sleep(t.getId()*100);
+                    //t.sleep(t.getId()*100);
                 }
                 for(Thread t: threads){
                     t.join();
@@ -116,7 +116,7 @@ public class QueryProcessor {
                     termGroup.add(new ArrayList<>());
                     index++;
                 }
-                queryGroup.get(index).add(new Query(i, Arrays.asList(line.split("\\s+"))));
+                queryGroup.get(index).add(new Query(i+1, Arrays.asList(line.split("\\s+"))));
                 for(String term: line.split("\\s+")){
                     if(!termGroup.get(index).contains(term))
                         termGroup.get(index).add(term);

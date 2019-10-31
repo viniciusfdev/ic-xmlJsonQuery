@@ -46,7 +46,7 @@ public class SearchEngine extends DefaultHandler{
      */
     public SearchEngine(QueryGroupHash queryIndex, Boolean semantic) {
         super();
-        this.id = -1;
+        this.id = 0;
         this.height = -1;
         this.currentNodeE = new StackNode();
         this.nodePath = new ArrayList<StackNode>();
@@ -397,7 +397,7 @@ public class SearchEngine extends DefaultHandler{
     
     public void printResultsByQuery(){
         for(Query query: getResultsByQuery()){
-            System.out.print(query.getQueryID()+"="+query.getQueryTerms().toString()+"=");
+            System.out.print("Query("+query.getQueryID()+")="+query.getQueryTerms().toString()+"=");
             System.out.println(query.getResults().toString());
             System.out.println("\n");
         }
