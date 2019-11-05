@@ -27,13 +27,16 @@ import query.QueryGroupHash;
  */
 public class QueryProcessor {
 
+    private HashMap<Query, List<Integer>> results;
+    private List<List<Query>> queryGroup;
+    private QueryGroupHash[] queryIndex;
+    private List<Query> queries;
+    private String queryFileName;
+    private int nQueriesPerGroup;
+    private String[] xmlFileList;
+    private List<Thread> threads;
     private boolean semantic;
     private int nThreads;
-    private List<Thread> threads;
-    private String queryFileName;
-    private String[] xmlFileList;
-    private QueryGroupHash[] queryIndex;
-    private HashMap<Query, List<Integer>> results;
     /**
      * 
      * @param queriesFileName
@@ -41,11 +44,14 @@ public class QueryProcessor {
      * @param sematic
      */
     public QueryProcessor(String queryFileName, String[] xmlFileList, boolean semantic, int nThreads) {
-        this.nThreads = nThreads;
-        this.semantic = semantic;
-        this.xmlFileList = xmlFileList;
         this.threads = new ArrayList<Thread>();
+        this.queryGroup = new ArrayList<>();
+        this.queries = new ArrayList<>();
         this.queryFileName = queryFileName;
+        this.xmlFileList = xmlFileList;
+        this.nQueriesPerGroup = 0;
+        this.semantic = semantic;
+        this.nThreads = nThreads;
     }
     
     /**
@@ -92,7 +98,70 @@ public class QueryProcessor {
      * Group all queries with have common terms to accelerate the search engine.
      */
     public void groupQueryWhithCommonTerms(){
+        BufferedReader queryFile;
+        Query queryAux = null;
+        int countQueries = 0;
+        String line = "";
+        int index = 0;
+        int aux = 0;
+        int i = 1;
         
+        try {
+            queryFile = new BufferedReader(new FileReader(new File("src/query_test/"+queryFileName).getAbsolutePath()));
+            while((line = queryFile.readLine()) != null){
+                queries.add(new Query(i++, Arrays.asList(line.split("\\s+"))));
+                countQueries++;
+            }
+        } catch (FileNotFoundException ex) {
+            Logger.getLogger(QueryProcessor.class.getName()).log(Level.SEVERE, null, ex);
+            return;
+        } catch (IOException ex) {
+            Logger.getLogger(QueryProcessor.class.getName()).log(Level.SEVERE, null, ex);
+        }
+
+        nQueriesPerGroup = countQueries/nThreads;
+
+        queryGroup.add(new ArrayList<>());
+        queryGroup.get(index).add(queries.get(0).clone());
+        queries.remove(0);
+
+        while(countOverallSize(queryGroup) != countQueries){
+            Query query = queryGroup.get(index).get(queryGroup.get(index).size()-1);
+            if(queryGroup.get(index).size() == nQueriesPerGroup && index+1 < nThreads){
+                queryGroup.add(new ArrayList<>());
+                index++;
+            }
+            aux = 0;
+            for(Query queryAv: queries){
+                if(queryGroup.get(index).contains(queryAv)) continue;
+                i = 0;
+                for(String term: queryAv.getQueryTerms()){
+                    if(getAllTerms(queryGroup.get(index)).contains(term)){
+                        i++;
+                    }
+                }
+                if(i > aux){
+                    aux = i;
+                    queryAux = queryAv;
+                }                
+            }
+            if(aux != 0){
+                queryGroup.get(index).add(queryAux.clone());
+                queries.remove(queryAux);
+            }
+            else{
+                Query randonQuery = null;
+                for(Query q: queries){
+                    if(!queryGroup.get(index).contains(q)){
+                        randonQuery = q;
+                        break;
+                    }
+                }
+                queryGroup.get(index).add(randonQuery.clone());
+                queries.remove(randonQuery);
+
+            }
+        }
     }
     
     /**
@@ -100,32 +169,12 @@ public class QueryProcessor {
      * distribute into n threads
      */
     public Boolean buildQueryIndexGroup(int nThreads){
-        int nQueriesPerGroup = this.countQueriesFile()/nThreads;
         try {
-            BufferedReader queryFile = new BufferedReader(new FileReader(new File("src/query_test/"+queryFileName).getAbsolutePath()));
-            List<List<Query>> queryGroup = new ArrayList<>();
-            List<List<String>> termGroup = new ArrayList<>();
-            queryGroup.add(new ArrayList<>());
-            termGroup.add(new ArrayList<>());
-            int i = 0, index = 0;
-            String line = "";
-            
-            for(;(line = queryFile.readLine()) != null; i++){
-                if(i == nQueriesPerGroup*(index+1) && nQueriesPerGroup > 0 && index+1 < nThreads){
-                    queryGroup.add(new ArrayList<>());
-                    termGroup.add(new ArrayList<>());
-                    index++;
-                }
-                queryGroup.get(index).add(new Query(i+1, Arrays.asList(line.split("\\s+"))));
-                for(String term: line.split("\\s+")){
-                    if(!termGroup.get(index).contains(term))
-                        termGroup.get(index).add(term);
-                }
-            }
+            groupQueryWhithCommonTerms();
             if(nQueriesPerGroup > 0)
-            for(index = 0; index < nThreads; index++){
+            for(int index = 0; index < nThreads; index++){
                 queryIndex[index] = new QueryGroupHash();
-                for(String term: termGroup.get(index)){
+                for(String term: getAllTerms(queryGroup.get(index))){
                     for(Query q: queryGroup.get(index)){
                         if(q.getQueryTerms().contains(term))
                             queryIndex[index].addQuery(term, q);
@@ -134,7 +183,7 @@ public class QueryProcessor {
             }
             else{
                 queryIndex[0] = new QueryGroupHash();
-                for(String term: termGroup.get(0)){
+                for(String term: getAllTerms(queryGroup.get(0))){
                     for(Query q: queryGroup.get(0)){
                         if(q.getQueryTerms().contains(term))
                             queryIndex[0].addQuery(term, q);
@@ -146,10 +195,34 @@ public class QueryProcessor {
             
         } catch (PSLCAStreamException ex) {
             Logger.getLogger(QueryProcessor.class.getName()).log(Level.SEVERE, null, ex);
-        } catch (IOException ex) {
-            Logger.getLogger(QueryProcessor.class.getName()).log(Level.SEVERE, null, ex);
         }
         return false;
+    }
+    
+        /**
+     * Return a list of all terms in one group.
+     * @param group
+     * @return 
+     */
+    public static List<String> getAllTerms(List<Query> group){
+        List<String> terms = new ArrayList<>();
+        for(Query query: group){
+            terms.addAll(query.getQueryTerms());
+        }
+        return terms;
+    }
+    
+    /**
+     * Count overall size of a List of list of query.
+     * @param group
+     * @return 
+     */
+    public static int countOverallSize(List<List<Query>> group){
+        int size = 0;
+        for(List<Query> list: group){
+            size += list.size();
+        }
+        return size;
     }
     
     public int countQueriesFile(){

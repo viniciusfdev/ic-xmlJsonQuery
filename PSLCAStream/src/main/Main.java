@@ -24,7 +24,7 @@ public class Main {
         boolean semantic = true;
         //true = SLCA
         //false = ELCA
-        QueryProcessor qp = new QueryProcessor(queryFileName, xmlFilePath, semantic, 1);
+        QueryProcessor qp = new QueryProcessor(queryFileName, xmlFilePath, semantic, 4);
         qp.multipleQueriesStart();
     }
     

@@ -20,7 +20,7 @@ public class Query implements Cloneable {
     private int lastResultId;
     private List<String> queryTerms;
     private List<Integer> results;
-    private HashMap<Integer, TermOcurrence> matchedTerms; //needs be a hash HashMaps<id do no, machedValue>()
+    private HashMap<Integer, TermOcurrence> matchedTerms;
 
     public Query(int queryID, List<String> queryTerms) {
         this.results = new ArrayList<Integer>();
@@ -29,11 +29,10 @@ public class Query implements Cloneable {
         this.lastResultId = -1;
         this.matchedTerms = new HashMap<>();
     }
-
-    public void addResult(Integer nodeId){
-        this.results.add(nodeId);
-    }
     
+    /**
+     * Print all query terms.
+     */
     public void printQueryTerms(){
         for(String a: this.queryTerms){
             System.out.print(a+" ");
@@ -41,6 +40,11 @@ public class Query implements Cloneable {
         System.out.println("");
     }
     
+    /**
+     * Increment a node combination with have a relation with one term.
+     * @param id
+     * @param term 
+     */
     public void increaseMachedTermsById(Integer id, String term) {
         TermOcurrence mt;
         if((mt = matchedTerms.get(id)) != null){
@@ -56,12 +60,27 @@ public class Query implements Cloneable {
         }
     }
     
+    /**
+     * Return the number of combinations in one node.
+     * @param nodeId
+     * @return 
+     */
     public Integer nMatches(Integer nodeId){
         Integer matches;
         if((matches = matchedTerms.get(nodeId).getnOcurrences()) != null)
             return matches;
         else return 0;
     }
+
+    @Override
+    public Query clone(){ 
+        try{
+            return (Query)super.clone();
+        }catch(CloneNotSupportedException ex){
+            System.out.println(ex.getMessage());
+        }
+        return null;
+    } 
     
     public int getQueryID() {
         return queryID;
