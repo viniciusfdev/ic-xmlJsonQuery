@@ -19,7 +19,6 @@ import java.util.List;
  * @author vinicius
  */
 public class GroupWithCommonTerms {
-
     /**
      * @param args the command line arguments
      */
@@ -29,29 +28,35 @@ public class GroupWithCommonTerms {
         int nQueriesPerGroup = 4;
         List<List<Query>> queryGroup = new ArrayList<>();
         List<List<String>> termGroup = new ArrayList<>();
-        List<Query> queriesOrganized = new ArrayList<>();
         List<Query> queries = new ArrayList<>();
         String line = "";
         int queryID = 0;
         int aux = 0;
         int i = 1;
         int index = 0;
+        int nThreads = 4;
         
         while((line = queryFile.readLine()) != null){
             queries.add(new Query(i++, Arrays.asList(line.split("\\s+"))));
         }
         
-        queriesOrganized.add(queries.get(0));
+        queryGroup.add(new ArrayList<>());
+        queryGroup.get(index).add(queries.get(0));
         List<String> termOcurrences = new ArrayList<>();
-        termOcurrences.addAll(new ArrayList<>(queries.get(0).getQueryTerms()));
-        while(queriesOrganized.size() != queries.size()){
-            Query query = queriesOrganized.get(queriesOrganized.size()-1);
+        termOcurrences.addAll(queries.get(0).getQueryTerms());
+        
+        do{
+            Query query = queryGroup.get(index).get(queryGroup.get(index).size()-1);
+            if(query.getQueryID() == nQueriesPerGroup*(index+1) && nQueriesPerGroup > 0 && index+1 < nThreads){
+                queryGroup.add(new ArrayList<>());
+                index++;
+            }
             aux = 0;
             for(Query queryAv: queries){
-                if(queriesOrganized.contains(queryAv)) continue;
+                if(queryGroup.get(index).contains(queryAv)) continue;
                 i = 0;
                 for(String term: queryAv.getQueryTerms()){
-                    if(query.getQueryTerms().contains(term)){
+                    if(getAllTerms(queryGroup.get(index)).contains(term)){
                         i++;
                     }
                 }
@@ -61,16 +66,27 @@ public class GroupWithCommonTerms {
                 }                
             }
             if(aux != 0)
-                queriesOrganized.add(queries.get(queryID-1));
+                queryGroup.get(index).add(queries.get(queryID-1));
             else
                 for(Query q: queries)
-                    if(!queriesOrganized.contains(q)){
-                        queriesOrganized.add(q);
+                    if(!queryGroup.get(index).contains(q)){
+                        queryGroup.get(index).add(q);
                         termOcurrences.addAll(new ArrayList<>(queries.get(0).getQueryTerms()));
                     }
-        }
+        }while(index != 4);
         
         System.out.println("");
-        
+    }
+    
+    public static List<String> getAllTerms(List<Query> group){
+        List<String> terms = new ArrayList<>();
+        for(Query query: group){
+            terms.addAll(query.getQueryTerms());
+        }
+        return terms;
+    }
+    
+    public static boolean isOver(){
+        return false;
     }
 }
