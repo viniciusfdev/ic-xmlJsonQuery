@@ -40,7 +40,8 @@ public class Generator {
         
         try {
             queryFile = new BufferedWriter(new FileWriter(new 
-                File("src/query_test/"+queryFileName).getAbsolutePath()));
+                File("src/query_test/"
+                    +baseName+"_"+queryFileName+"_"+nTokens+"_"+nQuery).getAbsolutePath()));
             
             for(File file: listOfFiles){
       
