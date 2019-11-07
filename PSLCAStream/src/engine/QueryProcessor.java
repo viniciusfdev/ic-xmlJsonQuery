@@ -98,6 +98,7 @@ public class QueryProcessor {
      * Group all queries with have common terms to accelerate the search engine.
      */
     public void groupQueryWhithCommonTerms(){
+        Boolean groupQuery = false;
         BufferedReader queryFile;
         Query queryAux = null;
         int countQueries = 0;
@@ -120,47 +121,57 @@ public class QueryProcessor {
         }
 
         nQueriesPerGroup = countQueries/nThreads;
-
         queryGroup.add(new ArrayList<>());
-        queryGroup.get(index).add(queries.get(0).clone());
-        queries.remove(0);
+        
+        if(groupQuery){
+            queryGroup.get(index).add(queries.get(0).clone());
+            queries.remove(0);
+            while(countOverallSize(queryGroup) != countQueries){
+                System.out.println("to aki ainda");
+                Query query = queryGroup.get(index).get(queryGroup.get(index).size()-1);
+                if(queryGroup.get(index).size() == nQueriesPerGroup && index+1 < nThreads){
+                    queryGroup.add(new ArrayList<>());
+                    index++;
+                }
+                aux = 0;
+                for(Query queryAv: queries){
+                    if(queryGroup.get(index).contains(queryAv)) continue;
+                    i = 0;
+                    for(String term: queryAv.getQueryTerms()){
+                        if(getAllTerms(queryGroup.get(index)).contains(term)){
+                            i++;
+                        }
+                    }
+                    if(i > aux){
+                        aux = i;
+                        queryAux = queryAv;
+                    }                
+                }
+                if(aux != 0){
+                    queryGroup.get(index).add(queryAux.clone());
+                    queries.remove(queryAux);
+                }
+                else{
+                    Query randonQuery = null;
+                    for(Query q: queries){
+                        if(!queryGroup.get(index).contains(q)){
+                            randonQuery = q;
+                            break;
+                        }
+                    }
+                    queryGroup.get(index).add(randonQuery.clone());
+                    queries.remove(randonQuery);
 
+                }
+            }
+        }
+        else
         while(countOverallSize(queryGroup) != countQueries){
-            Query query = queryGroup.get(index).get(queryGroup.get(index).size()-1);
             if(queryGroup.get(index).size() == nQueriesPerGroup && index+1 < nThreads){
                 queryGroup.add(new ArrayList<>());
                 index++;
             }
-            aux = 0;
-            for(Query queryAv: queries){
-                if(queryGroup.get(index).contains(queryAv)) continue;
-                i = 0;
-                for(String term: queryAv.getQueryTerms()){
-                    if(getAllTerms(queryGroup.get(index)).contains(term)){
-                        i++;
-                    }
-                }
-                if(i > aux){
-                    aux = i;
-                    queryAux = queryAv;
-                }                
-            }
-            if(aux != 0){
-                queryGroup.get(index).add(queryAux.clone());
-                queries.remove(queryAux);
-            }
-            else{
-                Query randonQuery = null;
-                for(Query q: queries){
-                    if(!queryGroup.get(index).contains(q)){
-                        randonQuery = q;
-                        break;
-                    }
-                }
-                queryGroup.get(index).add(randonQuery.clone());
-                queries.remove(randonQuery);
-
-            }
+            queryGroup.get(index).add(queries.remove(0));
         }
     }
     

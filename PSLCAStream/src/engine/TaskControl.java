@@ -22,12 +22,15 @@ import query.QueryGroupHash;
  */
 public class TaskControl implements Runnable{
     
+    private long execTime;
     private FileReader file;
     private SearchEngine search;
-    private QueryGroupHash queryIndex;
     private boolean semantic = true;
+    private QueryGroupHash queryIndex;
+ 
     
     public TaskControl(FileReader file, QueryGroupHash queryIndex, boolean semantic) {
+        this.execTime = 0;
         this.file = file;
         this.queryIndex = queryIndex;
         this.semantic = semantic;
@@ -43,11 +46,17 @@ public class TaskControl implements Runnable{
             XMLReader xr = XMLReaderFactory.createXMLReader();
             if(queryIndex != null){
                 if(!queryIndex.getQueryGroupHash().isEmpty()){
+                    
                     search = new SearchEngine(queryIndex, semantic);
                     xr.setContentHandler(search);
                     xr.setErrorHandler(search);
+                    long initTime = System.currentTimeMillis();
                     xr.parse(new InputSource(file));
-                    search.printResultsByQuery();
+                    long finalTime = System.currentTimeMillis();
+                    execTime = finalTime - initTime;
+                    System.out.println("TOTAL TIME FOR Thread "
+                        +Thread.currentThread().getId()+" = "+execTime);
+                    //search.printResultsByQuery();
                 }else{
                     throw new PSLCAStreamException("Query Index => não possui consultas");
                 }
@@ -62,6 +71,15 @@ public class TaskControl implements Runnable{
         }
 	
     }
+
+    public long getExecTime() {
+        return execTime;
+    }
+
+    public void setExecTime(long execTime) {
+        this.execTime = execTime;
+    }
+    
     
  
 }

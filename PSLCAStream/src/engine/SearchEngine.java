@@ -15,6 +15,8 @@ import java.util.Iterator;
 import java.util.List;
 import java.util.Set;
 import java.util.Stack;
+import java.util.logging.Level;
+import java.util.logging.Logger;
 import node.StackNode;
 import org.xml.sax.Attributes;
 import org.xml.sax.helpers.DefaultHandler;
@@ -64,7 +66,7 @@ public class SearchEngine extends DefaultHandler{
      */
     @Override
     public void startDocument(){
-        //System.out.println("####Start Document:"+this);
+            //System.out.println("####Start Document:"+this);
     }
     
     /**

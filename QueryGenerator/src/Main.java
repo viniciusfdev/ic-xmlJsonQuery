@@ -38,7 +38,7 @@ public class Main  extends DefaultHandler{
         //2 - n tokens
         //3 - query file name
         //4 - base name(directory name)
-        gen.run(1000, 4, "test_1", "sigmod");
+        gen.run(1000, 4, "test_1", "xmark");
     }
     
     

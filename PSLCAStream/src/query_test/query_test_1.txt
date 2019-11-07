@@ -6,4 +6,4 @@ XML author::John
 XML John
 title::XML author::
 title author::
-title XML John
+title John
