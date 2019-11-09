@@ -61,12 +61,15 @@ public class QueryProcessor {
     public void multipleQueriesStart(){
       
         
+        queryIndex = new QueryGroupHash[nThreads];
+        buildQueryIndexGroup(nThreads);
         for(String xmlFileName: xmlFileList){
+            System.out.println(xmlFileName);
+            threads.clear();
             try {                
                 if(nThreads > Runtime.getRuntime().availableProcessors())
                     nThreads = Runtime.getRuntime().availableProcessors();
-                queryIndex = new QueryGroupHash[nThreads];
-                if(buildQueryIndexGroup(nThreads))
+                if(nQueriesPerGroup > 0)
                     for(int i = 0; i < nThreads ; i++){
                         threads.add(new Thread(new TaskControl(new FileReader
                             (new File("src/xml/"+xmlFileName).getAbsolutePath()), queryIndex[i], semantic)));
@@ -179,7 +182,7 @@ public class QueryProcessor {
      * Creates the query_index data and returns true if exist groups enough to
      * distribute into n threads
      */
-    public Boolean buildQueryIndexGroup(int nThreads){
+    public void buildQueryIndexGroup(int nThreads){
         try {
             groupQueryWhithCommonTerms();
             if(nQueriesPerGroup > 0)
@@ -202,12 +205,10 @@ public class QueryProcessor {
                 }
             }
                
-            if(nQueriesPerGroup > 0) return true;
             
         } catch (PSLCAStreamException ex) {
             Logger.getLogger(QueryProcessor.class.getName()).log(Level.SEVERE, null, ex);
         }
-        return false;
     }
     
         /**
