@@ -11,17 +11,22 @@ public class Main {
     public static void main(String[] args) {
         // TODO code application logic here
         boolean semantic = true;
-        String xmlFilePath[] = {"/xmark/xmark(1).xml", "/xmark/xmark(2).xml"};
+        
+//        String baseName = args[2];
+//        int nThreads = args[1];
+//        int nQueries = args[0];
+        
+        int nThreads = 8;
+        int nQueries = 10000;
         String baseName = "xmark";
-        File folder = new File("src/xml/");
+        
+        File folder = new File("xml/"+baseName+"/");
         File listOfFiles[] = folder.listFiles();
-        for(File f: listOfFiles){
-            f.getName();
-        }
-        String queryFileName = "xmark_test_1_4_10000.txt";
+        String queryFileName = "xmark_test_1_4_"+nQueries+".txt";
         //true = SLCA
         //false = ELCA
-        QueryProcessor qp = new QueryProcessor(queryFileName, xmlFilePath, semantic, 4);
+        
+        QueryProcessor qp = new QueryProcessor(queryFileName, listOfFiles, semantic, 8);
         qp.multipleQueriesStart();
     }    
 }

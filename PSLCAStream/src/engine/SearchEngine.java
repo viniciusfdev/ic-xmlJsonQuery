@@ -53,7 +53,7 @@ public class SearchEngine extends DefaultHandler{
         this.currentNodeE = new StackNode();
         this.nodePath = new ArrayList<StackNode>();
         this.results = new ArrayList<>();
-        this.parsingStack = new Stack();
+        this.parsingStack = new Stack<>();
         this.invertedG1 = new HashMap<String, List<Integer>>();
         this.invertedg2 = new HashMap<String, List<Integer>>();
         this.simpleG3 = new HashMap<String, Integer>();

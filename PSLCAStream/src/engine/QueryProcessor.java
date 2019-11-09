@@ -33,7 +33,7 @@ public class QueryProcessor {
     private List<Query> queries;
     private String queryFileName;
     private int nQueriesPerGroup;
-    private String[] xmlFileList;
+    private File[] xmlFileList;
     private List<Thread> threads;
     private boolean semantic;
     private int nThreads;
@@ -43,7 +43,7 @@ public class QueryProcessor {
      * @param xmlFileList The list of documents 
      * @param sematic
      */
-    public QueryProcessor(String queryFileName, String[] xmlFileList, boolean semantic, int nThreads) {
+    public QueryProcessor(String queryFileName, File[] xmlFileList, boolean semantic, int nThreads) {
         this.threads = new ArrayList<Thread>();
         this.queryGroup = new ArrayList<>();
         this.queries = new ArrayList<>();
@@ -63,8 +63,8 @@ public class QueryProcessor {
         
         queryIndex = new QueryGroupHash[nThreads];
         buildQueryIndexGroup(nThreads);
-        for(String xmlFileName: xmlFileList){
-            System.out.println(xmlFileName);
+        for(File xmlFile: xmlFileList){
+            System.out.println(xmlFile.getName());
             threads.clear();
             try {                
                 if(nThreads > Runtime.getRuntime().availableProcessors())
@@ -72,11 +72,11 @@ public class QueryProcessor {
                 if(nQueriesPerGroup > 0)
                     for(int i = 0; i < nThreads ; i++){
                         threads.add(new Thread(new TaskControl(new FileReader
-                            (new File("src/xml/"+xmlFileName).getAbsolutePath()), queryIndex[i], semantic)));
+                            (xmlFile), queryIndex[i], semantic)));
                     }
                 else
                     threads.add(new Thread(new TaskControl(new FileReader
-                            (new File("src/xml/"+xmlFileName).getAbsolutePath()), queryIndex[0], semantic)));
+                            (xmlFile), queryIndex[0], semantic)));
                 for(Thread t: threads){
                     t.start();
                     //t.sleep(t.getId()*100);
@@ -111,7 +111,7 @@ public class QueryProcessor {
         int i = 1;
         
         try {
-            queryFile = new BufferedReader(new FileReader(new File("src/query_test/"+queryFileName).getAbsolutePath()));
+            queryFile = new BufferedReader(new FileReader(new File("query_test/"+queryFileName).getAbsolutePath()));
             while((line = queryFile.readLine()) != null){
                 queries.add(new Query(i++, Arrays.asList(line.split("\\s+"))));
                 countQueries++;
@@ -256,14 +256,6 @@ public class QueryProcessor {
         return queryIndex;
     }
 
-    public String[] getxmlFileList() {
-        return xmlFileList;
-    }
-
-    public void setxmlFileList(String[] xmlFileList) {
-        this.xmlFileList = xmlFileList;
-    }
-
     public HashMap<Query, List<Integer>> getResults() {
         return results;
     }
@@ -287,13 +279,4 @@ public class QueryProcessor {
     public void setQueryFile(String queryFileName) {
         this.queryFileName = queryFileName;
     }
-
-    public String[] getXmlFileList() {
-        return xmlFileList;
-    }
-
-    public void setXmlFileList(String[] xmlFileList) {
-        this.xmlFileList = xmlFileList;
-    }
-
 }
