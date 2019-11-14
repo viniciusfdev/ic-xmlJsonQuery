@@ -12,13 +12,13 @@ public class Main {
         // TODO code application logic here
         boolean semantic = true;
         
-//        String baseName = args[2];
-//        int nThreads = args[1];
-//        int nQueries = args[0];
+        String baseName = args[2];
+        int nThreads = Integer.parseInt(args[1]);
+        int nQueries = Integer.parseInt(args[0]);
         
-        int nThreads = 8;
-        int nQueries = 10000;
-        String baseName = "xmark";
+//        int nThreads = 8;
+//        int nQueries = 10000;
+//        String baseName = "xmark";
         
         File folder = new File("xml/"+baseName+"/");
         File listOfFiles[] = folder.listFiles();
