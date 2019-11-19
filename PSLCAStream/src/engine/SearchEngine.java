@@ -399,6 +399,7 @@ public class SearchEngine extends DefaultHandler{
     
     public void printResultsByQuery(){
         for(Query query: getResultsByQuery()){
+            if(query.getResults().isEmpty()) continue;
             System.out.print("Query("+query.getQueryID()+")="+query.getQueryTerms().toString()+"=");
             System.out.println(query.getResults().toString());
             System.out.println("\n");

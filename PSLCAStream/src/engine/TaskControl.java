@@ -6,14 +6,21 @@
 package engine;
 
 import exception.PSLCAStreamException;
+import java.io.File;
+import java.io.File;
 import java.io.FileReader;
 import java.io.IOException;
+import java.util.HashMap;
+import java.util.Iterator;
+import java.util.List;
+import java.util.Map;
 import java.util.logging.Level;
 import java.util.logging.Logger;
 import org.xml.sax.InputSource;
 import org.xml.sax.SAXException;
 import org.xml.sax.XMLReader;
 import org.xml.sax.helpers.XMLReaderFactory;
+import query.Query;
 import query.QueryGroupHash;
 
 /**
@@ -21,19 +28,20 @@ import query.QueryGroupHash;
  * @author vinicius franca, evandrino barros
  */
 public class TaskControl implements Runnable{
-    
+    private int nGroups;
     private long execTime;
-    private FileReader file;
+    private File file;
     private SearchEngine search;
     private boolean semantic = true;
     private QueryGroupHash queryIndex;
  
     
-    public TaskControl(FileReader file, QueryGroupHash queryIndex, boolean semantic) {
-        this.execTime = 0;
+    public TaskControl(File file, QueryGroupHash queryIndex, boolean semantic, int nGroups) {
         this.file = file;
-        this.queryIndex = queryIndex;
+        this.execTime = 0;
+        this.nGroups = nGroups;
         this.semantic = semantic;
+        this.queryIndex = queryIndex;
     }
     
     /**
@@ -41,28 +49,48 @@ public class TaskControl implements Runnable{
      */
     @Override
     public void run() {
-        
+        int tam = queryIndex.getQueryGroupHash().size();
+        int index = 0;
+        int count = 0;
         try {
-            XMLReader xr = XMLReaderFactory.createXMLReader();
-            if(queryIndex != null){
-                if(!queryIndex.getQueryGroupHash().isEmpty()){
-                    
-                    search = new SearchEngine(queryIndex, semantic);
-                    xr.setContentHandler(search);
-                    xr.setErrorHandler(search);
-                    long initTime = System.currentTimeMillis();
-                    xr.parse(new InputSource(file));
-                    long finalTime = System.currentTimeMillis();
-                    execTime = finalTime - initTime;
-                    System.out.println("TOTAL TIME FOR Thread "
-                        +Thread.currentThread().getId()+" = "+execTime);
-                    //search.printResultsByQuery();
-                }else{
-                    throw new PSLCAStreamException("Query Index => não possui consultas");
+            Iterator it = queryIndex.getQueryGroupHash().entrySet().iterator();
+            QueryGroupHash[] queryIndexGroups = new QueryGroupHash[nGroups];
+            queryIndexGroups[0] = new QueryGroupHash();
+            
+            if(tam >= nGroups)
+            while(it.hasNext()){
+                if((count == (index+1)*(tam/nGroups)) && (index+1) < nGroups){
+                    index++;
+                    queryIndexGroups[index] = new QueryGroupHash();
                 }
-            }else{
-                throw new PSLCAStreamException("Query Index => argumento nulo");
+                Map.Entry pair = (Map.Entry)it.next();
+                queryIndexGroups[index].getQueryGroupHash().put((String)pair.getKey(), (List<Query>)pair.getValue());
+                count++;
             }
+            
+            long initTime = System.currentTimeMillis();
+            for(QueryGroupHash queryIndex: queryIndexGroups){
+                if(queryIndex != null){
+                    if(!queryIndex.getQueryGroupHash().isEmpty()){
+                        FileReader currentFile = new FileReader(file);
+                        XMLReader xr = XMLReaderFactory.createXMLReader();
+                        search = new SearchEngine(queryIndex, semantic);
+                        xr.setContentHandler(search);
+                        xr.setErrorHandler(search);
+                        xr.parse(new InputSource(currentFile));
+                        //search.printResultsByQuery();
+                    }else{
+                        throw new PSLCAStreamException("Query Index => não possui consultas");
+                    }
+                }else{
+                    throw new PSLCAStreamException("Query Index => argumento nulo");
+                }
+            }
+            long finalTime = System.currentTimeMillis();
+            execTime = finalTime - initTime;
+            System.out.println("TOTAL TIME FOR Thread "
+                +Thread.currentThread().getId()+" = "+execTime);
+            
             
         } catch (SAXException ex) {
             Logger.getLogger(TaskControl.class.getName()).log(Level.SEVERE, null, ex);
@@ -79,7 +107,5 @@ public class TaskControl implements Runnable{
     public void setExecTime(long execTime) {
         this.execTime = execTime;
     }
-    
-    
  
 }

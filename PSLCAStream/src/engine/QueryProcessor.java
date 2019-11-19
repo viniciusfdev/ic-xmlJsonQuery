@@ -30,20 +30,23 @@ public class QueryProcessor {
     private HashMap<Query, List<Integer>> results;
     private List<List<Query>> queryGroup;
     private QueryGroupHash[] queryIndex;
-    private List<Query> queries;
     private String queryFileName;
     private int nQueriesPerGroup;
-    private File[] xmlFileList;
     private List<Thread> threads;
+    private List<Query> queries;
+    private File[] xmlFileList;
     private boolean semantic;
     private int nThreads;
+    private int nQueries;
+    private int nGroups;
+    
     /**
      * 
      * @param queriesFileName
      * @param xmlFileList The list of documents 
      * @param sematic
      */
-    public QueryProcessor(String queryFileName, File[] xmlFileList, boolean semantic, int nThreads) {
+    public QueryProcessor(String queryFileName, File[] xmlFileList, boolean semantic, int nQueries, int nThreads, int nGroups) {
         this.threads = new ArrayList<Thread>();
         this.queryGroup = new ArrayList<>();
         this.queries = new ArrayList<>();
@@ -52,6 +55,8 @@ public class QueryProcessor {
         this.nQueriesPerGroup = 0;
         this.semantic = semantic;
         this.nThreads = nThreads;
+        this.nQueries = nQueries;
+        this.nGroups = nGroups;
     }
     
     /**
@@ -59,8 +64,6 @@ public class QueryProcessor {
      * process multiple queries for each document D and set the results for each it.
      */
     public void multipleQueriesStart(){
-      
-        
         queryIndex = new QueryGroupHash[nThreads];
         buildQueryIndexGroup(nThreads);
         for(File xmlFile: xmlFileList){
@@ -71,23 +74,20 @@ public class QueryProcessor {
                     nThreads = Runtime.getRuntime().availableProcessors();
                 if(nQueriesPerGroup > 0)
                     for(int i = 0; i < nThreads ; i++){
-                        threads.add(new Thread(new TaskControl(new FileReader
-                            (xmlFile), queryIndex[i], semantic)));
+                        threads.add(new Thread(new TaskControl(xmlFile, 
+                                queryIndex[i], semantic, nGroups)));
                     }
                 else
-                    threads.add(new Thread(new TaskControl(new FileReader
-                            (xmlFile), queryIndex[0], semantic)));
+                    threads.add(new Thread(new TaskControl(xmlFile, 
+                                queryIndex[0], semantic, nGroups)));
                 for(Thread t: threads){
                     t.start();
-                    //t.sleep(t.getId()*100);
+                    //t.sleep(t.getId()*100); //ordena o resultado printado
                 }
                 for(Thread t: threads){
                     t.join();
                 }
                 
-            } catch (FileNotFoundException ex) {
-                System.out.println("Error loading files");
-                Logger.getLogger(QueryProcessor.class.getName()).log(Level.SEVERE, null, ex);
             } catch (InterruptedException ex) {
                 System.out.println("Error in Thread");
                 Logger.getLogger(QueryProcessor.class.getName()).log(Level.SEVERE, null, ex);
@@ -115,6 +115,7 @@ public class QueryProcessor {
             while((line = queryFile.readLine()) != null){
                 queries.add(new Query(i++, Arrays.asList(line.split("\\s+"))));
                 countQueries++;
+                if(countQueries == nQueries) break;
             }
         } catch (FileNotFoundException ex) {
             Logger.getLogger(QueryProcessor.class.getName()).log(Level.SEVERE, null, ex);
@@ -241,7 +242,7 @@ public class QueryProcessor {
         int lines = 0;
         try {
             BufferedReader reader = null;
-            reader = new BufferedReader(new FileReader(new File("src/query_test/"+queryFileName).getAbsolutePath()));
+            reader = new BufferedReader(new FileReader(new File("query_test/"+queryFileName).getAbsolutePath()));
             while (reader.readLine() != null) lines++;
             reader.close();
         } catch (FileNotFoundException ex) {

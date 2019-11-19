@@ -12,21 +12,23 @@ public class Main {
         // TODO code application logic here
         boolean semantic = true;
         
-        String baseName = args[2];
-        int nThreads = Integer.parseInt(args[1]);
-        int nQueries = Integer.parseInt(args[0]);
-        
-//        int nThreads = 8;
-//        int nQueries = 10000;
-//        String baseName = "xmark";
+//        String baseName = args[3];
+//        int nGroups = Integer.parseInt(args[2]);    
+//        int nThreads = Integer.parseInt(args[1]);
+//        int nQueries = Integer.parseInt(args[0]);
+
+        int nGroups = 2;
+        int nThreads = 8;
+        int nQueries = 1000;
+        String baseName = "xmark";
         
         File folder = new File("xml/"+baseName+"/");
         File listOfFiles[] = folder.listFiles();
-        String queryFileName = "xmark_test_1_4_"+nQueries+".txt";
+        String queryFileName = baseName+"_test_1_4.txt";
         //true = SLCA
         //false = ELCA
         
-        QueryProcessor qp = new QueryProcessor(queryFileName, listOfFiles, semantic, 8);
+        QueryProcessor qp = new QueryProcessor(queryFileName, listOfFiles, semantic, nQueries, nThreads, nGroups);
         qp.multipleQueriesStart();
     }    
 }
