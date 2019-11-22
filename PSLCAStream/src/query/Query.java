@@ -117,4 +117,12 @@ public class Query implements Cloneable {
     public HashMap<Integer, TermOcurrence> getMatchedTerms() {
         return this.matchedTerms;
     }
+    
+    public String getQuery(){
+        String q = "";
+        for(String s: queryTerms){
+            q += s+" ";
+        }
+        return q;
+    }
 }

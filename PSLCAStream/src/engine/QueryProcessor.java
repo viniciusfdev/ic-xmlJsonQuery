@@ -7,9 +7,11 @@ package engine;
 
 import exception.PSLCAStreamException;
 import java.io.BufferedReader;
+import java.io.BufferedWriter;
 import java.io.File;
 import java.io.FileNotFoundException;
 import java.io.FileReader;
+import java.io.FileWriter;
 import java.io.IOException;
 import java.util.ArrayList;
 import java.util.Arrays;
@@ -101,7 +103,7 @@ public class QueryProcessor {
      * Group all queries with have common terms to accelerate the search engine.
      */
     public void groupQueryWhithCommonTerms(){
-        Boolean groupQuery = false;
+        Boolean groupQuery = true;
         BufferedReader queryFile;
         Query queryAux = null;
         int countQueries = 0;
@@ -127,11 +129,11 @@ public class QueryProcessor {
         nQueriesPerGroup = countQueries/nThreads;
         queryGroup.add(new ArrayList<>());
         
+        long init = System.currentTimeMillis();
         if(groupQuery){
             queryGroup.get(index).add(queries.get(0).clone());
             queries.remove(0);
             while(countOverallSize(queryGroup) != countQueries){
-                System.out.println("to aki ainda");
                 Query query = queryGroup.get(index).get(queryGroup.get(index).size()-1);
                 if(queryGroup.get(index).size() == nQueriesPerGroup && index+1 < nThreads){
                     queryGroup.add(new ArrayList<>());
@@ -177,7 +179,30 @@ public class QueryProcessor {
             }
             queryGroup.get(index).add(queries.remove(0));
         }
+        long finalT = System.currentTimeMillis();
+        System.out.println("Time to group "+nQueries+" queries:"+(finalT-init));
+        writeGroupedQueries();
     }
+    
+    private void writeGroupedQueries(){
+        try {
+            BufferedWriter wr = new BufferedWriter(new FileWriter("query_test/g"+queryFileName));
+            
+            for(List<Query> group: queryGroup){
+                for(Query query: group){
+                    String q = query.getQuery();
+                    wr.write(q, 0, q.length());
+                    wr.newLine();
+                }
+            }
+            
+            wr.close();
+            System.out.println("Consultas agrupadas gravadas");
+        } catch (IOException ex) {
+            Logger.getLogger(QueryProcessor.class.getName()).log(Level.SEVERE, null, ex);
+        }
+    }
+    
     
     /**
      * Creates the query_index data and returns true if exist groups enough to
