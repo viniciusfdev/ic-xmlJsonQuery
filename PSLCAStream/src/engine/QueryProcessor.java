@@ -98,11 +98,72 @@ public class QueryProcessor {
         }
             
     }
-     
     /**
-     * Group all queries with have common terms to accelerate the search engine.
+    * Gulous group all queries with have common terms to accelerate the search engine.
+    */
+    private void gulousGroupQueries(){
+        List<Query> auxList = new ArrayList<>();
+        BufferedReader queryFile;
+        int countQueries = 0;
+        String line = "";
+        int nThreads = 2;
+        int count = 0;
+        int aux = -1;
+        int i = 1;
+        
+        try {
+            queryFile = new BufferedReader(new FileReader(new File("query_test/"+queryFileName).getAbsolutePath()));
+            while((line = queryFile.readLine()) != null && countQueries < nQueries){
+                queries.add(new Query(i++, Arrays.asList(line.split("\\s+"))));
+                countQueries++;
+            }
+        } catch (FileNotFoundException ex) {
+            Logger.getLogger(QueryProcessor.class.getName()).log(Level.SEVERE, null, ex);
+        } catch (IOException ex) {
+            Logger.getLogger(QueryProcessor.class.getName()).log(Level.SEVERE, null, ex);
+        }
+        
+        nQueriesPerGroup = countQueries/nThreads;
+        
+        //initialize groups
+        for(int j = 0 ; j < nThreads ; j++){
+            queryGroup.add(new ArrayList<Query>());
+            queryGroup.get(j).add(queries.get(0).clone());
+            queries.remove(0);
+        }
+        
+        long init = System.currentTimeMillis();
+        
+        //distribute queries into groups
+        while(!queries.isEmpty()){
+            Query queryAv = queries.get(0);
+            aux = -1;
+            for(List<Query> gQueries: queryGroup){
+                if(gQueries.size() < nQueriesPerGroup){
+                    count = 0;
+                    for(Query query: gQueries){
+                        if(query.getQueryTerms().contains(queryAv)){
+                            count++;
+                        }
+                    }
+                    if(count > aux){
+                        aux = count;
+                        auxList = gQueries;
+                    }
+                }
+            }
+            auxList.add(queryAv.clone());
+            queries.remove(queryAv);
+        }
+        long finalT = System.currentTimeMillis();
+        System.out.println("Time to group "+nQueries+" queries:"+(finalT-init));
+        //writeGroupedQueries();
+    }    
+    
+    /**
+     * Optimal group all queries with have common terms to accelerate the search engine.
      */
-    public void groupQueryWhithCommonTerms(){
+    public void optimalGroupQueries(){
         Boolean groupQuery = true;
         BufferedReader queryFile;
         Query queryAux = null;
@@ -114,10 +175,9 @@ public class QueryProcessor {
         
         try {
             queryFile = new BufferedReader(new FileReader(new File("query_test/"+queryFileName).getAbsolutePath()));
-            while((line = queryFile.readLine()) != null){
+            while((line = queryFile.readLine()) != null && countQueries < nQueries){
                 queries.add(new Query(i++, Arrays.asList(line.split("\\s+"))));
                 countQueries++;
-                if(countQueries == nQueries) break;
             }
         } catch (FileNotFoundException ex) {
             Logger.getLogger(QueryProcessor.class.getName()).log(Level.SEVERE, null, ex);
@@ -181,7 +241,7 @@ public class QueryProcessor {
         }
         long finalT = System.currentTimeMillis();
         System.out.println("Time to group "+nQueries+" queries:"+(finalT-init));
-        writeGroupedQueries();
+        //writeGroupedQueries();
     }
     
     private void writeGroupedQueries(){
@@ -210,7 +270,7 @@ public class QueryProcessor {
      */
     public void buildQueryIndexGroup(int nThreads){
         try {
-            groupQueryWhithCommonTerms();
+            gulousGroupQueries();
             if(nQueriesPerGroup > 0)
             for(int index = 0; index < nThreads; index++){
                 queryIndex[index] = new QueryGroupHash();
