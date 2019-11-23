@@ -32,6 +32,7 @@ public class QueryProcessor {
     private HashMap<Query, List<Integer>> results;
     private List<List<Query>> queryGroup;
     private QueryGroupHash[] queryIndex;
+    private List<TaskControl> tasks;
     private String queryFileName;
     private int nQueriesPerGroup;
     private List<Thread> threads;
@@ -41,6 +42,7 @@ public class QueryProcessor {
     private int nThreads;
     private int nQueries;
     private int nGroups;
+    private long execTotalTime = 0;
     
     /**
      * 
@@ -51,8 +53,9 @@ public class QueryProcessor {
     public QueryProcessor(String queryFileName, File[] xmlFileList, boolean semantic, int nQueries, int nThreads, int nGroups) {
         this.threads = new ArrayList<Thread>();
         this.queryGroup = new ArrayList<>();
-        this.queries = new ArrayList<>();
         this.queryFileName = queryFileName;
+        this.queries = new ArrayList<>();
+        this.tasks = new ArrayList<>();
         this.xmlFileList = xmlFileList;
         this.nQueriesPerGroup = 0;
         this.semantic = semantic;
@@ -69,19 +72,23 @@ public class QueryProcessor {
         queryIndex = new QueryGroupHash[nThreads];
         buildQueryIndexGroup(nThreads);
         for(File xmlFile: xmlFileList){
-            System.out.println(xmlFile.getName());
             threads.clear();
+            tasks.clear();
             try {                
                 if(nThreads > Runtime.getRuntime().availableProcessors())
                     nThreads = Runtime.getRuntime().availableProcessors();
-                if(nQueriesPerGroup > 0)
+                if(nQueriesPerGroup > 0){
                     for(int i = 0; i < nThreads ; i++){
-                        threads.add(new Thread(new TaskControl(xmlFile, 
-                                queryIndex[i], semantic, nGroups)));
+                        tasks.add(new TaskControl(xmlFile, 
+                                queryIndex[i], semantic, nGroups));
+                        threads.add(new Thread(tasks.get(i)));
                     }
-                else
-                    threads.add(new Thread(new TaskControl(xmlFile, 
-                                queryIndex[0], semantic, nGroups)));
+                }else{
+                    tasks.add(new TaskControl(xmlFile, 
+                                queryIndex[0], semantic, nGroups));
+                        threads.add(new Thread(tasks.get(0)));
+                }
+                
                 for(Thread t: threads){
                     t.start();
                     //t.sleep(t.getId()*100); //ordena o resultado printado
@@ -89,15 +96,46 @@ public class QueryProcessor {
                 for(Thread t: threads){
                     t.join();
                 }
+                setTimeForSearch();
                 
             } catch (InterruptedException ex) {
                 System.out.println("Error in Thread");
                 Logger.getLogger(QueryProcessor.class.getName()).log(Level.SEVERE, null, ex);
             }
-            
         }
-            
+        writeTimeForSearch();
     }
+    
+    /**
+     * Print in one file the execution time for queries.
+     */
+    public void writeTimeForSearch(){
+        try {
+            BufferedWriter wr = new BufferedWriter(new FileWriter("src/results/time_"+queryFileName, true));
+            
+            String q = "N Queries:"+nQueries+" - Threads:"+nThreads+" - Execution time:"+execTotalTime;
+            wr.write(q, 0, q.length());
+            wr.newLine();
+            
+            wr.close();
+            System.out.println("Result time gravado");
+        } catch (IOException ex) {
+            Logger.getLogger(QueryProcessor.class.getName()).log(Level.SEVERE, null, ex);
+        }
+    }
+    
+    /**
+     * Increment total time used to search the queries.
+     */
+    public void setTimeForSearch(){
+        long avgTime = 0;
+        for(TaskControl tk: tasks){
+            avgTime += tk.getExecTime();
+        }
+        if(tasks.size() != 0) execTotalTime += avgTime/tasks.size();
+    }
+    
+    
     /**
     * Gulous group all queries with have common terms to accelerate the search engine.
     */
@@ -106,13 +144,12 @@ public class QueryProcessor {
         BufferedReader queryFile;
         int countQueries = 0;
         String line = "";
-        int nThreads = 2;
         int count = 0;
         int aux = -1;
         int i = 1;
         
         try {
-            queryFile = new BufferedReader(new FileReader(new File("query_test/"+queryFileName).getAbsolutePath()));
+            queryFile = new BufferedReader(new FileReader(new File("src/query_test/"+queryFileName).getAbsolutePath()));
             while((line = queryFile.readLine()) != null && countQueries < nQueries){
                 queries.add(new Query(i++, Arrays.asList(line.split("\\s+"))));
                 countQueries++;
@@ -156,7 +193,7 @@ public class QueryProcessor {
             queries.remove(queryAv);
         }
         long finalT = System.currentTimeMillis();
-        System.out.println("Time to group "+nQueries+" queries:"+(finalT-init));
+        //System.out.println("Time to group "+nQueries+" queries: "+(finalT-init));
         //writeGroupedQueries();
     }    
     
@@ -174,7 +211,7 @@ public class QueryProcessor {
         int i = 1;
         
         try {
-            queryFile = new BufferedReader(new FileReader(new File("query_test/"+queryFileName).getAbsolutePath()));
+            queryFile = new BufferedReader(new FileReader(new File("src/query_test/"+queryFileName).getAbsolutePath()));
             while((line = queryFile.readLine()) != null && countQueries < nQueries){
                 queries.add(new Query(i++, Arrays.asList(line.split("\\s+"))));
                 countQueries++;
@@ -244,6 +281,9 @@ public class QueryProcessor {
         //writeGroupedQueries();
     }
     
+    /**
+     * Print in one file the grouped queries.
+     */
     private void writeGroupedQueries(){
         try {
             BufferedWriter wr = new BufferedWriter(new FileWriter("query_test/g"+queryFileName));
@@ -262,7 +302,6 @@ public class QueryProcessor {
             Logger.getLogger(QueryProcessor.class.getName()).log(Level.SEVERE, null, ex);
         }
     }
-    
     
     /**
      * Creates the query_index data and returns true if exist groups enough to
@@ -327,7 +366,7 @@ public class QueryProcessor {
         int lines = 0;
         try {
             BufferedReader reader = null;
-            reader = new BufferedReader(new FileReader(new File("query_test/"+queryFileName).getAbsolutePath()));
+            reader = new BufferedReader(new FileReader(new File("src/query_test/"+queryFileName).getAbsolutePath()));
             while (reader.readLine() != null) lines++;
             reader.close();
         } catch (FileNotFoundException ex) {
@@ -338,31 +377,11 @@ public class QueryProcessor {
         return lines;
     }
 
-    public QueryGroupHash[] getQueryIndex() {
-        return queryIndex;
-    }
-
     public HashMap<Query, List<Integer>> getResults() {
         return results;
     }
 
-    public void setResults(HashMap<Query, List<Integer>> results) {
-        this.results = results;
-    }
-
     public List<Thread> getThreads() {
         return threads;
-    }
-
-    public void setThreads(List<Thread> threads) {
-        this.threads = threads;
-    }
-
-    public String getQueryFileName() {
-        return queryFileName;
-    }
-
-    public void setQueryFile(String queryFileName) {
-        this.queryFileName = queryFileName;
     }
 }

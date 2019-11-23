@@ -1,0 +1,1 @@
+N Queries:2000 - Threads:8 - Execution time:4538

@@ -28,9 +28,9 @@ import query.QueryGroupHash;
  * @author vinicius franca, evandrino barros
  */
 public class TaskControl implements Runnable{
+    private File file;
     private int nGroups;
     private long execTime;
-    private File file;
     private SearchEngine search;
     private boolean semantic = true;
     private QueryGroupHash queryIndex;
@@ -88,9 +88,6 @@ public class TaskControl implements Runnable{
             }
             long finalTime = System.currentTimeMillis();
             execTime = finalTime - initTime;
-            System.out.println("TOTAL TIME FOR Thread "
-                +Thread.currentThread().getId()+" = "+execTime);
-            
             
         } catch (SAXException ex) {
             Logger.getLogger(TaskControl.class.getName()).log(Level.SEVERE, null, ex);
@@ -103,9 +100,4 @@ public class TaskControl implements Runnable{
     public long getExecTime() {
         return execTime;
     }
-
-    public void setExecTime(long execTime) {
-        this.execTime = execTime;
-    }
- 
 }

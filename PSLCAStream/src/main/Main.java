@@ -12,17 +12,17 @@ public class Main {
         // TODO code application logic here
         boolean semantic = true;
         
-        String baseName = args[3];
-        int nGroups = Integer.parseInt(args[2]);    
-        int nThreads = Integer.parseInt(args[1]);
-        int nQueries = Integer.parseInt(args[0]);
+//        String baseName = args[3];
+//        int nGroups = Integer.parseInt(args[2]);    
+//        int nThreads = Integer.parseInt(args[1]);
+//        int nQueries = Integer.parseInt(args[0]);
 
-		//int nGroups = 2;
-        //int nThreads = 8;
-        //int nQueries = 1000;
-        //String baseName = "xmark";
+        int nGroups = 1;
+        int nThreads = 8;
+        int nQueries = 2000;
+        String baseName = "xmark";
         
-        File folder = new File("xml/"+baseName+"/");
+        File folder = new File("src/xml/"+baseName+"/");
         File listOfFiles[] = folder.listFiles();
         String queryFileName = baseName+"_test_1_4.txt";
         //true = SLCA
