@@ -70,6 +70,7 @@ public class QueryProcessor {
      */
     public void multipleQueriesStart(){
         queryIndex = new QueryGroupHash[nThreads];
+        System.out.println("Base:"+queryFileName+" - N Queries:"+nQueries+" - Threads:"+nThreads);
         buildQueryIndexGroup(nThreads);
         for(File xmlFile: xmlFileList){
             threads.clear();
@@ -97,12 +98,12 @@ public class QueryProcessor {
                     t.join();
                 }
                 setTimeForSearch();
-                
             } catch (InterruptedException ex) {
                 System.out.println("Error in Thread");
                 Logger.getLogger(QueryProcessor.class.getName()).log(Level.SEVERE, null, ex);
             }
         }
+        System.out.println("Fin proccess "+queryFileName);
         writeTimeForSearch();
     }
     
@@ -111,7 +112,7 @@ public class QueryProcessor {
      */
     public void writeTimeForSearch(){
         try {
-            BufferedWriter wr = new BufferedWriter(new FileWriter("src/results/time_"+queryFileName, true));
+            BufferedWriter wr = new BufferedWriter(new FileWriter("results/time_"+queryFileName, true));
             
             String q = "N Queries:"+nQueries+" - Threads:"+nThreads+" - Execution time:"+execTotalTime;
             wr.write(q, 0, q.length());
@@ -140,6 +141,7 @@ public class QueryProcessor {
     * Gulous group all queries with have common terms to accelerate the search engine.
     */
     private void gulousGroupQueries(){
+        System.out.println("Init group queries");
         List<Query> auxList = new ArrayList<>();
         BufferedReader queryFile;
         int countQueries = 0;
@@ -149,7 +151,7 @@ public class QueryProcessor {
         int i = 1;
         
         try {
-            queryFile = new BufferedReader(new FileReader(new File("src/query_test/"+queryFileName).getAbsolutePath()));
+            queryFile = new BufferedReader(new FileReader(new File("query_test/"+queryFileName).getAbsolutePath()));
             while((line = queryFile.readLine()) != null && countQueries < nQueries){
                 queries.add(new Query(i++, Arrays.asList(line.split("\\s+"))));
                 countQueries++;
@@ -193,7 +195,7 @@ public class QueryProcessor {
             queries.remove(queryAv);
         }
         long finalT = System.currentTimeMillis();
-        //System.out.println("Time to group "+nQueries+" queries: "+(finalT-init));
+        System.out.println("Time to group "+nQueries+" queries: "+(finalT-init));
         //writeGroupedQueries();
     }    
     
@@ -211,7 +213,7 @@ public class QueryProcessor {
         int i = 1;
         
         try {
-            queryFile = new BufferedReader(new FileReader(new File("src/query_test/"+queryFileName).getAbsolutePath()));
+            queryFile = new BufferedReader(new FileReader(new File("query_test/"+queryFileName).getAbsolutePath()));
             while((line = queryFile.readLine()) != null && countQueries < nQueries){
                 queries.add(new Query(i++, Arrays.asList(line.split("\\s+"))));
                 countQueries++;
@@ -366,7 +368,7 @@ public class QueryProcessor {
         int lines = 0;
         try {
             BufferedReader reader = null;
-            reader = new BufferedReader(new FileReader(new File("src/query_test/"+queryFileName).getAbsolutePath()));
+            reader = new BufferedReader(new FileReader(new File("query_test/"+queryFileName).getAbsolutePath()));
             while (reader.readLine() != null) lines++;
             reader.close();
         } catch (FileNotFoundException ex) {
