@@ -29,7 +29,7 @@ import org.xml.sax.helpers.XMLReaderFactory;
 public class Generator {
     List<String> tokens_ = new ArrayList<>();
     
-    public void run(int nQuery, int nTokens, String queryFileName, String baseName){
+    public void run(int nQuery, int nLabels, int nTokens, String queryFileName, String baseName){
         String line = "";
         Random rand = new Random();
         BufferedWriter queryFile = null;
@@ -41,7 +41,7 @@ public class Generator {
         try {
             queryFile = new BufferedWriter(new FileWriter(new 
                 File("src/query_test/"
-                    +baseName+"_"+queryFileName+"_"+nTokens+"_"+nQuery+".txt").getAbsolutePath()));
+                    +baseName+"_"+queryFileName+"_"+nLabels+"l"+nTokens+"t_"+nQuery+".txt").getAbsolutePath()));
             
             for(File file: listOfFiles){
       
@@ -63,14 +63,21 @@ public class Generator {
             int i;
             for(i = 0 ; i < nQuery ; i++){
                 String query = "";
+                int labels = nLabels;
                 for(int j = 0; j < nTokens ; j++){
                     int pos = rand.nextInt(tokens.size());
                     while(query.contains(tokens_.get(pos))){
                         pos = rand.nextInt(tokens.size());
                     }
-                    query += "::"+tokens_.get(pos)+" ";
+                    if(labels > 0){
+                        query += tokens_.get(rand.nextInt(tokens.size()))+
+                                "::"+tokens_.get(pos)+" ";
+                        labels--;
+                    }else{
+                        query += "::"+tokens_.get(pos)+" ";
+                    }
                 }
-                System.out.println("Query("+(i+1)+") = "+query);
+                //System.out.println("Query("+(i+1)+") = "+query);
                 queryFile.write(query+"\n");
             }
             queryFile.close();
