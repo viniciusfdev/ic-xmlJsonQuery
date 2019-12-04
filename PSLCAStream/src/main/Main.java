@@ -20,7 +20,7 @@ public class Main {
 
         int nGroups = 1;
         int nThreads = 8;
-        int nQueries = 100;
+        int nQueries = 50000;
         boolean semantic = true;
         String baseName = args[1];
         int expr = Integer.parseInt(args[0]);
