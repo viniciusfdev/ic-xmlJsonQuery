@@ -70,7 +70,6 @@ public class QueryProcessor {
      */
     public void multipleQueriesStart(){
         queryIndex = new QueryGroupHash[nThreads];
-        System.out.println("Base:"+queryFileName+" - N Queries:"+nQueries+" - Threads:"+nThreads);
         buildQueryIndexGroup(nThreads);
         for(File xmlFile: xmlFileList){
             threads.clear();
@@ -103,7 +102,6 @@ public class QueryProcessor {
                 Logger.getLogger(QueryProcessor.class.getName()).log(Level.SEVERE, null, ex);
             }
         }
-        System.out.println("Fin proccess "+queryFileName);
         writeTimeForSearch();
     }
     
@@ -114,12 +112,11 @@ public class QueryProcessor {
         try {
             BufferedWriter wr = new BufferedWriter(new FileWriter("results/time_"+queryFileName, true));
             
-            String q = "N Queries:"+nQueries+" - Threads:"+nThreads+" - Execution time:"+execTotalTime;
+            //nQueries  - nThreads - Time Execution
+            String q = nQueries+";"+nThreads+";"+execTotalTime;
             wr.write(q, 0, q.length());
             wr.newLine();
-            
             wr.close();
-            System.out.println("Result time gravado");
         } catch (IOException ex) {
             Logger.getLogger(QueryProcessor.class.getName()).log(Level.SEVERE, null, ex);
         }
@@ -129,11 +126,13 @@ public class QueryProcessor {
      * Increment total time used to search the queries.
      */
     public void setTimeForSearch(){
-        long avgTime = 0;
-        for(TaskControl tk: tasks){
-            avgTime += tk.getExecTime();
+        long maior = 0;
+        for(TaskControl tc: tasks){
+            if(tc.getExecTime() > maior)
+                maior = tc.getExecTime();
+                
         }
-        if(tasks.size() != 0) execTotalTime += avgTime/tasks.size();
+        execTotalTime += maior;
     }
     
     
@@ -141,7 +140,6 @@ public class QueryProcessor {
     * Gulous group all queries with have common terms to accelerate the search engine.
     */
     private void gulousGroupQueries(){
-        System.out.println("Init group queries");
         List<Query> auxList = new ArrayList<>();
         BufferedReader queryFile;
         int countQueries = 0;
@@ -195,7 +193,6 @@ public class QueryProcessor {
             queries.remove(queryAv);
         }
         long finalT = System.currentTimeMillis();
-        System.out.println("Time to group "+nQueries+" queries: "+(finalT-init));
         //writeGroupedQueries();
     }    
     
