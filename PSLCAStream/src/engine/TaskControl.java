@@ -28,7 +28,7 @@ import query.QueryGroupHash;
  * @author vinicius franca, evandrino barros
  */
 public class TaskControl implements Runnable{
-    private File file;
+    private File[] xmlFileList;
     private int nGroups;
     private long execTime;
     private SearchEngine search;
@@ -36,8 +36,8 @@ public class TaskControl implements Runnable{
     private QueryGroupHash queryIndex;
  
     
-    public TaskControl(File file, QueryGroupHash queryIndex, boolean semantic, int nGroups) {
-        this.file = file;
+    public TaskControl(File[] xmlFileList, QueryGroupHash queryIndex, boolean semantic, int nGroups) {
+        this.xmlFileList = xmlFileList;
         this.execTime = 0;
         this.nGroups = nGroups;
         this.semantic = semantic;
@@ -68,17 +68,21 @@ public class TaskControl implements Runnable{
                 count++;
             }
             
-            long initTime = System.currentTimeMillis();
             for(QueryGroupHash queryIndex: queryIndexGroups){
                 if(queryIndex != null){
                     if(!queryIndex.getQueryGroupHash().isEmpty()){
-                        FileReader currentFile = new FileReader(file);
-                        XMLReader xr = XMLReaderFactory.createXMLReader();
-                        search = new SearchEngine(queryIndex, semantic);
-                        xr.setContentHandler(search);
-                        xr.setErrorHandler(search);
-                        xr.parse(new InputSource(currentFile));
-                        //search.printResultsByQuery();
+                        long initTime = System.currentTimeMillis();
+                        for(File file: xmlFileList){
+                            FileReader currentFile = new FileReader(file);
+                            XMLReader xr = XMLReaderFactory.createXMLReader();
+                            search = new SearchEngine(queryIndex, semantic);
+                            xr.setContentHandler(search);
+                            xr.setErrorHandler(search);
+                            xr.parse(new InputSource(currentFile));
+                            //search.printResultsByQuery();
+                        }
+                        long finalTime = System.currentTimeMillis();
+                        execTime = finalTime - initTime;
                     }else{
                         throw new PSLCAStreamException("Query Index => não possui consultas");
                     }
@@ -86,8 +90,6 @@ public class TaskControl implements Runnable{
                     throw new PSLCAStreamException("Query Index => argumento nulo");
                 }
             }
-            long finalTime = System.currentTimeMillis();
-            execTime = finalTime - initTime;
             
         } catch (SAXException ex) {
             Logger.getLogger(TaskControl.class.getName()).log(Level.SEVERE, null, ex);

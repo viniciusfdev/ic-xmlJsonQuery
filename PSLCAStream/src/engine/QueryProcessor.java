@@ -71,37 +71,36 @@ public class QueryProcessor {
     public void multipleQueriesStart(){
         queryIndex = new QueryGroupHash[nThreads];
         buildQueryIndexGroup(nThreads);
-        for(File xmlFile: xmlFileList){
-            threads.clear();
-            tasks.clear();
-            try {                
-                if(nThreads > Runtime.getRuntime().availableProcessors())
-                    nThreads = Runtime.getRuntime().availableProcessors();
-                if(nQueriesPerGroup > 0){
-                    for(int i = 0; i < nThreads ; i++){
-                        tasks.add(new TaskControl(xmlFile, 
-                                queryIndex[i], semantic, nGroups));
-                        threads.add(new Thread(tasks.get(i)));
-                    }
-                }else{
-                    tasks.add(new TaskControl(xmlFile, 
-                                queryIndex[0], semantic, nGroups));
-                        threads.add(new Thread(tasks.get(0)));
+        threads.clear();
+        tasks.clear();
+        try {                
+            if(nThreads > Runtime.getRuntime().availableProcessors())
+                nThreads = Runtime.getRuntime().availableProcessors();
+            if(nQueriesPerGroup > 0){
+                for(int i = 0; i < nThreads ; i++){
+                    tasks.add(new TaskControl(xmlFileList, 
+                            queryIndex[i], semantic, nGroups));
+                    threads.add(new Thread(tasks.get(i), "Thread(:"+i+")"));
                 }
-                
-                for(Thread t: threads){
-                    t.start();
-                    //t.sleep(t.getId()*100); //ordena o resultado printado
-                }
-                for(Thread t: threads){
-                    t.join();
-                }
-                setTimeForSearch();
-            } catch (InterruptedException ex) {
-                System.out.println("Error in Thread");
-                Logger.getLogger(QueryProcessor.class.getName()).log(Level.SEVERE, null, ex);
+            }else{
+                tasks.add(new TaskControl(xmlFileList, 
+                            queryIndex[0], semantic, nGroups));
+                    threads.add(new Thread(tasks.get(0)));
             }
+
+            for(Thread t: threads){
+                t.start();
+                //t.sleep(t.getId()*100); //ordena o resultado printado
+            }
+            for(Thread t: threads){
+                t.join();
+            }
+            setTimeForSearch();
+        } catch (InterruptedException ex) {
+            System.out.println("Error in Thread");
+            Logger.getLogger(QueryProcessor.class.getName()).log(Level.SEVERE, null, ex);
         }
+        
         writeTimeForSearch();
     }
     
@@ -126,7 +125,7 @@ public class QueryProcessor {
      * Increment total time used to search the queries.
      */
     public void setTimeForSearch(){
-        long maior = 0;
+        long maior = Long.MIN_VALUE;
         for(TaskControl tc: tasks){
             if(tc.getExecTime() > maior)
                 maior = tc.getExecTime();

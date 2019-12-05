@@ -8,15 +8,12 @@ package engine;
 import exception.PSLCAStreamException;
 import java.util.ArrayList;
 import java.util.Arrays;
-import java.util.Collection;
 import java.util.HashMap;
 import java.util.HashSet;
 import java.util.Iterator;
 import java.util.List;
 import java.util.Set;
 import java.util.Stack;
-import java.util.logging.Level;
-import java.util.logging.Logger;
 import node.StackNode;
 import org.xml.sax.Attributes;
 import org.xml.sax.helpers.DefaultHandler;
@@ -29,17 +26,17 @@ import query.QueryGroupHash;
  * 
  */
 public class SearchEngine extends DefaultHandler{
-    private int height;                                 //the height of the tree
     private int id;
+    private int height;                                 //the height of the tree
     private Boolean semantic;                           //true for SLCAStream
+    private List<Integer> results;                      //todos os nos SLCA encontrados
     private StackNode currentNodeE;                     
     private List<StackNode> nodePath;                   //
-    private Stack<StackNode> parsingStack;              //uma pilha para manter os nos aberto durante o parser
     private QueryGroupHash queryIndex;                  //relaciona um termo e todas as consultas que o contém
-    private HashMap<String, List<Integer>> invertedG1;  //lista invertida G for ELCA
-    private HashMap<String, List<Integer>> invertedg2;  //lista invertida g for ELCA
+    private Stack<StackNode> parsingStack;              //uma pilha para manter os nos aberto durante o parser
     private HashMap<String, Integer> simpleG3;          //lista simplificada invertida for SLCA
-    private List<Integer> results;                      //todos os nos SLCA encontrados
+    private HashMap<String, List<Integer>> invertedg2;  //lista invertida g for ELCA
+    private HashMap<String, List<Integer>> invertedG1;  //lista invertida G for ELCA
     
     /**
      * 
@@ -50,15 +47,15 @@ public class SearchEngine extends DefaultHandler{
         super();
         this.id = 0;
         this.height = -1;
-        this.currentNodeE = new StackNode();
-        this.nodePath = new ArrayList<StackNode>();
-        this.results = new ArrayList<>();
-        this.parsingStack = new Stack<>();
-        this.invertedG1 = new HashMap<String, List<Integer>>();
-        this.invertedg2 = new HashMap<String, List<Integer>>();
-        this.simpleG3 = new HashMap<String, Integer>();
         this.semantic = semantic;
         this.queryIndex = queryIndex;
+        this.results = new ArrayList<>();
+        this.parsingStack = new Stack<>();
+        this.currentNodeE = new StackNode();
+        this.nodePath = new ArrayList<StackNode>();
+        this.simpleG3 = new HashMap<String, Integer>();
+        this.invertedg2 = new HashMap<String, List<Integer>>();
+        this.invertedG1 = new HashMap<String, List<Integer>>();
     }
     
     /**

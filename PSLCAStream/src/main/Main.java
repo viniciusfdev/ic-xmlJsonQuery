@@ -20,18 +20,21 @@ public class Main {
 
         int nGroups = 1;
         int nThreads = 8;
-        int nQueries = 50000;
+        int nQueries = 5000;
+        String absPath = "";
         boolean semantic = true;
         String baseName = args[1];
         int expr = Integer.parseInt(args[0]);
         int nTouL = Integer.parseInt(args[2]);
         
+        if(args.length > 3)
+            absPath = args[3]+"/";
         if(expr == 1){
-            experimento1(baseName, semantic, nQueries, nThreads, nGroups);
+            experimento1(baseName, absPath, semantic, nQueries, nThreads, nGroups);
         }else if(expr == 2){
-            experimento2(baseName, semantic, nTouL, nQueries, nThreads, nGroups);
+            experimento2(baseName, absPath, semantic, nTouL, nQueries, nThreads, nGroups);
         }else if(expr == 3){
-            experimento3(baseName, semantic, nTouL, nQueries, nThreads, nGroups);
+            experimento3(baseName, absPath, semantic, nTouL, nQueries, nThreads, nGroups);
         }
         System.out.println("acabou");
     }    
@@ -39,8 +42,8 @@ public class Main {
     /**
      * Experimento: 0 labels para 2 e 6 token values
      */
-    public static void experimento3(String baseName, boolean semantic, int nTokens, int nQueries, int nThreads, int nGroups){
-        File folder = new File("xml/"+baseName+"/");
+    public static void experimento3(String baseName, String absPath, boolean semantic, int nTokens, int nQueries, int nThreads, int nGroups){
+        File folder = new File(absPath+"xml/"+baseName+"/");
         String queryFileName = baseName+"_test_";
         queryFileName += "0l"+nTokens+"t_50000.txt";
         File listOfFiles[] = folder.listFiles();
@@ -58,8 +61,8 @@ public class Main {
     /**
      * Experimento 2: var labels e 5 token values
      */
-    public static void experimento2(String baseName, boolean semantic, int nLabels, int nQueries, int nThreads, int nGroups){
-        File folder = new File("xml/"+baseName+"/");
+    public static void experimento2(String baseName, String absPath, boolean semantic, int nLabels, int nQueries, int nThreads, int nGroups){
+        File folder = new File(absPath+"xml/"+baseName+"/");
         String queryFileName = baseName+"_test_";
         queryFileName += nLabels+"l5t_50000.txt";
         File listOfFiles[] = folder.listFiles();
@@ -78,8 +81,8 @@ public class Main {
     /**
      * Experimento 1: 0 labels e 4 token values variando n queries
      */
-    public static void experimento1(String baseName, boolean semantic, int nQueries, int nThreads, int nGroups){
-        File folder = new File("xml/"+baseName+"/");
+    public static void experimento1(String baseName, String absPath, boolean semantic, int nQueries, int nThreads, int nGroups){
+        File folder = new File(absPath+"xml/"+baseName+"/");
         String queryFileName = baseName+"_test_";
         queryFileName += "0l4t_50000.txt";
         File listOfFiles[] = folder.listFiles();
