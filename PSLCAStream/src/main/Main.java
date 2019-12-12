@@ -18,17 +18,19 @@ public class Main {
         //true = SLCA
         //false = ELCA
 
+        int nTouL = 0;
         int nGroups = 1;
         int nThreads = 8;
-        int nQueries = 5000;
+        int nQueries = 50000;
         String absPath = "";
         boolean semantic = true;
         String baseName = args[1];
         int expr = Integer.parseInt(args[0]);
-        int nTouL = Integer.parseInt(args[2]);
         
-        if(args.length > 3)
+        if(args.length > 2){
+            nTouL = Integer.parseInt(args[2]);
             absPath = args[3]+"/";
+        }
         if(expr == 1){
             experimento1(baseName, absPath, semantic, nQueries, nThreads, nGroups);
         }else if(expr == 2){
@@ -89,10 +91,11 @@ public class Main {
         
         for(int j = 0; j < 10 ; j++){
             registerState(queryFileName,"Initiate");
-            for(int q = 10000; j <= nQueries ; j += 10000)
-            for(int i = 1; i <= nThreads ; i = i*2){
-                QueryProcessor qp = new QueryProcessor(queryFileName, listOfFiles, semantic, nQueries, q, nGroups);
-                qp.multipleQueriesStart();
+            for(int q = 10000; q <= nQueries ; q += 10000){
+                for(int i = 1; i <= nThreads ; i = i*2){
+                    QueryProcessor qp = new QueryProcessor(queryFileName, listOfFiles, semantic, q, i, nGroups);
+                    qp.multipleQueriesStart();
+                }
             }
             registerState(queryFileName,"Terminate");
         }
