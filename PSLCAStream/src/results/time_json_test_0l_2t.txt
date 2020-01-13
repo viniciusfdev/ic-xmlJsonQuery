@@ -1,0 +1,12 @@
+Initiate
+100;1;70
+Initiate
+Initiate
+Initiate
+100;2;65
+100;4;2
+100;8;1
+Terminate
+Initiate
+100;1;67
+Terminate

@@ -6,6 +6,8 @@
 package engine;
 
 import exception.PSLCAStreamException;
+import java.nio.file.Files;
+import java.nio.file.Paths;
 import java.util.ArrayList;
 import java.util.Arrays;
 import java.util.HashMap;
@@ -19,6 +21,13 @@ import org.xml.sax.Attributes;
 import org.xml.sax.helpers.DefaultHandler;
 import query.Query;
 import query.QueryGroupHash;
+import java.io.IOException;
+import java.util.logging.Level;
+import java.util.logging.Logger;
+import com.fasterxml.jackson.annotation.*;
+import com.fasterxml.jackson.databind.*;
+import com.fasterxml.jackson.core.*;
+import static com.fasterxml.jackson.core.JsonToken.*;
 
 /**
  *
@@ -27,16 +36,17 @@ import query.QueryGroupHash;
  */
 public class SearchEngine extends DefaultHandler{
     private int id;
+    private long comp;                                  //
     private int height;                                 //the height of the tree
     private Boolean semantic;                           //true for SLCAStream
-    private List<Integer> results;                      //todos os nos SLCA encontrados
-    private StackNode currentNodeE;                     
-    private List<StackNode> nodePath;                   //
+    private List<Integer> results;                      //the result nodes
+    private StackNode currentNodeE;                     //current node
+    private List<StackNode> nodePath;                   //node path
     private QueryGroupHash queryIndex;                  //relaciona um termo e todas as consultas que o contém
     private Stack<StackNode> parsingStack;              //uma pilha para manter os nos aberto durante o parser
-    private HashMap<String, Integer> simpleG3;          //lista simplificada invertida for SLCA
-    private HashMap<String, List<Integer>> invertedg2;  //lista invertida g for ELCA
-    private HashMap<String, List<Integer>> invertedG1;  //lista invertida G for ELCA
+    private HashMap<String, Integer> simpleG3;          //simplified inverted list for SLCA
+    private HashMap<String, List<Integer>> invertedg2;  //iverted list g for ELCA
+    private HashMap<String, List<Integer>> invertedG1;  //inverted list G for ELCA
     
     /**
      * 
@@ -46,6 +56,7 @@ public class SearchEngine extends DefaultHandler{
     public SearchEngine(QueryGroupHash queryIndex, Boolean semantic) {
         super();
         this.id = 0;
+        this.comp = 0;
         this.height = -1;
         this.semantic = semantic;
         this.queryIndex = queryIndex;
@@ -56,6 +67,62 @@ public class SearchEngine extends DefaultHandler{
         this.simpleG3 = new HashMap<String, Integer>();
         this.invertedg2 = new HashMap<String, List<Integer>>();
         this.invertedG1 = new HashMap<String, List<Integer>>();
+    }
+    /**
+     * Abstrai o parser JSON para o parser XML
+     */
+    public void parserJson(String filePath){
+        try {
+            String json = "";
+            json = new String (Files.readAllBytes(Paths.get(filePath)));
+            String token = "";
+            JsonToken jsonToken = null;
+            JsonFactory factory = new JsonFactory();
+            JsonParser parser = factory.createParser(json);
+
+            while(!parser.isClosed()){
+                jsonToken = parser.nextToken();
+                token = parser.getText();
+                if(jsonToken == FIELD_NAME){
+                    System.out.println("call start element:"+parser.getText());
+                    //startElement(parser.getText(), parser.getText(), parser.getText(), null);
+                    jsonToken = parser.nextToken(); 
+                    
+                    if(jsonToken != null && 
+                      (jsonToken != START_OBJECT &&
+                       jsonToken != START_ARRAY)){
+                        System.out.println("call characters: "+parser.getText());
+                        char ch[] = parser.getText().toCharArray();
+                        //characters (ch, 0, ch.length);
+                        System.out.println("call end element: "+token);
+                        //endElement(token, token, token);
+                    }
+                }
+                else if(jsonToken == END_OBJECT){
+                    if(parser.getCurrentName() != null){
+                        System.out.println("call end element: "+parser.getCurrentName());
+                        //endElement(parser.getCurrentName(), parser.getCurrentName(), parser.getCurrentName());
+                    }
+                }else if(jsonToken == END_ARRAY){
+                    if(parser.getCurrentName() != null){
+                        System.out.println("call end element: "+parser.getCurrentName());
+                        //endElement(parser.getCurrentName(), parser.getCurrentName(), parser.getCurrentName());
+                    }
+                }
+                else if(jsonToken == VALUE_TRUE || jsonToken == VALUE_FALSE ||
+                        jsonToken == VALUE_NUMBER_FLOAT || 
+                        jsonToken == VALUE_NUMBER_INT || jsonToken == VALUE_STRING){
+                    System.out.println("call characters: "+parser.getText());
+                    //char ch[] = parser.getText().toCharArray();
+                    //characters (ch, 0, ch.length);
+                }
+                else if(jsonToken == null){
+                    break;
+                }
+            }
+        } catch (IOException ex) {
+            Logger.getLogger(SearchEngine.class.getName()).log(Level.SEVERE, null, ex);
+        }
     }
     
     /**
@@ -102,8 +169,10 @@ public class SearchEngine extends DefaultHandler{
                    !queryIndex.getQueryGroupHash().get(label).isEmpty()){
                     currentNodeE.addUsedQueries(queryIndex.getQueries(label));
                     for(Query query: currentNodeE.getUsedQueries()){
-                        if(query.getQueryTerms().contains(label))
+                        comp++;
+                        if(query.getQueryTerms().contains(label)){
                             query.increaseMachedTermsById(currentNodeE.getNodeId(), label);
+                        }
                     }
                     simpleG3.put(label, currentNodeE.getNodeId());
                     //ELCA SEMANTIC
@@ -122,8 +191,10 @@ public class SearchEngine extends DefaultHandler{
                    !queryIndex.getQueryGroupHash().get(label+"::").isEmpty()){
                     currentNodeE.addUsedQueries(queryIndex.getQueries(label+"::"));
                     for(Query query: currentNodeE.getUsedQueries()){
-                        if(query.getQueryTerms().contains(label+"::"))
+                        comp++;
+                        if(query.getQueryTerms().contains(label+"::")){
                             query.increaseMachedTermsById(currentNodeE.getNodeId(), label+"::");
+                        }
                     }
                     simpleG3.put(label+"::", currentNodeE.getNodeId());
 
@@ -190,10 +261,10 @@ public class SearchEngine extends DefaultHandler{
                 Boolean complete = false;
                 StackNode topNode = new StackNode();
                 currentNodeE = parsingStack.pop();
-                
                 for(Query query: currentNodeE.getUsedQueries()){
                     if(query.nMatches(currentNodeE.getNodeId()) >= query.getQueryTerms().size()){
                         complete = true;
+                        //comentar com o professor o uso da simpleG3
                         for(String term: query.getQueryTerms()){
                             if((simpleG3.get(term) != null) && (currentNodeE.getNodeId() > simpleG3.get(term))){
                                 complete = false;
@@ -212,16 +283,18 @@ public class SearchEngine extends DefaultHandler{
                     topNode.inheritMachedTerms(topNode.getNodeId(), currentNodeE.getNodeId());
                 }else{
                     if(!nodePath.isEmpty() && currentNodeE.getHeight() != 0){
-                        parsingStack.push(new StackNode(name, currentNodeE.getHeight()-1, nodePath.get(currentNodeE.getHeight()-1).getNodeId()));
-                        parsingStack.lastElement().addUsedQueries(currentNodeE.getUsedQueries());
-                        parsingStack.lastElement().inheritMachedTerms(parsingStack.lastElement().getNodeId(), currentNodeE.getNodeId());
+                        StackNode tempNode = new StackNode(name, currentNodeE.getHeight()-1, nodePath.get(currentNodeE.getHeight()-1).getNodeId());
+                        tempNode.addUsedQueries(currentNodeE.getUsedQueries());
+                        if(tempNode.inheritMachedTerms(tempNode.getNodeId(), currentNodeE.getNodeId())){
+                            parsingStack.push(tempNode);
+                        }
                     }
                 }
             }
             nodePath.remove(nodePath.size()-1);
             height--;
         }catch(PSLCAStreamException ex){
-            System.out.println("Bad closed xml node:"+ex.getCause());
+            System.out.println("Bad closed node:"+ex.getCause());
         }
     }
     
@@ -240,9 +313,6 @@ public class SearchEngine extends DefaultHandler{
                 Boolean complete = false;
                 StackNode topNode = new StackNode();
                 currentNodeE = parsingStack.pop();
-                if(currentNodeE.getNodeId() == 4){
-                    System.out.println("");
-                }
                 for(Query query: currentNodeE.getUsedQueries()){
                     if(query.nMatches(currentNodeE.getNodeId()) >= query.getQueryTerms().size()){
                         complete = true;
@@ -282,9 +352,9 @@ public class SearchEngine extends DefaultHandler{
                             }
                             if(canBeElca){
                                 query.addResult(currentNodeE.getNodeId());
+                                query.setLastResultId(currentNodeE.getNodeId());
                             }
                         }
-                        //
                     }
                 }
                 if(!parsingStack.empty())
@@ -294,9 +364,13 @@ public class SearchEngine extends DefaultHandler{
                     topNode.inheritMachedTerms(topNode.getNodeId(), currentNodeE.getNodeId());
                 }else{
                     if(!nodePath.isEmpty() && currentNodeE.getHeight() != 0){
-                        parsingStack.push(new StackNode(name, currentNodeE.getHeight()-1, nodePath.get(currentNodeE.getHeight()-1).getNodeId()));
-                        parsingStack.lastElement().addUsedQueries(currentNodeE.getUsedQueries());
-                        parsingStack.lastElement().inheritMachedTerms(parsingStack.lastElement().getNodeId(), currentNodeE.getNodeId());
+                        StackNode tempNode = new StackNode(name, currentNodeE.getHeight()-1, nodePath.get(currentNodeE.getHeight()-1).getNodeId());
+                        tempNode.addUsedQueries(currentNodeE.getUsedQueries());
+                        if(tempNode.inheritMachedTerms(tempNode.getNodeId(), currentNodeE.getNodeId())){
+                            parsingStack.push(tempNode);
+                        }
+//                        parsingStack.lastElement().addUsedQueries(currentNodeE.getUsedQueries());
+//                        parsingStack.lastElement().inheritMachedTerms(parsingStack.lastElement().getNodeId(), currentNodeE.getNodeId());
                     }
                 }
             }
@@ -304,7 +378,7 @@ public class SearchEngine extends DefaultHandler{
             height--;
             
         }catch(PSLCAStreamException ex){
-            System.out.println("Bad closed xml node:"+ex.getCause());
+            System.out.println("Bad closed node:"+ex.getCause());
         }
     }
     
@@ -337,6 +411,7 @@ public class SearchEngine extends DefaultHandler{
                     nodeTokens.add(currentNodeE.getLabel()+"::"+term);
                 }
                 for(String term: nodeTokens){
+                    comp++;
                     if(queryIndex.getQueryGroupHash().get(term) != null
                        && !queryIndex.getQueryGroupHash().get(term).isEmpty()){
                         simpleG3.put(term, currentNodeE.getNodeId());
@@ -450,6 +525,14 @@ public class SearchEngine extends DefaultHandler{
 
     public HashMap<String, Integer> getSimpleG3() {
         return simpleG3;
+    }
+
+    public long getComp() {
+        return comp;
+    }
+
+    public void setComp(long comp) {
+        this.comp = comp;
     }
     
 }

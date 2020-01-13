@@ -18,16 +18,16 @@ import java.util.logging.Logger;
 public class Query implements Cloneable {
     private int queryID;
     private int lastResultId;
-    private List<String> queryTerms;
     private List<Integer> results;
+    private List<String> queryTerms;
     private HashMap<Integer, TermOcurrence> matchedTerms;
 
     public Query(int queryID, List<String> queryTerms) {
         this.results = new ArrayList<Integer>();
-        this.queryID = queryID;
-        this.queryTerms = queryTerms;
-        this.lastResultId = -1;
         this.matchedTerms = new HashMap<>();
+        this.queryTerms = queryTerms;
+        this.queryID = queryID;
+        this.lastResultId = -1;
     }
     
     /**
@@ -49,8 +49,9 @@ public class Query implements Cloneable {
         TermOcurrence mt;
         if((mt = matchedTerms.get(id)) != null){
             if(mt.getTermOcurrences().get(term) != null){
-                if(!mt.getTermOcurrences().get(term))
+                if(!mt.getTermOcurrences().get(term)){
                     mt.setOcurrence(term);
+                }
             }else{
                 mt.getTermOcurrences().put(term, Boolean.TRUE);
             }

@@ -1,0 +1,18 @@
+{
+    "bib":{
+      "book":[
+        {
+          "title":"XML DB",
+          "author":"John"
+        },
+        {
+          "title":"XML Search",
+          "author":"Mike",
+          "chapter":{
+            "title":"XPath",
+            "author":"Joh"
+          }
+        }
+      ]
+    }
+}

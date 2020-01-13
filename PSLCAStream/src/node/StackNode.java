@@ -8,7 +8,6 @@ package node;
 import java.util.ArrayList;
 import java.util.List;
 import query.Query;
-import query.QueryGroupHash;
 import query.TermOcurrence;
 
 /**
@@ -37,9 +36,9 @@ public class StackNode {
     }
     
     public StackNode(StackNode sn) {
-        this.height = sn.getHeight();
         this.nodeId = sn.getNodeId();
         this.label = sn.getLabel();
+        this.height = sn.getHeight();
         this.usedQueries = sn.getUsedQueries();
     }
     
@@ -54,25 +53,36 @@ public class StackNode {
         }
     }
     
-    public void inheritMachedTerms(Integer upwardId, Integer downwardId){
+    /**
+     * Inherit the matched terms 
+     * @param upwardId
+     * @param downwardId 
+     */
+    public Boolean inheritMachedTerms(Integer upwardId, Integer downwardId){
+        Boolean deservInhr = false;
         for(Query query: usedQueries){
-            TermOcurrence upwardTO = query.getMatchedTerms().get(upwardId);
-            TermOcurrence downwardTO = query.getMatchedTerms().get(downwardId);
-            if(upwardTO == null){
-                query.getMatchedTerms().put(upwardId, new TermOcurrence());
-                upwardTO = query.getMatchedTerms().get(upwardId);
-            }
-            for(String term: query.getQueryTerms()){
-                if(downwardTO != null && downwardTO.getTermOcurrences().get(term) != null && 
-                   downwardTO.getTermOcurrences().get(term)){
-                    if(upwardTO.getTermOcurrences().get(term) == null){
-                        upwardTO.setOcurrence(term);
-                    }else if(!upwardTO.getTermOcurrences().get(term)){
-                        upwardTO.setOcurrence(term);
+            if(downwardId != query.getLastResultId()){
+                TermOcurrence upwardTO = query.getMatchedTerms().get(upwardId);
+                TermOcurrence downwardTO = query.getMatchedTerms().get(downwardId);
+                if(upwardTO == null){
+                    query.getMatchedTerms().put(upwardId, new TermOcurrence());
+                    upwardTO = query.getMatchedTerms().get(upwardId);
+                }
+                for(String term: query.getQueryTerms()){
+                    if(downwardTO != null && downwardTO.getTermOcurrences().get(term) != null && 
+                       downwardTO.getTermOcurrences().get(term)){
+                        if(upwardTO.getTermOcurrences().get(term) == null){
+                            upwardTO.setOcurrence(term);
+                            deservInhr = true;
+                        }else if(!upwardTO.getTermOcurrences().get(term)){
+                            upwardTO.setOcurrence(term);
+                            deservInhr = true;
+                        }
                     }
                 }
             }
         }
+        return deservInhr;
     }
         
     public int getNodeId() {

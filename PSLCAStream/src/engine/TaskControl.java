@@ -28,19 +28,20 @@ import query.QueryGroupHash;
  * @author vinicius franca, evandrino barros
  */
 public class TaskControl implements Runnable{
-    private File[] xmlFileList;
-    private int nGroups;
-    private long execTime;
-    private SearchEngine search;
-    private boolean semantic = true;
     private QueryGroupHash queryIndex;
- 
+    private SearchEngine search;
+    private boolean semantic;
+    private boolean fileType;
+    private File[] fileList;
+    private long execTime;
+    private int nGroups;
     
-    public TaskControl(File[] xmlFileList, QueryGroupHash queryIndex, boolean semantic, int nGroups) {
-        this.xmlFileList = xmlFileList;
+    public TaskControl(File[] fileList, QueryGroupHash queryIndex, boolean semantic, int nGroups, boolean fileType) {
         this.execTime = 0;
         this.nGroups = nGroups;
         this.semantic = semantic;
+        this.fileType = fileType;
+        this.fileList = fileList;
         this.queryIndex = queryIndex;
     }
     
@@ -72,14 +73,19 @@ public class TaskControl implements Runnable{
                 if(queryIndex != null){
                     if(!queryIndex.getQueryGroupHash().isEmpty()){
                         long initTime = System.currentTimeMillis();
-                        for(File file: xmlFileList){
-                            FileReader currentFile = new FileReader(file);
-                            XMLReader xr = XMLReaderFactory.createXMLReader();
+                        for(File file: fileList){
                             search = new SearchEngine(queryIndex, semantic);
-                            xr.setContentHandler(search);
-                            xr.setErrorHandler(search);
-                            xr.parse(new InputSource(currentFile));
-                            //search.printResultsByQuery();
+                            if(fileType){
+                                FileReader currentFile = new FileReader(file);
+                                XMLReader xr = XMLReaderFactory.createXMLReader();
+                                xr.setContentHandler(search);
+                                xr.setErrorHandler(search);
+                                xr.parse(new InputSource(currentFile));
+                            }else{
+                                search.parserJson(file.getAbsolutePath());
+                            }
+                            search.printResultsByQuery();
+                            //System.out.println("Numero de comparacoes: "+search.getComp());
                         }
                         long finalTime = System.currentTimeMillis();
                         execTime = finalTime - initTime;
@@ -90,13 +96,11 @@ public class TaskControl implements Runnable{
                     throw new PSLCAStreamException("Query Index => argumento nulo");
                 }
             }
-            
         } catch (SAXException ex) {
             Logger.getLogger(TaskControl.class.getName()).log(Level.SEVERE, null, ex);
         } catch (IOException ex) {
             Logger.getLogger(TaskControl.class.getName()).log(Level.SEVERE, null, ex);
         }
-	
     }
 
     public long getExecTime() {
