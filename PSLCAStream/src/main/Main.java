@@ -21,19 +21,20 @@ public class Main {
         //fileType true = xml
         //fileType false = fileType
 
-        int expr = 0;
+        int expr = 4; 
         int nTouL = 2;
         int nGroups = 1;
         int nThreads = 1;
         int nQueries = 100;
         String baseName = "";
         String absPath = "src/";
-        boolean fileType = true;
-        boolean semantic = true;
+        boolean semantic = false;
+        boolean fileType = false;
 
         if(args.length > 0){
-            baseName = args[1];
             expr = Integer.parseInt(args[0]);
+            if(args.length > 1)
+                baseName = args[1];
             if(args.length > 2){
                 nTouL = Integer.parseInt(args[2]);
                 if(args.length > 3){

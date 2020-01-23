@@ -85,7 +85,7 @@ public class SearchEngine extends DefaultHandler{
                 token = parser.getText();
                 if(jsonToken == FIELD_NAME){
                     System.out.println("call start element:"+parser.getText());
-                    //startElement(parser.getText(), parser.getText(), parser.getText(), null);
+                    startElement(token, token, token, null);
                     jsonToken = parser.nextToken(); 
                     
                     if(jsonToken != null && 
@@ -93,28 +93,28 @@ public class SearchEngine extends DefaultHandler{
                        jsonToken != START_ARRAY)){
                         System.out.println("call characters: "+parser.getText());
                         char ch[] = parser.getText().toCharArray();
-                        //characters (ch, 0, ch.length);
+                        characters (ch, 0, ch.length);
+                        endElement(token, token, token);
                         System.out.println("call end element: "+token);
-                        //endElement(token, token, token);
                     }
                 }
                 else if(jsonToken == END_OBJECT){
                     if(parser.getCurrentName() != null){
                         System.out.println("call end element: "+parser.getCurrentName());
-                        //endElement(parser.getCurrentName(), parser.getCurrentName(), parser.getCurrentName());
+                        endElement(parser.getCurrentName(), parser.getCurrentName(), parser.getCurrentName());
                     }
                 }else if(jsonToken == END_ARRAY){
                     if(parser.getCurrentName() != null){
                         System.out.println("call end element: "+parser.getCurrentName());
-                        //endElement(parser.getCurrentName(), parser.getCurrentName(), parser.getCurrentName());
+                        endElement(parser.getCurrentName(), parser.getCurrentName(), parser.getCurrentName());
                     }
                 }
                 else if(jsonToken == VALUE_TRUE || jsonToken == VALUE_FALSE ||
                         jsonToken == VALUE_NUMBER_FLOAT || 
                         jsonToken == VALUE_NUMBER_INT || jsonToken == VALUE_STRING){
+                    char ch[] = parser.getText().toCharArray();
+                    characters (ch, 0, ch.length);
                     System.out.println("call characters: "+parser.getText());
-                    //char ch[] = parser.getText().toCharArray();
-                    //characters (ch, 0, ch.length);
                 }
                 else if(jsonToken == null){
                     break;
