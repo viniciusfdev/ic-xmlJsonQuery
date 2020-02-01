@@ -27,7 +27,7 @@ public class Main {
         int nThreads = 1;
         int nQueries = 100;
         String baseName = "";
-        String absPath = "src/";
+        String absPath = "";
         boolean semantic = false;
         boolean fileType = false;
 
