@@ -1,0 +1,2652 @@
+<SigmodRecord>
+<issues>
+    <issue>
+        <volume>25</volume>
+ <number>1</number>
+    <articles>
+            <article>
+                <title>Advances in Real-Time Database Systems Research.</title>
+ <initPage>3</initPage>
+ <endPage>7</endPage>
+          <authors>
+                    <author position="00">Azer Bestavros</author>
+          </authors>
+     </article>
+
+     <article>
+                <title>Database Research at Arizona State University.</title>
+ <initPage>99</initPage>
+ <endPage>104</endPage>
+          <authors>
+                    <author position="00">Susan Darling Urban</author>
+ <author position="01">Suzanne W. Dietrich</author>
+ <author position="02">Forouzan Golshani</author>
+          </authors>
+     </article>
+
+     <article>
+                <title>Database Research at the Indian Institute of Technology, Bombay.</title>
+ <initPage>93</initPage>
+ <endPage>98</endPage>
+          <authors>
+                    <author position="00">D. B. Phatak</author>
+ <author position="01">Nandlal L. Sarda</author>
+ <author position="02">S. Seshadri</author>
+ <author position="03">S. Sudarshan</author>
+          </authors>
+     </article>
+
+     <article>
+                <title>Database Research: Achievements and Opportunities Into the 21st Century.</title>
+ <initPage>52</initPage>
+ <endPage>63</endPage>
+          <authors>
+                    <author position="00">Abraham Silberschatz</author>
+ <author position="01">Michael Stonebraker</author>
+ <author position="02">Jeffrey D. Ullman</author>
+          </authors>
+     </article>
+
+     <article>
+                <title>DeeDS Towards a Distributed and Active Real-Time Database System.</title>
+ <initPage>38</initPage>
+ <endPage>40</endPage>
+          <authors>
+                    <author position="00">Sten Andler</author>
+ <author position="01">Jrgen Hansson</author>
+ <author position="02">Joakim Eriksson</author>
+ <author position="03">Jonas Mellin</author>
+ <author position="04">Mikael Berndtsson</author>
+ <author position="05">Bengt Eftring</author>
+          </authors>
+     </article>
+
+     <article>
+                <title>Editor's Notes.</title>
+ <initPage>2</initPage>
+ <endPage>2</endPage>
+          <authors>
+                    <author position="00">Arie Segev</author>
+ <author position="00">Jennifer Widom</author>
+ <author position="00">Michael J. Franklin</author>
+          </authors>
+     </article>
+
+     <article>
+                <title>Enhancing External Consistency in Real-Time Transactions.</title>
+ <initPage>26</initPage>
+ <endPage>28</endPage>
+          <authors>
+                    <author position="00">Kwei-Jay Lin</author>
+ <author position="01">Shing-Shan Peng</author>
+          </authors>
+     </article>
+
+     <article>
+                <title>Exploiting Main Memory DBMS Features to Improve Real-Time Concurrency Control Protocols.</title>
+ <initPage>23</initPage>
+ <endPage>25</endPage>
+          <authors>
+                    <author position="00">zgr Ulusoy</author>
+ <author position="01">Alejandro P. Buchmann</author>
+          </authors>
+     </article>
+
+     <article>
+                <title>Illustra's Web DataBlade Module.</title>
+ <initPage>105</initPage>
+ <endPage>112</endPage>
+          <authors>
+                    <author position="00">John Gaffney</author>
+          </authors>
+     </article>
+
+     <article>
+                <title>Improving Timeliness in Real-Time Secure Database Systems.</title>
+ <initPage>29</initPage>
+ <endPage>33</endPage>
+          <authors>
+                    <author position="00">Sang Hyuk Son</author>
+ <author position="01">Rasikan David</author>
+ <author position="02">Bhavani M. Thuraisingham</author>
+          </authors>
+     </article>
+
+     <article>
+                <title>Integrating Contents and Structure in Text Retrieval.</title>
+ <initPage>67</initPage>
+ <endPage>79</endPage>
+          <authors>
+                    <author position="00">Ricardo A. Baeza-Yates</author>
+ <author position="01">Gonzalo Navarro</author>
+          </authors>
+     </article>
+
+     <article>
+                <title>Integrating Temporal, Real-Time, and Active Databases.</title>
+ <initPage>8</initPage>
+ <endPage>12</endPage>
+          <authors>
+                    <author position="00">Krithi Ramamritham</author>
+ <author position="01">Rajendran M. Sivasankaran</author>
+ <author position="02">John A. Stankovic</author>
+ <author position="03">Donald F. Towsley</author>
+ <author position="04">Ming Xiong</author>
+          </authors>
+     </article>
+
+     <article>
+                <title>Lifestreams: A Storage Model for Personal Data.</title>
+ <initPage>80</initPage>
+ <endPage>86</endPage>
+          <authors>
+                    <author position="00">Eric Freeman</author>
+ <author position="01">David Gelernter</author>
+          </authors>
+     </article>
+
+     <article>
+                <title>MQSeries and CICS Link for Lotus Notes.</title>
+ <initPage>113</initPage>
+ <endPage>118</endPage>
+          <authors>
+                    <author position="00">Anonymous</author>
+          </authors>
+     </article>
+
+     <article>
+                <title>Object Query Standards.</title>
+ <initPage>87</initPage>
+ <endPage>92</endPage>
+          <authors>
+                    <author position="00">Andrew E. Wade</author>
+          </authors>
+     </article>
+
+     <article>
+                <title>Overview of the STanford Real-time Information Processor (STRIP).</title>
+ <initPage>34</initPage>
+ <endPage>37</endPage>
+          <authors>
+                    <author position="00">Brad Adelberg</author>
+ <author position="01">Ben Kao</author>
+ <author position="02">Hector Garcia-Molina</author>
+          </authors>
+     </article>
+
+     <article>
+                <title>Real-Time Database - Similarity Semantics and Resource Scheduling.</title>
+ <initPage>18</initPage>
+ <endPage>22</endPage>
+          <authors>
+                    <author position="00">Tei-Wei Kuo</author>
+ <author position="01">Aloysius K. Mok</author>
+          </authors>
+     </article>
+
+     <article>
+                <title>Real-Time Index Concurrency Control.</title>
+ <initPage>13</initPage>
+ <endPage>17</endPage>
+          <authors>
+                    <author position="00">Jayant R. Haritsa</author>
+ <author position="01">S. Seshadri</author>
+          </authors>
+     </article>
+
+     <article>
+                <title>Shutdown, Budget, and Funding.</title>
+ <initPage>119</initPage>
+ <endPage>122</endPage>
+          <authors>
+                    <author position="00">Xiaolei Qian</author>
+          </authors>
+     </article>
+
+     <article>
+                <title>Temporal Database Bibliography Update.</title>
+ <initPage>41</initPage>
+ <endPage>51</endPage>
+          <authors>
+                    <author position="00">Vassilis J. Tsotras</author>
+ <author position="01">Anil Kumar</author>
+          </authors>
+     </article>
+
+     <article>
+                <title>Workshop Report: The First International Workshop on Active and Real-Time Database Systems (ARTDB-95).</title>
+ <initPage>64</initPage>
+ <endPage>66</endPage>
+          <authors>
+                    <author position="00">Mikael Berndtsson</author>
+ <author position="01">Jrgen Hansson</author>
+          </authors>
+     </article>
+
+    </articles>
+  </issue>
+    <issue>
+        <volume>25</volume>
+ <number>2</number>
+    <articles>
+            <article>
+                <title>A Content-Based Multimedia Server for Massively Parallel Architectures.</title>
+ <initPage>68</initPage>
+ <endPage>78</endPage>
+          <authors>
+                    <author position="00">W. O'Connell</author>
+ <author position="01">Ion Tim Ieong</author>
+ <author position="02">D. Schrader</author>
+ <author position="03">C. Watson</author>
+ <author position="04">G. Au</author>
+ <author position="05">Alexandros Biliris</author>
+ <author position="06">S. Choo</author>
+ <author position="07">P. Colin</author>
+ <author position="08">G. Linderman</author>
+ <author position="09">Euthimios Panagos</author>
+ <author position="10">J. Wang</author>
+ <author position="11">T. Walters</author>
+          </authors>
+     </article>
+
+     <article>
+                <title>A Framework for Supporting Data Integration Using the Materialized and Virtual Approaches.</title>
+ <initPage>481</initPage>
+ <endPage>492</endPage>
+          <authors>
+                    <author position="00">Richard Hull</author>
+ <author position="01">Gang Zhou</author>
+          </authors>
+     </article>
+
+     <article>
+                <title>A Query Language and Optimization Techniques for Unstructured Data.</title>
+ <initPage>505</initPage>
+ <endPage>516</endPage>
+          <authors>
+                    <author position="00">Peter Buneman</author>
+ <author position="01">Susan B. Davidson</author>
+ <author position="02">Gerd G. Hillebrand</author>
+ <author position="03">Dan Suciu</author>
+          </authors>
+     </article>
+
+     <article>
+                <title>A Query Language for Multidimensional Arrays: Design, Implementation, and Optimization Techniques.</title>
+ <initPage>228</initPage>
+ <endPage>239</endPage>
+          <authors>
+                    <author position="00">Leonid Libkin</author>
+ <author position="01">Rona Machlin</author>
+ <author position="02">Limsoon Wong</author>
+          </authors>
+     </article>
+
+     <article>
+                <title>A Super Scalar Sort Algorithm for RISC Processors.</title>
+ <initPage>240</initPage>
+ <endPage>246</endPage>
+          <authors>
+                    <author position="00">Ramesh C. Agarwal</author>
+          </authors>
+     </article>
+
+     <article>
+                <title>Accessing Relational Databases from the World Wide Web.</title>
+ <initPage>529</initPage>
+ <endPage>540</endPage>
+          <authors>
+                    <author position="00">Tam Nguyen</author>
+ <author position="01">V. Srinivasan</author>
+          </authors>
+     </article>
+
+     <article>
+                <title>Algorithms for Deferred View Maintenance.</title>
+ <initPage>469</initPage>
+ <endPage>480</endPage>
+          <authors>
+                    <author position="00">Latha S. Colby</author>
+ <author position="01">Timothy Griffin</author>
+ <author position="02">Leonid Libkin</author>
+ <author position="03">Inderpal Singh Mumick</author>
+ <author position="04">Howard Trickey</author>
+          </authors>
+     </article>
+
+     <article>
+                <title>An Open Storage System for Abstract Objects.</title>
+ <initPage>330</initPage>
+ <endPage>340</endPage>
+          <authors>
+                    <author position="00">Stephen Blott</author>
+ <author position="01">Lukas Relly</author>
+ <author position="02">Hans-Jrg Schek</author>
+          </authors>
+     </article>
+
+     <article>
+                <title>BeSS: Storage Support for Interactive Visualization Systems.</title>
+ <initPage>556</initPage>
+ <endPage>556</endPage>
+          <authors>
+                    <author position="00">Alexandros Biliris</author>
+ <author position="01">T. A. Funkhouser</author>
+ <author position="02">W. O'Connell</author>
+ <author position="03">Euthimios Panagos</author>
+          </authors>
+     </article>
+
+     <article>
+                <title>Bifocal Sampling for Skew-Resistant Join Size Estimation.</title>
+ <initPage>271</initPage>
+ <endPage>281</endPage>
+          <authors>
+                    <author position="00">Sumit Ganguly</author>
+ <author position="01">Phillip B. Gibbons</author>
+ <author position="02">Yossi Matias</author>
+ <author position="03">Abraham Silberschatz</author>
+          </authors>
+     </article>
+
+     <article>
+                <title>BIRCH: An Efficient Data Clustering Method for Very Large Databases.</title>
+ <initPage>103</initPage>
+ <endPage>114</endPage>
+          <authors>
+                    <author position="00">Tian Zhang</author>
+ <author position="01">Raghu Ramakrishnan</author>
+ <author position="02">Miron Livny</author>
+          </authors>
+     </article>
+
+     <article>
+                <title>CapBasED-AMS: A Capability-based and Event-driven Activity Management System.</title>
+ <initPage>554</initPage>
+ <endPage>554</endPage>
+          <authors>
+                    <author position="00">Patrick C. K. Hung</author>
+ <author position="01">Helen P. Yeung</author>
+ <author position="02">Kamalakar Karlapalem</author>
+          </authors>
+     </article>
+
+     <article>
+                <title>Change Detection in Hierarchically Structured Information.</title>
+ <initPage>493</initPage>
+ <endPage>504</endPage>
+          <authors>
+                    <author position="00">Sudarshan S. Chawathe</author>
+ <author position="01">Anand Rajaraman</author>
+ <author position="02">Hector Garcia-Molina</author>
+ <author position="03">Jennifer Widom</author>
+          </authors>
+     </article>
+
+     <article>
+                <title>Cost-Based Optimization for Magic: Algebra and Implementation.</title>
+ <initPage>435</initPage>
+ <endPage>446</endPage>
+          <authors>
+                    <author position="00">Praveen Seshadri</author>
+ <author position="01">Joseph M. Hellerstein</author>
+ <author position="02">Hamid Pirahesh</author>
+ <author position="03">T. Y. Cliff Leung</author>
+ <author position="04">Raghu Ramakrishnan</author>
+ <author position="05">Divesh Srivastava</author>
+ <author position="06">Peter J. Stuckey</author>
+ <author position="07">S. Sudarshan</author>
+          </authors>
+     </article>
+
+     <article>
+                <title>Data Access for the Masses through OLE DB.</title>
+ <initPage>161</initPage>
+ <endPage>172</endPage>
+          <authors>
+                    <author position="00">Jos A. Blakeley</author>
+          </authors>
+     </article>
+
+     <article>
+                <title>Data Mining Techniques.</title>
+ <initPage>545</initPage>
+ <endPage>545</endPage>
+          <authors>
+                    <author position="00">Jiawei Han</author>
+          </authors>
+     </article>
+
+     <article>
+                <title>Data Mining Using Two-Dimensional Optimized Accociation Rules: Scheme, Algorithms, and Visualization.</title>
+ <initPage>13</initPage>
+ <endPage>23</endPage>
+          <authors>
+                    <author position="00">Takeshi Fukuda</author>
+ <author position="01">Yasuhiko Morimoto</author>
+ <author position="02">Shinichi Morishita</author>
+ <author position="03">Takeshi Tokuyama</author>
+          </authors>
+     </article>
+
+     <article>
+                <title>Databases and Visualization.</title>
+ <initPage>543</initPage>
+ <endPage>543</endPage>
+          <authors>
+                    <author position="00">Daniel A. Keim</author>
+          </authors>
+     </article>
+
+     <article>
+                <title>DBMiner: Interactive Mining of Multiple-Level Knowledge in Relational Databases.</title>
+ <initPage>550</initPage>
+ <endPage>550</endPage>
+          <authors>
+                    <author position="00">Jiawei Han</author>
+ <author position="01">Yongjian Fu</author>
+ <author position="02">Wei Wang</author>
+ <author position="03">Jenny Chiang</author>
+ <author position="04">Osmar R. Zaane</author>
+ <author position="05">Krzysztof Koperski</author>
+          </authors>
+     </article>
+
+     <article>
+                <title>DBSim: A Simulation Tool for Predicting Database Performance.</title>
+ <initPage>548</initPage>
+ <endPage>548</endPage>
+          <authors>
+                    <author position="00">Mike Lefler</author>
+ <author position="01">Mark Stokrp</author>
+ <author position="02">Craig Wong</author>
+          </authors>
+     </article>
+
+     <article>
+                <title>Estimating Alphanumeric Selectivity in the Presence of Wildcards.</title>
+ <initPage>282</initPage>
+ <endPage>293</endPage>
+          <authors>
+                    <author position="00">P. Krishnan</author>
+ <author position="01">Jeffrey Scott Vitter</author>
+ <author position="02">Balakrishna R. Iyer</author>
+          </authors>
+     </article>
+
+     <article>
+                <title>Evaluating Queries with Generalized Path Expressions.</title>
+ <initPage>413</initPage>
+ <endPage>422</endPage>
+          <authors>
+                    <author position="00">Vassilis Christophides</author>
+ <author position="01">Sophie Cluet</author>
+ <author position="02">Guido Moerkotte</author>
+          </authors>
+     </article>
+
+     <article>
+                <title>Fault-tolerant Architectures for Continuous Media Servers.</title>
+ <initPage>79</initPage>
+ <endPage>90</endPage>
+          <authors>
+                    <author position="00">Banu zden</author>
+ <author position="01">Rajeev Rastogi</author>
+ <author position="02">Prashant J. Shenoy</author>
+ <author position="03">Abraham Silberschatz</author>
+          </authors>
+     </article>
+
+     <article>
+                <title>Fundamental Techniques for Order Optimization.</title>
+ <initPage>57</initPage>
+ <endPage>67</endPage>
+          <authors>
+                    <author position="00">David E. Simmen</author>
+ <author position="01">Eugene J. Shekita</author>
+ <author position="02">Timothy Malkemus</author>
+          </authors>
+     </article>
+
+     <article>
+                <title>Goal-Oriented Buffer Management Revisited.</title>
+ <initPage>353</initPage>
+ <endPage>364</endPage>
+          <authors>
+                    <author position="00">Kurt P. Brown</author>
+ <author position="01">Michael J. Carey</author>
+ <author position="02">Miron Livny</author>
+          </authors>
+     </article>
+
+     <article>
+                <title>Hot Mirroring: A Study to Hide Parity Upgrade Penalty and Degradations During Rebuilds for RAID5.</title>
+ <initPage>183</initPage>
+ <endPage>194</endPage>
+          <authors>
+                    <author position="00">Kazuhiko Mogi</author>
+ <author position="01">Masaru Kitsuregawa</author>
+          </authors>
+     </article>
+
+     <article>
+                <title>HyperStorM - Administering Structured Documents Using Object-Oriented Database Technology.</title>
+ <initPage>547</initPage>
+ <endPage>547</endPage>
+          <authors>
+                    <author position="00">Klemens Bhm</author>
+ <author position="01">Karl Aberer</author>
+          </authors>
+     </article>
+
+     <article>
+                <title>IDEA: Interactive Data Exploration and Analysis.</title>
+ <initPage>24</initPage>
+ <endPage>34</endPage>
+          <authors>
+                    <author position="00">Peter G. Selfridge</author>
+ <author position="01">Divesh Srivastava</author>
+ <author position="02">Lynn O. Wilson</author>
+          </authors>
+     </article>
+
+     <article>
+                <title>Implementing Data Cubes Efficiently.</title>
+ <initPage>205</initPage>
+ <endPage>216</endPage>
+          <authors>
+                    <author position="00">Venky Harinarayan</author>
+ <author position="01">Anand Rajaraman</author>
+ <author position="02">Jeffrey D. Ullman</author>
+          </authors>
+     </article>
+
+     <article>
+                <title>Improved Histograms for Selectivity Estimation of Range Predicates.</title>
+ <initPage>294</initPage>
+ <endPage>305</endPage>
+          <authors>
+                    <author position="00">Viswanath Poosala</author>
+ <author position="01">Yannis E. Ioannidis</author>
+ <author position="02">Peter J. Haas</author>
+ <author position="03">Eugene J. Shekita</author>
+          </authors>
+     </article>
+
+     <article>
+                <title>Is GUI Programming a Database Research Problem?</title>
+ <initPage>517</initPage>
+ <endPage>528</endPage>
+          <authors>
+                    <author position="00">Nita Goyal</author>
+ <author position="01">Charles Hoch</author>
+ <author position="02">Ravi Krishnamurthy</author>
+ <author position="03">Brian Meckler</author>
+ <author position="04">Michael Suckow</author>
+          </authors>
+     </article>
+
+     <article>
+                <title>LORE: A Lightweight Object REpository for Semistructured Data.</title>
+ <initPage>549</initPage>
+ <endPage>549</endPage>
+          <authors>
+                    <author position="00">Dallan Quass</author>
+ <author position="01">Jennifer Widom</author>
+ <author position="02">Roy Goldman</author>
+ <author position="03">Kevin Haas</author>
+ <author position="04">Qingshan Luo</author>
+ <author position="05">Jason McHugh</author>
+ <author position="06">Svetlozar Nestorov</author>
+ <author position="07">Anand Rajaraman</author>
+ <author position="08">Hugo Rivero</author>
+ <author position="09">Serge Abiteboul</author>
+ <author position="10">Jeffrey D. Ullman</author>
+ <author position="11">Janet L. Wiener</author>
+          </authors>
+     </article>
+
+     <article>
+                <title>Maintaining Database Consistency in Presence of Value Dependencies in Multidatabase Systems.</title>
+ <initPage>459</initPage>
+ <endPage>468</endPage>
+          <authors>
+                    <author position="00">Claire Morpain</author>
+ <author position="01">Michle Cart</author>
+ <author position="02">Jean Ferri</author>
+ <author position="03">Jean-Franois Pons</author>
+          </authors>
+     </article>
+
+     <article>
+                <title>Materialized View Maintenance and Integrity Constraint Checking: Trading Space for Time.</title>
+ <initPage>447</initPage>
+ <endPage>458</endPage>
+          <authors>
+                    <author position="00">Kenneth A. Ross</author>
+ <author position="01">Divesh Srivastava</author>
+ <author position="02">S. Sudarshan</author>
+          </authors>
+     </article>
+
+     <article>
+                <title>METU Interoperable Database System.</title>
+ <initPage>552</initPage>
+ <endPage>552</endPage>
+          <authors>
+                    <author position="00">Asuman Dogac</author>
+ <author position="01">Ugur Halici</author>
+ <author position="02">Ebru Kilic</author>
+ <author position="03">Gkhan zhan</author>
+ <author position="04">Fatma Ozcan</author>
+ <author position="05">Sena Nural</author>
+ <author position="06">Cevdet Dengi</author>
+ <author position="07">Sema Mancuhan</author>
+ <author position="08">Budak Arpinar</author>
+ <author position="09">Pinar Koksal</author>
+ <author position="10">Cem Evrendilek</author>
+          </authors>
+     </article>
+
+     <article>
+                <title>Mining Quantitative Association Rules in Large Relational Tables.</title>
+ <initPage>1</initPage>
+ <endPage>12</endPage>
+          <authors>
+                    <author position="00">Ramakrishnan Srikant</author>
+ <author position="01">Rakesh Agrawal</author>
+          </authors>
+     </article>
+
+     <article>
+                <title>Multi-dimensional Resource Scheduling for Parallel Queries.</title>
+ <initPage>365</initPage>
+ <endPage>376</endPage>
+          <authors>
+                    <author position="00">Minos N. Garofalakis</author>
+ <author position="01">Yannis E. Ioannidis</author>
+          </authors>
+     </article>
+
+     <article>
+                <title>On-line Reorganization of Sparsely-populated B+trees.</title>
+ <initPage>115</initPage>
+ <endPage>124</endPage>
+          <authors>
+                    <author position="00">Chendong Zou</author>
+ <author position="01">Betty Salzberg</author>
+          </authors>
+     </article>
+
+     <article>
+                <title>Optimizing Queries over Multimedia Repositories.</title>
+ <initPage>91</initPage>
+ <endPage>102</endPage>
+          <authors>
+                    <author position="00">Surajit Chaudhuri</author>
+ <author position="01">Luis Gravano</author>
+          </authors>
+     </article>
+
+     <article>
+                <title>Partition Based Spatial-Merge Join.</title>
+ <initPage>259</initPage>
+ <endPage>270</endPage>
+          <authors>
+                    <author position="00">Jignesh M. Patel</author>
+ <author position="01">David J. DeWitt</author>
+          </authors>
+     </article>
+
+     <article>
+                <title>Performance Tradeoffs for Client-Server Query Processing.</title>
+ <initPage>149</initPage>
+ <endPage>160</endPage>
+          <authors>
+                    <author position="00">Michael J. Franklin</author>
+ <author position="01">Bjrn r Jnsson</author>
+ <author position="02">Donald Kossmann</author>
+          </authors>
+     </article>
+
+     <article>
+                <title>Prospector: A Content-Based Multimedia Server for Massively Parallel Architectures.</title>
+ <initPage>551</initPage>
+ <endPage>551</endPage>
+          <authors>
+                    <author position="00">S. Choo</author>
+ <author position="01">W. O'Connell</author>
+ <author position="02">G. Linderman</author>
+ <author position="03">H. Chen</author>
+ <author position="04">K. Ganapathi</author>
+ <author position="05">Alexandros Biliris</author>
+ <author position="06">Euthimios Panagos</author>
+ <author position="07">D. Schrader</author>
+          </authors>
+     </article>
+
+     <article>
+                <title>Providing Better Support for a Class of Decision Support Queries.</title>
+ <initPage>217</initPage>
+ <endPage>227</endPage>
+          <authors>
+                    <author position="00">Sudhir Rao</author>
+ <author position="01">Antonio Badia</author>
+ <author position="02">Dirk Van Gucht</author>
+          </authors>
+     </article>
+
+     <article>
+                <title>Query Caching and Optimization in Distributed Mediator Systems.</title>
+ <initPage>137</initPage>
+ <endPage>148</endPage>
+          <authors>
+                    <author position="00">Sibel Adali</author>
+ <author position="01">K. Seluk Candan</author>
+ <author position="02">Yannis Papakonstantinou</author>
+ <author position="03">V. S. Subrahmanian</author>
+          </authors>
+     </article>
+
+     <article>
+                <title>Query Execution Techniques for Caching Expensive Methods.</title>
+ <initPage>423</initPage>
+ <endPage>434</endPage>
+          <authors>
+                    <author position="00">Joseph M. Hellerstein</author>
+ <author position="01">Jeffrey F. Naughton</author>
+          </authors>
+     </article>
+
+     <article>
+                <title>Random I/O Scheduling in Online Tertiary Storage Systems.</title>
+ <initPage>195</initPage>
+ <endPage>204</endPage>
+          <authors>
+                    <author position="00">Bruce Hillyer</author>
+ <author position="01">Abraham Silberschatz</author>
+          </authors>
+     </article>
+
+     <article>
+                <title>Rapid Bushy Join-order Optimization with Cartesian Products.</title>
+ <initPage>35</initPage>
+ <endPage>46</endPage>
+          <authors>
+                    <author position="00">Bennet Vance</author>
+ <author position="01">David Maier</author>
+          </authors>
+     </article>
+
+     <article>
+                <title>Repository System Engineering.</title>
+ <initPage>542</initPage>
+ <endPage>542</endPage>
+          <authors>
+                    <author position="00">Philip A. Bernstein</author>
+          </authors>
+     </article>
+
+     <article>
+                <title>Rule Languages and Internal Algebras for Rule-Based Optimizers.</title>
+ <initPage>401</initPage>
+ <endPage>412</endPage>
+          <authors>
+                    <author position="00">Mitch Cherniack</author>
+ <author position="01">Stanley B. Zdonik</author>
+          </authors>
+     </article>
+
+     <article>
+                <title>Safe and Efficient Sharing of Persistent Objects in Thor.</title>
+ <initPage>318</initPage>
+ <endPage>329</endPage>
+          <authors>
+                    <author position="00">Barbara Liskov</author>
+ <author position="01">Atul Adya</author>
+ <author position="02">Miguel Castro</author>
+ <author position="03">Mark Day</author>
+ <author position="04">Sanjay Ghemawat</author>
+ <author position="05">Robert Gruber</author>
+ <author position="06">Umesh Maheshwari</author>
+ <author position="07">Andrew C. Myers</author>
+ <author position="08">Liuba Shrira</author>
+          </authors>
+     </article>
+
+     <article>
+                <title>Semi-automatic, Self-adaptive Control of Garbage Collection Rates in Object Databases.</title>
+ <initPage>377</initPage>
+ <endPage>388</endPage>
+          <authors>
+                    <author position="00">Jonathan E. Cook</author>
+ <author position="01">Artur Klauser</author>
+ <author position="02">Alexander L. Wolf</author>
+ <author position="03">Benjamin G. Zorn</author>
+          </authors>
+     </article>
+
+     <article>
+                <title>SONAR: System for Optimized Numeric AssociationRules.</title>
+ <initPage>553</initPage>
+ <endPage>553</endPage>
+          <authors>
+                    <author position="00">Takeshi Fukuda</author>
+ <author position="01">Yasuhiko Morimoto</author>
+ <author position="02">Shinichi Morishita</author>
+ <author position="03">Takeshi Tokuyama</author>
+          </authors>
+     </article>
+
+     <article>
+                <title>Spatial Hash-Joins.</title>
+ <initPage>247</initPage>
+ <endPage>258</endPage>
+          <authors>
+                    <author position="00">Ming-Ling Lo</author>
+ <author position="01">Chinya V. Ravishankar</author>
+          </authors>
+     </article>
+
+     <article>
+                <title>SQL Query Optimization: Reordering for a General Class of Queries.</title>
+ <initPage>47</initPage>
+ <endPage>56</endPage>
+          <authors>
+                    <author position="00">Piyush Goel</author>
+ <author position="01">Balakrishna R. Iyer</author>
+          </authors>
+     </article>
+
+     <article>
+                <title>State of the Art in Workflow Management Research and Products.</title>
+ <initPage>544</initPage>
+ <endPage>544</endPage>
+          <authors>
+                    <author position="00">C. Mohan</author>
+          </authors>
+     </article>
+
+     <article>
+                <title>Static Detection of Security Flaws in Object-Oriented Databases.</title>
+ <initPage>341</initPage>
+ <endPage>352</endPage>
+          <authors>
+                    <author position="00">Keishi Tajima</author>
+          </authors>
+     </article>
+
+     <article>
+                <title>Structures for Manipulating Proposed Updates in Object-Oriented Databases.</title>
+ <initPage>306</initPage>
+ <endPage>317</endPage>
+          <authors>
+                    <author position="00">Michael Doherty</author>
+ <author position="01">Richard Hull</author>
+ <author position="02">Mohammed Rupawalla</author>
+          </authors>
+     </article>
+
+     <article>
+                <title>The Dangers of Replication and a Solution.</title>
+ <initPage>173</initPage>
+ <endPage>182</endPage>
+          <authors>
+                    <author position="00">Jim Gray</author>
+ <author position="01">Pat Helland</author>
+ <author position="02">Patrick E. O'Neil</author>
+ <author position="03">Dennis Shasha</author>
+          </authors>
+     </article>
+
+     <article>
+                <title>The Garlic Project.</title>
+ <initPage>557</initPage>
+ <endPage>557</endPage>
+          <authors>
+                    <author position="00">Mary Tork Roth</author>
+ <author position="01">Manish Arya</author>
+ <author position="02">Laura M. Haas</author>
+ <author position="03">Michael J. Carey</author>
+ <author position="04">William F. Cody</author>
+ <author position="05">Ronald Fagin</author>
+ <author position="06">Peter M. Schwarz</author>
+ <author position="07">Joachim Thomas II</author>
+ <author position="08">Edward L. Wimmers</author>
+          </authors>
+     </article>
+
+     <article>
+                <title>The Ins and Outs (and Everthing in Between) of Data Warehousing.</title>
+ <initPage>541</initPage>
+ <endPage>541</endPage>
+          <authors>
+                    <author position="00">Phillip M. Fernandez</author>
+ <author position="01">Donovan A. Schneider</author>
+          </authors>
+     </article>
+
+     <article>
+                <title>The MultiView Project: Object-Oriented View Technology and Applications.</title>
+ <initPage>555</initPage>
+ <endPage>555</endPage>
+          <authors>
+                    <author position="00">Elke A. Rundensteiner</author>
+ <author position="01">Harumi A. Kuno</author>
+ <author position="02">Young-Gook Ra</author>
+ <author position="03">Viviane Crestana-Taube</author>
+ <author position="04">Matthew C. Jones</author>
+ <author position="05">P. J. Marron</author>
+          </authors>
+     </article>
+
+     <article>
+                <title>Thinksheet: A Tool for Tailoring Complex Documents.</title>
+ <initPage>546</initPage>
+ <endPage>546</endPage>
+          <authors>
+                    <author position="00">Peter Piatko</author>
+ <author position="01">Roman Yangarber</author>
+ <author position="02">Dao-I Lin</author>
+ <author position="03">Dennis Shasha</author>
+          </authors>
+     </article>
+
+     <article>
+                <title>Towards Effective and Efficient Free Space Management.</title>
+ <initPage>389</initPage>
+ <endPage>400</endPage>
+          <authors>
+                    <author position="00">Mark L. McAuliffe</author>
+ <author position="01">Michael J. Carey</author>
+ <author position="02">Marvin H. Solomon</author>
+          </authors>
+     </article>
+
+     <article>
+                <title>Two Techniques for On-Line Index Modification in Shared Nothing Parallel Databases.</title>
+ <initPage>125</initPage>
+ <endPage>136</endPage>
+          <authors>
+                    <author position="00">Kiran J. Achyutuni</author>
+ <author position="01">Edward Omiecinski</author>
+ <author position="02">Shamkant B. Navathe</author>
+          </authors>
+     </article>
+
+    </articles>
+  </issue>
+    <issue>
+        <volume>25</volume>
+ <number>3</number>
+    <articles>
+            <article>
+                <title>Control Strategies for Complex Relational Query Processing in Shared Nothing Systems.</title>
+ <initPage>34</initPage>
+ <endPage>39</endPage>
+          <authors>
+                    <author position="00">Lionel Brunie</author>
+ <author position="01">Harald Kosch</author>
+          </authors>
+     </article>
+
+     <article>
+                <title>Domains, Relations and Religious Wars.</title>
+ <initPage>3</initPage>
+ <endPage>9</endPage>
+          <authors>
+                    <author position="00">Rafael Camps</author>
+          </authors>
+     </article>
+
+     <article>
+                <title>Editor's Notes.</title>
+ <initPage>2</initPage>
+ <endPage>2</endPage>
+          <authors>
+                    <author position="00">Arie Segev</author>
+ <author position="00">Jennifer Widom</author>
+ <author position="00">Michael J. Franklin</author>
+          </authors>
+     </article>
+
+     <article>
+                <title>Guidelines for Presentation and Comparison of Indexing Techniques.</title>
+ <initPage>10</initPage>
+ <endPage>15</endPage>
+          <authors>
+                    <author position="00">Justin Zobel</author>
+ <author position="01">Alistair Moffat</author>
+ <author position="02">Kotagiri Ramamohanarao</author>
+          </authors>
+     </article>
+
+     <article>
+                <title>Middle East Technical University Software Research and Development Center.</title>
+ <initPage>59</initPage>
+ <endPage>63</endPage>
+          <authors>
+                    <author position="00">Asuman Dogac</author>
+          </authors>
+     </article>
+
+     <article>
+                <title>Much Ado About Shared-Nothing.</title>
+ <initPage>16</initPage>
+ <endPage>21</endPage>
+          <authors>
+                    <author position="00">Michael G. Norman</author>
+ <author position="01">Thomas Zurek</author>
+ <author position="02">Peter Thanisch</author>
+          </authors>
+     </article>
+
+     <article>
+                <title>OLAP, Relational, and Multidimensional Database Systems.</title>
+ <initPage>64</initPage>
+ <endPage>69</endPage>
+          <authors>
+                    <author position="00">George Colliat</author>
+          </authors>
+     </article>
+
+     <article>
+                <title>On the Cost of Monitoring and Reorganization of Object Bases for Clustering.</title>
+ <initPage>22</initPage>
+ <endPage>27</endPage>
+          <authors>
+                    <author position="00">Carsten Andreas Gerlhof</author>
+ <author position="01">Alfons Kemper</author>
+ <author position="02">Guido Moerkotte</author>
+          </authors>
+     </article>
+
+     <article>
+                <title>Open Issues in Parallel Query Optimization.</title>
+ <initPage>28</initPage>
+ <endPage>33</endPage>
+          <authors>
+                    <author position="00">Waqar Hasan</author>
+ <author position="01">Daniela Florescu</author>
+ <author position="02">Patrick Valduriez</author>
+          </authors>
+     </article>
+
+     <article>
+                <title>Report on First International Workshop on Real-Time Database Systems.</title>
+ <initPage>50</initPage>
+ <endPage>52</endPage>
+          <authors>
+                    <author position="00">Azer Bestavros</author>
+ <author position="01">Kwei-Jay Lin</author>
+ <author position="02">Sang Hyuk Son</author>
+          </authors>
+     </article>
+
+     <article>
+                <title>Scientist's Called Upon to Take Actions.</title>
+ <initPage>77</initPage>
+ <endPage>80</endPage>
+          <authors>
+                    <author position="00">Xiaolei Qian</author>
+          </authors>
+     </article>
+
+     <article>
+                <title>The Active Database Management System Manifesto: A Rulebase of ADBMS Features.</title>
+ <initPage>40</initPage>
+ <endPage>49</endPage>
+          <authors>
+                    <author position="00">ACT-NET</author>
+          </authors>
+     </article>
+
+     <article>
+                <title>The BeSS Object Storage Manager: Architecture Overview.</title>
+ <initPage>53</initPage>
+ <endPage>58</endPage>
+          <authors>
+                    <author position="00">Alexandros Biliris</author>
+ <author position="01">Euthimios Panagos</author>
+          </authors>
+     </article>
+
+     <article>
+                <title>UniSQL's Next-Generation Object-Relational Database Management System.</title>
+ <initPage>70</initPage>
+ <endPage>76</endPage>
+          <authors>
+                    <author position="00">Albert D'Andrea</author>
+ <author position="01">Phil Janus</author>
+          </authors>
+     </article>
+
+    </articles>
+  </issue>
+    <issue>
+        <volume>25</volume>
+ <number>4</number>
+    <articles>
+            <article>
+                <title>3D Geographic Network Displays.</title>
+ <initPage>50</initPage>
+ <endPage>54</endPage>
+          <authors>
+                    <author position="00">Kenneth C. Cox</author>
+ <author position="01">Stephen G. Eick</author>
+ <author position="02">Taosong He</author>
+          </authors>
+     </article>
+
+     <article>
+                <title>A Framework for Information Visualisation.</title>
+ <initPage>30</initPage>
+ <endPage>34</endPage>
+          <authors>
+                    <author position="00">Jessie B. Kennedy</author>
+ <author position="01">Kenneth J. Mitchell</author>
+ <author position="02">Peter J. Barclay</author>
+          </authors>
+     </article>
+
+     <article>
+                <title>A Response to R. Camps' Article "Domains, relations and Religious Wars".</title>
+ <initPage>3</initPage>
+ <endPage>5</endPage>
+          <authors>
+                    <author position="00">C. J. Date</author>
+          </authors>
+     </article>
+
+     <article>
+                <title>An Orthogonally Persistent Java.</title>
+ <initPage>68</initPage>
+ <endPage>75</endPage>
+          <authors>
+                    <author position="00">Malcolm P. Atkinson</author>
+ <author position="01">Laurent Dayns</author>
+ <author position="02">Mick J. Jordan</author>
+ <author position="03">Tony Printezis</author>
+ <author position="04">Susan Spence</author>
+          </authors>
+     </article>
+
+     <article>
+                <title>Applying database Visualization to the World Wide Web.</title>
+ <initPage>45</initPage>
+ <endPage>49</endPage>
+          <authors>
+                    <author position="00">Masum Z. Hasan</author>
+ <author position="01">Alberto O. Mendelzon</author>
+ <author position="02">Dimitra Vista</author>
+          </authors>
+     </article>
+
+     <article>
+                <title>Dynamic Information Visualization.</title>
+ <initPage>16</initPage>
+ <endPage>20</endPage>
+          <authors>
+                    <author position="00">Yannis E. Ioannidis</author>
+          </authors>
+     </article>
+
+     <article>
+                <title>Editor's Notes.</title>
+ <initPage>2</initPage>
+ <endPage>2</endPage>
+          <authors>
+                    <author position="00">Arie Segev</author>
+ <author position="00">Jennifer Widom</author>
+ <author position="00">Michael J. Franklin</author>
+          </authors>
+     </article>
+
+     <article>
+                <title>In Reply to Domains, relations and Religious Wars.</title>
+ <initPage>6</initPage>
+ <endPage>7</endPage>
+          <authors>
+                    <author position="00">Hugh Darwen</author>
+          </authors>
+     </article>
+
+     <article>
+                <title>Incremental data Structures and Algorithms for Dynamic Query Interfaces.</title>
+ <initPage>21</initPage>
+ <endPage>24</endPage>
+          <authors>
+                    <author position="00">Egemen Tanin</author>
+ <author position="01">Richard Beigel</author>
+ <author position="02">Ben Shneiderman</author>
+          </authors>
+     </article>
+
+     <article>
+                <title>Information Visualization, Guest Editors' Foreword.</title>
+ <initPage>14</initPage>
+ <endPage>15</endPage>
+          <authors>
+                    <author position="00">Tiziana Catarci</author>
+ <author position="01">Isabel F. Cruz</author>
+          </authors>
+     </article>
+
+     <article>
+                <title>New Programs at DARPA and NSF.</title>
+ <initPage>94</initPage>
+ <endPage>98</endPage>
+          <authors>
+                    <author position="00">Xiaolei Qian</author>
+          </authors>
+     </article>
+
+     <article>
+                <title>New Standard for Stored Procedures in SQL.</title>
+ <initPage>81</initPage>
+ <endPage>88</endPage>
+          <authors>
+                    <author position="00">Andrew Eisenberg</author>
+          </authors>
+     </article>
+
+     <article>
+                <title>Pixel-oriented Database Visualizations.</title>
+ <initPage>35</initPage>
+ <endPage>39</endPage>
+          <authors>
+                    <author position="00">Daniel A. Keim</author>
+          </authors>
+     </article>
+
+     <article>
+                <title>Report from the NSF Workshop on Workflow and Process Automation in Information Systems.</title>
+ <initPage>55</initPage>
+ <endPage>67</endPage>
+          <authors>
+                    <author position="00">Amit P. Sheth</author>
+ <author position="01">Dimitrios Georgakopoulos</author>
+ <author position="02">Stef Joosten</author>
+ <author position="03">Marek Rusinkiewicz</author>
+ <author position="04">Walt Scacchi</author>
+ <author position="05">Jack C. Wileden</author>
+ <author position="06">Alexander L. Wolf</author>
+          </authors>
+     </article>
+
+     <article>
+                <title>Spotfire: An Information Exploration Environment.</title>
+ <initPage>25</initPage>
+ <endPage>29</endPage>
+          <authors>
+                    <author position="00">Christopher Ahlberg</author>
+          </authors>
+     </article>
+
+     <article>
+                <title>TCP-D - The Challenges, Issues and Results.</title>
+ <initPage>89</initPage>
+ <endPage>93</endPage>
+          <authors>
+                    <author position="00">Ramesh Bhashyam</author>
+          </authors>
+     </article>
+
+     <article>
+                <title>The Aggregate Data Problem: A System for their Definition and Management.</title>
+ <initPage>8</initPage>
+ <endPage>13</endPage>
+          <authors>
+                    <author position="00">Maurizio Rafanelli</author>
+ <author position="01">Antonia Bezenchek</author>
+ <author position="02">Leonardo Tininini</author>
+          </authors>
+     </article>
+
+     <article>
+                <title>The Mariposa Distributed Database Management System.</title>
+ <initPage>76</initPage>
+ <endPage>80</endPage>
+          <authors>
+                    <author position="00">Jeff Sidell</author>
+          </authors>
+     </article>
+
+     <article>
+                <title>To Table or Not to Table: a Hypertabular Answer.</title>
+ <initPage>40</initPage>
+ <endPage>44</endPage>
+          <authors>
+                    <author position="00">Giuseppe Santucci</author>
+ <author position="01">Laura Tarantino</author>
+          </authors>
+     </article>
+
+    </articles>
+  </issue>
+    <issue>
+        <volume>25</volume>
+ <number>1</number>
+    <articles>
+            <article>
+                <title>Advances in Real-Time Database Systems Research.</title>
+ <initPage>3</initPage>
+ <endPage>7</endPage>
+          <authors>
+                    <author position="00">Azer Bestavros</author>
+          </authors>
+     </article>
+
+     <article>
+                <title>Database Research at Arizona State University.</title>
+ <initPage>99</initPage>
+ <endPage>104</endPage>
+          <authors>
+                    <author position="00">Susan Darling Urban</author>
+ <author position="01">Suzanne W. Dietrich</author>
+ <author position="02">Forouzan Golshani</author>
+          </authors>
+     </article>
+
+     <article>
+                <title>Database Research at the Indian Institute of Technology, Bombay.</title>
+ <initPage>93</initPage>
+ <endPage>98</endPage>
+          <authors>
+                    <author position="00">D. B. Phatak</author>
+ <author position="01">Nandlal L. Sarda</author>
+ <author position="02">S. Seshadri</author>
+ <author position="03">S. Sudarshan</author>
+          </authors>
+     </article>
+
+     <article>
+                <title>Database Research: Achievements and Opportunities Into the 21st Century.</title>
+ <initPage>52</initPage>
+ <endPage>63</endPage>
+          <authors>
+                    <author position="00">Abraham Silberschatz</author>
+ <author position="01">Michael Stonebraker</author>
+ <author position="02">Jeffrey D. Ullman</author>
+          </authors>
+     </article>
+
+     <article>
+                <title>DeeDS Towards a Distributed and Active Real-Time Database System.</title>
+ <initPage>38</initPage>
+ <endPage>40</endPage>
+          <authors>
+                    <author position="00">Sten Andler</author>
+ <author position="01">Jrgen Hansson</author>
+ <author position="02">Joakim Eriksson</author>
+ <author position="03">Jonas Mellin</author>
+ <author position="04">Mikael Berndtsson</author>
+ <author position="05">Bengt Eftring</author>
+          </authors>
+     </article>
+
+     <article>
+                <title>Editor's Notes.</title>
+ <initPage>2</initPage>
+ <endPage>2</endPage>
+          <authors>
+                    <author position="00">Arie Segev</author>
+ <author position="00">Jennifer Widom</author>
+ <author position="00">Michael J. Franklin</author>
+          </authors>
+     </article>
+
+     <article>
+                <title>Enhancing External Consistency in Real-Time Transactions.</title>
+ <initPage>26</initPage>
+ <endPage>28</endPage>
+          <authors>
+                    <author position="00">Kwei-Jay Lin</author>
+ <author position="01">Shing-Shan Peng</author>
+          </authors>
+     </article>
+
+     <article>
+                <title>Exploiting Main Memory DBMS Features to Improve Real-Time Concurrency Control Protocols.</title>
+ <initPage>23</initPage>
+ <endPage>25</endPage>
+          <authors>
+                    <author position="00">zgr Ulusoy</author>
+ <author position="01">Alejandro P. Buchmann</author>
+          </authors>
+     </article>
+
+     <article>
+                <title>Illustra's Web DataBlade Module.</title>
+ <initPage>105</initPage>
+ <endPage>112</endPage>
+          <authors>
+                    <author position="00">John Gaffney</author>
+          </authors>
+     </article>
+
+     <article>
+                <title>Improving Timeliness in Real-Time Secure Database Systems.</title>
+ <initPage>29</initPage>
+ <endPage>33</endPage>
+          <authors>
+                    <author position="00">Sang Hyuk Son</author>
+ <author position="01">Rasikan David</author>
+ <author position="02">Bhavani M. Thuraisingham</author>
+          </authors>
+     </article>
+
+     <article>
+                <title>Integrating Contents and Structure in Text Retrieval.</title>
+ <initPage>67</initPage>
+ <endPage>79</endPage>
+          <authors>
+                    <author position="00">Ricardo A. Baeza-Yates</author>
+ <author position="01">Gonzalo Navarro</author>
+          </authors>
+     </article>
+
+     <article>
+                <title>Integrating Temporal, Real-Time, and Active Databases.</title>
+ <initPage>8</initPage>
+ <endPage>12</endPage>
+          <authors>
+                    <author position="00">Krithi Ramamritham</author>
+ <author position="01">Rajendran M. Sivasankaran</author>
+ <author position="02">John A. Stankovic</author>
+ <author position="03">Donald F. Towsley</author>
+ <author position="04">Ming Xiong</author>
+          </authors>
+     </article>
+
+     <article>
+                <title>Lifestreams: A Storage Model for Personal Data.</title>
+ <initPage>80</initPage>
+ <endPage>86</endPage>
+          <authors>
+                    <author position="00">Eric Freeman</author>
+ <author position="01">David Gelernter</author>
+          </authors>
+     </article>
+
+     <article>
+                <title>MQSeries and CICS Link for Lotus Notes.</title>
+ <initPage>113</initPage>
+ <endPage>118</endPage>
+          <authors>
+                    <author position="00">Anonymous</author>
+          </authors>
+     </article>
+
+     <article>
+                <title>Object Query Standards.</title>
+ <initPage>87</initPage>
+ <endPage>92</endPage>
+          <authors>
+                    <author position="00">Andrew E. Wade</author>
+          </authors>
+     </article>
+
+     <article>
+                <title>Overview of the STanford Real-time Information Processor (STRIP).</title>
+ <initPage>34</initPage>
+ <endPage>37</endPage>
+          <authors>
+                    <author position="00">Brad Adelberg</author>
+ <author position="01">Ben Kao</author>
+ <author position="02">Hector Garcia-Molina</author>
+          </authors>
+     </article>
+
+     <article>
+                <title>Real-Time Database - Similarity Semantics and Resource Scheduling.</title>
+ <initPage>18</initPage>
+ <endPage>22</endPage>
+          <authors>
+                    <author position="00">Tei-Wei Kuo</author>
+ <author position="01">Aloysius K. Mok</author>
+          </authors>
+     </article>
+
+     <article>
+                <title>Real-Time Index Concurrency Control.</title>
+ <initPage>13</initPage>
+ <endPage>17</endPage>
+          <authors>
+                    <author position="00">Jayant R. Haritsa</author>
+ <author position="01">S. Seshadri</author>
+          </authors>
+     </article>
+
+     <article>
+                <title>Shutdown, Budget, and Funding.</title>
+ <initPage>119</initPage>
+ <endPage>122</endPage>
+          <authors>
+                    <author position="00">Xiaolei Qian</author>
+          </authors>
+     </article>
+
+     <article>
+                <title>Temporal Database Bibliography Update.</title>
+ <initPage>41</initPage>
+ <endPage>51</endPage>
+          <authors>
+                    <author position="00">Vassilis J. Tsotras</author>
+ <author position="01">Anil Kumar</author>
+          </authors>
+     </article>
+
+     <article>
+                <title>Workshop Report: The First International Workshop on Active and Real-Time Database Systems (ARTDB-95).</title>
+ <initPage>64</initPage>
+ <endPage>66</endPage>
+          <authors>
+                    <author position="00">Mikael Berndtsson</author>
+ <author position="01">Jrgen Hansson</author>
+          </authors>
+     </article>
+
+    </articles>
+  </issue>
+    <issue>
+        <volume>25</volume>
+ <number>2</number>
+    <articles>
+            <article>
+                <title>A Content-Based Multimedia Server for Massively Parallel Architectures.</title>
+ <initPage>68</initPage>
+ <endPage>78</endPage>
+          <authors>
+                    <author position="00">W. O'Connell</author>
+ <author position="01">Ion Tim Ieong</author>
+ <author position="02">D. Schrader</author>
+ <author position="03">C. Watson</author>
+ <author position="04">G. Au</author>
+ <author position="05">Alexandros Biliris</author>
+ <author position="06">S. Choo</author>
+ <author position="07">P. Colin</author>
+ <author position="08">G. Linderman</author>
+ <author position="09">Euthimios Panagos</author>
+ <author position="10">J. Wang</author>
+ <author position="11">T. Walters</author>
+          </authors>
+     </article>
+
+     <article>
+                <title>A Framework for Supporting Data Integration Using the Materialized and Virtual Approaches.</title>
+ <initPage>481</initPage>
+ <endPage>492</endPage>
+          <authors>
+                    <author position="00">Richard Hull</author>
+ <author position="01">Gang Zhou</author>
+          </authors>
+     </article>
+
+     <article>
+                <title>A Query Language and Optimization Techniques for Unstructured Data.</title>
+ <initPage>505</initPage>
+ <endPage>516</endPage>
+          <authors>
+                    <author position="00">Peter Buneman</author>
+ <author position="01">Susan B. Davidson</author>
+ <author position="02">Gerd G. Hillebrand</author>
+ <author position="03">Dan Suciu</author>
+          </authors>
+     </article>
+
+     <article>
+                <title>A Query Language for Multidimensional Arrays: Design, Implementation, and Optimization Techniques.</title>
+ <initPage>228</initPage>
+ <endPage>239</endPage>
+          <authors>
+                    <author position="00">Leonid Libkin</author>
+ <author position="01">Rona Machlin</author>
+ <author position="02">Limsoon Wong</author>
+          </authors>
+     </article>
+
+     <article>
+                <title>A Super Scalar Sort Algorithm for RISC Processors.</title>
+ <initPage>240</initPage>
+ <endPage>246</endPage>
+          <authors>
+                    <author position="00">Ramesh C. Agarwal</author>
+          </authors>
+     </article>
+
+     <article>
+                <title>Accessing Relational Databases from the World Wide Web.</title>
+ <initPage>529</initPage>
+ <endPage>540</endPage>
+          <authors>
+                    <author position="00">Tam Nguyen</author>
+ <author position="01">V. Srinivasan</author>
+          </authors>
+     </article>
+
+     <article>
+                <title>Algorithms for Deferred View Maintenance.</title>
+ <initPage>469</initPage>
+ <endPage>480</endPage>
+          <authors>
+                    <author position="00">Latha S. Colby</author>
+ <author position="01">Timothy Griffin</author>
+ <author position="02">Leonid Libkin</author>
+ <author position="03">Inderpal Singh Mumick</author>
+ <author position="04">Howard Trickey</author>
+          </authors>
+     </article>
+
+     <article>
+                <title>An Open Storage System for Abstract Objects.</title>
+ <initPage>330</initPage>
+ <endPage>340</endPage>
+          <authors>
+                    <author position="00">Stephen Blott</author>
+ <author position="01">Lukas Relly</author>
+ <author position="02">Hans-Jrg Schek</author>
+          </authors>
+     </article>
+
+     <article>
+                <title>BeSS: Storage Support for Interactive Visualization Systems.</title>
+ <initPage>556</initPage>
+ <endPage>556</endPage>
+          <authors>
+                    <author position="00">Alexandros Biliris</author>
+ <author position="01">T. A. Funkhouser</author>
+ <author position="02">W. O'Connell</author>
+ <author position="03">Euthimios Panagos</author>
+          </authors>
+     </article>
+
+     <article>
+                <title>Bifocal Sampling for Skew-Resistant Join Size Estimation.</title>
+ <initPage>271</initPage>
+ <endPage>281</endPage>
+          <authors>
+                    <author position="00">Sumit Ganguly</author>
+ <author position="01">Phillip B. Gibbons</author>
+ <author position="02">Yossi Matias</author>
+ <author position="03">Abraham Silberschatz</author>
+          </authors>
+     </article>
+
+     <article>
+                <title>BIRCH: An Efficient Data Clustering Method for Very Large Databases.</title>
+ <initPage>103</initPage>
+ <endPage>114</endPage>
+          <authors>
+                    <author position="00">Tian Zhang</author>
+ <author position="01">Raghu Ramakrishnan</author>
+ <author position="02">Miron Livny</author>
+          </authors>
+     </article>
+
+     <article>
+                <title>CapBasED-AMS: A Capability-based and Event-driven Activity Management System.</title>
+ <initPage>554</initPage>
+ <endPage>554</endPage>
+          <authors>
+                    <author position="00">Patrick C. K. Hung</author>
+ <author position="01">Helen P. Yeung</author>
+ <author position="02">Kamalakar Karlapalem</author>
+          </authors>
+     </article>
+
+     <article>
+                <title>Change Detection in Hierarchically Structured Information.</title>
+ <initPage>493</initPage>
+ <endPage>504</endPage>
+          <authors>
+                    <author position="00">Sudarshan S. Chawathe</author>
+ <author position="01">Anand Rajaraman</author>
+ <author position="02">Hector Garcia-Molina</author>
+ <author position="03">Jennifer Widom</author>
+          </authors>
+     </article>
+
+     <article>
+                <title>Cost-Based Optimization for Magic: Algebra and Implementation.</title>
+ <initPage>435</initPage>
+ <endPage>446</endPage>
+          <authors>
+                    <author position="00">Praveen Seshadri</author>
+ <author position="01">Joseph M. Hellerstein</author>
+ <author position="02">Hamid Pirahesh</author>
+ <author position="03">T. Y. Cliff Leung</author>
+ <author position="04">Raghu Ramakrishnan</author>
+ <author position="05">Divesh Srivastava</author>
+ <author position="06">Peter J. Stuckey</author>
+ <author position="07">S. Sudarshan</author>
+          </authors>
+     </article>
+
+     <article>
+                <title>Data Access for the Masses through OLE DB.</title>
+ <initPage>161</initPage>
+ <endPage>172</endPage>
+          <authors>
+                    <author position="00">Jos A. Blakeley</author>
+          </authors>
+     </article>
+
+     <article>
+                <title>Data Mining Techniques.</title>
+ <initPage>545</initPage>
+ <endPage>545</endPage>
+          <authors>
+                    <author position="00">Jiawei Han</author>
+          </authors>
+     </article>
+
+     <article>
+                <title>Data Mining Using Two-Dimensional Optimized Accociation Rules: Scheme, Algorithms, and Visualization.</title>
+ <initPage>13</initPage>
+ <endPage>23</endPage>
+          <authors>
+                    <author position="00">Takeshi Fukuda</author>
+ <author position="01">Yasuhiko Morimoto</author>
+ <author position="02">Shinichi Morishita</author>
+ <author position="03">Takeshi Tokuyama</author>
+          </authors>
+     </article>
+
+     <article>
+                <title>Databases and Visualization.</title>
+ <initPage>543</initPage>
+ <endPage>543</endPage>
+          <authors>
+                    <author position="00">Daniel A. Keim</author>
+          </authors>
+     </article>
+
+     <article>
+                <title>DBMiner: Interactive Mining of Multiple-Level Knowledge in Relational Databases.</title>
+ <initPage>550</initPage>
+ <endPage>550</endPage>
+          <authors>
+                    <author position="00">Jiawei Han</author>
+ <author position="01">Yongjian Fu</author>
+ <author position="02">Wei Wang</author>
+ <author position="03">Jenny Chiang</author>
+ <author position="04">Osmar R. Zaane</author>
+ <author position="05">Krzysztof Koperski</author>
+          </authors>
+     </article>
+
+     <article>
+                <title>DBSim: A Simulation Tool for Predicting Database Performance.</title>
+ <initPage>548</initPage>
+ <endPage>548</endPage>
+          <authors>
+                    <author position="00">Mike Lefler</author>
+ <author position="01">Mark Stokrp</author>
+ <author position="02">Craig Wong</author>
+          </authors>
+     </article>
+
+     <article>
+                <title>Estimating Alphanumeric Selectivity in the Presence of Wildcards.</title>
+ <initPage>282</initPage>
+ <endPage>293</endPage>
+          <authors>
+                    <author position="00">P. Krishnan</author>
+ <author position="01">Jeffrey Scott Vitter</author>
+ <author position="02">Balakrishna R. Iyer</author>
+          </authors>
+     </article>
+
+     <article>
+                <title>Evaluating Queries with Generalized Path Expressions.</title>
+ <initPage>413</initPage>
+ <endPage>422</endPage>
+          <authors>
+                    <author position="00">Vassilis Christophides</author>
+ <author position="01">Sophie Cluet</author>
+ <author position="02">Guido Moerkotte</author>
+          </authors>
+     </article>
+
+     <article>
+                <title>Fault-tolerant Architectures for Continuous Media Servers.</title>
+ <initPage>79</initPage>
+ <endPage>90</endPage>
+          <authors>
+                    <author position="00">Banu zden</author>
+ <author position="01">Rajeev Rastogi</author>
+ <author position="02">Prashant J. Shenoy</author>
+ <author position="03">Abraham Silberschatz</author>
+          </authors>
+     </article>
+
+     <article>
+                <title>Fundamental Techniques for Order Optimization.</title>
+ <initPage>57</initPage>
+ <endPage>67</endPage>
+          <authors>
+                    <author position="00">David E. Simmen</author>
+ <author position="01">Eugene J. Shekita</author>
+ <author position="02">Timothy Malkemus</author>
+          </authors>
+     </article>
+
+     <article>
+                <title>Goal-Oriented Buffer Management Revisited.</title>
+ <initPage>353</initPage>
+ <endPage>364</endPage>
+          <authors>
+                    <author position="00">Kurt P. Brown</author>
+ <author position="01">Michael J. Carey</author>
+ <author position="02">Miron Livny</author>
+          </authors>
+     </article>
+
+     <article>
+                <title>Hot Mirroring: A Study to Hide Parity Upgrade Penalty and Degradations During Rebuilds for RAID5.</title>
+ <initPage>183</initPage>
+ <endPage>194</endPage>
+          <authors>
+                    <author position="00">Kazuhiko Mogi</author>
+ <author position="01">Masaru Kitsuregawa</author>
+          </authors>
+     </article>
+
+     <article>
+                <title>HyperStorM - Administering Structured Documents Using Object-Oriented Database Technology.</title>
+ <initPage>547</initPage>
+ <endPage>547</endPage>
+          <authors>
+                    <author position="00">Klemens Bhm</author>
+ <author position="01">Karl Aberer</author>
+          </authors>
+     </article>
+
+     <article>
+                <title>IDEA: Interactive Data Exploration and Analysis.</title>
+ <initPage>24</initPage>
+ <endPage>34</endPage>
+          <authors>
+                    <author position="00">Peter G. Selfridge</author>
+ <author position="01">Divesh Srivastava</author>
+ <author position="02">Lynn O. Wilson</author>
+          </authors>
+     </article>
+
+     <article>
+                <title>Implementing Data Cubes Efficiently.</title>
+ <initPage>205</initPage>
+ <endPage>216</endPage>
+          <authors>
+                    <author position="00">Venky Harinarayan</author>
+ <author position="01">Anand Rajaraman</author>
+ <author position="02">Jeffrey D. Ullman</author>
+          </authors>
+     </article>
+
+     <article>
+                <title>Improved Histograms for Selectivity Estimation of Range Predicates.</title>
+ <initPage>294</initPage>
+ <endPage>305</endPage>
+          <authors>
+                    <author position="00">Viswanath Poosala</author>
+ <author position="01">Yannis E. Ioannidis</author>
+ <author position="02">Peter J. Haas</author>
+ <author position="03">Eugene J. Shekita</author>
+          </authors>
+     </article>
+
+     <article>
+                <title>Is GUI Programming a Database Research Problem?</title>
+ <initPage>517</initPage>
+ <endPage>528</endPage>
+          <authors>
+                    <author position="00">Nita Goyal</author>
+ <author position="01">Charles Hoch</author>
+ <author position="02">Ravi Krishnamurthy</author>
+ <author position="03">Brian Meckler</author>
+ <author position="04">Michael Suckow</author>
+          </authors>
+     </article>
+
+     <article>
+                <title>LORE: A Lightweight Object REpository for Semistructured Data.</title>
+ <initPage>549</initPage>
+ <endPage>549</endPage>
+          <authors>
+                    <author position="00">Dallan Quass</author>
+ <author position="01">Jennifer Widom</author>
+ <author position="02">Roy Goldman</author>
+ <author position="03">Kevin Haas</author>
+ <author position="04">Qingshan Luo</author>
+ <author position="05">Jason McHugh</author>
+ <author position="06">Svetlozar Nestorov</author>
+ <author position="07">Anand Rajaraman</author>
+ <author position="08">Hugo Rivero</author>
+ <author position="09">Serge Abiteboul</author>
+ <author position="10">Jeffrey D. Ullman</author>
+ <author position="11">Janet L. Wiener</author>
+          </authors>
+     </article>
+
+     <article>
+                <title>Maintaining Database Consistency in Presence of Value Dependencies in Multidatabase Systems.</title>
+ <initPage>459</initPage>
+ <endPage>468</endPage>
+          <authors>
+                    <author position="00">Claire Morpain</author>
+ <author position="01">Michle Cart</author>
+ <author position="02">Jean Ferri</author>
+ <author position="03">Jean-Franois Pons</author>
+          </authors>
+     </article>
+
+     <article>
+                <title>Materialized View Maintenance and Integrity Constraint Checking: Trading Space for Time.</title>
+ <initPage>447</initPage>
+ <endPage>458</endPage>
+          <authors>
+                    <author position="00">Kenneth A. Ross</author>
+ <author position="01">Divesh Srivastava</author>
+ <author position="02">S. Sudarshan</author>
+          </authors>
+     </article>
+
+     <article>
+                <title>METU Interoperable Database System.</title>
+ <initPage>552</initPage>
+ <endPage>552</endPage>
+          <authors>
+                    <author position="00">Asuman Dogac</author>
+ <author position="01">Ugur Halici</author>
+ <author position="02">Ebru Kilic</author>
+ <author position="03">Gkhan zhan</author>
+ <author position="04">Fatma Ozcan</author>
+ <author position="05">Sena Nural</author>
+ <author position="06">Cevdet Dengi</author>
+ <author position="07">Sema Mancuhan</author>
+ <author position="08">Budak Arpinar</author>
+ <author position="09">Pinar Koksal</author>
+ <author position="10">Cem Evrendilek</author>
+          </authors>
+     </article>
+
+     <article>
+                <title>Mining Quantitative Association Rules in Large Relational Tables.</title>
+ <initPage>1</initPage>
+ <endPage>12</endPage>
+          <authors>
+                    <author position="00">Ramakrishnan Srikant</author>
+ <author position="01">Rakesh Agrawal</author>
+          </authors>
+     </article>
+
+     <article>
+                <title>Multi-dimensional Resource Scheduling for Parallel Queries.</title>
+ <initPage>365</initPage>
+ <endPage>376</endPage>
+          <authors>
+                    <author position="00">Minos N. Garofalakis</author>
+ <author position="01">Yannis E. Ioannidis</author>
+          </authors>
+     </article>
+
+     <article>
+                <title>On-line Reorganization of Sparsely-populated B+trees.</title>
+ <initPage>115</initPage>
+ <endPage>124</endPage>
+          <authors>
+                    <author position="00">Chendong Zou</author>
+ <author position="01">Betty Salzberg</author>
+          </authors>
+     </article>
+
+     <article>
+                <title>Optimizing Queries over Multimedia Repositories.</title>
+ <initPage>91</initPage>
+ <endPage>102</endPage>
+          <authors>
+                    <author position="00">Surajit Chaudhuri</author>
+ <author position="01">Luis Gravano</author>
+          </authors>
+     </article>
+
+     <article>
+                <title>Partition Based Spatial-Merge Join.</title>
+ <initPage>259</initPage>
+ <endPage>270</endPage>
+          <authors>
+                    <author position="00">Jignesh M. Patel</author>
+ <author position="01">David J. DeWitt</author>
+          </authors>
+     </article>
+
+     <article>
+                <title>Performance Tradeoffs for Client-Server Query Processing.</title>
+ <initPage>149</initPage>
+ <endPage>160</endPage>
+          <authors>
+                    <author position="00">Michael J. Franklin</author>
+ <author position="01">Bjrn r Jnsson</author>
+ <author position="02">Donald Kossmann</author>
+          </authors>
+     </article>
+
+     <article>
+                <title>Prospector: A Content-Based Multimedia Server for Massively Parallel Architectures.</title>
+ <initPage>551</initPage>
+ <endPage>551</endPage>
+          <authors>
+                    <author position="00">S. Choo</author>
+ <author position="01">W. O'Connell</author>
+ <author position="02">G. Linderman</author>
+ <author position="03">H. Chen</author>
+ <author position="04">K. Ganapathi</author>
+ <author position="05">Alexandros Biliris</author>
+ <author position="06">Euthimios Panagos</author>
+ <author position="07">D. Schrader</author>
+          </authors>
+     </article>
+
+     <article>
+                <title>Providing Better Support for a Class of Decision Support Queries.</title>
+ <initPage>217</initPage>
+ <endPage>227</endPage>
+          <authors>
+                    <author position="00">Sudhir Rao</author>
+ <author position="01">Antonio Badia</author>
+ <author position="02">Dirk Van Gucht</author>
+          </authors>
+     </article>
+
+     <article>
+                <title>Query Caching and Optimization in Distributed Mediator Systems.</title>
+ <initPage>137</initPage>
+ <endPage>148</endPage>
+          <authors>
+                    <author position="00">Sibel Adali</author>
+ <author position="01">K. Seluk Candan</author>
+ <author position="02">Yannis Papakonstantinou</author>
+ <author position="03">V. S. Subrahmanian</author>
+          </authors>
+     </article>
+
+     <article>
+                <title>Query Execution Techniques for Caching Expensive Methods.</title>
+ <initPage>423</initPage>
+ <endPage>434</endPage>
+          <authors>
+                    <author position="00">Joseph M. Hellerstein</author>
+ <author position="01">Jeffrey F. Naughton</author>
+          </authors>
+     </article>
+
+     <article>
+                <title>Random I/O Scheduling in Online Tertiary Storage Systems.</title>
+ <initPage>195</initPage>
+ <endPage>204</endPage>
+          <authors>
+                    <author position="00">Bruce Hillyer</author>
+ <author position="01">Abraham Silberschatz</author>
+          </authors>
+     </article>
+
+     <article>
+                <title>Rapid Bushy Join-order Optimization with Cartesian Products.</title>
+ <initPage>35</initPage>
+ <endPage>46</endPage>
+          <authors>
+                    <author position="00">Bennet Vance</author>
+ <author position="01">David Maier</author>
+          </authors>
+     </article>
+
+     <article>
+                <title>Repository System Engineering.</title>
+ <initPage>542</initPage>
+ <endPage>542</endPage>
+          <authors>
+                    <author position="00">Philip A. Bernstein</author>
+          </authors>
+     </article>
+
+     <article>
+                <title>Rule Languages and Internal Algebras for Rule-Based Optimizers.</title>
+ <initPage>401</initPage>
+ <endPage>412</endPage>
+          <authors>
+                    <author position="00">Mitch Cherniack</author>
+ <author position="01">Stanley B. Zdonik</author>
+          </authors>
+     </article>
+
+     <article>
+                <title>Safe and Efficient Sharing of Persistent Objects in Thor.</title>
+ <initPage>318</initPage>
+ <endPage>329</endPage>
+          <authors>
+                    <author position="00">Barbara Liskov</author>
+ <author position="01">Atul Adya</author>
+ <author position="02">Miguel Castro</author>
+ <author position="03">Mark Day</author>
+ <author position="04">Sanjay Ghemawat</author>
+ <author position="05">Robert Gruber</author>
+ <author position="06">Umesh Maheshwari</author>
+ <author position="07">Andrew C. Myers</author>
+ <author position="08">Liuba Shrira</author>
+          </authors>
+     </article>
+
+     <article>
+                <title>Semi-automatic, Self-adaptive Control of Garbage Collection Rates in Object Databases.</title>
+ <initPage>377</initPage>
+ <endPage>388</endPage>
+          <authors>
+                    <author position="00">Jonathan E. Cook</author>
+ <author position="01">Artur Klauser</author>
+ <author position="02">Alexander L. Wolf</author>
+ <author position="03">Benjamin G. Zorn</author>
+          </authors>
+     </article>
+
+     <article>
+                <title>SONAR: System for Optimized Numeric AssociationRules.</title>
+ <initPage>553</initPage>
+ <endPage>553</endPage>
+          <authors>
+                    <author position="00">Takeshi Fukuda</author>
+ <author position="01">Yasuhiko Morimoto</author>
+ <author position="02">Shinichi Morishita</author>
+ <author position="03">Takeshi Tokuyama</author>
+          </authors>
+     </article>
+
+     <article>
+                <title>Spatial Hash-Joins.</title>
+ <initPage>247</initPage>
+ <endPage>258</endPage>
+          <authors>
+                    <author position="00">Ming-Ling Lo</author>
+ <author position="01">Chinya V. Ravishankar</author>
+          </authors>
+     </article>
+
+     <article>
+                <title>SQL Query Optimization: Reordering for a General Class of Queries.</title>
+ <initPage>47</initPage>
+ <endPage>56</endPage>
+          <authors>
+                    <author position="00">Piyush Goel</author>
+ <author position="01">Balakrishna R. Iyer</author>
+          </authors>
+     </article>
+
+     <article>
+                <title>State of the Art in Workflow Management Research and Products.</title>
+ <initPage>544</initPage>
+ <endPage>544</endPage>
+          <authors>
+                    <author position="00">C. Mohan</author>
+          </authors>
+     </article>
+
+     <article>
+                <title>Static Detection of Security Flaws in Object-Oriented Databases.</title>
+ <initPage>341</initPage>
+ <endPage>352</endPage>
+          <authors>
+                    <author position="00">Keishi Tajima</author>
+          </authors>
+     </article>
+
+     <article>
+                <title>Structures for Manipulating Proposed Updates in Object-Oriented Databases.</title>
+ <initPage>306</initPage>
+ <endPage>317</endPage>
+          <authors>
+                    <author position="00">Michael Doherty</author>
+ <author position="01">Richard Hull</author>
+ <author position="02">Mohammed Rupawalla</author>
+          </authors>
+     </article>
+
+     <article>
+                <title>The Dangers of Replication and a Solution.</title>
+ <initPage>173</initPage>
+ <endPage>182</endPage>
+          <authors>
+                    <author position="00">Jim Gray</author>
+ <author position="01">Pat Helland</author>
+ <author position="02">Patrick E. O'Neil</author>
+ <author position="03">Dennis Shasha</author>
+          </authors>
+     </article>
+
+     <article>
+                <title>The Garlic Project.</title>
+ <initPage>557</initPage>
+ <endPage>557</endPage>
+          <authors>
+                    <author position="00">Mary Tork Roth</author>
+ <author position="01">Manish Arya</author>
+ <author position="02">Laura M. Haas</author>
+ <author position="03">Michael J. Carey</author>
+ <author position="04">William F. Cody</author>
+ <author position="05">Ronald Fagin</author>
+ <author position="06">Peter M. Schwarz</author>
+ <author position="07">Joachim Thomas II</author>
+ <author position="08">Edward L. Wimmers</author>
+          </authors>
+     </article>
+
+     <article>
+                <title>The Ins and Outs (and Everthing in Between) of Data Warehousing.</title>
+ <initPage>541</initPage>
+ <endPage>541</endPage>
+          <authors>
+                    <author position="00">Phillip M. Fernandez</author>
+ <author position="01">Donovan A. Schneider</author>
+          </authors>
+     </article>
+
+     <article>
+                <title>The MultiView Project: Object-Oriented View Technology and Applications.</title>
+ <initPage>555</initPage>
+ <endPage>555</endPage>
+          <authors>
+                    <author position="00">Elke A. Rundensteiner</author>
+ <author position="01">Harumi A. Kuno</author>
+ <author position="02">Young-Gook Ra</author>
+ <author position="03">Viviane Crestana-Taube</author>
+ <author position="04">Matthew C. Jones</author>
+ <author position="05">P. J. Marron</author>
+          </authors>
+     </article>
+
+     <article>
+                <title>Thinksheet: A Tool for Tailoring Complex Documents.</title>
+ <initPage>546</initPage>
+ <endPage>546</endPage>
+          <authors>
+                    <author position="00">Peter Piatko</author>
+ <author position="01">Roman Yangarber</author>
+ <author position="02">Dao-I Lin</author>
+ <author position="03">Dennis Shasha</author>
+          </authors>
+     </article>
+
+     <article>
+                <title>Towards Effective and Efficient Free Space Management.</title>
+ <initPage>389</initPage>
+ <endPage>400</endPage>
+          <authors>
+                    <author position="00">Mark L. McAuliffe</author>
+ <author position="01">Michael J. Carey</author>
+ <author position="02">Marvin H. Solomon</author>
+          </authors>
+     </article>
+
+     <article>
+                <title>Two Techniques for On-Line Index Modification in Shared Nothing Parallel Databases.</title>
+ <initPage>125</initPage>
+ <endPage>136</endPage>
+          <authors>
+                    <author position="00">Kiran J. Achyutuni</author>
+ <author position="01">Edward Omiecinski</author>
+ <author position="02">Shamkant B. Navathe</author>
+          </authors>
+     </article>
+
+    </articles>
+  </issue>
+    <issue>
+        <volume>25</volume>
+ <number>3</number>
+    <articles>
+            <article>
+                <title>Control Strategies for Complex Relational Query Processing in Shared Nothing Systems.</title>
+ <initPage>34</initPage>
+ <endPage>39</endPage>
+          <authors>
+                    <author position="00">Lionel Brunie</author>
+ <author position="01">Harald Kosch</author>
+          </authors>
+     </article>
+
+     <article>
+                <title>Domains, Relations and Religious Wars.</title>
+ <initPage>3</initPage>
+ <endPage>9</endPage>
+          <authors>
+                    <author position="00">Rafael Camps</author>
+          </authors>
+     </article>
+
+     <article>
+                <title>Editor's Notes.</title>
+ <initPage>2</initPage>
+ <endPage>2</endPage>
+          <authors>
+                    <author position="00">Arie Segev</author>
+ <author position="00">Jennifer Widom</author>
+ <author position="00">Michael J. Franklin</author>
+          </authors>
+     </article>
+
+     <article>
+                <title>Guidelines for Presentation and Comparison of Indexing Techniques.</title>
+ <initPage>10</initPage>
+ <endPage>15</endPage>
+          <authors>
+                    <author position="00">Justin Zobel</author>
+ <author position="01">Alistair Moffat</author>
+ <author position="02">Kotagiri Ramamohanarao</author>
+          </authors>
+     </article>
+
+     <article>
+                <title>Middle East Technical University Software Research and Development Center.</title>
+ <initPage>59</initPage>
+ <endPage>63</endPage>
+          <authors>
+                    <author position="00">Asuman Dogac</author>
+          </authors>
+     </article>
+
+     <article>
+                <title>Much Ado About Shared-Nothing.</title>
+ <initPage>16</initPage>
+ <endPage>21</endPage>
+          <authors>
+                    <author position="00">Michael G. Norman</author>
+ <author position="01">Thomas Zurek</author>
+ <author position="02">Peter Thanisch</author>
+          </authors>
+     </article>
+
+     <article>
+                <title>OLAP, Relational, and Multidimensional Database Systems.</title>
+ <initPage>64</initPage>
+ <endPage>69</endPage>
+          <authors>
+                    <author position="00">George Colliat</author>
+          </authors>
+     </article>
+
+     <article>
+                <title>On the Cost of Monitoring and Reorganization of Object Bases for Clustering.</title>
+ <initPage>22</initPage>
+ <endPage>27</endPage>
+          <authors>
+                    <author position="00">Carsten Andreas Gerlhof</author>
+ <author position="01">Alfons Kemper</author>
+ <author position="02">Guido Moerkotte</author>
+          </authors>
+     </article>
+
+     <article>
+                <title>Open Issues in Parallel Query Optimization.</title>
+ <initPage>28</initPage>
+ <endPage>33</endPage>
+          <authors>
+                    <author position="00">Waqar Hasan</author>
+ <author position="01">Daniela Florescu</author>
+ <author position="02">Patrick Valduriez</author>
+          </authors>
+     </article>
+
+     <article>
+                <title>Report on First International Workshop on Real-Time Database Systems.</title>
+ <initPage>50</initPage>
+ <endPage>52</endPage>
+          <authors>
+                    <author position="00">Azer Bestavros</author>
+ <author position="01">Kwei-Jay Lin</author>
+ <author position="02">Sang Hyuk Son</author>
+          </authors>
+     </article>
+
+     <article>
+                <title>Scientist's Called Upon to Take Actions.</title>
+ <initPage>77</initPage>
+ <endPage>80</endPage>
+          <authors>
+                    <author position="00">Xiaolei Qian</author>
+          </authors>
+     </article>
+
+     <article>
+                <title>The Active Database Management System Manifesto: A Rulebase of ADBMS Features.</title>
+ <initPage>40</initPage>
+ <endPage>49</endPage>
+          <authors>
+                    <author position="00">ACT-NET</author>
+          </authors>
+     </article>
+
+     <article>
+                <title>The BeSS Object Storage Manager: Architecture Overview.</title>
+ <initPage>53</initPage>
+ <endPage>58</endPage>
+          <authors>
+                    <author position="00">Alexandros Biliris</author>
+ <author position="01">Euthimios Panagos</author>
+          </authors>
+     </article>
+
+     <article>
+                <title>UniSQL's Next-Generation Object-Relational Database Management System.</title>
+ <initPage>70</initPage>
+ <endPage>76</endPage>
+          <authors>
+                    <author position="00">Albert D'Andrea</author>
+ <author position="01">Phil Janus</author>
+          </authors>
+     </article>
+
+    </articles>
+  </issue>
+    <issue>
+        <volume>25</volume>
+ <number>4</number>
+    <articles>
+            <article>
+                <title>3D Geographic Network Displays.</title>
+ <initPage>50</initPage>
+ <endPage>54</endPage>
+          <authors>
+                    <author position="00">Kenneth C. Cox</author>
+ <author position="01">Stephen G. Eick</author>
+ <author position="02">Taosong He</author>
+          </authors>
+     </article>
+
+     <article>
+                <title>A Framework for Information Visualisation.</title>
+ <initPage>30</initPage>
+ <endPage>34</endPage>
+          <authors>
+                    <author position="00">Jessie B. Kennedy</author>
+ <author position="01">Kenneth J. Mitchell</author>
+ <author position="02">Peter J. Barclay</author>
+          </authors>
+     </article>
+
+     <article>
+                <title>A Response to R. Camps' Article "Domains, relations and Religious Wars".</title>
+ <initPage>3</initPage>
+ <endPage>5</endPage>
+          <authors>
+                    <author position="00">C. J. Date</author>
+          </authors>
+     </article>
+
+     <article>
+                <title>An Orthogonally Persistent Java.</title>
+ <initPage>68</initPage>
+ <endPage>75</endPage>
+          <authors>
+                    <author position="00">Malcolm P. Atkinson</author>
+ <author position="01">Laurent Dayns</author>
+ <author position="02">Mick J. Jordan</author>
+ <author position="03">Tony Printezis</author>
+ <author position="04">Susan Spence</author>
+          </authors>
+     </article>
+
+     <article>
+                <title>Applying database Visualization to the World Wide Web.</title>
+ <initPage>45</initPage>
+ <endPage>49</endPage>
+          <authors>
+                    <author position="00">Masum Z. Hasan</author>
+ <author position="01">Alberto O. Mendelzon</author>
+ <author position="02">Dimitra Vista</author>
+          </authors>
+     </article>
+
+     <article>
+                <title>Dynamic Information Visualization.</title>
+ <initPage>16</initPage>
+ <endPage>20</endPage>
+          <authors>
+                    <author position="00">Yannis E. Ioannidis</author>
+          </authors>
+     </article>
+
+     <article>
+                <title>Editor's Notes.</title>
+ <initPage>2</initPage>
+ <endPage>2</endPage>
+          <authors>
+                    <author position="00">Arie Segev</author>
+ <author position="00">Jennifer Widom</author>
+ <author position="00">Michael J. Franklin</author>
+          </authors>
+     </article>
+
+     <article>
+                <title>In Reply to Domains, relations and Religious Wars.</title>
+ <initPage>6</initPage>
+ <endPage>7</endPage>
+          <authors>
+                    <author position="00">Hugh Darwen</author>
+          </authors>
+     </article>
+
+     <article>
+                <title>Incremental data Structures and Algorithms for Dynamic Query Interfaces.</title>
+ <initPage>21</initPage>
+ <endPage>24</endPage>
+          <authors>
+                    <author position="00">Egemen Tanin</author>
+ <author position="01">Richard Beigel</author>
+ <author position="02">Ben Shneiderman</author>
+          </authors>
+     </article>
+
+     <article>
+                <title>Information Visualization, Guest Editors' Foreword.</title>
+ <initPage>14</initPage>
+ <endPage>15</endPage>
+          <authors>
+                    <author position="00">Tiziana Catarci</author>
+ <author position="01">Isabel F. Cruz</author>
+          </authors>
+     </article>
+
+     <article>
+                <title>New Programs at DARPA and NSF.</title>
+ <initPage>94</initPage>
+ <endPage>98</endPage>
+          <authors>
+                    <author position="00">Xiaolei Qian</author>
+          </authors>
+     </article>
+
+     <article>
+                <title>New Standard for Stored Procedures in SQL.</title>
+ <initPage>81</initPage>
+ <endPage>88</endPage>
+          <authors>
+                    <author position="00">Andrew Eisenberg</author>
+          </authors>
+     </article>
+
+     <article>
+                <title>Pixel-oriented Database Visualizations.</title>
+ <initPage>35</initPage>
+ <endPage>39</endPage>
+          <authors>
+                    <author position="00">Daniel A. Keim</author>
+          </authors>
+     </article>
+
+     <article>
+                <title>Report from the NSF Workshop on Workflow and Process Automation in Information Systems.</title>
+ <initPage>55</initPage>
+ <endPage>67</endPage>
+          <authors>
+                    <author position="00">Amit P. Sheth</author>
+ <author position="01">Dimitrios Georgakopoulos</author>
+ <author position="02">Stef Joosten</author>
+ <author position="03">Marek Rusinkiewicz</author>
+ <author position="04">Walt Scacchi</author>
+ <author position="05">Jack C. Wileden</author>
+ <author position="06">Alexander L. Wolf</author>
+          </authors>
+     </article>
+
+     <article>
+                <title>Spotfire: An Information Exploration Environment.</title>
+ <initPage>25</initPage>
+ <endPage>29</endPage>
+          <authors>
+                    <author position="00">Christopher Ahlberg</author>
+          </authors>
+     </article>
+
+     <article>
+                <title>TCP-D - The Challenges, Issues and Results.</title>
+ <initPage>89</initPage>
+ <endPage>93</endPage>
+          <authors>
+                    <author position="00">Ramesh Bhashyam</author>
+          </authors>
+     </article>
+
+     <article>
+                <title>The Aggregate Data Problem: A System for their Definition and Management.</title>
+ <initPage>8</initPage>
+ <endPage>13</endPage>
+          <authors>
+                    <author position="00">Maurizio Rafanelli</author>
+ <author position="01">Antonia Bezenchek</author>
+ <author position="02">Leonardo Tininini</author>
+          </authors>
+     </article>
+
+     <article>
+                <title>The Mariposa Distributed Database Management System.</title>
+ <initPage>76</initPage>
+ <endPage>80</endPage>
+          <authors>
+                    <author position="00">Jeff Sidell</author>
+          </authors>
+     </article>
+
+     <article>
+                <title>To Table or Not to Table: a Hypertabular Answer.</title>
+ <initPage>40</initPage>
+ <endPage>44</endPage>
+          <authors>
+                    <author position="00">Giuseppe Santucci</author>
+ <author position="01">Laura Tarantino</author>
+          </authors>
+     </article>
+
+    </articles>
+  </issue>
+</issues>
+</SigmodRecord>
