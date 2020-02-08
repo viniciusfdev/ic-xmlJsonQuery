@@ -1,0 +1,384 @@
+<SigmodRecord>
+<issues>
+    <issue>
+        <volume>12</volume>
+ <number>1</number>
+    <articles>
+            <article>
+                <title>A Note on Decompositions of Relational Databases.</title>
+ <initPage>33</initPage>
+ <endPage>37</endPage>
+          <authors>
+                    <author position="00">Catriel Beeri</author>
+ <author position="01">Moshe Y. Vardi</author>
+          </authors>
+     </article>
+
+     <article>
+                <title>BUSINESS - An End-User Oriented Application Development Language.</title>
+ <initPage>38</initPage>
+ <endPage>69</endPage>
+          <authors>
+                    <author position="00">Peter B. Miller</author>
+ <author position="01">Sergey Tetelbaum</author>
+ <author position="02">Kincade N. Webb</author>
+          </authors>
+     </article>
+
+     <article>
+                <title>Horizontal Decomposition to Improve a Non-BCNF Scheme.</title>
+ <initPage>26</initPage>
+ <endPage>32</endPage>
+          <authors>
+                    <author position="00">Antonio L. Furtado</author>
+          </authors>
+     </article>
+
+     <article>
+                <title>Meta-Database Architecture for Relational DBMS.</title>
+ <initPage>18</initPage>
+ <endPage>25</endPage>
+          <authors>
+                    <author position="00">Kn. I. Kilov</author>
+ <author position="01">I. A. Popova</author>
+          </authors>
+     </article>
+
+    </articles>
+  </issue>
+    <issue>
+        <volume>12</volume>
+ <number>2</number>
+    <articles>
+            <article>
+                <title>Actual Conversion Experiences.</title>
+ <initPage>20</initPage>
+ <endPage>33</endPage>
+          <authors>
+                    <author position="00">James H. Burrows</author>
+          </authors>
+     </article>
+
+     <article>
+                <title>Conversion Technology, An Assessment.</title>
+ <initPage>39</initPage>
+ <endPage>61</endPage>
+          <authors>
+                    <author position="00">James P. Fry</author>
+          </authors>
+     </article>
+
+     <article>
+                <title>Data Base Directions II: The Conversion Problem - Editorial.</title>
+ <initPage>3</initPage>
+ <endPage>3</endPage>
+          <authors>
+                    <author position="00">John L. Berg</author>
+          </authors>
+     </article>
+
+     <article>
+                <title>Establishing Management Objectives.</title>
+ <initPage>9</initPage>
+ <endPage>19</endPage>
+          <authors>
+                    <author position="00">Richard L. Nolan</author>
+          </authors>
+     </article>
+
+     <article>
+                <title>Evolution in Computer Systems.</title>
+ <initPage>4</initPage>
+ <endPage>8</endPage>
+          <authors>
+                    <author position="00">Mayford L. Roark</author>
+          </authors>
+     </article>
+
+     <article>
+                <title>Standards.</title>
+ <initPage>34</initPage>
+ <endPage>38</endPage>
+          <authors>
+                    <author position="00">Milt Bryce</author>
+          </authors>
+     </article>
+
+    </articles>
+  </issue>
+    <issue>
+        <volume>12</volume>
+ <number>3</number>
+    <articles>
+            <article>
+                <title>Administering a Distributed Data Base Management System.</title>
+ <initPage>86</initPage>
+ <endPage>99</endPage>
+          <authors>
+                    <author position="00">Henry M. Walker</author>
+          </authors>
+     </article>
+
+     <article>
+                <title>Database Research Activities at the University of Wisconsin.</title>
+ <initPage>19</initPage>
+ <endPage>26</endPage>
+          <authors>
+                    <author position="00">Haran Boral</author>
+ <author position="01">David J. DeWitt</author>
+ <author position="02">Randy H. Katz</author>
+ <author position="03">Anthony C. Klug</author>
+          </authors>
+     </article>
+
+     <article>
+                <title>Distributed Processing of Data Dynamics.</title>
+ <initPage>67</initPage>
+ <endPage>85</endPage>
+          <authors>
+                    <author position="00">Colette Rolland</author>
+ <author position="01">Christian Richard</author>
+          </authors>
+     </article>
+
+     <article>
+                <title>Implementation of a Time Expert in a Data Base System.</title>
+ <initPage>51</initPage>
+ <endPage>60</endPage>
+          <authors>
+                    <author position="00">Ricky Overmyer</author>
+ <author position="01">Michael Stonebraker</author>
+          </authors>
+     </article>
+
+     <article>
+                <title>Problems of Optimistic Concurrency Control in Distributed Database Systems.</title>
+ <initPage>61</initPage>
+ <endPage>66</endPage>
+          <authors>
+                    <author position="00">Gunter Schlageter</author>
+          </authors>
+     </article>
+
+     <article>
+                <title>The Role of Time in Information Processing: A Survey.</title>
+ <initPage>27</initPage>
+ <endPage>50</endPage>
+          <authors>
+                    <author position="00">A. Bolour</author>
+ <author position="01">T. L. Anderson</author>
+ <author position="02">L. J. Dekeyser</author>
+ <author position="03">Harry K. T. Wong</author>
+          </authors>
+     </article>
+
+    </articles>
+  </issue>
+    <issue>
+        <volume>12</volume>
+ <number>4</number>
+    <articles>
+            <article>
+                <title>Final Report of the ANSI/X3/SPARC DBS-SG Relational Database Task Group.</title>
+ <initPage>0</initPage>
+ <endPage>62</endPage>
+          <authors>
+                    <author position="00">Michael L. Brodie</author>
+ <author position="01">Joachim W. Schmidt</author>
+          </authors>
+     </article>
+
+    </articles>
+  </issue>
+    <issue>
+        <volume>12</volume>
+ <number>1</number>
+    <articles>
+            <article>
+                <title>A Note on Decompositions of Relational Databases.</title>
+ <initPage>33</initPage>
+ <endPage>37</endPage>
+          <authors>
+                    <author position="00">Catriel Beeri</author>
+ <author position="01">Moshe Y. Vardi</author>
+          </authors>
+     </article>
+
+     <article>
+                <title>BUSINESS - An End-User Oriented Application Development Language.</title>
+ <initPage>38</initPage>
+ <endPage>69</endPage>
+          <authors>
+                    <author position="00">Peter B. Miller</author>
+ <author position="01">Sergey Tetelbaum</author>
+ <author position="02">Kincade N. Webb</author>
+          </authors>
+     </article>
+
+     <article>
+                <title>Horizontal Decomposition to Improve a Non-BCNF Scheme.</title>
+ <initPage>26</initPage>
+ <endPage>32</endPage>
+          <authors>
+                    <author position="00">Antonio L. Furtado</author>
+          </authors>
+     </article>
+
+     <article>
+                <title>Meta-Database Architecture for Relational DBMS.</title>
+ <initPage>18</initPage>
+ <endPage>25</endPage>
+          <authors>
+                    <author position="00">Kn. I. Kilov</author>
+ <author position="01">I. A. Popova</author>
+          </authors>
+     </article>
+
+    </articles>
+  </issue>
+    <issue>
+        <volume>12</volume>
+ <number>2</number>
+    <articles>
+            <article>
+                <title>Actual Conversion Experiences.</title>
+ <initPage>20</initPage>
+ <endPage>33</endPage>
+          <authors>
+                    <author position="00">James H. Burrows</author>
+          </authors>
+     </article>
+
+     <article>
+                <title>Conversion Technology, An Assessment.</title>
+ <initPage>39</initPage>
+ <endPage>61</endPage>
+          <authors>
+                    <author position="00">James P. Fry</author>
+          </authors>
+     </article>
+
+     <article>
+                <title>Data Base Directions II: The Conversion Problem - Editorial.</title>
+ <initPage>3</initPage>
+ <endPage>3</endPage>
+          <authors>
+                    <author position="00">John L. Berg</author>
+          </authors>
+     </article>
+
+     <article>
+                <title>Establishing Management Objectives.</title>
+ <initPage>9</initPage>
+ <endPage>19</endPage>
+          <authors>
+                    <author position="00">Richard L. Nolan</author>
+          </authors>
+     </article>
+
+     <article>
+                <title>Evolution in Computer Systems.</title>
+ <initPage>4</initPage>
+ <endPage>8</endPage>
+          <authors>
+                    <author position="00">Mayford L. Roark</author>
+          </authors>
+     </article>
+
+     <article>
+                <title>Standards.</title>
+ <initPage>34</initPage>
+ <endPage>38</endPage>
+          <authors>
+                    <author position="00">Milt Bryce</author>
+          </authors>
+     </article>
+
+    </articles>
+  </issue>
+    <issue>
+        <volume>12</volume>
+ <number>3</number>
+    <articles>
+            <article>
+                <title>Administering a Distributed Data Base Management System.</title>
+ <initPage>86</initPage>
+ <endPage>99</endPage>
+          <authors>
+                    <author position="00">Henry M. Walker</author>
+          </authors>
+     </article>
+
+     <article>
+                <title>Database Research Activities at the University of Wisconsin.</title>
+ <initPage>19</initPage>
+ <endPage>26</endPage>
+          <authors>
+                    <author position="00">Haran Boral</author>
+ <author position="01">David J. DeWitt</author>
+ <author position="02">Randy H. Katz</author>
+ <author position="03">Anthony C. Klug</author>
+          </authors>
+     </article>
+
+     <article>
+                <title>Distributed Processing of Data Dynamics.</title>
+ <initPage>67</initPage>
+ <endPage>85</endPage>
+          <authors>
+                    <author position="00">Colette Rolland</author>
+ <author position="01">Christian Richard</author>
+          </authors>
+     </article>
+
+     <article>
+                <title>Implementation of a Time Expert in a Data Base System.</title>
+ <initPage>51</initPage>
+ <endPage>60</endPage>
+          <authors>
+                    <author position="00">Ricky Overmyer</author>
+ <author position="01">Michael Stonebraker</author>
+          </authors>
+     </article>
+
+     <article>
+                <title>Problems of Optimistic Concurrency Control in Distributed Database Systems.</title>
+ <initPage>61</initPage>
+ <endPage>66</endPage>
+          <authors>
+                    <author position="00">Gunter Schlageter</author>
+          </authors>
+     </article>
+
+     <article>
+                <title>The Role of Time in Information Processing: A Survey.</title>
+ <initPage>27</initPage>
+ <endPage>50</endPage>
+          <authors>
+                    <author position="00">A. Bolour</author>
+ <author position="01">T. L. Anderson</author>
+ <author position="02">L. J. Dekeyser</author>
+ <author position="03">Harry K. T. Wong</author>
+          </authors>
+     </article>
+
+    </articles>
+  </issue>
+    <issue>
+        <volume>12</volume>
+ <number>4</number>
+    <articles>
+            <article>
+                <title>Final Report of the ANSI/X3/SPARC DBS-SG Relational Database Task Group.</title>
+ <initPage>0</initPage>
+ <endPage>62</endPage>
+          <authors>
+                    <author position="00">Michael L. Brodie</author>
+ <author position="01">Joachim W. Schmidt</author>
+          </authors>
+     </article>
+
+    </articles>
+  </issue>
+</issues>
+</SigmodRecord>

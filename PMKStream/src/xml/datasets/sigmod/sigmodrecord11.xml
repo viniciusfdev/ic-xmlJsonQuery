@@ -1,0 +1,274 @@
+<SigmodRecord>
+<issues>
+    <issue>
+        <volume>11</volume>
+ <number>1</number>
+    <articles>
+            <article>
+                <title>Annotated Bibliography on Data Design.</title>
+ <initPage>45</initPage>
+ <endPage>77</endPage>
+          <authors>
+                    <author position="00">Anthony I. Wasserman</author>
+ <author position="01">Karen Botnich</author>
+          </authors>
+     </article>
+
+     <article>
+                <title>Architecture of Future Data Base Systems.</title>
+ <initPage>30</initPage>
+ <endPage>44</endPage>
+          <authors>
+                    <author position="00">Lawrence A. Rowe</author>
+ <author position="01">Michael Stonebraker</author>
+          </authors>
+     </article>
+
+     <article>
+                <title>Database Directions III Workshop Review.</title>
+ <initPage>8</initPage>
+ <endPage>8</endPage>
+          <authors>
+                    <author position="00">Tom Cook</author>
+          </authors>
+     </article>
+
+     <article>
+                <title>Errors in 'Process Synchronization in Database Systems'.</title>
+ <initPage>9</initPage>
+ <endPage>29</endPage>
+          <authors>
+                    <author position="00">Philip A. Bernstein</author>
+ <author position="01">Marco A. Casanova</author>
+ <author position="02">Nathan Goodman</author>
+          </authors>
+     </article>
+
+    </articles>
+  </issue>
+    <issue>
+        <volume>11</volume>
+ <number>3</number>
+    <articles>
+            <article>
+                <title>Comparison and Mapping of the Relational and CODASYL Data Models - An Annotated Bibliography.</title>
+ <initPage>55</initPage>
+ <endPage>68</endPage>
+          <authors>
+                    <author position="00">Gary H. Sockut</author>
+          </authors>
+     </article>
+
+     <article>
+                <title>Database Activity at Aberdeen University Computing Centre.</title>
+ <initPage>6</initPage>
+ <endPage>6</endPage>
+          <authors>
+                    <author position="00">Stephen Knowles</author>
+          </authors>
+     </article>
+
+     <article>
+                <title>Record of the Workshop on Research in Office Semantics.</title>
+ <initPage>10</initPage>
+ <endPage>25</endPage>
+          <authors>
+                    <author position="00">Gerald R. Barber</author>
+          </authors>
+     </article>
+
+     <article>
+                <title>Reply to "Errors in 'Process Synchronization in Database Systems'".</title>
+ <initPage>7</initPage>
+ <endPage>9</endPage>
+          <authors>
+                    <author position="00">Gunter Schlageter</author>
+          </authors>
+     </article>
+
+     <article>
+                <title>Research in Knowledge Base Management Systems.</title>
+ <initPage>26</initPage>
+ <endPage>54</endPage>
+          <authors>
+                    <author position="00">Gio Wiederhold</author>
+ <author position="01">S. Jerrold Kaplan</author>
+ <author position="02">Daniel Sagalowicz</author>
+          </authors>
+     </article>
+
+    </articles>
+  </issue>
+    <issue>
+        <volume>11</volume>
+ <number>4</number>
+    <articles>
+            <article>
+                <title>Multisafe - A Data Security Architecture.</title>
+ <initPage>26</initPage>
+ <endPage>31</endPage>
+          <authors>
+                    <author position="00">Robert P. Trueblood</author>
+ <author position="01">H. Rex Hartson</author>
+          </authors>
+     </article>
+
+     <article>
+                <title>Note on the Expected Size of a Join.</title>
+ <initPage>19</initPage>
+ <endPage>25</endPage>
+          <authors>
+                    <author position="00">Arnon Rosenthal</author>
+          </authors>
+     </article>
+
+     <article>
+                <title>Notes of DDTS - An Apparatus for Experimental Research in Distributed Database Management Systems.</title>
+ <initPage>32</initPage>
+ <endPage>49</endPage>
+          <authors>
+                    <author position="00">Ramez Elmasri</author>
+ <author position="01">Cory Devor</author>
+ <author position="02">Said K. Rahimi</author>
+          </authors>
+     </article>
+
+    </articles>
+  </issue>
+    <issue>
+        <volume>11</volume>
+ <number>1</number>
+    <articles>
+            <article>
+                <title>Annotated Bibliography on Data Design.</title>
+ <initPage>45</initPage>
+ <endPage>77</endPage>
+          <authors>
+                    <author position="00">Anthony I. Wasserman</author>
+ <author position="01">Karen Botnich</author>
+          </authors>
+     </article>
+
+     <article>
+                <title>Architecture of Future Data Base Systems.</title>
+ <initPage>30</initPage>
+ <endPage>44</endPage>
+          <authors>
+                    <author position="00">Lawrence A. Rowe</author>
+ <author position="01">Michael Stonebraker</author>
+          </authors>
+     </article>
+
+     <article>
+                <title>Database Directions III Workshop Review.</title>
+ <initPage>8</initPage>
+ <endPage>8</endPage>
+          <authors>
+                    <author position="00">Tom Cook</author>
+          </authors>
+     </article>
+
+     <article>
+                <title>Errors in 'Process Synchronization in Database Systems'.</title>
+ <initPage>9</initPage>
+ <endPage>29</endPage>
+          <authors>
+                    <author position="00">Philip A. Bernstein</author>
+ <author position="01">Marco A. Casanova</author>
+ <author position="02">Nathan Goodman</author>
+          </authors>
+     </article>
+
+    </articles>
+  </issue>
+    <issue>
+        <volume>11</volume>
+ <number>3</number>
+    <articles>
+            <article>
+                <title>Comparison and Mapping of the Relational and CODASYL Data Models - An Annotated Bibliography.</title>
+ <initPage>55</initPage>
+ <endPage>68</endPage>
+          <authors>
+                    <author position="00">Gary H. Sockut</author>
+          </authors>
+     </article>
+
+     <article>
+                <title>Database Activity at Aberdeen University Computing Centre.</title>
+ <initPage>6</initPage>
+ <endPage>6</endPage>
+          <authors>
+                    <author position="00">Stephen Knowles</author>
+          </authors>
+     </article>
+
+     <article>
+                <title>Record of the Workshop on Research in Office Semantics.</title>
+ <initPage>10</initPage>
+ <endPage>25</endPage>
+          <authors>
+                    <author position="00">Gerald R. Barber</author>
+          </authors>
+     </article>
+
+     <article>
+                <title>Reply to "Errors in 'Process Synchronization in Database Systems'".</title>
+ <initPage>7</initPage>
+ <endPage>9</endPage>
+          <authors>
+                    <author position="00">Gunter Schlageter</author>
+          </authors>
+     </article>
+
+     <article>
+                <title>Research in Knowledge Base Management Systems.</title>
+ <initPage>26</initPage>
+ <endPage>54</endPage>
+          <authors>
+                    <author position="00">Gio Wiederhold</author>
+ <author position="01">S. Jerrold Kaplan</author>
+ <author position="02">Daniel Sagalowicz</author>
+          </authors>
+     </article>
+
+    </articles>
+  </issue>
+    <issue>
+        <volume>11</volume>
+ <number>4</number>
+    <articles>
+            <article>
+                <title>Multisafe - A Data Security Architecture.</title>
+ <initPage>26</initPage>
+ <endPage>31</endPage>
+          <authors>
+                    <author position="00">Robert P. Trueblood</author>
+ <author position="01">H. Rex Hartson</author>
+          </authors>
+     </article>
+
+     <article>
+                <title>Note on the Expected Size of a Join.</title>
+ <initPage>19</initPage>
+ <endPage>25</endPage>
+          <authors>
+                    <author position="00">Arnon Rosenthal</author>
+          </authors>
+     </article>
+
+     <article>
+                <title>Notes of DDTS - An Apparatus for Experimental Research in Distributed Database Management Systems.</title>
+ <initPage>32</initPage>
+ <endPage>49</endPage>
+          <authors>
+                    <author position="00">Ramez Elmasri</author>
+ <author position="01">Cory Devor</author>
+ <author position="02">Said K. Rahimi</author>
+          </authors>
+     </article>
+
+    </articles>
+  </issue>
+</issues>
+</SigmodRecord>

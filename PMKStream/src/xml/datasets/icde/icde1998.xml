@@ -1,0 +1,2119 @@
+<dblp>
+    <inproceedings mdate="2002-01-03" key="conf/icde/BanerjeeC98">
+        <author>Sujata Banerjee</author>
+        <author>Panos K. Chrysanthis</author>
+        <title>Network Latency Optimizations in Distributed Database Systems.</title>
+        <pages>532-540</pages>
+        <cdrom>ICDE98/P532.pdf</cdrom>
+        <year>1998</year>
+        <booktitle>ICDE</booktitle>
+        <url>db/conf/icde/icde98.html#BanerjeeC98</url>
+        <crossref>conf/icde/98</crossref>
+        <ee>db/conf/icde/BanerjeeC98.html</ee>
+        <cite>conf/vldb/WilkinsonN90</cite>
+        <cite>conf/sigmod/WangR91</cite>
+        <cite>conf/sigmod/CareyFLS91</cite>
+        <cite>conf/vldb/FranklinCL93</cite>
+        <cite>conf/oodbs/FranklinC92</cite>
+        <cite>conf/icdcs/DelisR94</cite>
+        <cite>conf/nato/BilirisO93</cite>
+        <cite>books/mk/BernsteinN96</cite>
+        <cite>conf/sigmod/NguyenS96</cite>
+        <cite>conf/ride/JadavGL97</cite>
+        <cite>journals/tois/HornickZ87</cite>
+        <cite>journals/cacm/LambLOW91</cite>
+        <cite>conf/sigmod/FranklinZTCD92</cite>
+        <cite>journals/cacm/EswarranGLT76</cite>
+        <cite>journals/tocs/HowardKMNSSW88</cite>
+        <cite>journals/tods/CareyL91</cite>
+        <cite>conf/vldb/MohanN91</cite>
+        <cite>...</cite>
+        <cite>...</cite>
+        <cite>...</cite>
+        <cite>books/aw/BernsteinHG87</cite>
+        <cite>books/mk/GrayR93</cite>
+        <cite>conf/sigmod/DeWittKOSSW84</cite>
+        <cite>journals/debu/GawlickK85</cite>
+        <cite>conf/icdcs/BanerjeeC96</cite>
+        <cite>...</cite>
+        <cite>...</cite>
+        <cite>...</cite>
+    </inproceedings>
+    <inproceedings mdate="2002-01-03" key="conf/icde/AggarwalY98">
+        <author>Charu C. Aggarwal</author>
+        <author>Philip S. Yu</author>
+        <title>Online Generation of Association Rules.</title>
+        <pages>402-411</pages>
+        <cdrom>ICDE98/P402.pdf</cdrom>
+        <year>1998</year>
+        <booktitle>ICDE</booktitle>
+        <url>db/conf/icde/icde98.html#AggarwalY98</url>
+        <crossref>conf/icde/98</crossref>
+        <ee>db/conf/icde/AggarwalY98.html</ee>
+        <cite>...</cite>
+        <cite>conf/sigmod/AgrawalIS93</cite>
+        <cite>conf/vldb/AgrawalS94</cite>
+        <cite>conf/icde/AgrawalS95</cite>
+        <cite>conf/vldb/AgarwalADGNRS96</cite>
+        <cite>journals/tkde/ChenHY96</cite>
+        <cite>conf/vldb/Dyreson96</cite>
+        <cite>conf/vldb/GuptaHQ95</cite>
+        <cite>conf/vldb/HanF95</cite>
+        <cite>conf/sigmod/HarinarayanRU96</cite>
+        <cite>conf/icde/HoutsmaS95</cite>
+        <cite>books/wi/KaufmanR90</cite>
+        <cite>conf/cikm/KlemettinenMRTV94</cite>
+        <cite>conf/icde/LentSW97</cite>
+        <cite>conf/kdd/MannilaTV94</cite>
+        <cite>conf/vldb/NgH94</cite>
+        <cite>conf/sigmod/ParkCY95</cite>
+        <cite>books/mit/PF91/Piatetsky91</cite>
+        <cite>conf/vldb/SavasereON95</cite>
+        <cite>conf/vldb/ShuklaDNR96</cite>
+        <cite>conf/vldb/SrikantA95</cite>
+        <cite>conf/sigmod/SrikantA96</cite>
+        <cite>conf/vldb/Toivonen96</cite>
+        <cite>books/mit/PF91/Ziarko91</cite>
+    </inproceedings>
+    <inproceedings mdate="2002-01-03" key="conf/icde/AndresO98">
+        <author>Frdric Andrs</author>
+        <author>Kinji Ono</author>
+        <title>The Active Hypermedia Delivery System (AHYDS) using the PHASME Application-Oriented DBMS.</title>
+        <pages>600</pages>
+        <cdrom>ICDE98/P600.pdf</cdrom>
+        <year>1998</year>
+        <booktitle>ICDE</booktitle>
+        <url>db/conf/icde/icde98.html#AndresO98</url>
+        <crossref>conf/icde/98</crossref>
+        <ee>db/conf/icde/AndresO98.html</ee>
+        <cite>...</cite>
+        <cite>...</cite>
+        <cite>...</cite>
+        <cite>...</cite>
+    </inproceedings>
+    <inproceedings mdate="2002-01-03" key="conf/icde/Aoki98">
+        <author>Paul M. Aoki</author>
+        <title>Generalizing ``Search'' in Generalized Search Trees (Extended Abstract).</title>
+        <pages>380-389</pages>
+        <cdrom>ICDE98/P380.pdf</cdrom>
+        <year>1998</year>
+        <booktitle>ICDE</booktitle>
+        <url>db/conf/icde/icde98.html#Aoki98</url>
+        <crossref>conf/icde/98</crossref>
+        <ee>db/conf/icde/Aoki98.html</ee>
+        <cite label="ANDE88">...</cite>
+        <cite label="ANTO92">conf/vldb/Antoshenkov92</cite>
+        <cite label="ANTO93">conf/icde/Antoshenkov93</cite>
+        <cite label="AOKI97">...</cite>
+        <cite label="ASTR76">journals/tods/AstrahanBCEGGKLMMPTWW76</cite>
+        <cite label="BATO88">journals/tse/BatoryBGSTTW88</cite>
+        <cite label="BERC97">conf/pods/BerchtoldBKK97</cite>
+        <cite label="COME79">journals/csur/Comer79</cite>
+        <cite label="CORM90">books/mg/CormenLR89</cite>
+        <cite label="GUTT84">conf/sigmod/Guttman84</cite>
+        <cite label="HELL95">conf/vldb/HellersteinNP95</cite>
+        <cite label="HJAL95">conf/ssd/HjaltasonS95</cite>
+        <cite label="ILLU95">...</cite>
+        <cite label="INFO97">...</cite>
+        <cite label="KORN97">conf/sigmod/KornackerMH97</cite>
+        <cite label="LIND87">conf/sigmod/LindsayMP87</cite>
+        <cite label="LYNC88">conf/vldb/LynchS88</cite>
+        <cite label="MURA88">conf/sigmod/MuralikrishnaD88</cite>
+        <cite label="PU91">conf/sigmod/PuL91</cite>
+        <cite label="ROUS95">conf/sigmod/RoussopoulosKV95</cite>
+        <cite label="SELI79">conf/sigmod/SelingerACLP79</cite>
+        <cite label="SMIT96">...</cite>
+        <cite label="SRIV88">conf/icde/SrivastavaL88</cite>
+        <cite label="STON86">conf/icde/Stonebraker86</cite>
+        <cite label="STON91">journals/cacm/StonebrakerK91</cite>
+        <cite label="WHAN94">journals/vldb/WhangKW94</cite>
+        <cite label="WHIT96">conf/icde/WhiteJ96</cite>
+    </inproceedings>
+    <inproceedings mdate="2002-01-03" key="conf/icde/ArocenaM98">
+        <author>Gustavo O. Arocena</author>
+        <author>Alberto O. Mendelzon</author>
+        <title>WebOQL: Restructuring Documents, Databases, and Webs.</title>
+        <pages>24-33</pages>
+        <cdrom>ICDE98/P024.pdf</cdrom>
+        <year>1998</year>
+        <booktitle>ICDE</booktitle>
+        <url>db/conf/icde/icde98.html#ArocenaM98</url>
+        <crossref>conf/icde/98</crossref>
+        <ee>db/conf/icde/ArocenaM98.html</ee>
+        <cite>journals/jodl/AbiteboulCCMMS97</cite>
+        <cite>conf/sigmod/AbiteboulK89</cite>
+        <cite>journals/jodl/AbiteboulQMWW97</cite>
+        <cite>...</cite>
+        <cite>...</cite>
+        <cite>...</cite>
+        <cite>journals/sigmod/AtzeniMM97</cite>
+        <cite>conf/sigmod/BunemanDHS96</cite>
+        <cite>conf/dbpl/BunemanDS95</cite>
+        <cite>journals/tcs/BunemanNTW95</cite>
+        <cite>books/mk/Cattell96</cite>
+        <cite>conf/sigmod/ChristophidesACS94</cite>
+        <cite>journals/sigmod/FernandezFLS97</cite>
+        <cite>journals/tois/GutingZC89</cite>
+        <cite>...</cite>
+        <cite>conf/vldb/KonopnickiS95</cite>
+        <cite>conf/ride/LakshmananSS96</cite>
+        <cite>journals/jodl/MendelzonMM97</cite>
+        <cite>journals/siamcomp/MendelzonW95</cite>
+        <cite>conf/icde/PapakonstantinouGW95</cite>
+    </inproceedings>
+    <inproceedings mdate="2002-01-03" key="conf/icde/BaralGS98">
+        <author>Chitta Baral</author>
+        <author>Graciela Gonzalez</author>
+        <author>Tran Cao Son</author>
+        <title>Design and Implementation of Display Specification for Multimedia Answers.</title>
+        <pages>558-565</pages>
+        <cdrom>ICDE98/P558.pdf</cdrom>
+        <year>1998</year>
+        <booktitle>ICDE</booktitle>
+        <url>db/conf/icde/icde98.html#BaralGS98</url>
+        <crossref>conf/icde/98</crossref>
+        <ee>db/conf/icde/BaralGS98.html</ee>
+        <cite>conf/icde/AikenCSW96</cite>
+        <cite>...</cite>
+        <cite>...</cite>
+        <cite>journals/mta/BaralGS98</cite>
+        <cite>...</cite>
+        <cite>...</cite>
+        <cite>conf/vldb/CareyHMW96</cite>
+        <cite>journals/jiis/CatarciCS94</cite>
+        <cite>conf/sigmod/Cruz92</cite>
+        <cite>conf/sigmod/CruzALRZ97</cite>
+        <cite>...</cite>
+        <cite>...</cite>
+        <cite>conf/sigmod/LivnyRBCDLMW97</cite>
+        <cite>...</cite>
+        <cite>conf/sigmod/NguyenS96</cite>
+        <cite>...</cite>
+        <cite>...</cite>
+        <cite>...</cite>
+        <cite>books/mk/Stonebraker96</cite>
+        <cite>journals/ibmsj/Zloof77</cite>
+    </inproceedings>
+    <inproceedings mdate="2003-06-30" key="conf/icde/BohlenBJ98">
+        <author>Michael H. Bhlen</author>
+        <author>Renato Busatto</author>
+        <author>Christian S. Jensen</author>
+        <title>Point-Versus Interval-Based Temporal Data Models.</title>
+        <pages>192-200</pages>
+        <cdrom>ICDE98/P192.pdf</cdrom>
+        <year>1998</year>
+        <booktitle>ICDE</booktitle>
+        <url>db/conf/icde/icde98.html#BohlenBJ98</url>
+        <crossref>conf/icde/98</crossref>
+        <ee>db/conf/icde/BohlenBJ98.html</ee>
+        <cite>journals/jcss/AbiteboulHB99</cite>
+        <cite>...</cite>
+        <cite>...</cite>
+        <cite>conf/vldb/BohlenSS96</cite>
+        <cite>...</cite>
+        <cite>...</cite>
+        <cite>conf/pods/Gadia86</cite>
+        <cite>journals/tods/Gadia88</cite>
+        <cite>journals/is/JensenSS94</cite>
+        <cite>journals/tkde/LorentzosM97</cite>
+        <cite>books/mk/MeltonS93</cite>
+        <cite>journals/tods/Snodgrass87</cite>
+        <cite>books/kl/Snodgrass95</cite>
+        <cite>books/bc/TanselCGJSS93</cite>
+        <cite>conf/pods/Toman96</cite>
+    </inproceedings>
+    <inproceedings mdate="2002-01-03" key="conf/icde/Bedell98">
+        <author>Jeffrey A. Bedell</author>
+        <title>Outstanding Challenges in OLAP.</title>
+        <pages>178-179</pages>
+        <cdrom>ICDE98/P178.pdf</cdrom>
+        <year>1998</year>
+        <booktitle>ICDE</booktitle>
+        <url>db/conf/icde/icde98.html#Bedell98</url>
+        <crossref>conf/icde/98</crossref>
+        <ee>db/conf/icde/Bedell98.html</ee>
+    </inproceedings>
+    <inproceedings mdate="2002-01-03" key="conf/icde/BerchtoldEKKS98">
+        <author>Stefan Berchtold</author>
+        <author>Bernhard Ertl</author>
+        <author>Daniel A. Keim</author>
+        <author>Hans-Peter Kriegel</author>
+        <author>Thomas Seidl</author>
+        <title>Fast Nearest Neighbor Search in High-Dimensional Space.</title>
+        <pages>209-218</pages>
+        <cdrom>ICDE98/P209.pdf</cdrom>
+        <year>1998</year>
+        <booktitle>ICDE</booktitle>
+        <url>db/conf/icde/icde98.html#BerchtoldEKKS98</url>
+        <crossref>conf/icde/98</crossref>
+        <ee>db/conf/icde/BerchtoldEKKS98.html</ee>
+        <cite label="Alt+ 90">...</cite>
+        <cite label="Ary 95">...</cite>
+        <cite label="BBKK 97">conf/pods/BerchtoldBKK97</cite>
+        <cite label="Ber+ 97">conf/sigmod/BerchtoldBBKK97</cite>
+        <cite label="BKK 96">conf/vldb/BerchtoldKK96</cite>
+        <cite label="BKS 93">conf/icde/BrinkhoffKS93</cite>
+        <cite label="BKSS 90">conf/sigmod/BeckmannKSS90</cite>
+        <cite label="BR 85">books/ph/BestR85</cite>
+        <cite label="Dan 66">...</cite>
+        <cite label="Ede 87">...</cite>
+        <cite label="Fal+ 94">journals/jiis/FaloutsosBFHNPE94</cite>
+        <cite label="HS 95">conf/ssd/HjaltasonS95</cite>
+        <cite label="Jag 91">conf/sigmod/Jagadish91</cite>
+        <cite label="KHS 91">conf/ssd/KriegelHS91</cite>
+        <cite label="MG 93">conf/icde/MehrotraG93</cite>
+        <cite label="PM 97">conf/icdt/PapadopoulosM97</cite>
+        <cite label="PS 85">books/sp/PreparataS85</cite>
+        <cite label="RKV 95">conf/sigmod/RoussopoulosKV95</cite>
+        <cite label="Roo 91">...</cite>
+        <cite label="SBK 92">...</cite>
+        <cite label="Sei 90">conf/compgeom/Seidel90</cite>
+        <cite label="SH 94">...</cite>
+        <cite label="SK 93">conf/ssd/SchiwietzK93</cite>
+    </inproceedings>
+    <inproceedings mdate="2002-01-03" key="conf/icde/BernsteinGLL98">
+        <author>Arthur J. Bernstein</author>
+        <author>David Scott Gerstl</author>
+        <author>Wai-Hong Leung</author>
+        <author>Philip M. Lewis</author>
+        <title>Design and Performance of an Assertional Concurrency Control System.</title>
+        <pages>436-445</pages>
+        <cdrom>ICDE98/P436.pdf</cdrom>
+        <year>1998</year>
+        <booktitle>ICDE</booktitle>
+        <url>db/conf/icde/icde98.html#BernsteinGLL98</url>
+        <crossref>conf/icde/98</crossref>
+        <ee>db/conf/icde/BernsteinGLL98.html</ee>
+        <cite>journals/tods/AgrawalAS93</cite>
+        <cite>journals/tods/AmmannJR97</cite>
+        <cite>journals/tods/BadrinathR92</cite>
+        <cite>...</cite>
+        <cite>journals/dpd/BernsteinL96</cite>
+        <cite>books/mk/Elmagarmid92</cite>
+        <cite>journals/cacm/EswarranGLT76</cite>
+        <cite>journals/tods/FarragO89</cite>
+        <cite>journals/tods/Garcia-Molina83</cite>
+        <cite>conf/sigmod/Garcia-MolinaS87</cite>
+        <cite>...</cite>
+        <cite>conf/icde/HeinemanK97</cite>
+        <cite>journals/tods/Herlihy90</cite>
+        <cite>journals/cacm/Hoare69</cite>
+        <cite>journals/isci/KorthKB88</cite>
+        <cite>journals/tods/Lynch83</cite>
+        <cite>...</cite>
+        <cite>journals/acta/OwickiG76</cite>
+        <cite>conf/pods/RastogiMBKS93</cite>
+        <cite>...</cite>
+        <cite>journals/tc/ShaLJ88</cite>
+        <cite>journals/tods/ShashaLSV95</cite>
+        <cite>...</cite>
+        <cite>books/mk/elmagarmid92/WachterR92</cite>
+        <cite>journals/tc/Weihl88</cite>
+        <cite>journals/tods/Weikum91</cite>
+    </inproceedings>
+    <inproceedings mdate="2002-01-03" key="conf/icde/BronczWK98">
+        <author>Peter A. Boncz</author>
+        <author>Annita N. Wilschut</author>
+        <author>Martin L. Kersten</author>
+        <title>Flattening an Object Algebra to Provide Performance.</title>
+        <pages>568-577</pages>
+        <cdrom>ICDE98/P568.pdf</cdrom>
+        <year>1998</year>
+        <booktitle>ICDE</booktitle>
+        <url>db/conf/icde/icde98.html#BronczWK98</url>
+        <crossref>conf/icde/98</crossref>
+        <ee>db/conf/icde/BronczWK98.html</ee>
+        <cite label="AbK92">books/mk/bancilhonDK92/AbiteboulK92</cite>
+        <cite label="BKK96">conf/bncod/BonczKK96</cite>
+        <cite label="BQK96">conf/edbt/BonczQK96</cite>
+        <cite label="CaD96">conf/vldb/CareyD96</cite>
+        <cite label="CDN97">conf/sigmod/CareyDNAGS97</cite>
+        <cite label="Cat94">books/mk/Cattell94</cite>
+        <cite label="ChZ96">conf/sigmod/CherniackZ96</cite>
+        <cite label="CID92">conf/sigmod/CluetD92</cite>
+        <cite label="CoK85">conf/sigmod/CopelandK85</cite>
+        <cite label="ERE85">...</cite>
+        <cite label="FeM95">conf/dbpl/FegarasM95</cite>
+        <cite label="GKG97">conf/bncod/GrustKGHS97</cite>
+        <cite label="GuS95">journals/vldb/GutingS95</cite>
+        <cite label="HKM95">conf/kdd/HolsheimerKMT95</cite>
+        <cite label="LMS93">conf/dbpl/LeungMSVVZ93</cite>
+        <cite label="ShF94">...</cite>
+        <cite label="SAB94">conf/vldb/SteenhagenABB94</cite>
+        <cite label="SBB96">conf/edbt/SteenhagenBB96</cite>
+        <cite label="SRH90">journals/tkde/StonebrakerRH90</cite>
+        <cite label="TPC95">...</cite>
+        <cite label="WFA95">conf/sigmod/WilschutFA95</cite>
+    </inproceedings>
+    <inproceedings mdate="2002-01-03" key="conf/icde/C98">
+        <title>General Chair's Message, Program Co-Chairs' Message, Committees, Reviewers, Author Index.</title>
+        <cdrom>ICDE98/cover.pdf</cdrom>
+        <year>1998</year>
+        <booktitle>ICDE</booktitle>
+        <url>db/conf/icde/icde98.html#C98</url>
+        <crossref>conf/icde/98</crossref>
+        <ee>db/conf/icde/C98.html</ee>
+    </inproceedings>
+    <inproceedings mdate="2002-01-03" key="conf/icde/ChawatheAW98">
+        <author>Sudarshan S. Chawathe</author>
+        <author>Serge Abiteboul</author>
+        <author>Jennifer Widom</author>
+        <title>Representing and Querying Changes in Semistructured Data.</title>
+        <pages>4-13</pages>
+        <cdrom>ICDE98/P004.pdf</cdrom>
+        <year>1998</year>
+        <booktitle>ICDE</booktitle>
+        <url>db/conf/icde/icde98.html#ChawatheAW98</url>
+        <crossref>conf/icde/98</crossref>
+        <ee>db/conf/icde/ChawatheAW98.html</ee>
+        <cite label="Abi97">conf/icdt/Abiteboul97</cite>
+        <cite label="ACT96">journals/sigmod/ACT-NET96</cite>
+        <cite label="AQM+96">journals/jodl/AbiteboulQMWW97</cite>
+        <cite label="BDHS96">conf/sigmod/BunemanDHS96</cite>
+        <cite label="C3">...</cite>
+        <cite label="CACS94">conf/sigmod/ChristophidesACS94</cite>
+        <cite label="Cat94">books/mk/Cattell94</cite>
+        <cite label="CAW97">...</cite>
+        <cite label="CGM97">conf/sigmod/ChawatheG97</cite>
+        <cite label="CGMH+94">conf/ipsj/ChawatheGHPUW94</cite>
+        <cite label="CRGMW96">conf/sigmod/ChawatheRGW96</cite>
+        <cite label="DHR96">conf/sigmod/DohertyHR96</cite>
+        <cite label="GHJ92">conf/edbt/GhandeharizadehHJ92</cite>
+        <cite label="GHJ96">journals/tods/GhandeharizadehHJ96</cite>
+        <cite label="ISO94">...</cite>
+        <cite label="PAGM96">conf/vldb/PapakonstantinouAG96</cite>
+        <cite label="PAW">...</cite>
+        <cite label="PGGMU95">conf/dood/PapakonstantinouGGU95</cite>
+        <cite label="PGMU96">conf/icde/PapakonstantinouGU96</cite>
+        <cite label="PGMW95">conf/icde/PapakonstantinouGW95</cite>
+        <cite label="QWG+96">conf/sigmod/QuassWGHLMNRRAUW96</cite>
+        <cite label="SA86">journals/computer/SnodgrassA86</cite>
+        <cite label="SL90">journals/csur/ShethL90</cite>
+        <cite label="Soo91">journals/sigmod/Soo91</cite>
+        <cite label="WC96">books/mk/WidomC96</cite>
+    </inproceedings>
+    <inproceedings mdate="2002-01-03" key="conf/icde/ChangMZS98">
+        <author>Wendy Chang</author>
+        <author>Deepak Murthy</author>
+        <author>Aidong Zhang</author>
+        <author>Tanveer Fathima Syeda-Mahmood</author>
+        <title>Global Integration of Visual Databases.</title>
+        <pages>542-549</pages>
+        <cdrom>ICDE98/P542.pdf</cdrom>
+        <year>1998</year>
+        <booktitle>ICDE</booktitle>
+        <url>db/conf/icde/icde98.html#ChangMZS98</url>
+        <crossref>conf/icde/98</crossref>
+        <ee>db/conf/icde/ChangMZS98.html</ee>
+        <cite>...</cite>
+        <cite>conf/sigir/CallanLC95</cite>
+        <cite>conf/icmcs/ZhangCMS97</cite>
+        <cite>conf/mm/ChangSZS97</cite>
+        <cite>...</cite>
+        <cite>conf/kdd/EsterKSX96</cite>
+        <cite>journals/computer/FlicknerSAHDGHLPSY95</cite>
+        <cite>conf/vldb/GravanoG95</cite>
+        <cite>conf/spieSR/JainMTC95</cite>
+        <cite>journals/mta/RemiasSZS97</cite>
+        <cite>...</cite>
+        <cite>...</cite>
+        <cite>...</cite>
+        <cite>conf/sigmod/ZhangRL96</cite>
+    </inproceedings>
+    <inproceedings mdate="2002-01-03" key="conf/icde/ChakrabartiM98">
+        <author>Kaushik Chakrabarti</author>
+        <author>Sharad Mehrotra</author>
+        <title>Dynamic Granular Locking Approach to Phantom Protection in R-Trees.</title>
+        <pages>446-454</pages>
+        <cdrom>ICDE98/P446.pdf</cdrom>
+        <year>1998</year>
+        <booktitle>ICDE</booktitle>
+        <url>db/conf/icde/icde98.html#ChakrabartiM98</url>
+        <crossref>conf/icde/98</crossref>
+        <ee>db/conf/icde/ChakrabartiM98.html</ee>
+        <cite>conf/sigmod/BeckmannKSS90</cite>
+        <cite>conf/vldb/DeWittKLPY94</cite>
+        <cite>conf/vldb/EvangelidisLS95</cite>
+        <cite>books/mk/GrayR93</cite>
+        <cite>conf/icde/Greene89</cite>
+        <cite>...</cite>
+        <cite>conf/sigmod/Guttman84</cite>
+        <cite>conf/vldb/HellersteinNP95</cite>
+        <cite>...</cite>
+        <cite>conf/sigmod/Jagadish90</cite>
+        <cite>conf/vldb/KornackerB95</cite>
+        <cite>conf/sigmod/KornackerMH97</cite>
+        <cite>journals/vldb/LinJF94</cite>
+        <cite>journals/sigmod/Lomet92</cite>
+        <cite>conf/vldb/Lomet93</cite>
+        <cite>conf/vldb/Mohan90</cite>
+        <cite>journals/tods/MohanHLPS92</cite>
+        <cite>journals/tods/NievergeltHS84</cite>
+        <cite>conf/pods/OrensteinM84</cite>
+        <cite>conf/sigmod/Robinson81</cite>
+        <cite>journals/is/Salzberg86</cite>
+        <cite>books/aw/Samet90</cite>
+        <cite>conf/vldb/SellisRF87</cite>
+    </inproceedings>
+    <inproceedings mdate="2002-01-03" key="conf/icde/ChaudhuriGKLLM98">
+        <author>Surajit Chaudhuri</author>
+        <author>Hector Garcia-Molina</author>
+        <author>Henry F. Korth</author>
+        <author>Guy M. Lohman</author>
+        <author>David B. Lomet</author>
+        <author>David Maier</author>
+        <title>Future Directions in Database Research (Panel).</title>
+        <pages>456</pages>
+        <cdrom>ICDE98/P456.pdf</cdrom>
+        <year>1998</year>
+        <booktitle>ICDE</booktitle>
+        <url>db/conf/icde/icde98.html#ChaudhuriGKLLM98</url>
+        <crossref>conf/icde/98</crossref>
+        <ee>db/conf/icde/ChaudhuriGKLLM98.html</ee>
+    </inproceedings>
+    <inproceedings mdate="2002-01-03" key="conf/icde/ChakravarthyL98">
+        <author>Sharma Chakravarthy</author>
+        <author>Roger Le</author>
+        <title>ECA Rule Support for Distributed Heterogeneous Environments.</title>
+        <pages>601</pages>
+        <cdrom>ICDE98/P601.pdf</cdrom>
+        <year>1998</year>
+        <booktitle>ICDE</booktitle>
+        <url>db/conf/icde/icde98.html#ChakravarthyL98</url>
+        <crossref>conf/icde/98</crossref>
+        <ee>db/conf/icde/ChakravarthyL98.html</ee>
+        <cite>conf/sigmod/AnwarMC93</cite>
+        <cite>journals/dke/ChakravarthyM94</cite>
+    </inproceedings>
+    <inproceedings mdate="2002-01-03" key="conf/icde/ChanSL98">
+        <author>Boris Y. L. Chan</author>
+        <author>Antonio Si</author>
+        <author>Hong Va Leong</author>
+        <title>Cache Management for Mobile Databases: Design and Evaluation.</title>
+        <pages>54-63</pages>
+        <cdrom>ICDE98/P054.pdf</cdrom>
+        <year>1998</year>
+        <booktitle>ICDE</booktitle>
+        <url>db/conf/icde/icde98.html#ChanSL98</url>
+        <crossref>conf/icde/98</crossref>
+        <ee>db/conf/icde/ChanSL98.html</ee>
+        <cite>conf/sigmod/AcharyaAFZ95</cite>
+        <cite>conf/sigmod/BarbaraI94</cite>
+        <cite>...</cite>
+        <cite>conf/vldb/DeWittFMV90</cite>
+        <cite>journals/tods/EffelsbergH84</cite>
+        <cite>conf/vldb/FranklinCL92</cite>
+        <cite>conf/sosp/GrayC89</cite>
+        <cite>conf/sigmod/HuangSW94</cite>
+        <cite>journals/cacm/ImielinskiB94</cite>
+        <cite>...</cite>
+        <cite>conf/sosp/KistlerS91</cite>
+        <cite>journals/cj/LeongS97</cite>
+        <cite>conf/edbt/ChenR94a</cite>
+        <cite>conf/sigmod/ONeilOW93</cite>
+        <cite>conf/dexa/SiL96</cite>
+        <cite>books/mg/SilberschatzKS97</cite>
+    </inproceedings>
+    <inproceedings mdate="2002-01-03" key="conf/icde/ColbyCHJJMSW98">
+        <author>Latha S. Colby</author>
+        <author>Richard L. Cole</author>
+        <author>Edward Haslam</author>
+        <author>Nasi Jazayeri</author>
+        <author>Galt Johnson</author>
+        <author>William J. McKenna</author>
+        <author>Lee Schumacher</author>
+        <author>David Wilhite</author>
+        <title>Redbrick Vista: Aggregate Computation and Management.</title>
+        <pages>174-177</pages>
+        <cdrom>ICDE98/P174.pdf</cdrom>
+        <year>1998</year>
+        <booktitle>ICDE</booktitle>
+        <url>db/conf/icde/icde98.html#ColbyCHJJMSW98</url>
+        <crossref>conf/icde/98</crossref>
+        <ee>db/conf/icde/ColbyCHJJMSW98.html</ee>
+        <cite>journals/datamine/GrayCBLRVPP97</cite>
+        <cite>conf/vldb/GuptaHQ95</cite>
+        <cite>conf/sigmod/HarinarayanRU96</cite>
+        <cite>...</cite>
+        <cite>conf/vldb/SrivastavaDJL96</cite>
+    </inproceedings>
+    <inproceedings mdate="2002-01-03" key="conf/icde/FernandezS98">
+        <author>Mary F. Fernandez</author>
+        <author>Dan Suciu</author>
+        <title>Optimizing Regular Path Expressions Using Graph Schemas.</title>
+        <pages>14-23</pages>
+        <cdrom>ICDE98/P014.pdf</cdrom>
+        <year>1998</year>
+        <booktitle>ICDE</booktitle>
+        <url>db/conf/icde/icde98.html#FernandezS98</url>
+        <crossref>conf/icde/98</crossref>
+        <ee>db/conf/icde/FernandezS98.html</ee>
+        <cite>conf/icdt/Abiteboul97</cite>
+        <cite>books/aw/AbiteboulHV95</cite>
+        <cite>conf/icdt/AbiteboulV97</cite>
+        <cite>conf/pods/AbiteboulV97</cite>
+        <cite>conf/sigmod/BancilhonR86</cite>
+        <cite>conf/pods/BeeriR87</cite>
+        <cite>conf/icdt/BunemanDFS97</cite>
+        <cite>conf/sigmod/BunemanDHS96</cite>
+        <cite>conf/sigmod/ChristophidesACS94</cite>
+        <cite>conf/sigmod/ChristophidesCM96</cite>
+        <cite>conf/sigmod/FernandezFKLS97</cite>
+        <cite>journals/sigmod/FernandezFLS97</cite>
+        <cite>...</cite>
+        <cite>journals/siamcomp/GabowT89</cite>
+        <cite>...</cite>
+        <cite>journals/siamcomp/Immerman87</cite>
+        <cite>conf/vldb/KonopnickiS95</cite>
+        <cite>...</cite>
+        <cite>conf/ride/LakshmananSS96</cite>
+        <cite>conf/pods/LevyMSS95</cite>
+        <cite>conf/pdis/MendelzonMM96</cite>
+        <cite>journals/siamcomp/MendelzonW95</cite>
+        <cite>conf/vldb/PapakonstantinouAG96</cite>
+        <cite>conf/icde/PapakonstantinouGU96</cite>
+        <cite>conf/icde/PapakonstantinouGW95</cite>
+        <cite>books/el/leeuwen90/Perrin90</cite>
+        <cite>conf/dood/QuassRSUW95</cite>
+        <cite>conf/stoc/StockmeyerM73</cite>
+        <cite>...</cite>
+    </inproceedings>
+    <inproceedings mdate="2002-01-03" key="conf/icde/GabberK98">
+        <author>Eran Gabber</author>
+        <author>Henry F. Korth</author>
+        <title>Data Logging: A Method for Efficient Data Updates in Constantly Active RAIDs.</title>
+        <pages>144-153</pages>
+        <cdrom>ICDE98/P144.pdf</cdrom>
+        <year>1998</year>
+        <booktitle>ICDE</booktitle>
+        <url>db/conf/icde/icde98.html#GabberK98</url>
+        <crossref>conf/icde/98</crossref>
+        <ee>db/conf/icde/GabberK98.html</ee>
+        <cite>conf/isca/BlaumBBM94</cite>
+        <cite>journals/csur/ChenLGKP94</cite>
+        <cite>conf/usenix/GangerK97</cite>
+        <cite>conf/usenix/GoldingBSSW95</cite>
+        <cite>conf/asplos/HollandG92</cite>
+        <cite>books/aw/Knuth73</cite>
+        <cite>conf/pdis/MogiK94</cite>
+        <cite>conf/vldb/MogiK95</cite>
+        <cite>conf/sigmod/MogiK96</cite>
+        <cite>conf/sigmod/OrjiS93</cite>
+        <cite>journals/tocs/RosenblumO92</cite>
+        <cite>conf/usenix/RuemmlerW93</cite>
+        <cite>conf/usenix/SavageW96</cite>
+        <cite>books/mg/SilberschatzKS97</cite>
+        <cite>conf/usenix/SmithS96</cite>
+        <cite>conf/pdis/SolworthO91</cite>
+        <cite>conf/isca/StodolskyGH93</cite>
+        <cite>journals/tocs/WilkesGSS96</cite>
+    </inproceedings>
+    <inproceedings mdate="2002-01-03" key="conf/icde/Garcia-MolinaKS98">
+        <author>Hector Garcia-Molina</author>
+        <author>Steven P. Ketchpel</author>
+        <author>Narayanan Shivakumar</author>
+        <title>Safeguarding and Charging for Information on the Internet.</title>
+        <pages>182-189</pages>
+        <cdrom>ICDE98/P182.pdf</cdrom>
+        <year>1998</year>
+        <booktitle>ICDE</booktitle>
+        <url>db/conf/icde/icde98.html#Garcia-MolinaKS98</url>
+        <crossref>conf/icde/98</crossref>
+        <ee>db/conf/icde/Garcia-MolinaKS98.html</ee>
+        <cite>journals/ibmsj/PeiroASW98</cite>
+        <cite>...</cite>
+        <cite>conf/sigmod/BrinDG95</cite>
+        <cite>journals/cacm/Chaum85</cite>
+        <cite>...</cite>
+        <cite>...</cite>
+        <cite>...</cite>
+        <cite>...</cite>
+        <cite>conf/pdis/Garcia-MolinaGS96</cite>
+        <cite>...</cite>
+        <cite>...</cite>
+        <cite>conf/sigmod/GravanoGT94</cite>
+        <cite>...</cite>
+        <cite>...</cite>
+        <cite>...</cite>
+        <cite>conf/dl/KetchpelGP97</cite>
+        <cite>...</cite>
+        <cite>...</cite>
+        <cite>...</cite>
+        <cite>...</cite>
+        <cite>...</cite>
+        <cite>...</cite>
+        <cite>...</cite>
+        <cite>...</cite>
+        <cite>journals/csur/PopekK79</cite>
+        <cite>...</cite>
+        <cite>...</cite>
+        <cite>...</cite>
+        <cite>...</cite>
+        <cite>conf/dl/ShivakumarG95</cite>
+        <cite>conf/dl/ShivakumarG96</cite>
+        <cite>...</cite>
+        <cite>conf/sigmod/ShivakumarG97</cite>
+        <cite>conf/vldb/ShivakumarGC98</cite>
+        <cite>...</cite>
+        <cite>conf/compcon/SirbuT95</cite>
+        <cite>...</cite>
+        <cite>...</cite>
+        <cite>...</cite>
+        <cite>...</cite>
+    </inproceedings>
+    <inproceedings mdate="2002-01-03" key="conf/icde/Gawlick98">
+        <author>Dieter Gawlick</author>
+        <title>Messaging/Queuing in Oracle8.</title>
+        <pages>66-68</pages>
+        <cdrom>ICDE98/P066.pdf</cdrom>
+        <year>1998</year>
+        <booktitle>ICDE</booktitle>
+        <url>db/conf/icde/icde98.html#Gawlick98</url>
+        <crossref>conf/icde/98</crossref>
+        <ee>db/conf/icde/Gawlick98.html</ee>
+        <cite label="OAQ">...</cite>
+    </inproceedings>
+    <inproceedings mdate="2002-01-03" key="conf/icde/GoldsteinRS98">
+        <author>Jonathan Goldstein</author>
+        <author>Raghu Ramakrishnan</author>
+        <author>Uri Shaft</author>
+        <title>Compressing Relations and Indexes.</title>
+        <pages>370-379</pages>
+        <cdrom>ICDE98/P370.pdf</cdrom>
+        <year>1998</year>
+        <booktitle>ICDE</booktitle>
+        <url>db/conf/icde/icde98.html#GoldsteinRS98</url>
+        <crossref>conf/icde/98</crossref>
+        <ee>db/conf/icde/GoldsteinRS98.html</ee>
+        <cite>journals/tse/Bassiouni85</cite>
+        <cite>journals/acta/BayerM72</cite>
+        <cite>conf/sigmod/BeckmannKSS90</cite>
+        <cite>conf/vldb/BerchtoldKK96</cite>
+        <cite>conf/vldb/EggersOS81</cite>
+        <cite>...</cite>
+        <cite>conf/sigmod/Guttman84</cite>
+        <cite>books/wi/Kimball96</cite>
+        <cite>conf/vldb/SeegerK90</cite>
+        <cite>journals/tit/ZivL77</cite>
+        <cite>conf/icde/LeuteneggerEL97</cite>
+        <cite>journals/vldb/LinJF94</cite>
+        <cite>conf/icde/NgR95</cite>
+        <cite>journals/tods/NievergeltHS84</cite>
+        <cite>conf/sigmod/ONeilQ97</cite>
+        <cite>journals/sigmod/RothH93</cite>
+    </inproceedings>
+    <inproceedings mdate="2002-01-03" key="conf/icde/Graefe98">
+        <author>Goetz Graefe</author>
+        <title>The New Database Imperatives.</title>
+        <pages>69-72</pages>
+        <cdrom>ICDE98/P069.pdf</cdrom>
+        <year>1998</year>
+        <booktitle>ICDE</booktitle>
+        <url>db/conf/icde/icde98.html#Graefe98</url>
+        <crossref>conf/icde/98</crossref>
+        <ee>db/conf/icde/Graefe98.html</ee>
+    </inproceedings>
+    <inproceedings mdate="2002-01-03" key="conf/icde/Gryz98">
+        <author>Jarek Gryz</author>
+        <title>Query Folding with Inclusion Dependencies.</title>
+        <pages>126-133</pages>
+        <cdrom>ICDE98/P126.pdf</cdrom>
+        <year>1998</year>
+        <booktitle>ICDE</booktitle>
+        <url>db/conf/icde/icde98.html#Gryz98</url>
+        <crossref>conf/icde/98</crossref>
+        <ee>db/conf/icde/Gryz98.html</ee>
+        <cite>journals/jcss/CasanovaFP84</cite>
+        <cite>journals/siamcomp/ChandraV85</cite>
+        <cite>conf/icde/ChaudhuriKPS95</cite>
+        <cite>journals/acr/CosmadakisK86</cite>
+        <cite>journals/jacm/CosmadakisKV90</cite>
+        <cite>conf/vldb/DarFJST96</cite>
+        <cite>conf/ijcai/DuschkaL97</cite>
+        <cite>journals/jcss/JohnsonK84</cite>
+        <cite>journals/vldb/KellerB96</cite>
+        <cite>conf/pods/LevyMSS95</cite>
+        <cite>conf/vldb/LevyRO96</cite>
+        <cite>conf/aaai/LevyRO96</cite>
+        <cite>books/cs/Maier83</cite>
+        <cite>conf/icde/Qian96</cite>
+        <cite>conf/pods/RajaramanSU95</cite>
+        <cite>conf/vldb/TsatalosSI94</cite>
+        <cite>conf/icdt/Ullman97</cite>
+        <cite>conf/vldb/YangL87</cite>
+    </inproceedings>
+    <inproceedings mdate="2002-01-03" key="conf/icde/Gupta98">
+        <author>Ashish Gupta</author>
+        <title>Junglee: Integrating Data of All Shapes and Sizes.</title>
+        <pages>296</pages>
+        <cdrom>ICDE98/P296.pdf</cdrom>
+        <year>1998</year>
+        <booktitle>ICDE</booktitle>
+        <url>db/conf/icde/icde98.html#Gupta98</url>
+        <crossref>conf/icde/98</crossref>
+        <ee>db/conf/icde/Gupta98.html</ee>
+    </inproceedings>
+    <inproceedings mdate="2002-01-03" key="conf/icde/GuptaHR98">
+        <author>Ashish Gupta</author>
+        <author>Venky Harinarayan</author>
+        <author>Anand Rajaraman</author>
+        <title>Virtual Database Technology.</title>
+        <pages>297-301</pages>
+        <cdrom>ICDE98/P297.pdf</cdrom>
+        <year>1998</year>
+        <booktitle>ICDE</booktitle>
+        <url>db/conf/icde/icde98.html#GuptaHR98</url>
+        <crossref>conf/icde/98</crossref>
+        <ee>db/conf/icde/GuptaHR98.html</ee>
+    </inproceedings>
+    <inproceedings mdate="2002-01-03" key="conf/icde/HaraHTN98">
+        <author>Takahiro Hara</author>
+        <author>Kaname Harumoto</author>
+        <author>Masahiko Tsukamoto</author>
+        <author>Shojiro Nishio</author>
+        <title>DB-MAN: A Distributed Database System based on Database Migration in ATM Networks.</title>
+        <pages>522-531</pages>
+        <cdrom>ICDE98/P522.pdf</cdrom>
+        <year>1998</year>
+        <booktitle>ICDE</booktitle>
+        <url>db/conf/icde/icde98.html#HaraHTN98</url>
+        <crossref>conf/icde/98</crossref>
+        <ee>db/conf/icde/HaraHTN98.html</ee>
+        <cite>...</cite>
+        <cite>...</cite>
+        <cite>...</cite>
+        <cite>...</cite>
+        <cite>conf/sigmod/DeWittKOSSW84</cite>
+        <cite>journals/tc/Garcia-MolinaLV84</cite>
+        <cite>...</cite>
+        <cite>conf/sac/HaraHTN97</cite>
+        <cite>journals/tkde/HaraHTN98</cite>
+        <cite>...</cite>
+        <cite>...</cite>
+        <cite>...</cite>
+        <cite>journals/jsac/NussbaumerPSS95</cite>
+        <cite>journals/ieeemm/RooholaminiC95</cite>
+        <cite>conf/icde/StonebrakerADLO94</cite>
+    </inproceedings>
+    <inproceedings mdate="2002-01-03" key="conf/icde/Henrich98">
+        <author>Andreas Henrich</author>
+        <title>The LSD<sup>h</sup>-Tree: An Access Structure for Feature Vectors.</title>
+        <pages>362-369</pages>
+        <cdrom>ICDE98/P362.pdf</cdrom>
+        <year>1998</year>
+        <booktitle>ICDE</booktitle>
+        <url>db/conf/icde/icde98.html#Henrich98</url>
+        <crossref>conf/icde/98</crossref>
+        <ee>db/conf/icde/Henrich98.html</ee>
+        <cite>conf/sigmod/BeckmannKSS90</cite>
+        <cite>journals/cacm/Bentley75</cite>
+        <cite>conf/pods/BerchtoldBKK97</cite>
+        <cite>conf/edbt/BerchtoldBK98</cite>
+        <cite>conf/vldb/BerchtoldKK96</cite>
+        <cite>conf/sigmod/Freeston87</cite>
+        <cite>journals/toms/FriedmanBF77</cite>
+        <cite>conf/sigmod/Guttman84</cite>
+        <cite>conf/gis/Henrich94</cite>
+        <cite>conf/cikm/Henrich96</cite>
+        <cite>conf/icde/Henrich96</cite>
+        <cite>...</cite>
+        <cite>conf/vldb/HenrichSW89</cite>
+        <cite>conf/ssd/HjaltasonS95</cite>
+        <cite>conf/sigmod/KatayamaS97</cite>
+        <cite>journals/algorithmica/KreveldO91</cite>
+        <cite>journals/vldb/LinJF94</cite>
+        <cite>conf/icde/LometS89</cite>
+        <cite>journals/tods/NievergeltHS84</cite>
+        <cite>...</cite>
+        <cite>journals/bit/Regnier85</cite>
+        <cite>conf/sigmod/Robinson81</cite>
+        <cite>conf/sigmod/RoussopoulosKV95</cite>
+        <cite>journals/cacm/SaltonWY75</cite>
+        <cite>conf/vldb/SeegerK90</cite>
+        <cite>conf/vldb/SellisRF87</cite>
+        <cite>books/sp/SubrahmanianJ96</cite>
+        <cite>conf/spieSR/WhiteDJ96</cite>
+        <cite>conf/icde/WhiteJ96</cite>
+    </inproceedings>
+    <inproceedings mdate="2002-01-03" key="conf/icde/HibinoR98">
+        <author>Stacie Hibino</author>
+        <author>Elke A. Rundensteiner</author>
+        <title>Processing Incremental Multidimensional Range Queries in a Direct Manipulation Visual Query.</title>
+        <pages>458-465</pages>
+        <cdrom>ICDE98/P458.pdf</cdrom>
+        <year>1998</year>
+        <booktitle>ICDE</booktitle>
+        <url>db/conf/icde/icde98.html#HibinoR98</url>
+        <crossref>conf/icde/98</crossref>
+        <ee>db/conf/icde/HibinoR98.html</ee>
+        <cite>...</cite>
+        <cite>...</cite>
+        <cite>journals/cacm/Allen83</cite>
+        <cite>conf/sigmod/BeckleyER85</cite>
+        <cite>journals/cacm/Bentley75</cite>
+        <cite>journals/csur/BentleyF79</cite>
+        <cite>journals/acta/BentleyM80</cite>
+        <cite>journals/algorithmica/FlajoletGPR93</cite>
+        <cite>journals/ai/Freksa92</cite>
+        <cite>...</cite>
+        <cite>...</cite>
+        <cite>conf/mm/HibinoR96</cite>
+        <cite>books/kl/nwosuTB96/HibinoR96</cite>
+        <cite>conf/ssdbm/HinterbergerMG94</cite>
+        <cite>conf/avi/JainS94</cite>
+        <cite>journals/sigmod/Lomet92</cite>
+        <cite>journals/tkde/NakamuraAOS93</cite>
+        <cite>books/aw/Knuth73a</cite>
+        <cite>journals/tods/NievergeltHS84</cite>
+        <cite>books/aw/Samet90</cite>
+        <cite>conf/sigmod/SeshadriLR94</cite>
+    </inproceedings>
+    <inproceedings mdate="2002-11-14" key="conf/icde/HuhtalaKPT98">
+        <author>Yk Huhtala</author>
+        <author>Juha Krkkinen</author>
+        <author>Pasi Porkka</author>
+        <author>Hannu Toivonen</author>
+        <title>Efficient Discovery of Functional and Approximate Dependencies Using Partitions.</title>
+        <pages>392-401</pages>
+        <cdrom>ICDE98/P392.pdf</cdrom>
+        <year>1998</year>
+        <booktitle>ICDE</booktitle>
+        <url>db/conf/icde/icde98.html#HuhtalaKPT98</url>
+        <crossref>conf/icde/98</crossref>
+        <ee>db/conf/icde/HuhtalaKPT98.html</ee>
+        <cite>...</cite>
+        <cite>conf/icde/BittonMT89</cite>
+        <cite>conf/ds/DalkilicGR97</cite>
+        <cite>...</cite>
+        <cite>journals/tcs/KivinenM95</cite>
+        <cite>conf/kdd/KramerP96</cite>
+        <cite>journals/jcss/MannilaR86</cite>
+        <cite>conf/vldb/MannilaR87</cite>
+        <cite>...</cite>
+        <cite>...</cite>
+        <cite>journals/dke/MannilaR94</cite>
+        <cite>journals/datamine/MannilaT97</cite>
+        <cite>...</cite>
+        <cite>conf/icde/PetitTBK96</cite>
+        <cite>conf/kdd/PfahringerK95</cite>
+        <cite>...</cite>
+        <cite>...</cite>
+        <cite>conf/icml/Schlimmer93</cite>
+        <cite>...</cite>
+        <cite>...</cite>
+        <cite>journals/tods/Weddell92</cite>
+    </inproceedings>
+    <inproceedings mdate="2002-04-25" key="conf/icde/HwangPS98">
+        <author>Eenjun Hwang</author>
+        <author>V. S. Subrahmanian</author>
+        <author>B. Prabhakaran</author>
+        <title>Distributed Video Presentations.</title>
+        <pages>268-275</pages>
+        <cdrom>ICDE98/P268.pdf</cdrom>
+        <year>1998</year>
+        <booktitle>ICDE</booktitle>
+        <url>db/conf/icde/icde98.html#HwangPS98</url>
+        <crossref>conf/icde/98</crossref>
+        <ee>db/conf/icde/HwangPS98.html</ee>
+        <cite>journals/mms/AdaliCCES96</cite>
+        <cite>journals/mms/CandanHS98</cite>
+        <cite>conf/mm/CandanPS96</cite>
+        <cite>...</cite>
+        <cite>journals/mms/DanK95</cite>
+        <cite>conf/sigmetrics/DrapeauPK94</cite>
+        <cite>conf/icmcs/JadavSCB95</cite>
+        <cite>conf/mm/LittleAFGRSV93</cite>
+        <cite>journals/jacm/MarcusS96</cite>
+        <cite>journals/mms/Mourad96</cite>
+        <cite>journals/jsac/NussbaumerPSS95</cite>
+        <cite>conf/icmcs/PapadimitriouRR94</cite>
+        <cite>...</cite>
+        <cite>...</cite>
+        <cite>conf/icde/RotemZ95</cite>
+        <cite>...</cite>
+        <cite>...</cite>
+        <cite>...</cite>
+    </inproceedings>
+    <inproceedings mdate="2006-04-18" key="conf/icde/IshikawaKOYKK98">
+        <author>Hiroshi Ishikawa</author>
+        <author>Koki Kato</author>
+        <author>Miyuki Ono</author>
+        <author>Naomi Yoshizawa</author>
+        <author>Kazumi Kubota</author>
+        <author>Akiko Kanaya</author>
+        <title>An Extended Object-Oriented Database Approach to Networked Multimedia Applications.</title>
+        <pages>259-266</pages>
+        <cdrom>ICDE98/P259.pdf</cdrom>
+        <year>1998</year>
+        <booktitle>ICDE</booktitle>
+        <url>db/conf/icde/icde98.html#IshikawaKOYKK98</url>
+        <crossref>conf/icde/98</crossref>
+        <ee>db/conf/icde/IshikawaKOYKK98.html</ee>
+        <cite>journals/cacm/Berners-LeeCLNS94</cite>
+        <cite>books/aw/Date90</cite>
+        <cite>journals/computer/FlicknerSAHDGHLPSY95</cite>
+        <cite>conf/sigmod/GibbsBT94</cite>
+        <cite>books/aw/GoldbergR83</cite>
+        <cite>journals/mms/HamakawaR94</cite>
+        <cite>...</cite>
+        <cite>conf/future/IshikawaIKH92</cite>
+        <cite>journals/tods/IshikawaSKMMIAY93</cite>
+        <cite>conf/vldb/IshikawaK93</cite>
+        <cite>...</cite>
+        <cite>...</cite>
+        <cite>conf/icde/IshikawaKOYKK96</cite>
+        <cite>journals/tkde/IshikawaYIK96</cite>
+        <cite>...</cite>
+        <cite>journals/tkde/KimGBW90</cite>
+        <cite>...</cite>
+        <cite>...</cite>
+        <cite>...</cite>
+    </inproceedings>
+    <inproceedings mdate="2002-01-03" key="conf/icde/KamathR98">
+        <author>Mohan Kamath</author>
+        <author>Krithi Ramamritham</author>
+        <title>Failure Handling and Coordinated Execution of Concurrent Workflows.</title>
+        <pages>334-341</pages>
+        <cdrom>ICDE98/P334.pdf</cdrom>
+        <year>1998</year>
+        <booktitle>ICDE</booktitle>
+        <url>db/conf/icde/icde98.html#KamathR98</url>
+        <crossref>conf/icde/98</crossref>
+        <ee>db/conf/icde/KamathR98.html</ee>
+        <cite>...</cite>
+        <cite>conf/icde/AlonsoAAKGM96</cite>
+        <cite>...</cite>
+        <cite>conf/vldb/AttieSSR93</cite>
+        <cite>conf/er/CasatiCPP95</cite>
+        <cite>conf/icde/ChenD97</cite>
+        <cite>journals/tods/ChrysanthisR94</cite>
+        <cite>...</cite>
+        <cite>conf/sigmod/DayalHL90</cite>
+        <cite>conf/coopis/EderL95</cite>
+        <cite>books/mk/Elmagarmid92</cite>
+        <cite>conf/sigmod/Garcia-MolinaS87</cite>
+        <cite>journals/dpd/GeorgakopoulosHS95</cite>
+        <cite>journals/tkde/GeorgakopoulosHM96</cite>
+        <cite>books/mk/GrayR93</cite>
+        <cite>...</cite>
+        <cite>...</cite>
+        <cite>...</cite>
+        <cite>conf/edbt/KamathAGM96</cite>
+        <cite>...</cite>
+        <cite>conf/btw/Leymann95</cite>
+        <cite>conf/sigmod/Mohan96</cite>
+        <cite>journals/debu/ShethR93</cite>
+        <cite>books/mk/elmagarmid92/WachterR92</cite>
+        <cite>...</cite>
+    </inproceedings>
+    <inproceedings mdate="2002-01-03" key="conf/icde/JagadishMR98">
+        <author>H. V. Jagadish</author>
+        <author>Inderpal Singh Mumick</author>
+        <author>Michael Rabinovich</author>
+        <title>Asynchronous Version Advancement in a Distributed Three-Version Database.</title>
+        <pages>424-435</pages>
+        <cdrom>ICDE98/P424.pdf</cdrom>
+        <year>1998</year>
+        <booktitle>ICDE</booktitle>
+        <url>db/conf/icde/icde98.html#JagadishMR98</url>
+        <crossref>conf/icde/98</crossref>
+        <ee>db/conf/icde/JagadishMR98.html</ee>
+        <cite label="AS89">conf/sigmod/AgrawalS89</cite>
+        <cite label="BC92">conf/icde/BoberC92</cite>
+        <cite label="BHG87">books/aw/BernsteinHG87</cite>
+        <cite label="BHR80">journals/tods/BayerHR80</cite>
+        <cite label="BPR+96">conf/pdis/BohannonPRSSS96</cite>
+        <cite label="CFL+82">conf/sigmod/ChanFLNR82</cite>
+        <cite label="CG85">journals/tse/ChanG85</cite>
+        <cite label="GO96">conf/pdis/GukalOR96</cite>
+        <cite label="JMR97a">...</cite>
+        <cite label="JMR97b">conf/icde/JagadishMR97</cite>
+        <cite label="MHL+92">journals/tods/MohanHLPS92</cite>
+        <cite label="MLO96">journals/tods/MohanLO86</cite>
+        <cite label="Mor93">conf/icde/Morzy93</cite>
+        <cite label="MPL92">conf/sigmod/MohanPL92</cite>
+        <cite label="SR81">conf/sigmod/StearnsR81</cite>
+        <cite label="Wei87">journals/tse/Weihl87</cite>
+        <cite label="WYC91">...</cite>
+    </inproceedings>
+    <inproceedings mdate="2002-01-03" key="conf/icde/Jain98">
+        <author>Ramesh Jain</author>
+        <title>Content-based Multimedia Information Management.</title>
+        <pages>252-253</pages>
+        <cdrom>ICDE98/P252.pdf</cdrom>
+        <year>1998</year>
+        <booktitle>ICDE</booktitle>
+        <url>db/conf/icde/icde98.html#Jain98</url>
+        <crossref>conf/icde/98</crossref>
+        <ee>db/conf/icde/Jain98.html</ee>
+    </inproceedings>
+    <inproceedings mdate="2002-01-03" key="conf/icde/LiC98">
+        <author>Wen-Syan Li</author>
+        <author>K. Seluk Candan</author>
+        <title>SEMCOG: A Hybrid Object-based Image Database System and Its Modeling, Language, and Query Processing.</title>
+        <pages>284-291</pages>
+        <cdrom>ICDE98/P284.pdf</cdrom>
+        <year>1998</year>
+        <booktitle>ICDE</booktitle>
+        <url>db/conf/icde/icde98.html#LiC98</url>
+        <crossref>conf/icde/98</crossref>
+        <ee>db/conf/icde/LiC98.html</ee>
+        <cite>conf/icde/AslandoganTYLN95</cite>
+        <cite>conf/spieSR/BachFGHHHJS96</cite>
+        <cite>journals/computer/FlicknerSAHDGHLPSY95</cite>
+        <cite>conf/mm/SmithC96</cite>
+        <cite>conf/mm/KauT94</cite>
+        <cite>conf/ht/HirataHTK96</cite>
+        <cite>conf/vldb/LiCHH97</cite>
+        <cite>journals/cacm/Miller95</cite>
+        <cite>journals/computer/OgleS95</cite>
+        <cite>journals/tse/ChangYDA88</cite>
+        <cite>conf/vldb/SistlaYLL95</cite>
+    </inproceedings>
+    <inproceedings mdate="2002-01-03" key="conf/icde/Johnson98">
+        <author>Theodore Johnson</author>
+        <title>Coarse Indices for a Tape-Based Data Warehouse.</title>
+        <pages>231-240</pages>
+        <cdrom>ICDE98/P231.pdf</cdrom>
+        <year>1998</year>
+        <booktitle>ICDE</booktitle>
+        <url>db/conf/icde/icde98.html#Johnson98</url>
+        <crossref>conf/icde/98</crossref>
+        <ee>db/conf/icde/Johnson98.html</ee>
+        <cite>...</cite>
+        <cite>journals/cacm/Bloom70</cite>
+        <cite>conf/sigmod/CareyHL93</cite>
+        <cite>journals/is/ChenDKLRS95</cite>
+        <cite>...</cite>
+        <cite>conf/mss/DozierSF94</cite>
+        <cite>conf/mss/DrapeauK93</cite>
+        <cite>...</cite>
+        <cite>...</cite>
+        <cite>conf/sigmod/HarinarayanRU96</cite>
+        <cite>conf/sigmetrics/HillyerS96</cite>
+        <cite>conf/mss/Isaac93</cite>
+        <cite>conf/icde/GrayBLP96</cite>
+        <cite>...</cite>
+        <cite>...</cite>
+        <cite>conf/vldb/KilgerM94</cite>
+        <cite>conf/mss/KoblerBCH95</cite>
+        <cite>journals/tse/Mullin90</cite>
+        <cite>conf/sigmetrics/MyllymakiL95</cite>
+        <cite>journals/pe/MyllymakiL96</cite>
+        <cite>conf/sigmod/ONeilQ97</cite>
+        <cite>conf/mss/Sarawagi95</cite>
+        <cite>conf/vldb/Sarawagi95</cite>
+        <cite>conf/vldb/SarawagiS96</cite>
+        <cite>conf/sigmod/Stonebraker91</cite>
+        <cite>conf/vldb/Sullivan96</cite>
+        <cite>...</cite>
+        <cite>books/aw/Zipf49</cite>
+    </inproceedings>
+    <inproceedings mdate="2002-01-03" key="conf/icde/LangOKT98">
+        <author>Peter Lang</author>
+        <author>Werner Obermair</author>
+        <author>W. Kraus</author>
+        <author>Thomas Thalhammer</author>
+        <title>A Graphical Editor for the Conceptual Design of Business Rules.</title>
+        <pages>599</pages>
+        <cdrom>ICDE98/P599.pdf</cdrom>
+        <year>1998</year>
+        <booktitle>ICDE</booktitle>
+        <url>db/conf/icde/icde98.html#LangOKT98</url>
+        <crossref>conf/icde/98</crossref>
+        <ee>db/conf/icde/LangOKT98.html</ee>
+        <cite>conf/icde/KappelS91</cite>
+        <cite>conf/dexa/LangOS96</cite>
+        <cite>conf/icde/LangOS97</cite>
+    </inproceedings>
+    <inproceedings mdate="2002-01-03" key="conf/icde/KoudasS98">
+        <author>Nick Koudas</author>
+        <author>Kenneth C. Sevcik</author>
+        <title>High Dimensional Similarity Joins: Algorithms and Performance Evaluation.</title>
+        <pages>466-475</pages>
+        <cdrom>ICDE98/P466.pdf</cdrom>
+        <year>1998</year>
+        <booktitle>ICDE</booktitle>
+        <url>db/conf/icde/icde98.html#KoudasS98</url>
+        <crossref>conf/icde/98</crossref>
+        <ee>db/conf/icde/KoudasS98.html</ee>
+        <cite label="Ben80">journals/cacm/Bentley80</cite>
+        <cite label="BKK96">conf/vldb/BerchtoldKK96</cite>
+        <cite label="BKS93">conf/sigmod/BrinkhoffKS93</cite>
+        <cite label="BKSS90">conf/sigmod/BeckmannKSS90</cite>
+        <cite label="FRM94">conf/sigmod/FaloutsosRM94</cite>
+        <cite label="Gut84">conf/sigmod/Guttman84</cite>
+        <cite label="KS97a">...</cite>
+        <cite label="KS97b">conf/sigmod/KoudasS97</cite>
+        <cite label="LR96">conf/sigmod/LoR96</cite>
+        <cite label="Mel91">...</cite>
+        <cite label="Ore89">conf/sigmod/Orenstein89</cite>
+        <cite label="Ore91">conf/ssd/Orenstein91</cite>
+        <cite label="PD96">conf/sigmod/PatelD96</cite>
+        <cite label="PS85">books/sp/PreparataS85</cite>
+        <cite label="Rob81">conf/sigmod/Robinson81</cite>
+        <cite label="Sam90">books/aw/Samet90</cite>
+        <cite label="SSA97">conf/icde/ShimSA97</cite>
+    </inproceedings>
+    <inproceedings mdate="2002-01-03" key="conf/icde/LakshmananSGK98">
+        <author>Laks V. S. Lakshmanan</author>
+        <author>Subbu N. Subramanian</author>
+        <author>Nita Goyal</author>
+        <author>Ravi Krishnamurthy</author>
+        <title>On Query Spreadsheets.</title>
+        <pages>134-141</pages>
+        <cdrom>ICDE98/P134.pdf</cdrom>
+        <year>1998</year>
+        <booktitle>ICDE</booktitle>
+        <url>db/conf/icde/icde98.html#LakshmananSGK98</url>
+        <crossref>conf/icde/98</crossref>
+        <ee>db/conf/icde/LakshmananSGK98.html</ee>
+        <cite>conf/sigmod/AbiteboulCM95</cite>
+        <cite>...</cite>
+        <cite>...</cite>
+        <cite>conf/sigmod/Blakeley96</cite>
+        <cite>conf/sigmod/BunemanDHS96</cite>
+        <cite>conf/ride/CareyHSACFFLNPTWW95</cite>
+        <cite>conf/ipsj/ChawatheGHPUW94</cite>
+        <cite>conf/sigmod/ChristophidesACS94</cite>
+        <cite>conf/sigmod/ColbyGLMT96</cite>
+        <cite>conf/sigmod/GoyalHKMS96</cite>
+        <cite>conf/pods/GyssensLS96</cite>
+        <cite>journals/vldb/Hsiao92</cite>
+        <cite>...</cite>
+        <cite>conf/ride/LakshmananSS96</cite>
+        <cite>journals/jlp/LakshmananSS97</cite>
+        <cite>conf/vldb/LevyRO96</cite>
+        <cite>conf/dood/PapakonstantinouGGU95</cite>
+        <cite>...</cite>
+        <cite>journals/computer/Wiederhold92</cite>
+        <cite>...</cite>
+    </inproceedings>
+    <inproceedings mdate="2002-01-03" key="conf/icde/LeuteneggerL98">
+        <author>Scott T. Leutenegger</author>
+        <author>Mario A. Lopez</author>
+        <title>The Effect of Buffering on the Performance of R-Trees.</title>
+        <pages>164-171</pages>
+        <cdrom>ICDE98/P164.pdf</cdrom>
+        <year>1998</year>
+        <booktitle>ICDE</booktitle>
+        <url>db/conf/icde/icde98.html#LeuteneggerL98</url>
+        <crossref>conf/icde/98</crossref>
+        <ee>db/conf/icde/LeuteneggerL98.html</ee>
+        <cite>conf/sigmod/BeckmannKSS90</cite>
+        <cite>conf/icde/BhideDD93</cite>
+        <cite>conf/sigmod/Guttman84</cite>
+        <cite>conf/cikm/KamelF93</cite>
+        <cite>conf/vldb/KamelF94</cite>
+        <cite>...</cite>
+        <cite>conf/icde/LeuteneggerEL97</cite>
+        <cite>conf/pods/PagelSTW93</cite>
+        <cite>conf/sigmod/RoussopoulosL85</cite>
+        <cite>conf/vldb/SellisRF87</cite>
+        <cite>conf/pods/TheodoridisS96</cite>
+    </inproceedings>
+    <inproceedings mdate="2002-01-03" key="conf/icde/Leymann98">
+        <author>Frank Leymann</author>
+        <author>Dieter Roller</author>
+        <title>Building A Robust Workflow Management System With Persistent Queues and Stored Procedures.</title>
+        <pages>254-258</pages>
+        <cdrom>ICDE98/P254.pdf</cdrom>
+        <year>1998</year>
+        <booktitle>ICDE</booktitle>
+        <url>db/conf/icde/icde98.html#Leymann98</url>
+        <crossref>conf/icde/98</crossref>
+        <ee>db/conf/icde/Leymann98.html</ee>
+        <cite label="AMG+95">...</cite>
+        <cite label="Gra93">...</cite>
+        <cite label="Gra95">...</cite>
+        <cite label="Ley95a">conf/btw/Leymann95</cite>
+        <cite label="Ley95b">...</cite>
+        <cite label="Ley97">journals/ife/Leymann97</cite>
+        <cite label="LR97">journals/ibmsj/LeymannR97</cite>
+    </inproceedings>
+    <inproceedings mdate="2002-01-03" key="conf/icde/Lieuwen98">
+        <author>Daniel F. Lieuwen</author>
+        <title>Parallelizing Loops in Database Programming Languages.</title>
+        <pages>86-93</pages>
+        <cdrom>ICDE98/P086.pdf</cdrom>
+        <year>1998</year>
+        <booktitle>ICDE</booktitle>
+        <url>db/conf/icde/icde98.html#Lieuwen98</url>
+        <crossref>conf/icde/98</crossref>
+        <ee>db/conf/icde/Lieuwen98.html</ee>
+        <cite>conf/dbpl/AgrawalG89</cite>
+        <cite>journals/cacm/DeWittG92</cite>
+        <cite>conf/sigmod/DeWittKOSSW84</cite>
+        <cite>conf/vldb/DeWittNS91</cite>
+        <cite>...</cite>
+        <cite>conf/icde/GraefeM93</cite>
+        <cite>...</cite>
+        <cite>conf/dpds/HartDV88</cite>
+        <cite>conf/vldb/HasanM94</cite>
+        <cite>conf/vldb/HasanM95</cite>
+        <cite>conf/vldb/KitsuregawaO90</cite>
+        <cite>journals/ngc/KitsuregawaTM83</cite>
+        <cite>...</cite>
+        <cite>...</cite>
+        <cite>conf/dbpl/LieuwenD91</cite>
+        <cite>conf/sigmod/LieuwenD92</cite>
+        <cite>journals/cacm/PaduaW86</cite>
+        <cite>...</cite>
+        <cite>conf/pldi/RinardD96</cite>
+        <cite>...</cite>
+        <cite>...</cite>
+        <cite>conf/icde/Soloviev93</cite>
+    </inproceedings>
+    <inproceedings mdate="2002-01-03" key="conf/icde/LinD98">
+        <author>Jun-Lin Lin</author>
+        <author>Margaret H. Dunham</author>
+        <title>Mining Association Rules: Anti-Skew Algorithms.</title>
+        <pages>486-493</pages>
+        <cdrom>ICDE98/P486.pdf</cdrom>
+        <year>1998</year>
+        <booktitle>ICDE</booktitle>
+        <url>db/conf/icde/icde98.html#LinD98</url>
+        <crossref>conf/icde/98</crossref>
+        <ee>db/conf/icde/LinD98.html</ee>
+        <cite>conf/sigmod/AgrawalIS93</cite>
+        <cite>conf/vldb/AgrawalS94</cite>
+        <cite>journals/tkde/ChenHY96</cite>
+        <cite>books/mit/FayyadPSU96</cite>
+        <cite>...</cite>
+        <cite>conf/kdd/MannilaTV94</cite>
+        <cite>...</cite>
+        <cite>conf/vldb/SavasereON95</cite>
+        <cite>conf/vldb/Toivonen96</cite>
+        <cite>...</cite>
+    </inproceedings>
+    <inproceedings mdate="2002-01-03" key="conf/icde/LiuP98">
+        <author>Ling Liu</author>
+        <author>Calton Pu</author>
+        <title>Methodical Restructuring of Complex Workflow Activities.</title>
+        <pages>342-350</pages>
+        <cdrom>ICDE98/P342.pdf</cdrom>
+        <year>1998</year>
+        <booktitle>ICDE</booktitle>
+        <url>db/conf/icde/icde98.html#LiuP98</url>
+        <crossref>conf/icde/98</crossref>
+        <ee>db/conf/icde/LiuP98.html</ee>
+        <cite>conf/vldb/BancilhonKK85</cite>
+        <cite>conf/vldb/BargaP95</cite>
+        <cite>conf/sigmod/ChrysanthisR90</cite>
+        <cite>conf/sigmod/DayalHL90</cite>
+        <cite>conf/vldb/DayalHL91</cite>
+        <cite>conf/icde/DeaconSW94</cite>
+        <cite>books/mk/Elmagarmid92</cite>
+        <cite>conf/sigmod/Garcia-MolinaS87</cite>
+        <cite>conf/icde/GeorgakopoulosHKM94</cite>
+        <cite>journals/dpd/GeorgakopoulosHS95</cite>
+        <cite>journals/tods/LiuM96</cite>
+        <cite>...</cite>
+        <cite>...</cite>
+        <cite>...</cite>
+        <cite>conf/sigmod/Mohan94</cite>
+        <cite>journals/debu/MohanAGK95</cite>
+        <cite>conf/vldb/NodineZ90</cite>
+        <cite>conf/vldb/PuKH88</cite>
+        <cite>conf/vldb/RusinkiewiczKTWM95</cite>
+        <cite>books/mk/elmagarmid92/WachterR92</cite>
+        <cite>...</cite>
+    </inproceedings>
+    <inproceedings mdate="2002-01-03" key="conf/icde/LiuSYR98">
+        <author>King-Lup Liu</author>
+        <author>A. Prasad Sistla</author>
+        <author>Clement T. Yu</author>
+        <author>Naphtali Rishe</author>
+        <title>Query Processing in a Video Retrieval System.</title>
+        <pages>276-283</pages>
+        <cdrom>ICDE98/P276.pdf</cdrom>
+        <year>1998</year>
+        <booktitle>ICDE</booktitle>
+        <url>db/conf/icde/icde98.html#LiuSYR98</url>
+        <crossref>conf/icde/98</crossref>
+        <ee>db/conf/icde/LiuSYR98.html</ee>
+        <cite>conf/icde/AslandoganTYLN95</cite>
+        <cite>conf/sigir/AslandoganTYZR97</cite>
+        <cite>conf/er/BreitenederGT92</cite>
+        <cite>journals/tois/ChuaR95</cite>
+        <cite>conf/icde/DayDIKG95</cite>
+        <cite>conf/mm/DimitrovaG94</cite>
+        <cite>...</cite>
+        <cite>journals/mta/HampapurJW95</cite>
+        <cite>conf/vldb/HjelsvoldM94</cite>
+        <cite>...</cite>
+        <cite>...</cite>
+        <cite>journals/tkde/OomotoT93</cite>
+        <cite>...</cite>
+        <cite>journals/tkde/SistlaW95</cite>
+        <cite>conf/vldb/SistlaYH94</cite>
+        <cite>conf/vldb/SistlaYLL95</cite>
+        <cite>books/sp/subrahmanianJ96/SistlaY96</cite>
+        <cite>conf/icde/SistlaYV97</cite>
+        <cite>journals/ieeemm/WeissDG95</cite>
+    </inproceedings>
+    <inproceedings mdate="2002-01-03" key="conf/icde/LiuYGS98">
+        <author>Mengchi Liu</author>
+        <author>Weidong Yu</author>
+        <author>Min Guo</author>
+        <author>Riqiang Shan</author>
+        <title>ROL: A Prototype for Deductive and Object-Oriented Databases (Demo).</title>
+        <pages>598</pages>
+        <cdrom>ICDE98/P598.pdf</cdrom>
+        <year>1998</year>
+        <booktitle>ICDE</booktitle>
+        <url>db/conf/icde/icde98.html#LiuYGS98</url>
+        <crossref>conf/icde/98</crossref>
+        <ee>db/conf/icde/LiuYGS98.html</ee>
+        <cite>journals/is/Liu96</cite>
+        <cite>journals/jiis/Liu98</cite>
+        <cite>...</cite>
+    </inproceedings>
+    <inproceedings mdate="2002-01-03" key="conf/icde/Lomet98">
+        <author>David B. Lomet</author>
+        <title>Persistent Applications Using Generalized Redo Recovery.</title>
+        <pages>154-163</pages>
+        <cdrom>ICDE98/P154.pdf</cdrom>
+        <year>1998</year>
+        <booktitle>ICDE</booktitle>
+        <url>db/conf/icde/icde98.html#Lomet98</url>
+        <crossref>conf/icde/98</crossref>
+        <ee>db/conf/icde/Lomet98.html</ee>
+        <cite>conf/sosp/Bartlett81</cite>
+        <cite>books/aw/BernsteinHG87</cite>
+        <cite>conf/sigmod/BernsteinHM90</cite>
+        <cite>conf/vldb/BernsteinGW93</cite>
+        <cite>conf/sosp/BorgBG83</cite>
+        <cite>journals/tocs/BorgBGHO89</cite>
+        <cite>conf/vldb/Borr81</cite>
+        <cite>journals/tocs/ChangM88</cite>
+        <cite>books/mk/EppingerMS91</cite>
+        <cite>books/mk/GrayR93</cite>
+        <cite>journals/tocs/HaskinMSC88</cite>
+        <cite>journals/debu/Hsu93</cite>
+        <cite>journals/debu/Hsu95</cite>
+        <cite>...</cite>
+        <cite>conf/vldb/LometT95</cite>
+        <cite>...</cite>
+        <cite>journals/tods/MohanHLPS92</cite>
+        <cite>conf/icde/SalzbergT96</cite>
+        <cite>journals/tocs/StromY85</cite>
+    </inproceedings>
+    <inproceedings mdate="2002-01-03" key="conf/icde/MahajanDNAM98">
+        <author>Sameer Mahajan</author>
+        <author>Michael J. Donahoo</author>
+        <author>Shamkant B. Navathe</author>
+        <author>Mostafa H. Ammar</author>
+        <author>Sanjoy Malik</author>
+        <title>Grouping Techniques for Update Propagation in Intermittently Connected Databases.</title>
+        <pages>46-53</pages>
+        <cdrom>ICDE98/P046.pdf</cdrom>
+        <year>1998</year>
+        <booktitle>ICDE</booktitle>
+        <url>db/conf/icde/icde98.html#MahajanDNAM98</url>
+        <crossref>conf/icde/98</crossref>
+        <ee>db/conf/icde/MahajanDNAM98.html</ee>
+        <cite>...</cite>
+        <cite>journals/tocs/KistlerS92</cite>
+        <cite>conf/sosp/MummertES95</cite>
+        <cite>...</cite>
+        <cite>journals/tocs/DeeringC90</cite>
+        <cite>...</cite>
+        <cite>conf/sigmod/HermanGLW87</cite>
+        <cite>journals/debu/GuptaM95</cite>
+        <cite>conf/vldb/CeriW91</cite>
+        <cite>conf/sigmod/GriffinL95</cite>
+        <cite>conf/edbt/GuptaJM96</cite>
+        <cite>conf/sigmod/GuptaMS93</cite>
+        <cite>conf/deductive/HarrisonD92</cite>
+        <cite>conf/pods/LevyMSS95</cite>
+        <cite>conf/icde/MitschangPPLS93</cite>
+        <cite>journals/tkde/QianW91</cite>
+        <cite>conf/vldb/AdibaL80</cite>
+        <cite>conf/sigmod/LindsayHM86</cite>
+        <cite>conf/sigmod/BlakeleyLT86</cite>
+        <cite>journals/toplas/HorwitzT86</cite>
+        <cite>conf/sigmod/Hanson87</cite>
+        <cite>journals/computer/RoussopoulosK86</cite>
+        <cite>conf/pods/JagadishMS95</cite>
+        <cite>conf/icde/SegevF90</cite>
+        <cite>journals/tkde/SegevP89</cite>
+        <cite>...</cite>
+        <cite>journals/tc/WongA85</cite>
+        <cite>conf/vldb/AcharyaFZ96</cite>
+        <cite>books/fm/GareyJ79</cite>
+        <cite>...</cite>
+        <cite>journals/csur/BatiniL86</cite>
+        <cite>...</cite>
+    </inproceedings>
+    <inproceedings mdate="2002-01-03" key="conf/icde/MeoPC98">
+        <author>Rosa Meo</author>
+        <author>Giuseppe Psaila</author>
+        <author>Stefano Ceri</author>
+        <title>A Tightly-Coupled Architecture for Data Mining.</title>
+        <pages>316-323</pages>
+        <cdrom>ICDE98/P316.pdf</cdrom>
+        <year>1998</year>
+        <booktitle>ICDE</booktitle>
+        <url>db/conf/icde/icde98.html#MeoPC98</url>
+        <crossref>conf/icde/98</crossref>
+        <ee>db/conf/icde/MeoPC98.html</ee>
+        <cite>conf/sigmod/AgrawalIS93</cite>
+        <cite>conf/kdd/AgrawalS96</cite>
+        <cite>conf/vldb/AgrawalS94</cite>
+        <cite>conf/sebd/BaralisCMPRR97</cite>
+        <cite>...</cite>
+        <cite>conf/kdd/HanFWCGKLLRSXZ96</cite>
+        <cite>conf/vldb/Toivonen96</cite>
+        <cite>conf/kdd/ImielinskiVA96</cite>
+        <cite>...</cite>
+        <cite>...</cite>
+        <cite>conf/vldb/MeoPC96</cite>
+        <cite>conf/sigmod/ParkCY95</cite>
+        <cite>conf/vldb/SavasereON95</cite>
+    </inproceedings>
+    <inproceedings mdate="2002-01-03" key="conf/icde/MudumbaiSSPB98">
+        <author>Srilekha Mudumbai</author>
+        <author>Kshitij Shah</author>
+        <author>Amit P. Sheth</author>
+        <author>Krishnan Parasuraman</author>
+        <author>Clemens Bertram</author>
+        <title>ZEBRA Image Access System.</title>
+        <pages>602</pages>
+        <cdrom>ICDE98/P602.pdf</cdrom>
+        <year>1998</year>
+        <booktitle>ICDE</booktitle>
+        <url>db/conf/icde/icde98.html#MudumbaiSSPB98</url>
+        <crossref>conf/icde/98</crossref>
+        <ee>db/conf/icde/MudumbaiSSPB98.html</ee>
+    </inproceedings>
+    <inproceedings mdate="2002-01-03" key="conf/icde/ONeilWFCM98">
+        <author>Patrick E. O'Neil</author>
+        <author>Richard Winter</author>
+        <author>Clark D. French</author>
+        <author>Dan Crowley</author>
+        <author>William J. McKenna</author>
+        <title>Data Warehousing Lessons From Experience (Panel).</title>
+        <pages>294</pages>
+        <cdrom>ICDE98/P294.pdf</cdrom>
+        <year>1998</year>
+        <booktitle>ICDE</booktitle>
+        <url>db/conf/icde/icde98.html#ONeilWFCM98</url>
+        <crossref>conf/icde/98</crossref>
+        <ee>db/conf/icde/ONeilWFCM98.html</ee>
+        <cite label="STON">books/mk/Stonebraker94</cite>
+    </inproceedings>
+    <inproceedings mdate="2002-01-03" key="conf/icde/NaackeGT98">
+        <author>Hubert Naacke</author>
+        <author>Georges Gardarin</author>
+        <author>Anthony Tomasic</author>
+        <title>Leveraging Mediator Cost Models with Heterogeneous Data Sources.</title>
+        <pages>351-360</pages>
+        <cdrom>ICDE98/P351.pdf</cdrom>
+        <year>1998</year>
+        <booktitle>ICDE</booktitle>
+        <url>db/conf/icde/icde98.html#NaackeGT98</url>
+        <crossref>conf/icde/98</crossref>
+        <ee>db/conf/icde/NaackeGT98.html</ee>
+        <cite>conf/sigmod/Wiederhold93</cite>
+        <cite>conf/icdcs/TomasicRV96</cite>
+        <cite>conf/ride/CareyHSACFFLNPTWW95</cite>
+        <cite>conf/cikm/LiuP95</cite>
+        <cite>...</cite>
+        <cite>conf/cikm/GohMS94</cite>
+        <cite>...</cite>
+        <cite>journals/tods/BernsteinGWRR81</cite>
+        <cite>journals/tse/ApersHY83</cite>
+        <cite>journals/csur/YuC84</cite>
+        <cite>conf/vldb/DuKS92</cite>
+        <cite>conf/vldb/GardarinST96</cite>
+        <cite>books/acm/kim95/ShanADDK95</cite>
+        <cite>conf/vldb/GardarinGT95</cite>
+        <cite>conf/sigmod/AdaliCPS96</cite>
+        <cite>...</cite>
+        <cite>books/mk/Cattell96</cite>
+        <cite>conf/bda/KapitskaiaTV97</cite>
+        <cite>...</cite>
+        <cite>...</cite>
+        <cite>conf/sigmod/IoannidisP95</cite>
+        <cite>conf/sigmod/PoosalaIHS96</cite>
+        <cite>conf/ddb/DanielsSHLMWW82</cite>
+        <cite>conf/vldb/Chang82</cite>
+        <cite>...</cite>
+        <cite>conf/sigmod/BlottRS96</cite>
+        <cite>conf/vldb/SeshadriLR97</cite>
+    </inproceedings>
+    <inproceedings mdate="2002-01-03" key="conf/icde/NakanoIK98">
+        <author>Miyuki Nakano</author>
+        <author>Hiroomi Imai</author>
+        <author>Masaru Kitsuregawa</author>
+        <title>Performance Analysis of Parallel Hash Join Algorithms on a Distributed Shared Memory Machine: Implementation and Evaluation on HP Exemplar SPP 1600.</title>
+        <pages>76-85</pages>
+        <cdrom>ICDE98/P076.pdf</cdrom>
+        <year>1998</year>
+        <booktitle>ICDE</booktitle>
+        <url>db/conf/icde/icde98.html#NakanoIK98</url>
+        <crossref>conf/icde/98</crossref>
+        <ee>db/conf/icde/NakanoIK98.html</ee>
+        <cite>...</cite>
+        <cite>journals/computer/AmzaCDKLRYZ96</cite>
+        <cite>conf/sosp/CarterBZ91</cite>
+        <cite>conf/isca/BlumrichLADFS94</cite>
+        <cite>conf/vldb/BouganimFV96</cite>
+        <cite>conf/edbt/BouganimDV96</cite>
+        <cite>journals/tocs/CarterBZ95</cite>
+        <cite>conf/sigmetrics/ChapinHRG95</cite>
+        <cite>...</cite>
+        <cite>conf/sigmod/DeWittKOSSW84</cite>
+        <cite>journals/cacm/DeWittG92</cite>
+        <cite>...</cite>
+        <cite>journals/ngc/KitsuregawaTM83</cite>
+        <cite>conf/isca/KuskinOHHSGCNBHGRH94</cite>
+        <cite>journals/tocs/LiH89</cite>
+        <cite>journals/csur/MishraE92</cite>
+        <cite>conf/sigmod/ShatdalN93</cite>
+        <cite>journals/dpd/Valduriez93</cite>
+    </inproceedings>
+    <inproceedings mdate="2002-01-03" key="conf/icde/OzdenRS98">
+        <author>Banu zden</author>
+        <author>Sridhar Ramaswamy</author>
+        <author>Abraham Silberschatz</author>
+        <title>Cyclic Association Rules.</title>
+        <pages>412-421</pages>
+        <cdrom>ICDE98/P412.pdf</cdrom>
+        <year>1998</year>
+        <booktitle>ICDE</booktitle>
+        <url>db/conf/icde/icde98.html#OzdenRS98</url>
+        <crossref>conf/icde/98</crossref>
+        <ee>db/conf/icde/OzdenRS98.html</ee>
+        <cite label="AIS93">conf/sigmod/AgrawalIS93</cite>
+        <cite label="AS94">conf/vldb/AgrawalS94</cite>
+        <cite label="FMMT96">conf/sigmod/FukudaMMT96</cite>
+        <cite label="HF95">conf/vldb/HanF95</cite>
+        <cite label="PCY95">conf/sigmod/ParkCY95</cite>
+        <cite label="RMS97">...</cite>
+        <cite label="SA95">conf/vldb/SrikantA95</cite>
+        <cite label="SA96">conf/sigmod/SrikantA96</cite>
+        <cite label="SON95">conf/vldb/SavasereON95</cite>
+        <cite label="Toi96">conf/vldb/Toivonen96</cite>
+    </inproceedings>
+    <inproceedings mdate="2002-01-03" key="conf/icde/PajarolaOSSW98">
+        <author>Renato Pajarola</author>
+        <author>Thomas Ohler</author>
+        <author>Peter Stucki</author>
+        <author>Kornel Szabo</author>
+        <author>Peter Widmayer</author>
+        <title>The Alps at Your Fingertips: Virtual Reality and Geoinformation Systems.</title>
+        <pages>550-557</pages>
+        <cdrom>ICDE98/P550.pdf</cdrom>
+        <year>1998</year>
+        <booktitle>ICDE</booktitle>
+        <url>db/conf/icde/icde98.html#PajarolaOSSW98</url>
+        <crossref>conf/icde/98</crossref>
+        <ee>db/conf/icde/PajarolaOSSW98.html</ee>
+        <cite>...</cite>
+        <cite>conf/sigmod/BeckmannKSS90</cite>
+        <cite>...</cite>
+        <cite>...</cite>
+        <cite>conf/compgeom/BergD95</cite>
+        <cite>...</cite>
+        <cite>...</cite>
+        <cite>conf/sigmod/Guttman84</cite>
+        <cite>...</cite>
+        <cite>...</cite>
+        <cite>conf/btw/HenrichHSW91</cite>
+        <cite>conf/icde/HutfleszSW88</cite>
+        <cite>...</cite>
+        <cite>...</cite>
+        <cite>books/aw/Samet90</cite>
+        <cite>...</cite>
+        <cite>journals/cacm/Dam97</cite>
+    </inproceedings>
+    <inproceedings mdate="2002-01-03" key="conf/icde/PrabhakarAAA98">
+        <author>Sunil Prabhakar</author>
+        <author>Khaled A. S. Abdel-Ghaffar</author>
+        <author>Divyakant Agrawal</author>
+        <author>Amr El Abbadi</author>
+        <title>Cyclic Allocation of Two-Dimensional Data.</title>
+        <pages>94-101</pages>
+        <cdrom>ICDE98/P094.pdf</cdrom>
+        <year>1998</year>
+        <booktitle>ICDE</booktitle>
+        <url>db/conf/icde/icde98.html#PrabhakarAAA98</url>
+        <crossref>conf/icde/98</crossref>
+        <ee>db/conf/icde/PrabhakarAAA98.html</ee>
+        <cite label="AE97">conf/icdt/Abdel-GhaffarA97</cite>
+        <cite label="CC92">journals/is/ChenC92</cite>
+        <cite label="CDN+97">conf/adl/ChengDNPKWAAFSSS97</cite>
+        <cite label="CLRS86">journals/jacm/ChorLRS86</cite>
+        <cite label="DS82">journals/tods/DuS82</cite>
+        <cite label="FB93">conf/pdis/FaloutsosB93</cite>
+        <cite label="KP88">conf/sigmod/KimP88</cite>
+        <cite label="LSR92">conf/vldb/LiSR92</cite>
+        <cite label="PAAE97">...</cite>
+    </inproceedings>
+    <inproceedings mdate="2002-01-03" key="conf/icde/RabinovichBGLMM98">
+        <author>Michael Rabinovich</author>
+        <author>C. Mic Bowman</author>
+        <author>Hector Garcia-Molina</author>
+        <author>Alon Y. Levy</author>
+        <author>Susan Malaika</author>
+        <author>Alberto O. Mendelzon</author>
+        <title>WWW and the Internet - Did We Miss the Boat? (Panel).</title>
+        <pages>74</pages>
+        <cdrom>ICDE98/P074.pdf</cdrom>
+        <year>1998</year>
+        <booktitle>ICDE</booktitle>
+        <url>db/conf/icde/icde98.html#RabinovichBGLMM98</url>
+        <crossref>conf/icde/98</crossref>
+        <ee>db/conf/icde/RabinovichBGLMM98.html</ee>
+    </inproceedings>
+    <inproceedings mdate="2002-01-03" key="conf/icde/RastogiS98">
+        <author>Rajeev Rastogi</author>
+        <author>Kyuseok Shim</author>
+        <title>Mining Optimized Association Rules with Categorical and Numeric Attributes.</title>
+        <pages>503-512</pages>
+        <cdrom>ICDE98/P503.pdf</cdrom>
+        <year>1998</year>
+        <booktitle>ICDE</booktitle>
+        <url>db/conf/icde/icde98.html#RastogiS98</url>
+        <crossref>conf/icde/98</crossref>
+        <ee>db/conf/icde/RastogiS98.html</ee>
+        <cite>conf/sigmod/AgrawalIS93</cite>
+        <cite>conf/vldb/AgrawalS94</cite>
+        <cite>books/mit/FayyadPSU96</cite>
+        <cite>conf/sigmod/FukudaMMT96</cite>
+        <cite>conf/pods/FukudaMMT96</cite>
+        <cite>conf/vldb/HanF95</cite>
+        <cite>conf/kdd/MannilaTV94</cite>
+        <cite>books/mit/PF91/Piatetsky91</cite>
+        <cite>...</cite>
+        <cite>conf/vldb/SrikantA95</cite>
+        <cite>conf/sigmod/SrikantA96</cite>
+    </inproceedings>
+    <inproceedings mdate="2002-01-03" key="conf/icde/Salka98">
+        <author>Corey Salka</author>
+        <title>Ending the MOLAP/ROLAP Debate: Usage Based Aggregation and Flexible HOLAP (Abstract).</title>
+        <pages>180</pages>
+        <cdrom>ICDE98/P180.pdf</cdrom>
+        <year>1998</year>
+        <booktitle>ICDE</booktitle>
+        <url>db/conf/icde/icde98.html#Salka98</url>
+        <crossref>conf/icde/98</crossref>
+        <ee>db/conf/icde/Salka98.html</ee>
+    </inproceedings>
+    <inproceedings mdate="2005-03-10" key="conf/icde/SavasereON98">
+        <author>Ashok Savasere</author>
+        <author>Edward Omiecinski</author>
+        <author>Shamkant B. Navathe</author>
+        <title>Mining for Strong Negative Associations in a Large Database of Customer Transactions.</title>
+        <pages>494-502</pages>
+        <cdrom>ICDE98/P494.pdf</cdrom>
+        <year>1998</year>
+        <booktitle>ICDE</booktitle>
+        <url>db/conf/icde/icde98.html#SavasereON98</url>
+        <crossref>conf/icde/98</crossref>
+        <ee>db/conf/icde/SavasereON98.html</ee>
+        <cite>conf/sigmod/AgrawalIS93</cite>
+        <cite>conf/vldb/AgrawalS94</cite>
+        <cite>...</cite>
+        <cite>conf/vldb/HanF95</cite>
+        <cite>conf/icde/HoutsmaS95</cite>
+        <cite>journals/sigmod/KrishnamurthyI91</cite>
+        <cite>conf/kdd/MannilaTV94</cite>
+        <cite>conf/sigmod/ParkCY95</cite>
+        <cite>books/mit/PF91/Piatetsky91</cite>
+        <cite>books/mit/PiatetskyF91</cite>
+        <cite>conf/vldb/SavasereON95</cite>
+        <cite>journals/cacm/SilberschatzSU91</cite>
+        <cite>books/mit/PF91/SmythG91</cite>
+        <cite>conf/vldb/SrikantA95</cite>
+        <cite>conf/vldb/StonebrakerADNR93</cite>
+    </inproceedings>
+    <inproceedings mdate="2002-01-03" key="conf/icde/WuB98">
+        <author>Ming-Chuan Wu</author>
+        <author>Alejandro P. Buchmann</author>
+        <title>Encoded Bitmap Indexing for Data Warehouses.</title>
+        <pages>220-230</pages>
+        <cdrom>ICDE98/P220.pdf</cdrom>
+        <year>1998</year>
+        <booktitle>ICDE</booktitle>
+        <url>db/conf/icde/icde98.html#WuB98</url>
+        <crossref>conf/icde/98</crossref>
+        <ee>db/conf/icde/WuB98.html</ee>
+        <cite>journals/is/ChuK89</cite>
+        <cite>journals/csur/Comer79</cite>
+        <cite>...</cite>
+        <cite>conf/sigmod/Freeston95</cite>
+        <cite>books/mk/GrayR93</cite>
+        <cite>...</cite>
+        <cite>journals/debu/JohnsonS97</cite>
+        <cite>conf/vldb/LeslieJBY95</cite>
+        <cite>conf/hpts/ONeil87</cite>
+        <cite>journals/sigmod/ONeilG95</cite>
+        <cite>conf/sigmod/ONeilQ97</cite>
+        <cite>conf/icde/SarawagiS94</cite>
+        <cite>journals/debu/Sarawagi97</cite>
+        <cite>...</cite>
+        <cite>journals/tods/Valduriez87</cite>
+        <cite>...</cite>
+        <cite>conf/btw/WuB97</cite>
+        <cite>...</cite>
+        <cite>...</cite>
+    </inproceedings>
+    <inproceedings mdate="2002-01-03" key="conf/icde/SellentinM98">
+        <author>Jrgen Sellentin</author>
+        <author>Bernhard Mitschang</author>
+        <title>Data Intensive Intra- &amp; Internet Applications - Experiences Using Java and CORBA in the World Wide Web.</title>
+        <pages>302-311</pages>
+        <cdrom>ICDE98/P302.pdf</cdrom>
+        <year>1998</year>
+        <booktitle>ICDE</booktitle>
+        <url>db/conf/icde/icde98.html#SellentinM98</url>
+        <crossref>conf/icde/98</crossref>
+        <ee>db/conf/icde/SellentinM98.html</ee>
+        <cite>conf/sigmod/CareyDN93</cite>
+        <cite>...</cite>
+        <cite>journals/internet/HardwickSRM97</cite>
+        <cite>...</cite>
+        <cite>...</cite>
+        <cite>...</cite>
+        <cite>...</cite>
+        <cite>conf/icde/KemperK93</cite>
+        <cite>books/wi/OrfaliHE96</cite>
+        <cite>...</cite>
+        <cite>...</cite>
+        <cite>...</cite>
+        <cite>...</cite>
+        <cite>conf/btw/SellentinM97</cite>
+        <cite>...</cite>
+    </inproceedings>
+    <inproceedings mdate="2002-01-03" key="conf/icde/Simoudis98">
+        <author>Evangelos Simoudis</author>
+        <title>Industry Applications of Data Mining: Challenges &amp; Opportunities (Abstract).</title>
+        <pages>105</pages>
+        <cdrom>ICDE98/P105.pdf</cdrom>
+        <year>1998</year>
+        <booktitle>ICDE</booktitle>
+        <url>db/conf/icde/icde98.html#Simoudis98</url>
+        <crossref>conf/icde/98</crossref>
+        <ee>db/conf/icde/Simoudis98.html</ee>
+    </inproceedings>
+    <inproceedings mdate="2002-01-03" key="conf/icde/Stahl98">
+        <author>Earl Stahl</author>
+        <title>Employing Intelligent Agents for Knowledge Discovery (Abstract).</title>
+        <pages>104</pages>
+        <cdrom>ICDE98/P104.pdf</cdrom>
+        <year>1998</year>
+        <booktitle>ICDE</booktitle>
+        <url>db/conf/icde/icde98.html#Stahl98</url>
+        <crossref>conf/icde/98</crossref>
+        <ee>db/conf/icde/Stahl98.html</ee>
+    </inproceedings>
+    <inproceedings mdate="2002-01-03" key="conf/icde/SuleimanCF98">
+        <author>Maher Suleiman</author>
+        <author>Michle Cart</author>
+        <author>Jean Ferri</author>
+        <title>Concurrent Operations in a Distributed and Mobile Collaborative Environment.</title>
+        <pages>36-45</pages>
+        <cdrom>ICDE98/P036.pdf</cdrom>
+        <year>1998</year>
+        <booktitle>ICDE</booktitle>
+        <url>db/conf/icde/icde98.html#SuleimanCF98</url>
+        <crossref>conf/icde/98</crossref>
+        <ee>db/conf/icde/SuleimanCF98.html</ee>
+        <cite>...</cite>
+        <cite>...</cite>
+        <cite>...</cite>
+        <cite>conf/sigmod/EllisG89</cite>
+        <cite>journals/cacm/EllisGR91</cite>
+        <cite>...</cite>
+        <cite>...</cite>
+        <cite>...</cite>
+        <cite>conf/popl/GreifSW86</cite>
+        <cite>conf/icdcs/KarsentyB93</cite>
+        <cite>...</cite>
+        <cite>journals/cacm/Lamport78</cite>
+        <cite>...</cite>
+        <cite>...</cite>
+        <cite>...</cite>
+        <cite>...</cite>
+        <cite>...</cite>
+        <cite>...</cite>
+        <cite>journals/tc/Weihl88</cite>
+    </inproceedings>
+    <inproceedings mdate="2002-01-03" key="conf/icde/TheodoridisSS98">
+        <author>Yannis Theodoridis</author>
+        <author>Emmanuel Stefanakis</author>
+        <author>Timos K. Sellis</author>
+        <title>Cost Models for Join Queries in Spatial Databases.</title>
+        <pages>476-483</pages>
+        <cdrom>ICDE98/P476.pdf</cdrom>
+        <year>1998</year>
+        <booktitle>ICDE</booktitle>
+        <url>db/conf/icde/icde98.html#TheodoridisSS98</url>
+        <crossref>conf/icde/98</crossref>
+        <ee>db/conf/icde/TheodoridisSS98.html</ee>
+        <cite label="AS94">conf/gis/ArefS94</cite>
+        <cite label="BHF93">conf/icde/BeckerHF93</cite>
+        <cite label="BKK96">conf/vldb/BerchtoldKK96</cite>
+        <cite label="BKS93">conf/sigmod/BrinkhoffKS93</cite>
+        <cite label="BKS96">conf/icde/BrinkhoffKS96</cite>
+        <cite label="BKSS90">conf/sigmod/BeckmannKSS90</cite>
+        <cite label="BKSS94">conf/sigmod/BrinkhoffKSS94</cite>
+        <cite label="Bur91">...</cite>
+        <cite label="FK94">conf/pods/FaloutsosK94</cite>
+        <cite label="Gun93">conf/icde/Gunther93</cite>
+        <cite label="Gut84">conf/sigmod/Guttman84</cite>
+        <cite label="HKP97">conf/pods/HellersteinKP97</cite>
+        <cite label="KF93">conf/cikm/KamelF93</cite>
+        <cite label="KS97">conf/sigmod/KoudasS97</cite>
+        <cite label="LL98">conf/icde/LeuteneggerL98</cite>
+        <cite label="LR94">conf/sigmod/LoR94</cite>
+        <cite label="LR96">conf/sigmod/LoR96</cite>
+        <cite label="ME92">journals/csur/MishraE92</cite>
+        <cite label="Ore89">conf/sigmod/Orenstein89</cite>
+        <cite label="PD96">conf/sigmod/PatelD96</cite>
+        <cite label="PSTW93">conf/pods/PagelSTW93</cite>
+        <cite label="PT97">journals/gis/PapadiasT97</cite>
+        <cite label="PTS97">...</cite>
+        <cite label="Rot91">conf/icde/Rotem91</cite>
+        <cite label="TP95">conf/cosit/TheodoridisP95</cite>
+        <cite label="TS96">conf/pods/TheodoridisS96</cite>
+    </inproceedings>
+    <inproceedings mdate="2002-01-03" key="conf/icde/ThuraisinghamHRM98">
+        <author>Bhavani M. Thuraisingham</author>
+        <author>Sandra Heiler</author>
+        <author>Arnon Rosenthal</author>
+        <author>Susan Malaika</author>
+        <title>Migrating Legacy Databases and Applications (Panel).</title>
+        <pages>314</pages>
+        <cdrom>ICDE98/P314.pdf</cdrom>
+        <year>1998</year>
+        <booktitle>ICDE</booktitle>
+        <url>db/conf/icde/icde98.html#ThuraisinghamHRM98</url>
+        <crossref>conf/icde/98</crossref>
+        <ee>db/conf/icde/ThuraisinghamHRM98.html</ee>
+    </inproceedings>
+    <inproceedings mdate="2002-01-03" key="conf/icde/VenkataramanNL98">
+        <author>Shivakumar Venkataraman</author>
+        <author>Jeffrey F. Naughton</author>
+        <author>Miron Livny</author>
+        <title>Remote Load-Sensitive Caching for Multi-Server Database Systems.</title>
+        <pages>514-521</pages>
+        <cdrom>ICDE98/P514.pdf</cdrom>
+        <year>1998</year>
+        <booktitle>ICDE</booktitle>
+        <url>db/conf/icde/icde98.html#VenkataramanNL98</url>
+        <crossref>conf/icde/98</crossref>
+        <ee>db/conf/icde/VenkataramanNL98.html</ee>
+        <cite label="BCF+95">journals/micro/BodenCFKSSS95</cite>
+        <cite label="CDF+94">conf/sigmod/CareyDFHMNSSTTWZ94</cite>
+        <cite label="DWAP94">conf/osdi/DahlinWAP94</cite>
+        <cite label="DY91">conf/sigmetrics/DanDY91</cite>
+        <cite label="FCL92">conf/vldb/FranklinCL92</cite>
+        <cite label="FMP+95">conf/sosp/FeeleyMPKL95</cite>
+        <cite label="Rah92">conf/sigmod/Rahm92</cite>
+        <cite label="Ven96">...</cite>
+        <cite label="VLN95">conf/icde/VenkataramanLN95</cite>
+    </inproceedings>
+    <inproceedings mdate="2002-01-03" key="conf/icde/WolfsonCDJM98">
+        <author>Ouri Wolfson</author>
+        <author>Sam Chamberlain</author>
+        <author>Son Dao</author>
+        <author>Liqin Jiang</author>
+        <author>Gisela Mendez</author>
+        <title>Cost and Imprecision in Modeling the Position of Moving Objects.</title>
+        <pages>588-596</pages>
+        <cdrom>ICDE98/P588.pdf</cdrom>
+        <year>1998</year>
+        <booktitle>ICDE</booktitle>
+        <url>db/conf/icde/icde98.html#WolfsonCDJM98</url>
+        <crossref>conf/icde/98</crossref>
+        <ee>db/conf/icde/WolfsonCDJM98.html</ee>
+        <cite>books/aw/AbiteboulHV95</cite>
+        <cite>conf/pods/Kanellakis95</cite>
+        <cite>...</cite>
+        <cite>journals/computer/SnodgrassA86</cite>
+        <cite>books/aw/Samet90</cite>
+        <cite>books/acm/kim95/SametA95</cite>
+        <cite>...</cite>
+        <cite>conf/icde/SistlaWCD97</cite>
+        <cite>journals/computer/SnodgrassA86</cite>
+        <cite>books/bc/TanselCGJSS93</cite>
+    </inproceedings>
+    <inproceedings mdate="2002-01-03" key="conf/icde/WolskiB98">
+        <author>Antoni Wolski</author>
+        <author>Tarik Bouaziz</author>
+        <title>Fuzzy Triggers: Incorporating Imprecise Reasoning into Active Databases.</title>
+        <pages>108-115</pages>
+        <cdrom>ICDE98/P108.pdf</cdrom>
+        <year>1998</year>
+        <booktitle>ICDE</booktitle>
+        <url>db/conf/icde/icde98.html#WolskiB98</url>
+        <crossref>conf/icde/98</crossref>
+        <ee>db/conf/icde/WolskiB98.html</ee>
+        <cite label="BH95">conf/artdb/95</cite>
+        <cite label="BW97a">...</cite>
+        <cite label="BW97b">...</cite>
+        <cite label="BPKW97">conf/dexa/BouazizKPW97</cite>
+        <cite label="DEB89">...</cite>
+        <cite label="GKB+84">...</cite>
+        <cite label="IS89">...</cite>
+        <cite label="KY96">...</cite>
+        <cite label="LWL89">journals/dke/LeungWL89</cite>
+        <cite label="Men95">...</cite>
+        <cite label="MJ94">journals/cacm/MunakataJ94</cite>
+        <cite label="PBW96">...</cite>
+        <cite label="PDW+93">conf/rules/PatonDWCDJ93</cite>
+        <cite label="Pet96">...</cite>
+        <cite label="RSS+96">journals/sigmod/RamamrithamSSTX96</cite>
+        <cite label="SQL3">...</cite>
+        <cite label="Tuk91">...</cite>
+        <cite label="WC96a">books/mk/WidomC96</cite>
+        <cite label="WC96b">books/mk/widomC96/WidomC96</cite>
+        <cite label="WKP96">conf/rtdb/WolskiKP96</cite>
+        <cite label="Zad65">journals/iandc/Zadeh65</cite>
+        <cite label="Zad84">...</cite>
+        <cite label="Zad89">journals/tkde/Zadeh89</cite>
+        <cite label="ZK84">...</cite>
+    </inproceedings>
+    <inproceedings mdate="2002-01-03" key="conf/icde/XuEKS98">
+        <author>Xiaowei Xu</author>
+        <author>Martin Ester</author>
+        <author>Hans-Peter Kriegel</author>
+        <author>Jrg Sander</author>
+        <title>A Distribution-Based Clustering Algorithm for Mining in Large Spatial Databases.</title>
+        <pages>324-331</pages>
+        <cdrom>ICDE98/P324.pdf</cdrom>
+        <year>1998</year>
+        <booktitle>ICDE</booktitle>
+        <url>db/conf/icde/icde98.html#XuEKS98</url>
+        <crossref>conf/icde/98</crossref>
+        <ee>db/conf/icde/XuEKS98.html</ee>
+        <cite>...</cite>
+        <cite>conf/sigmod/BeckmannKSS90</cite>
+        <cite>...</cite>
+        <cite>...</cite>
+        <cite>...</cite>
+        <cite>...</cite>
+        <cite>conf/ssd/EsterKX95</cite>
+        <cite>books/mit/fayyadPSU96/FayyadPS96</cite>
+        <cite>journals/vldb/Guting94</cite>
+        <cite>books/wi/KaufmanR90</cite>
+        <cite>...</cite>
+        <cite>...</cite>
+        <cite>conf/vldb/NgH94</cite>
+        <cite>conf/sigmod/ZhangRL96</cite>
+    </inproceedings>
+    <inproceedings mdate="2002-01-03" key="conf/icde/ZhaoRTN98">
+        <author>Yihong Zhao</author>
+        <author>Karthikeyan Ramasamy</author>
+        <author>Kristin Tufte</author>
+        <author>Jeffrey F. Naughton</author>
+        <title>Array-Based Evaluation of Multi-Dimensional Queries in Object-Relational Databases Systems.</title>
+        <pages>241-249</pages>
+        <cdrom>ICDE98/P241.pdf</cdrom>
+        <year>1998</year>
+        <booktitle>ICDE</booktitle>
+        <url>db/conf/icde/icde98.html#ZhaoRTN98</url>
+        <crossref>conf/icde/98</crossref>
+        <ee>db/conf/icde/ZhaoRTN98.html</ee>
+        <cite label="CDFHM94">conf/sigmod/CareyDFHMNSSTTWZ94</cite>
+        <cite label="DKLPY94">conf/vldb/DeWittKLPY94</cite>
+        <cite label="OR95">...</cite>
+        <cite label="OQ97">conf/sigmod/ONeilQ97</cite>
+        <cite label="Su96">...</cite>
+        <cite label="Ki95">...</cite>
+        <cite label="RQZN">...</cite>
+        <cite label="Informix">...</cite>
+        <cite label="Redbrick">...</cite>
+        <cite label="SybaseIQ">...</cite>
+        <cite label="PMR96">conf/vldb/SeshadriLR96</cite>
+        <cite label="St96">books/mk/Stonebraker96</cite>
+        <cite label="SS94">conf/icde/SarawagiS94</cite>
+        <cite label="Wel84">journals/computer/Welch84</cite>
+        <cite label="Ki95">books/acm/Kim95</cite>
+        <cite label="ZDN97">conf/sigmod/ZhaoDN97</cite>
+    </inproceedings>
+    <inproceedings mdate="2002-01-03" key="conf/icde/YiJF98">
+        <author>Byoung-Kee Yi</author>
+        <author>H. V. Jagadish</author>
+        <author>Christos Faloutsos</author>
+        <title>Efficient Retrieval of Similar Time Sequences Under Time Warping.</title>
+        <pages>201-208</pages>
+        <cdrom>ICDE98/P201.pdf</cdrom>
+        <year>1998</year>
+        <booktitle>ICDE</booktitle>
+        <url>db/conf/icde/icde98.html#YiJF98</url>
+        <crossref>conf/icde/98</crossref>
+        <ee>db/conf/icde/YiJF98.html</ee>
+        <cite>conf/fodo/AgrawalFS93</cite>
+        <cite>conf/vldb/AgrawalLSS95</cite>
+        <cite>conf/sigmod/FaloutsosL95</cite>
+        <cite>conf/sigmod/FaloutsosRM94</cite>
+        <cite>conf/cp/GoldinK95</cite>
+        <cite>conf/pods/JagadishMM95</cite>
+        <cite>conf/vldb/KornSFSP96</cite>
+        <cite>...</cite>
+        <cite>conf/sigmod/RafieiM97</cite>
+        <cite>books/mg/SaltonG83</cite>
+        <cite>...</cite>
+        <cite>conf/sigmod/SeshadriLR94</cite>
+        <cite>...</cite>
+        <cite>...</cite>
+    </inproceedings>
+    <inproceedings mdate="2002-01-03" key="conf/icde/ZhugeG98">
+        <author>Yue Zhuge</author>
+        <author>Hector Garcia-Molina</author>
+        <title>Graph Structured Views and Their Incremental Maintenance.</title>
+        <pages>116-125</pages>
+        <cdrom>ICDE98/P116.pdf</cdrom>
+        <year>1998</year>
+        <booktitle>ICDE</booktitle>
+        <url>db/conf/icde/icde98.html#ZhugeG98</url>
+        <crossref>conf/icde/98</crossref>
+        <ee>db/conf/icde/ZhugeG98.html</ee>
+        <cite>conf/sigmod/AbiteboulB91</cite>
+        <cite>journals/jodl/AbiteboulQMWW97</cite>
+        <cite>books/mk/BancilhonDK92</cite>
+        <cite>conf/sigmod/BunemanDHS96</cite>
+        <cite>books/mk/Cattell94</cite>
+        <cite>conf/sigmod/CluetD92</cite>
+        <cite>journals/debu/GuptaM95</cite>
+        <cite>conf/vldb/HullY90</cite>
+        <cite>conf/sigmod/KiferKS92</cite>
+        <cite>conf/vldb/KonopnickiS95</cite>
+        <cite>conf/vldb/PapakonstantinouAG96</cite>
+        <cite>conf/icde/PapakonstantinouGW95</cite>
+        <cite>conf/dood/QuassRSUW95</cite>
+        <cite>conf/vldb/Rundensteiner92</cite>
+        <cite>conf/vldb/Suciu96</cite>
+        <cite>...</cite>
+        <cite>...</cite>
+    </inproceedings>
+    <inproceedings mdate="2002-01-03" key="conf/icde/ZouSL98">
+        <author>Chendong Zou</author>
+        <author>Betty Salzberg</author>
+        <author>Rivka Ladin</author>
+        <title>Back to the Future: Dynamic Hierarchical Clustering.</title>
+        <pages>578-587</pages>
+        <cdrom>ICDE98/P578.pdf</cdrom>
+        <year>1998</year>
+        <booktitle>ICDE</booktitle>
+        <url>db/conf/icde/icde98.html#ZouSL98</url>
+        <crossref>conf/icde/98</crossref>
+        <ee>db/conf/icde/ZouSL98.html</ee>
+        <cite label="BK89">journals/tkde/BertinoK89</cite>
+        <cite label="Cat91">books/aw/Cattell91</cite>
+        <cite label="CDN93">conf/sigmod/CareyDN93</cite>
+        <cite label="KM90">conf/sigmod/KemperM90</cite>
+        <cite label="LLOW91">journals/cacm/LambLOW91</cite>
+        <cite label="MS86">conf/oodbs/MaierS86</cite>
+        <cite label="Sal88">books/ph/Salzberg88</cite>
+        <cite label="SPSW90">journals/tkde/SchekPSW90</cite>
+        <cite label="Tan87">conf/hpts/Group87</cite>
+        <cite label="TN91">conf/sigmod/TsangarisN91</cite>
+        <cite label="ZSL95">...</cite>
+    </inproceedings>
+</dblp>

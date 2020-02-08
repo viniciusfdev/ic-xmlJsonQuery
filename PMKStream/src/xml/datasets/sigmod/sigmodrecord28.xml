@@ -1,0 +1,516 @@
+<SigmodRecord>
+<issues>
+    <issue>
+        <volume>28</volume>
+ <number>1</number>
+    <articles>
+            <article>
+                <title>A Study on Data Point Search for HG-Trees.</title>
+ <initPage>90</initPage>
+ <endPage>96</endPage>
+          <authors>
+                    <author position="00">Joseph Kuan</author>
+ <author position="01">Paul Lewis</author>
+          </authors>
+     </article>
+
+     <article>
+                <title>Agent-Based Semantic Interoperability in InfoSleuth.</title>
+ <initPage>60</initPage>
+ <endPage>67</endPage>
+          <authors>
+                    <author position="00">Jerry Fowler</author>
+ <author position="01">Brad Perry</author>
+ <author position="02">Marian H. Nodine</author>
+ <author position="03">Bruce Bargmeyer</author>
+          </authors>
+     </article>
+
+     <article>
+                <title>Chair's Message.</title>
+ <initPage>3</initPage>
+ <endPage>3</endPage>
+          <authors>
+                    <author position="00">Richard T. Snodgrass</author>
+ <author position="00">Won Kim</author>
+          </authors>
+     </article>
+
+     <article>
+                <title>Contextualizing the Information Space in Federated Digital Libraries.</title>
+ <initPage>40</initPage>
+ <endPage>46</endPage>
+          <authors>
+                    <author position="00">Mike P. Papazoglou</author>
+ <author position="01">J. Hoppenbrouwers</author>
+          </authors>
+     </article>
+
+     <article>
+                <title>Design Principles for Data-Intensive Web Sites.</title>
+ <initPage>84</initPage>
+ <endPage>89</endPage>
+          <authors>
+                    <author position="00">Stefano Ceri</author>
+ <author position="01">Piero Fraternali</author>
+ <author position="02">Stefano Paraboschi</author>
+          </authors>
+     </article>
+
+     <article>
+                <title>Dynamic Service Matchmaking Among Agents in Open Information Environments.</title>
+ <initPage>47</initPage>
+ <endPage>53</endPage>
+          <authors>
+                    <author position="00">Katia P. Sycara</author>
+ <author position="01">Matthias Klusch</author>
+ <author position="02">Seth Widoff</author>
+ <author position="03">Jianguo Lu</author>
+          </authors>
+     </article>
+
+     <article>
+                <title>Editor's Notes.</title>
+ <initPage>2</initPage>
+ <endPage>2</endPage>
+          <authors>
+                    <author position="00">Arie Segev</author>
+ <author position="00">Jennifer Widom</author>
+ <author position="00">Michael J. Franklin</author>
+          </authors>
+     </article>
+
+     <article>
+                <title>Efficient Materialization and Use of Views in Data Warehouses.</title>
+ <initPage>78</initPage>
+ <endPage>83</endPage>
+          <authors>
+                    <author position="00">Mrcio Farias de Souza</author>
+ <author position="01">Marcus Costa Sampaio</author>
+          </authors>
+     </article>
+
+     <article>
+                <title>Message from Editor-in-Chief, ACM Transactions on Database Systems.</title>
+ <initPage>2</initPage>
+ <endPage>2</endPage>
+          <authors>
+                    <author position="00">Won Kim</author>
+          </authors>
+     </article>
+
+     <article>
+                <title>NSF Workshop on Industrial/Academic Cooperation in Database Systems.</title>
+ <initPage>115</initPage>
+ <endPage>130</endPage>
+          <authors>
+                    <author position="00">Michael J. Carey</author>
+ <author position="01">Leonard J. Seligman</author>
+          </authors>
+     </article>
+
+     <article>
+                <title>Reminiscences on Influential Papers.</title>
+ <initPage>110</initPage>
+ <endPage>114</endPage>
+          <authors>
+                    <author position="00">Richard T. Snodgrass</author>
+ <author position="01">Serge Abiteboul</author>
+ <author position="02">Sophie Cluet</author>
+ <author position="03">Michael J. Franklin</author>
+ <author position="04">Guy M. Lohman</author>
+ <author position="05">David B. Lomet</author>
+ <author position="06">Gultekin zsoyoglu</author>
+ <author position="07">Raghu Ramakrishnan</author>
+ <author position="08">Kenneth A. Ross</author>
+ <author position="09">Timos K. Sellis</author>
+ <author position="10">Patrick Valduriez</author>
+          </authors>
+     </article>
+
+     <article>
+                <title>Report on the 13th Brazilian Symposium on Database Systems (SBBD'98).</title>
+ <initPage>76</initPage>
+ <endPage>77</endPage>
+          <authors>
+                    <author position="00">Mario A. Nascimento</author>
+ <author position="01">Claudia Bauyer Medeiros</author>
+          </authors>
+     </article>
+
+     <article>
+                <title>Semantic and Pedagogic Interoperability Mechanisms in the ARIADNE Educational Repository.</title>
+ <initPage>20</initPage>
+ <endPage>25</endPage>
+          <authors>
+                    <author position="00">E. Forte</author>
+ <author position="01">F. Haenni</author>
+ <author position="02">K. Warkentyne</author>
+ <author position="03">Erik Duval</author>
+ <author position="04">K. Cardinaels</author>
+ <author position="05">E. Vervaet</author>
+ <author position="06">K. Hendrikx</author>
+ <author position="07">M. Wentland Forte</author>
+ <author position="08">F. Simillion</author>
+          </authors>
+     </article>
+
+     <article>
+                <title>Semantic Integration of Environmental Models for Application to Global Information Systems and Decision-Making.</title>
+ <initPage>13</initPage>
+ <endPage>19</endPage>
+          <authors>
+                    <author position="00">D. Scott Mackay</author>
+          </authors>
+     </article>
+
+     <article>
+                <title>Semantic Integration of Semistructured and Structured Data Sources.</title>
+ <initPage>54</initPage>
+ <endPage>59</endPage>
+          <authors>
+                    <author position="00">Sonia Bergamaschi</author>
+ <author position="01">Silvana Castano</author>
+ <author position="02">Maurizio Vincini</author>
+          </authors>
+     </article>
+
+     <article>
+                <title>Semantic Interoperability in Global Information Systems: A Brief Introduction to the Research Area and the Special Section.</title>
+ <initPage>5</initPage>
+ <endPage>12</endPage>
+          <authors>
+                    <author position="00">M. Aris Ouksel</author>
+ <author position="01">Amit P. Sheth</author>
+          </authors>
+     </article>
+
+     <article>
+                <title>Semantic Interoperability in Information Services: Experiencing with CoopWARE.</title>
+ <initPage>68</initPage>
+ <endPage>75</endPage>
+          <authors>
+                    <author position="00">Agigdor Gal</author>
+          </authors>
+     </article>
+
+     <article>
+                <title>Semantic Video Indexing: Approach and Issue.</title>
+ <initPage>32</initPage>
+ <endPage>39</endPage>
+          <authors>
+                    <author position="00">Arun Hampapur</author>
+          </authors>
+     </article>
+
+     <article>
+                <title>SQL: 1999, formerly known as SQL 3.</title>
+ <initPage>131</initPage>
+ <endPage>138</endPage>
+          <authors>
+                    <author position="00">Andrew Eisenberg</author>
+ <author position="01">Jim Melton</author>
+          </authors>
+     </article>
+
+     <article>
+                <title>Statement from the Treasurer.</title>
+ <initPage>4</initPage>
+ <endPage>4</endPage>
+          <authors>
+                    <author position="00">Eric N. Hanson</author>
+          </authors>
+     </article>
+
+     <article>
+                <title>The OASIS Multidatabase Prototype.</title>
+ <initPage>97</initPage>
+ <endPage>103</endPage>
+          <authors>
+                    <author position="00">Mark Roantree</author>
+ <author position="01">John Murphy</author>
+ <author position="02">Wilhelm Hasselbring</author>
+          </authors>
+     </article>
+
+     <article>
+                <title>Unpacking The Semantics of Source and Usage To Perform Semantic Reconciliation In Large-Scale Information Systems.</title>
+ <initPage>26</initPage>
+ <endPage>31</endPage>
+          <authors>
+                    <author position="00">Ken Smith</author>
+ <author position="01">Leo Obrst</author>
+          </authors>
+     </article>
+
+     <article>
+                <title>VideoAnywhere: A System for Searching and Managing Distributed Video Assets.</title>
+ <initPage>104</initPage>
+ <endPage>109</endPage>
+          <authors>
+                    <author position="00">Amit P. Sheth</author>
+ <author position="01">Clemens Bertram</author>
+ <author position="02">Kshitij Shah</author>
+          </authors>
+     </article>
+
+    </articles>
+  </issue>
+    <issue>
+        <volume>28</volume>
+ <number>1</number>
+    <articles>
+            <article>
+                <title>A Study on Data Point Search for HG-Trees.</title>
+ <initPage>90</initPage>
+ <endPage>96</endPage>
+          <authors>
+                    <author position="00">Joseph Kuan</author>
+ <author position="01">Paul Lewis</author>
+          </authors>
+     </article>
+
+     <article>
+                <title>Agent-Based Semantic Interoperability in InfoSleuth.</title>
+ <initPage>60</initPage>
+ <endPage>67</endPage>
+          <authors>
+                    <author position="00">Jerry Fowler</author>
+ <author position="01">Brad Perry</author>
+ <author position="02">Marian H. Nodine</author>
+ <author position="03">Bruce Bargmeyer</author>
+          </authors>
+     </article>
+
+     <article>
+                <title>Chair's Message.</title>
+ <initPage>3</initPage>
+ <endPage>3</endPage>
+          <authors>
+                    <author position="00">Richard T. Snodgrass</author>
+ <author position="00">Won Kim</author>
+          </authors>
+     </article>
+
+     <article>
+                <title>Contextualizing the Information Space in Federated Digital Libraries.</title>
+ <initPage>40</initPage>
+ <endPage>46</endPage>
+          <authors>
+                    <author position="00">Mike P. Papazoglou</author>
+ <author position="01">J. Hoppenbrouwers</author>
+          </authors>
+     </article>
+
+     <article>
+                <title>Design Principles for Data-Intensive Web Sites.</title>
+ <initPage>84</initPage>
+ <endPage>89</endPage>
+          <authors>
+                    <author position="00">Stefano Ceri</author>
+ <author position="01">Piero Fraternali</author>
+ <author position="02">Stefano Paraboschi</author>
+          </authors>
+     </article>
+
+     <article>
+                <title>Dynamic Service Matchmaking Among Agents in Open Information Environments.</title>
+ <initPage>47</initPage>
+ <endPage>53</endPage>
+          <authors>
+                    <author position="00">Katia P. Sycara</author>
+ <author position="01">Matthias Klusch</author>
+ <author position="02">Seth Widoff</author>
+ <author position="03">Jianguo Lu</author>
+          </authors>
+     </article>
+
+     <article>
+                <title>Editor's Notes.</title>
+ <initPage>2</initPage>
+ <endPage>2</endPage>
+          <authors>
+                    <author position="00">Arie Segev</author>
+ <author position="00">Jennifer Widom</author>
+ <author position="00">Michael J. Franklin</author>
+          </authors>
+     </article>
+
+     <article>
+                <title>Efficient Materialization and Use of Views in Data Warehouses.</title>
+ <initPage>78</initPage>
+ <endPage>83</endPage>
+          <authors>
+                    <author position="00">Mrcio Farias de Souza</author>
+ <author position="01">Marcus Costa Sampaio</author>
+          </authors>
+     </article>
+
+     <article>
+                <title>Message from Editor-in-Chief, ACM Transactions on Database Systems.</title>
+ <initPage>2</initPage>
+ <endPage>2</endPage>
+          <authors>
+                    <author position="00">Won Kim</author>
+          </authors>
+     </article>
+
+     <article>
+                <title>NSF Workshop on Industrial/Academic Cooperation in Database Systems.</title>
+ <initPage>115</initPage>
+ <endPage>130</endPage>
+          <authors>
+                    <author position="00">Michael J. Carey</author>
+ <author position="01">Leonard J. Seligman</author>
+          </authors>
+     </article>
+
+     <article>
+                <title>Reminiscences on Influential Papers.</title>
+ <initPage>110</initPage>
+ <endPage>114</endPage>
+          <authors>
+                    <author position="00">Richard T. Snodgrass</author>
+ <author position="01">Serge Abiteboul</author>
+ <author position="02">Sophie Cluet</author>
+ <author position="03">Michael J. Franklin</author>
+ <author position="04">Guy M. Lohman</author>
+ <author position="05">David B. Lomet</author>
+ <author position="06">Gultekin zsoyoglu</author>
+ <author position="07">Raghu Ramakrishnan</author>
+ <author position="08">Kenneth A. Ross</author>
+ <author position="09">Timos K. Sellis</author>
+ <author position="10">Patrick Valduriez</author>
+          </authors>
+     </article>
+
+     <article>
+                <title>Report on the 13th Brazilian Symposium on Database Systems (SBBD'98).</title>
+ <initPage>76</initPage>
+ <endPage>77</endPage>
+          <authors>
+                    <author position="00">Mario A. Nascimento</author>
+ <author position="01">Claudia Bauyer Medeiros</author>
+          </authors>
+     </article>
+
+     <article>
+                <title>Semantic and Pedagogic Interoperability Mechanisms in the ARIADNE Educational Repository.</title>
+ <initPage>20</initPage>
+ <endPage>25</endPage>
+          <authors>
+                    <author position="00">E. Forte</author>
+ <author position="01">F. Haenni</author>
+ <author position="02">K. Warkentyne</author>
+ <author position="03">Erik Duval</author>
+ <author position="04">K. Cardinaels</author>
+ <author position="05">E. Vervaet</author>
+ <author position="06">K. Hendrikx</author>
+ <author position="07">M. Wentland Forte</author>
+ <author position="08">F. Simillion</author>
+          </authors>
+     </article>
+
+     <article>
+                <title>Semantic Integration of Environmental Models for Application to Global Information Systems and Decision-Making.</title>
+ <initPage>13</initPage>
+ <endPage>19</endPage>
+          <authors>
+                    <author position="00">D. Scott Mackay</author>
+          </authors>
+     </article>
+
+     <article>
+                <title>Semantic Integration of Semistructured and Structured Data Sources.</title>
+ <initPage>54</initPage>
+ <endPage>59</endPage>
+          <authors>
+                    <author position="00">Sonia Bergamaschi</author>
+ <author position="01">Silvana Castano</author>
+ <author position="02">Maurizio Vincini</author>
+          </authors>
+     </article>
+
+     <article>
+                <title>Semantic Interoperability in Global Information Systems: A Brief Introduction to the Research Area and the Special Section.</title>
+ <initPage>5</initPage>
+ <endPage>12</endPage>
+          <authors>
+                    <author position="00">M. Aris Ouksel</author>
+ <author position="01">Amit P. Sheth</author>
+          </authors>
+     </article>
+
+     <article>
+                <title>Semantic Interoperability in Information Services: Experiencing with CoopWARE.</title>
+ <initPage>68</initPage>
+ <endPage>75</endPage>
+          <authors>
+                    <author position="00">Agigdor Gal</author>
+          </authors>
+     </article>
+
+     <article>
+                <title>Semantic Video Indexing: Approach and Issue.</title>
+ <initPage>32</initPage>
+ <endPage>39</endPage>
+          <authors>
+                    <author position="00">Arun Hampapur</author>
+          </authors>
+     </article>
+
+     <article>
+                <title>SQL: 1999, formerly known as SQL 3.</title>
+ <initPage>131</initPage>
+ <endPage>138</endPage>
+          <authors>
+                    <author position="00">Andrew Eisenberg</author>
+ <author position="01">Jim Melton</author>
+          </authors>
+     </article>
+
+     <article>
+                <title>Statement from the Treasurer.</title>
+ <initPage>4</initPage>
+ <endPage>4</endPage>
+          <authors>
+                    <author position="00">Eric N. Hanson</author>
+          </authors>
+     </article>
+
+     <article>
+                <title>The OASIS Multidatabase Prototype.</title>
+ <initPage>97</initPage>
+ <endPage>103</endPage>
+          <authors>
+                    <author position="00">Mark Roantree</author>
+ <author position="01">John Murphy</author>
+ <author position="02">Wilhelm Hasselbring</author>
+          </authors>
+     </article>
+
+     <article>
+                <title>Unpacking The Semantics of Source and Usage To Perform Semantic Reconciliation In Large-Scale Information Systems.</title>
+ <initPage>26</initPage>
+ <endPage>31</endPage>
+          <authors>
+                    <author position="00">Ken Smith</author>
+ <author position="01">Leo Obrst</author>
+          </authors>
+     </article>
+
+     <article>
+                <title>VideoAnywhere: A System for Searching and Managing Distributed Video Assets.</title>
+ <initPage>104</initPage>
+ <endPage>109</endPage>
+          <authors>
+                    <author position="00">Amit P. Sheth</author>
+ <author position="01">Clemens Bertram</author>
+ <author position="02">Kshitij Shah</author>
+          </authors>
+     </article>
+
+    </articles>
+  </issue>
+</issues>
+</SigmodRecord>

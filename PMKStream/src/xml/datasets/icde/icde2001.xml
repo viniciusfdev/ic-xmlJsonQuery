@@ -1,0 +1,895 @@
+<dblp>
+    <inproceedings mdate="2007-07-26" key="conf/icde/AlonsoBPHK01">
+<author>Gustavo Alonso</author>
+<author>Win Bausch</author>
+<author>Cesare Pautasso</author>
+<author>Ari Kahn</author>
+<author>Michael T. Hallett</author>
+<title>Dependable Computing in Virtual Laboratories.</title>
+<year>2001</year>
+<crossref>conf/icde/2001</crossref>
+<booktitle>ICDE</booktitle>
+<url>db/conf/icde/icde2001.html#AlonsoBPHK01</url>
+<pages>235-242</pages>
+<ee>http://doi.ieeecomputersociety.org/10.1109/ICDE.2001.914834</ee>
+</inproceedings>
+    <inproceedings mdate="2007-07-26" key="conf/icde/AgesenBPT01">
+<author>Mikkel Agesen</author>
+<author>Michael H. Bhlen</author>
+<author>Lasse Poulsen</author>
+<author>Kristian Torp</author>
+<title>A Split Operator for Now-Relative Bitemporal Databases.</title>
+<year>2001</year>
+<crossref>conf/icde/2001</crossref>
+<booktitle>ICDE</booktitle>
+<url>db/conf/icde/icde2001.html#AgesenBPT01</url>
+<pages>41-50</pages>
+<ee>http://doi.ieeecomputersociety.org/10.1109/ICDE.2001.914812</ee>
+</inproceedings>
+    <inproceedings mdate="2007-07-26" key="conf/icde/AnYS01">
+<author>Ning An</author>
+<author>Zhen-Yu Yang</author>
+<author>Anand Sivasubramaniam</author>
+<title>Selectivity Estimation for Spatial Joins.</title>
+<year>2001</year>
+<crossref>conf/icde/2001</crossref>
+<booktitle>ICDE</booktitle>
+<url>db/conf/icde/icde2001.html#AnYS01</url>
+<pages>368-375</pages>
+<ee>http://doi.ieeecomputersociety.org/10.1109/ICDE.2001.914849</ee>
+</inproceedings>
+    <inproceedings mdate="2007-07-26" key="conf/icde/AkindeCJK01">
+<author>Damianos Chatziantoniou</author>
+<author>Michael O. Akinde</author>
+<author>Theodore Johnson</author>
+<author>Samuel Kim</author>
+<title>The MD-join: An Operator for Complex OLAP.</title>
+<year>2001</year>
+<crossref>conf/icde/2001</crossref>
+<booktitle>ICDE</booktitle>
+<url>db/conf/icde/icde2001.html#AkindeCJK01</url>
+<pages>524-533</pages>
+<ee>http://doi.ieeecomputersociety.org/10.1109/ICDE.2001.914866</ee>
+</inproceedings>
+    <inproceedings mdate="2007-07-26" key="conf/icde/BargaL01">
+<author>Roger S. Barga</author>
+<author>David B. Lomet</author>
+<title>Measuring and Optimizing a System for Persistent Database Sessions.</title>
+<year>2001</year>
+<crossref>conf/icde/2001</crossref>
+<booktitle>ICDE</booktitle>
+<url>db/conf/icde/icde2001.html#BargaL01</url>
+<pages>21-30</pages>
+<ee>http://doi.ieeecomputersociety.org/10.1109/ICDE.2001.914810</ee>
+</inproceedings>
+    <inproceedings mdate="2007-07-26" key="conf/icde/BohmK01">
+<author>Christian Bhm</author>
+<author>Hans-Peter Kriegel</author>
+<title>A Cost Model and Index Architecture for the Similarity Join.</title>
+<year>2001</year>
+<crossref>conf/icde/2001</crossref>
+<booktitle>ICDE</booktitle>
+<url>db/conf/icde/icde2001.html#BohmK01</url>
+<pages>411-420</pages>
+<ee>http://doi.ieeecomputersociety.org/10.1109/ICDE.2001.914854</ee>
+</inproceedings>
+    <inproceedings mdate="2007-07-26" key="conf/icde/BohmMW01">
+<author>Klemens Bhm</author>
+<author>Michael Mlivoncic</author>
+<author>Roger Weber</author>
+<title>Quality-Aware and Load-Sensitive Planning of Image Similarity Queries.</title>
+<year>2001</year>
+<crossref>conf/icde/2001</crossref>
+<booktitle>ICDE</booktitle>
+<url>db/conf/icde/icde2001.html#BohmMW01</url>
+<pages>401-410</pages>
+<ee>http://doi.ieeecomputersociety.org/10.1109/ICDE.2001.914853</ee>
+</inproceedings>
+    <inproceedings mdate="2007-07-26" key="conf/icde/BorzsonyiKS01">
+<author>Stephan Brzsnyi</author>
+<author>Donald Kossmann</author>
+<author>Konrad Stocker</author>
+<title>The Skyline Operator.</title>
+<year>2001</year>
+<crossref>conf/icde/2001</crossref>
+<booktitle>ICDE</booktitle>
+<url>db/conf/icde/icde2001.html#BorzsonyiKS01</url>
+<pages>421-430</pages>
+<ee>http://doi.ieeecomputersociety.org/10.1109/ICDE.2001.914855</ee>
+</inproceedings>
+    <inproceedings mdate="2007-07-26" key="conf/icde/Bosworth01">
+<author>Adam Bosworth</author>
+<title>Developing Web Service.</title>
+<year>2001</year>
+<crossref>conf/icde/2001</crossref>
+<booktitle>ICDE</booktitle>
+<url>db/conf/icde/icde2001.html#Bosworth01</url>
+<pages>477-481</pages>
+<ee>http://doi.ieeecomputersociety.org/10.1109/ICDE.2001.914861</ee>
+</inproceedings>
+    <inproceedings mdate="2007-07-26" key="conf/icde/BouganimFPV01">
+<author>Luc Bouganim</author>
+<author>Franoise Fabret</author>
+<author>Fabio Porto</author>
+<author>Patrick Valduriez</author>
+<title>Processing Queries with Expensive Functions and Large Objects in Distributed Mediator Systems.</title>
+<year>2001</year>
+<crossref>conf/icde/2001</crossref>
+<booktitle>ICDE</booktitle>
+<url>db/conf/icde/icde2001.html#BouganimFPV01</url>
+<pages>91-98</pages>
+<ee>http://doi.ieeecomputersociety.org/10.1109/ICDE.2001.914817</ee>
+</inproceedings>
+    <inproceedings mdate="2007-07-26" key="conf/icde/BurdickCG01">
+<author>Douglas Burdick</author>
+<author>Manuel Calimlim</author>
+<author>Johannes Gehrke</author>
+<title>MAFIA: A Maximal Frequent Itemset Algorithm for Transactional Databases.</title>
+<year>2001</year>
+<crossref>conf/icde/2001</crossref>
+<booktitle>ICDE</booktitle>
+<url>db/conf/icde/icde2001.html#BurdickCG01</url>
+<pages>443-452</pages>
+<ee>http://doi.ieeecomputersociety.org/10.1109/ICDE.2001.914857</ee>
+</inproceedings>
+    <inproceedings mdate="2002-07-03" key="conf/icde/CasatiDS01">
+<author>Fabio Casati</author>
+<author>Umeshwar Dayal</author>
+<author>Ming-Chien Shan</author>
+<title>E-Business Applications for Supply Chain Automation: Challenges and Solutions.</title>
+<year>2001</year>
+<crossref>conf/icde/2001</crossref>
+<booktitle>ICDE</booktitle>
+<url>db/conf/icde/icde2001.html#CasatiDS01</url>
+<pages>71-78</pages>
+<ee>http://computer.org/proceedings/icde/1001/10010071abs.htm</ee>
+</inproceedings>
+    <inproceedings mdate="2007-07-26" key="conf/icde/ChenH01">
+<author>Qiming Chen</author>
+<author>Meichun Hsu</author>
+<title>Inter-Enterprise Collaborative Business Process Management.</title>
+<year>2001</year>
+<crossref>conf/icde/2001</crossref>
+<booktitle>ICDE</booktitle>
+<url>db/conf/icde/icde2001.html#ChenH01</url>
+<pages>253-260</pages>
+<ee>http://doi.ieeecomputersociety.org/10.1109/ICDE.2001.914836</ee>
+</inproceedings>
+    <inproceedings mdate="2007-07-26" key="conf/icde/ChenJKKMNS01">
+<author>Zhiyuan Chen</author>
+<author>H. V. Jagadish</author>
+<author>Flip Korn</author>
+<author>Nick Koudas</author>
+<author>S. Muthukrishnan</author>
+<author>Raymond T. Ng</author>
+<author>Divesh Srivastava</author>
+<title>Counting Twig Matches in a Tree.</title>
+<year>2001</year>
+<crossref>conf/icde/2001</crossref>
+<booktitle>ICDE</booktitle>
+<url>db/conf/icde/icde2001.html#ChenJKKMNS01</url>
+<pages>595-604</pages>
+<ee>http://doi.ieeecomputersociety.org/10.1109/ICDE.2001.914874</ee>
+</inproceedings>
+    <inproceedings mdate="2007-07-26" key="conf/icde/ChaudhuriDMN01">
+<author>Surajit Chaudhuri</author>
+<author>Gautam Das</author>
+<author>Mayur Datar</author>
+<author>Rajeev Motwani</author>
+<author>Vivek R. Narasayya</author>
+<title>Overcoming Limitations of Sampling for Aggregation Queries.</title>
+<year>2001</year>
+<crossref>conf/icde/2001</crossref>
+<booktitle>ICDE</booktitle>
+<url>db/conf/icde/icde2001.html#ChaudhuriDMN01</url>
+<pages>534-542</pages>
+<ee>http://doi.ieeecomputersociety.org/10.1109/ICDE.2001.914867</ee>
+</inproceedings>
+    <inproceedings mdate="2007-07-26" key="conf/icde/ChongDFSYJTK01">
+<author>Eugene Inseok Chong</author>
+<author>Souripriya Das</author>
+<author>Chuck Freiwald</author>
+<author>Jagannathan Srinivasan</author>
+<author>Aravind Yalamanchi</author>
+<author>Mahesh Jagannath</author>
+<author>Anh-Tuan Tran</author>
+<author>Ramkumar Krishnan</author>
+<title>B+ Tree Indexes with Hybrid Row Identifiers in Oracle 8i.</title>
+<year>2001</year>
+<crossref>conf/icde/2001</crossref>
+<booktitle>ICDE</booktitle>
+<url>db/conf/icde/icde2001.html#ChongDFSYJTK01</url>
+<pages>341-348</pages>
+<ee>http://doi.ieeecomputersociety.org/10.1109/ICDE.2001.914846</ee>
+</inproceedings>
+    <inproceedings mdate="2007-07-26" key="conf/icde/Cochinwala01">
+<author>Munir Cochinwala</author>
+<title>Database Performance for Next Generation Telecommunications.</title>
+<year>2001</year>
+<crossref>conf/icde/2001</crossref>
+<booktitle>ICDE</booktitle>
+<url>db/conf/icde/icde2001.html#Cochinwala01</url>
+<pages>295-298</pages>
+<ee>http://doi.ieeecomputersociety.org/10.1109/ICDE.2001.914840</ee>
+</inproceedings>
+    <inproceedings mdate="2007-07-26" key="conf/icde/DaynesC01">
+<author>Laurent Dayns</author>
+<author>Grzegorz Czajkowski</author>
+<title>High-Performance, Space-Efficient, Automated Object Locking.</title>
+<year>2001</year>
+<crossref>conf/icde/2001</crossref>
+<booktitle>ICDE</booktitle>
+<url>db/conf/icde/icde2001.html#DaynesC01</url>
+<pages>163-172</pages>
+<ee>http://doi.ieeecomputersociety.org/10.1109/ICDE.2001.914825</ee>
+</inproceedings>
+    <inproceedings mdate="2007-07-26" key="conf/icde/DeFazio01">
+<author>Samuel DeFazio</author>
+<author>Ramkumar Krishnan</author>
+<author>Jagannathan Srinivasan</author>
+<author>Saydean Zeldin</author>
+<title>The Importance of Extensible Database Systems for E-Commerce.</title>
+<year>2001</year>
+<crossref>conf/icde/2001</crossref>
+<booktitle>ICDE</booktitle>
+<url>db/conf/icde/icde2001.html#DeFazio01</url>
+<pages>63-70</pages>
+<ee>http://doi.ieeecomputersociety.org/10.1109/ICDE.2001.914814</ee>
+</inproceedings>
+    <inproceedings mdate="2007-07-26" key="conf/icde/DelcambreMBDWGALL01">
+<author>Lois M. L. Delcambre</author>
+<author>David Maier</author>
+<author>Shawn Bowers</author>
+<author>Mathew Weaver</author>
+<author>Longxing Deng</author>
+<author>Paul Gorman</author>
+<author>Joan Ash</author>
+<author>Mary Lavelle</author>
+<author>Jason Lyman</author>
+<title>Bundles in Captivity: An Application of Superimposed Information.</title>
+<year>2001</year>
+<crossref>conf/icde/2001</crossref>
+<booktitle>ICDE</booktitle>
+<url>db/conf/icde/icde2001.html#DelcambreMBDWGALL01</url>
+<pages>111-120</pages>
+<ee>http://doi.ieeecomputersociety.org/10.1109/ICDE.2001.914819</ee>
+</inproceedings>
+    <inproceedings mdate="2007-07-26" key="conf/icde/Draper01">
+<author>Denise Draper</author>
+<author>Alon Y. Halevy</author>
+<author>Daniel S. Weld</author>
+<title>The Nimble XML Data Integration System.</title>
+<year>2001</year>
+<crossref>conf/icde/2001</crossref>
+<booktitle>ICDE</booktitle>
+<url>db/conf/icde/icde2001.html#Draper01</url>
+<pages>155-160</pages>
+<ee>http://doi.ieeecomputersociety.org/10.1109/ICDE.2001.914824</ee>
+</inproceedings>
+    <inproceedings mdate="2007-07-26" key="conf/icde/FerhatosmanogluTAA01">
+<author>Hakan Ferhatosmanoglu</author>
+<author>Ertem Tuncel</author>
+<author>Divyakant Agrawal</author>
+<author>Amr El Abbadi</author>
+<title>Approximate Nearest Neighbor Searching in Multimedia Databases.</title>
+<year>2001</year>
+<crossref>conf/icde/2001</crossref>
+<booktitle>ICDE</booktitle>
+<url>db/conf/icde/icde2001.html#FerhatosmanogluTAA01</url>
+<pages>503-511</pages>
+<ee>http://doi.ieeecomputersociety.org/10.1109/ICDE.2001.914864</ee>
+</inproceedings>
+    <inproceedings mdate="2007-07-26" key="conf/icde/FilhoTTF01">
+<author>Roberto F. Santos Filho</author>
+<author>Agma J. M. Traina</author>
+<author>Caetano Traina Jr.</author>
+<author>Christos Faloutsos</author>
+<title>Similarity Search without Tears: The OMNI Family of All-purpose Access Methods.</title>
+<year>2001</year>
+<crossref>conf/icde/2001</crossref>
+<booktitle>ICDE</booktitle>
+<url>db/conf/icde/icde2001.html#FilhoTTF01</url>
+<pages>623-630</pages>
+<ee>http://doi.ieeecomputersociety.org/10.1109/ICDE.2001.914877</ee>
+</inproceedings>
+    <inproceedings mdate="2007-07-26" key="conf/icde/Fishman01">
+<author>Daniel H. Fishman</author>
+<title>Data Management Support of Web Applications.</title>
+<year>2001</year>
+<crossref>conf/icde/2001</crossref>
+<booktitle>ICDE</booktitle>
+<url>db/conf/icde/icde2001.html#Fishman01</url>
+<pages>299-300</pages>
+<ee>http://doi.ieeecomputersociety.org/10.1109/ICDE.2001.914841</ee>
+</inproceedings>
+    <inproceedings mdate="2007-07-26" key="conf/icde/GartnerKKZ01">
+<author>Andreas Grtner</author>
+<author>Alfons Kemper</author>
+<author>Donald Kossmann</author>
+<author>Bernhard Zeller</author>
+<title>Efficient Bulk Deletes in Relational Databases.</title>
+<year>2001</year>
+<crossref>conf/icde/2001</crossref>
+<booktitle>ICDE</booktitle>
+<url>db/conf/icde/icde2001.html#GartnerKKZ01</url>
+<pages>183-192</pages>
+<ee>http://doi.ieeecomputersociety.org/10.1109/ICDE.2001.914827</ee>
+</inproceedings>
+    <inproceedings mdate="2002-07-03" key="conf/icde/Gawlick01">
+<author>Dieter Gawlick</author>
+<title>Infrasturucture for Web-based Application Integration.</title>
+<year>2001</year>
+<crossref>conf/icde/2001</crossref>
+<booktitle>ICDE</booktitle>
+<url>db/conf/icde/icde2001.html#Gawlick01</url>
+<pages>473-476</pages>
+<ee>http://computer.org/proceedings/icde/1001/10010473abs.htm</ee>
+</inproceedings>
+    <inproceedings mdate="2007-07-26" key="conf/icde/Gignere01">
+<author>Eric Gignere</author>
+<title>Mobile Data Management: Challenges of Wireless and Offline Data Access.</title>
+<year>2001</year>
+<crossref>conf/icde/2001</crossref>
+<booktitle>ICDE</booktitle>
+<url>db/conf/icde/icde2001.html#Gignere01</url>
+<pages>227-228</pages>
+<ee>http://doi.ieeecomputersociety.org/10.1109/ICDE.2001.914831</ee>
+</inproceedings>
+    <inproceedings mdate="2002-07-03" key="conf/icde/GrabsBS01">
+<author>Torsten Grabs</author>
+<author>Klemens Bhm</author>
+<author>Hans-Jrg Schek</author>
+<title>High-level Parallelism in a Database Cluster: A Feasibility Study Using Document Services.</title>
+<year>2001</year>
+<crossref>conf/icde/2001</crossref>
+<booktitle>ICDE</booktitle>
+<url>db/conf/icde/icde2001.html#GrabsBS01</url>
+<pages>121-130</pages>
+<ee>http://computer.org/proceedings/icde/1001/10010121abs.htm</ee>
+</inproceedings>
+    <inproceedings mdate="2007-07-26" key="conf/icde/GraefeL01">
+<author>Goetz Graefe</author>
+<author>Per-ke Larson</author>
+<title>B-Tree Indexes and CPU Caches.</title>
+<year>2001</year>
+<crossref>conf/icde/2001</crossref>
+<booktitle>ICDE</booktitle>
+<url>db/conf/icde/icde2001.html#GraefeL01</url>
+<pages>349-358</pages>
+<ee>http://doi.ieeecomputersociety.org/10.1109/ICDE.2001.914847</ee>
+</inproceedings>
+    <inproceedings mdate="2007-07-26" key="conf/icde/GrahneLWX01">
+<author>Gsta Grahne</author>
+<author>Laks V. S. Lakshmanan</author>
+<author>Xiaohong Wang</author>
+<author>Ming Hao Xie</author>
+<title>On Dual Mining: From Patterns to Circumstances, and Back.</title>
+<year>2001</year>
+<crossref>conf/icde/2001</crossref>
+<booktitle>ICDE</booktitle>
+<url>db/conf/icde/icde2001.html#GrahneLWX01</url>
+<pages>195-204</pages>
+<ee>http://doi.ieeecomputersociety.org/10.1109/ICDE.2001.914828</ee>
+</inproceedings>
+    <inproceedings mdate="2007-07-26" key="conf/icde/GruberKP01">
+<author>Robert E. Gruber</author>
+<author>Balachander Krishnamurthy</author>
+<author>Euthimios Panagos</author>
+<title>CORBA Notification Service: Design Challenges and Scalable Solutions.</title>
+<year>2001</year>
+<crossref>conf/icde/2001</crossref>
+<booktitle>ICDE</booktitle>
+<url>db/conf/icde/icde2001.html#GruberKP01</url>
+<pages>13-20</pages>
+<ee>http://doi.ieeecomputersociety.org/10.1109/ICDE.2001.914809</ee>
+</inproceedings>
+    <inproceedings mdate="2007-07-26" key="conf/icde/GryzSZZ01">
+<author>Jarek Gryz</author>
+<author>K. Bernhard Schiefer</author>
+<author>Jian Zheng</author>
+<author>Calisto Zuzarte</author>
+<title>Discovery and Application of Check Constraints in DB2.</title>
+<year>2001</year>
+<crossref>conf/icde/2001</crossref>
+<booktitle>ICDE</booktitle>
+<url>db/conf/icde/icde2001.html#GryzSZZ01</url>
+<pages>551-556</pages>
+<ee>http://doi.ieeecomputersociety.org/10.1109/ICDE.2001.914869</ee>
+</inproceedings>
+    <inproceedings mdate="2002-07-03" key="conf/icde/HanMWS01">
+<author>Wook-Shin Han</author>
+<author>Yang-Sae Moon</author>
+<author>Kyu-Young Whang</author>
+<author>Il-Yeol Song</author>
+<title>Prefetching Based on Type-Level Access Pattern in Object-Relational DBMSs.</title>
+<year>2001</year>
+<crossref>conf/icde/2001</crossref>
+<booktitle>ICDE</booktitle>
+<url>db/conf/icde/icde2001.html#HanMWS01</url>
+<pages>651-660</pages>
+<ee>http://computer.org/proceedings/icde/1001/10010651abs.htm</ee>
+</inproceedings>
+    <inproceedings mdate="2007-07-26" key="conf/icde/Heinlein01">
+<author>Christian Heinlein</author>
+<title>Workflow and Process Synchronization with Interaction Expressions and Graphs.</title>
+<year>2001</year>
+<crossref>conf/icde/2001</crossref>
+<booktitle>ICDE</booktitle>
+<url>db/conf/icde/icde2001.html#Heinlein01</url>
+<pages>243-252</pages>
+<ee>http://doi.ieeecomputersociety.org/10.1109/ICDE.2001.914835</ee>
+</inproceedings>
+    <inproceedings mdate="2007-07-26" key="conf/icde/HuangG01">
+<author>Yongqiang Huang</author>
+<author>Hector Garcia-Molina</author>
+<title>Exactly-once Semantics in a Replicated Messaging System.</title>
+<year>2001</year>
+<crossref>conf/icde/2001</crossref>
+<booktitle>ICDE</booktitle>
+<url>db/conf/icde/icde2001.html#HuangG01</url>
+<pages>3-12</pages>
+<ee>http://doi.ieeecomputersociety.org/10.1109/ICDE.2001.914808</ee>
+</inproceedings>
+    <inproceedings mdate="2007-07-26" key="conf/icde/KahveciS01">
+<author>Tamer Kahveci</author>
+<author>Ambuj K. Singh</author>
+<title>Variable Length Queries for Time Series Data.</title>
+<year>2001</year>
+<crossref>conf/icde/2001</crossref>
+<booktitle>ICDE</booktitle>
+<url>db/conf/icde/icde2001.html#KahveciS01</url>
+<pages>273-282</pages>
+<ee>http://doi.ieeecomputersociety.org/10.1109/ICDE.2001.914838</ee>
+</inproceedings>
+    <inproceedings mdate="2007-07-26" key="conf/icde/KatayamaS01">
+<author>Norio Katayama</author>
+<author>Shin'ichi Satoh</author>
+<title>Distinctiveness-Sensitive Nearest Neighbor Search for Efficient Similarity Retrieval of Multimedia Information.</title>
+<year>2001</year>
+<crossref>conf/icde/2001</crossref>
+<booktitle>ICDE</booktitle>
+<url>db/conf/icde/icde2001.html#KatayamaS01</url>
+<pages>493-502</pages>
+<ee>http://doi.ieeecomputersociety.org/10.1109/ICDE.2001.914863</ee>
+</inproceedings>
+    <inproceedings mdate="2007-07-26" key="conf/icde/KhaYU01">
+<author>Dao Dinh Kha</author>
+<author>Masatoshi Yoshikawa</author>
+<author>Shunsuke Uemura</author>
+<title>An XML Indexing Structure with Relative Region Coordinate.</title>
+<year>2001</year>
+<crossref>conf/icde/2001</crossref>
+<booktitle>ICDE</booktitle>
+<url>db/conf/icde/icde2001.html#KhaYU01</url>
+<pages>313-320</pages>
+<ee>http://doi.ieeecomputersociety.org/10.1109/ICDE.2001.914843</ee>
+</inproceedings>
+    <inproceedings mdate="2007-07-26" key="conf/icde/KimPC01">
+<author>Sang-Wook Kim</author>
+<author>Sanghyun Park</author>
+<author>Wesley W. Chu</author>
+<title>An Index-Based Approach for Similarity Search Supporting Time Warping in Large Sequence Databases.</title>
+<year>2001</year>
+<crossref>conf/icde/2001</crossref>
+<booktitle>ICDE</booktitle>
+<url>db/conf/icde/icde2001.html#KimPC01</url>
+<pages>607-614</pages>
+<ee>http://doi.ieeecomputersociety.org/10.1109/ICDE.2001.914875</ee>
+</inproceedings>
+    <inproceedings mdate="2007-07-26" key="conf/icde/KolliosGKB01">
+<author>George Kollios</author>
+<author>Dimitrios Gunopulos</author>
+<author>Nick Koudas</author>
+<author>Stefan Berchtold</author>
+<title>An Efficient Approximation Scheme for Data Mining Tasks.</title>
+<year>2001</year>
+<crossref>conf/icde/2001</crossref>
+<booktitle>ICDE</booktitle>
+<url>db/conf/icde/icde2001.html#KolliosGKB01</url>
+<pages>453-462</pages>
+<ee>http://doi.ieeecomputersociety.org/10.1109/ICDE.2001.914858</ee>
+</inproceedings>
+    <inproceedings mdate="2007-07-26" key="conf/icde/LeeE01">
+<author>Jae Young Lee</author>
+<author>Ramez Elmasri</author>
+<title>A Temporal Algebra for an ER-Based Temporal Data Model.</title>
+<year>2001</year>
+<crossref>conf/icde/2001</crossref>
+<booktitle>ICDE</booktitle>
+<url>db/conf/icde/icde2001.html#LeeE01</url>
+<pages>33-40</pages>
+<ee>http://doi.ieeecomputersociety.org/10.1109/ICDE.2001.914811</ee>
+</inproceedings>
+    <inproceedings mdate="2007-07-26" key="conf/icde/KreplinZ01">
+<author>Thomas Zurek</author>
+<author>Klaus Kreplin</author>
+<title>SAP Business Information Warehouse - From Data Warehousing to an E-business Platform.</title>
+<year>2001</year>
+<crossref>conf/icde/2001</crossref>
+<booktitle>ICDE</booktitle>
+<url>db/conf/icde/icde2001.html#KreplinZ01</url>
+<pages>388-390</pages>
+<ee>http://doi.ieeecomputersociety.org/10.1109/ICDE.2001.914851</ee>
+</inproceedings>
+    <inproceedings mdate="2005-01-06" key="conf/icde/LeeKC01">
+<author>Juchang Lee</author>
+<author>Kihong Kim</author>
+<author>Sang Kyun Cha</author>
+<title>Differential Logging: A Commutative and Associative Logging Scheme for Highly Parallel Main Memory Databases.</title>
+<year>2001</year>
+<crossref>conf/icde/2001</crossref>
+<booktitle>ICDE</booktitle>
+<url>db/conf/icde/icde2001.html#LeeKC01</url>
+<pages>173-182</pages>
+<ee>http://computer.org/proceedings/icde/1001/10010173abs.htm</ee>
+</inproceedings>
+    <inproceedings mdate="2007-07-26" key="conf/icde/MaH01">
+<author>Sheng Ma</author>
+<author>Joseph L. Hellerstein</author>
+<title>Mining Partially Periodic Event Patterns with Unknown Periods.</title>
+<year>2001</year>
+<crossref>conf/icde/2001</crossref>
+<booktitle>ICDE</booktitle>
+<url>db/conf/icde/icde2001.html#MaH01</url>
+<pages>205-214</pages>
+<ee>http://doi.ieeecomputersociety.org/10.1109/ICDE.2001.914829</ee>
+</inproceedings>
+    <inproceedings mdate="2007-07-26" key="conf/icde/LehnerCPZ01">
+<author>Wolfgang Lehner</author>
+<author>Roberta Cochrane</author>
+<author>Hamid Pirahesh</author>
+<author>Markos Zaharioudakis</author>
+<title>fAST Refresh using Mass Query Optimization.</title>
+<year>2001</year>
+<crossref>conf/icde/2001</crossref>
+<booktitle>ICDE</booktitle>
+<url>db/conf/icde/icde2001.html#LehnerCPZ01</url>
+<pages>391-398</pages>
+<ee>http://doi.ieeecomputersociety.org/10.1109/ICDE.2001.914852</ee>
+</inproceedings>
+    <inproceedings mdate="2007-07-26" key="conf/icde/Leung01">
+<author>Jonas S. Karlsson</author>
+<author>Amrish Lal</author>
+<author>T. Y. Cliff Leung</author>
+<author>Thanh Pham</author>
+<title>IBM DB2 Everyplace: A Small Footprint Relational Database System.</title>
+<year>2001</year>
+<crossref>conf/icde/2001</crossref>
+<booktitle>ICDE</booktitle>
+<url>db/conf/icde/icde2001.html#Leung01</url>
+<pages>230-232</pages>
+<ee>http://doi.ieeecomputersociety.org/10.1109/ICDE.2001.914833</ee>
+</inproceedings>
+    <inproceedings mdate="2002-07-03" key="conf/icde/LiSDKG01">
+<author>Wei Li</author>
+<author>Richard T. Snodgrass</author>
+<author>Shiyan Deng</author>
+<author>Vineel Kumar Gattu</author>
+<author>Aravindan Kasthurirangan</author>
+<title>Efficient Sequenced Integrity Constraint Checking.</title>
+<year>2001</year>
+<crossref>conf/icde/2001</crossref>
+<booktitle>ICDE</booktitle>
+<url>db/conf/icde/icde2001.html#LiSDKG01</url>
+<pages>131-140</pages>
+<ee>http://computer.org/proceedings/icde/1001/10010131abs.htm</ee>
+</inproceedings>
+    <inproceedings mdate="2007-07-26" key="conf/icde/LiaoLL01">
+<author>Swanwa Liao</author>
+<author>Mario A. Lopez</author>
+<author>Scott T. Leutenegger</author>
+<title>High Dimensional Similarity Search With Space Filling Curves.</title>
+<year>2001</year>
+<crossref>conf/icde/2001</crossref>
+<booktitle>ICDE</booktitle>
+<url>db/conf/icde/icde2001.html#LiaoLL01</url>
+<pages>615-622</pages>
+<ee>http://doi.ieeecomputersociety.org/10.1109/ICDE.2001.914876</ee>
+</inproceedings>
+    <inproceedings mdate="2007-07-26" key="conf/icde/LimN01">
+<author>Seung Jin Lim</author>
+<author>Yiu-Kai Ng</author>
+<title>An Automated Change Detection Algorithm for HTML Documents Based on Semantic Hierarchies.</title>
+<year>2001</year>
+<crossref>conf/icde/2001</crossref>
+<booktitle>ICDE</booktitle>
+<url>db/conf/icde/icde2001.html#LimN01</url>
+<pages>303-312</pages>
+<ee>http://doi.ieeecomputersociety.org/10.1109/ICDE.2001.914842</ee>
+</inproceedings>
+    <inproceedings mdate="2007-07-26" key="conf/icde/LudascherGM01">
+<author>Bertram Ludscher</author>
+<author>Amarnath Gupta</author>
+<author>Maryann E. Martone</author>
+<title>Model-Based Mediation with Domain Maps.</title>
+<year>2001</year>
+<crossref>conf/icde/2001</crossref>
+<booktitle>ICDE</booktitle>
+<url>db/conf/icde/icde2001.html#LudascherGM01</url>
+<pages>81-90</pages>
+<ee>http://doi.ieeecomputersociety.org/10.1109/ICDE.2001.914816</ee>
+</inproceedings>
+    <inproceedings mdate="2007-07-26" key="conf/icde/MittalHH01">
+<author>Neeraj Mittal</author>
+<author>Hui-I Hsiao</author>
+<title>Database Managed External File Update.</title>
+<year>2001</year>
+<crossref>conf/icde/2001</crossref>
+<booktitle>ICDE</booktitle>
+<url>db/conf/icde/icde2001.html#MittalHH01</url>
+<pages>557-564</pages>
+<ee>http://doi.ieeecomputersociety.org/10.1109/ICDE.2001.914870</ee>
+</inproceedings>
+    <inproceedings mdate="2007-07-26" key="conf/icde/MoonWL01">
+<author>Yang-Sae Moon</author>
+<author>Kyu-Young Whang</author>
+<author>Woong-Kee Loh</author>
+<title>Duality-Based Subsequence Matching in Time-Series Databases.</title>
+<year>2001</year>
+<crossref>conf/icde/2001</crossref>
+<booktitle>ICDE</booktitle>
+<url>db/conf/icde/icde2001.html#MoonWL01</url>
+<pages>263-272</pages>
+<ee>http://doi.ieeecomputersociety.org/10.1109/ICDE.2001.914837</ee>
+</inproceedings>
+    <inproceedings mdate="2007-07-26" key="conf/icde/MullerDEF01">
+<author>Erich Mller</author>
+<author>Peter Dadam</author>
+<author>Jost Enderle</author>
+<author>M. Feltes</author>
+<title>Tuning an SQL-Based PDM System in a Worldwide Client/Server Environment.</title>
+<year>2001</year>
+<crossref>conf/icde/2001</crossref>
+<booktitle>ICDE</booktitle>
+<url>db/conf/icde/icde2001.html#MullerDEF01</url>
+<pages>99-108</pages>
+<ee>http://doi.ieeecomputersociety.org/10.1109/ICDE.2001.914818</ee>
+</inproceedings>
+    <inproceedings mdate="2007-07-26" key="conf/icde/Rys01">
+<author>Michael Rys</author>
+<title>Bringing the Internet to Your Database: Using SQLServer 2000 and XML to Build Loosely-Coupled Systems.</title>
+<year>2001</year>
+<crossref>conf/icde/2001</crossref>
+<booktitle>ICDE</booktitle>
+<url>db/conf/icde/icde2001.html#Rys01</url>
+<pages>465-472</pages>
+<ee>http://doi.ieeecomputersociety.org/10.1109/ICDE.2001.914859</ee>
+</inproceedings>
+    <inproceedings mdate="2007-07-26" key="conf/icde/NetzCFB01">
+<author>Amir Netz</author>
+<author>Surajit Chaudhuri</author>
+<author>Usama M. Fayyad</author>
+<author>Jeff Bernhardt</author>
+<title>Integrating Data Mining with SQL Databases: OLE DB for Data Mining.</title>
+<year>2001</year>
+<crossref>conf/icde/2001</crossref>
+<booktitle>ICDE</booktitle>
+<url>db/conf/icde/icde2001.html#NetzCFB01</url>
+<pages>379-387</pages>
+<ee>http://doi.ieeecomputersociety.org/10.1109/ICDE.2001.914850</ee>
+</inproceedings>
+    <inproceedings mdate="2007-07-26" key="conf/icde/PadmanabhanAMJ01">
+<author>Sriram Padmanabhan</author>
+<author>Timothy Malkemus</author>
+<author>Ramesh C. Agarwal</author>
+<author>Anant Jhingran</author>
+<title>Block Oriented Processing of Relational Database Operations in Modern Computer Architectures.</title>
+<year>2001</year>
+<crossref>conf/icde/2001</crossref>
+<booktitle>ICDE</booktitle>
+<url>db/conf/icde/icde2001.html#PadmanabhanAMJ01</url>
+<pages>567-574</pages>
+<ee>http://doi.ieeecomputersociety.org/10.1109/ICDE.2001.914871</ee>
+</inproceedings>
+    <inproceedings mdate="2007-07-26" key="conf/icde/PalopoliTU01">
+<author>Luigi Palopoli</author>
+<author>Giorgio Terracina</author>
+<author>Domenico Ursino</author>
+<title>A Graph-Based Approach For Extracting Terminological Properties of Elements of XML Documents.</title>
+<year>2001</year>
+<crossref>conf/icde/2001</crossref>
+<booktitle>ICDE</booktitle>
+<url>db/conf/icde/icde2001.html#PalopoliTU01</url>
+<pages>330-337</pages>
+<ee>http://doi.ieeecomputersociety.org/10.1109/ICDE.2001.914845</ee>
+</inproceedings>
+    <inproceedings mdate="2007-07-26" key="conf/icde/ParkKL01">
+<author>Chang-Sup Park</author>
+<author>Myoung-Ho Kim</author>
+<author>Yoon-Joon Lee</author>
+<title>Rewriting OLAP Queries Using Materialized Views and Dimension Hierarchies in Data Warehouses.</title>
+<year>2001</year>
+<crossref>conf/icde/2001</crossref>
+<booktitle>ICDE</booktitle>
+<url>db/conf/icde/icde2001.html#ParkKL01</url>
+<pages>515-523</pages>
+<ee>http://doi.ieeecomputersociety.org/10.1109/ICDE.2001.914865</ee>
+</inproceedings>
+    <inproceedings mdate="2002-07-03" key="conf/icde/Pathak01">
+<author>Rabindra Pathak</author>
+<title>SpinCircuit: A Collaboration Portal Powered by E-speak.</title>
+<year>2001</year>
+<crossref>conf/icde/2001</crossref>
+<booktitle>ICDE</booktitle>
+<url>db/conf/icde/icde2001.html#Pathak01</url>
+<pages>661-663</pages>
+<ee>http://computer.org/proceedings/icde/1001/10010661abs.htm</ee>
+</inproceedings>
+    <inproceedings mdate="2007-07-26" key="conf/icde/PeiHL01">
+<author>Jian Pei</author>
+<author>Jiawei Han</author>
+<author>Laks V. S. Lakshmanan</author>
+<title>Mining Frequent Item Sets with Convertible Constraints.</title>
+<year>2001</year>
+<crossref>conf/icde/2001</crossref>
+<booktitle>ICDE</booktitle>
+<url>db/conf/icde/icde2001.html#PeiHL01</url>
+<pages>433-442</pages>
+<ee>http://doi.ieeecomputersociety.org/10.1109/ICDE.2001.914856</ee>
+</inproceedings>
+    <inproceedings mdate="2002-07-03" key="conf/icde/PeiHPCDH01">
+<author>Jian Pei</author>
+<author>Jiawei Han</author>
+<author>Behzad Mortazavi-Asl</author>
+<author>Helen Pinto</author>
+<author>Qiming Chen</author>
+<author>Umeshwar Dayal</author>
+<author>Meichun Hsu</author>
+<title>PrefixSpan: Mining Sequential Patterns by Prefix-Projected Growth.</title>
+<year>2001</year>
+<crossref>conf/icde/2001</crossref>
+<booktitle>ICDE</booktitle>
+<url>db/conf/icde/icde2001.html#PeiHPCDH01</url>
+<pages>215-224</pages>
+<ee>http://computer.org/proceedings/icde/1001/10010215abs.htm</ee>
+</inproceedings>
+    <inproceedings mdate="2007-07-26" key="conf/icde/Pennekanti01">
+<author>Nagavamsi Ponnekanti</author>
+<title>Pseudo Column Level Locking.</title>
+<year>2001</year>
+<crossref>conf/icde/2001</crossref>
+<booktitle>ICDE</booktitle>
+<url>db/conf/icde/icde2001.html#Pennekanti01</url>
+<pages>545-550</pages>
+<ee>http://doi.ieeecomputersociety.org/10.1109/ICDE.2001.914868</ee>
+</inproceedings>
+    <inproceedings mdate="2007-07-26" key="conf/icde/RaoLLPS01">
+<author>Jun Rao</author>
+<author>Bruce G. Lindsay</author>
+<author>Guy M. Lohman</author>
+<author>Hamid Pirahesh</author>
+<author>David E. Simmen</author>
+<title>Using EELs, a Practical Approach to Outerjoin and Antijoin Reordering.</title>
+<year>2001</year>
+<crossref>conf/icde/2001</crossref>
+<booktitle>ICDE</booktitle>
+<url>db/conf/icde/icde2001.html#RaoLLPS01</url>
+<pages>585-594</pages>
+<ee>http://doi.ieeecomputersociety.org/10.1109/ICDE.2001.914873</ee>
+</inproceedings>
+    <inproceedings mdate="2002-07-03" key="conf/icde/Renner01">
+<author>Andreas Renner</author>
+<title>XML Data and Object Databases: A Perfect Couple?</title>
+<year>2001</year>
+<crossref>conf/icde/2001</crossref>
+<booktitle>ICDE</booktitle>
+<url>db/conf/icde/icde2001.html#Renner01</url>
+<pages>143-148</pages>
+<ee>http://computer.org/proceedings/icde/1001/10010143abs.htm</ee>
+</inproceedings>
+    <inproceedings mdate="2007-07-26" key="conf/icde/RohmBS01">
+<author>Uwe Rhm</author>
+<author>Klemens Bhm</author>
+<author>Hans-Jrg Schek</author>
+<title>Cache-Aware Query Routing in a Cluster of Databases.</title>
+<year>2001</year>
+<crossref>conf/icde/2001</crossref>
+<booktitle>ICDE</booktitle>
+<url>db/conf/icde/icde2001.html#RohmBS01</url>
+<pages>641-650</pages>
+<ee>http://doi.ieeecomputersociety.org/10.1109/ICDE.2001.914879</ee>
+</inproceedings>
+    <inproceedings mdate="2007-07-26" key="conf/icde/Seshadri01">
+<author>Praveen Seshadri</author>
+<title>Microsoft Server Technology for Mobile and Wireless Applications.</title>
+<year>2001</year>
+<crossref>conf/icde/2001</crossref>
+<booktitle>ICDE</booktitle>
+<url>db/conf/icde/icde2001.html#Seshadri01</url>
+<pages>229</pages>
+<ee>http://doi.ieeecomputersociety.org/10.1109/ICDE.2001.914832</ee>
+</inproceedings>
+    <inproceedings mdate="2007-07-26" key="conf/icde/SchmidtKW01">
+<author>Albrecht Schmidt 0002</author>
+<author>Martin L. Kersten</author>
+<author>Menzo Windhouwer</author>
+<title>Querying XML Documents Made Easy: Nearest Concept Queries.</title>
+<year>2001</year>
+<crossref>conf/icde/2001</crossref>
+<booktitle>ICDE</booktitle>
+<url>db/conf/icde/icde2001.html#SchmidtKW01</url>
+<pages>321-329</pages>
+<ee>http://doi.ieeecomputersociety.org/10.1109/ICDE.2001.914844</ee>
+</inproceedings>
+    <inproceedings mdate="2007-07-26" key="conf/icde/Schoning01">
+<author>Harald Schning</author>
+<title>Tamino - A DBMS designed for XML.</title>
+<year>2001</year>
+<crossref>conf/icde/2001</crossref>
+<booktitle>ICDE</booktitle>
+<url>db/conf/icde/icde2001.html#Schoning01</url>
+<pages>149-154</pages>
+<ee>http://doi.ieeecomputersociety.org/10.1109/ICDE.2001.914823</ee>
+</inproceedings>
+    <inproceedings mdate="2007-07-26" key="conf/icde/StockerKBK01">
+<author>Konrad Stocker</author>
+<author>Donald Kossmann</author>
+<author>Reinhard Braumandl</author>
+<author>Alfons Kemper</author>
+<title>Integrating Semi-Join-Reducers into State of the Art Query Processors.</title>
+<year>2001</year>
+<crossref>conf/icde/2001</crossref>
+<booktitle>ICDE</booktitle>
+<url>db/conf/icde/icde2001.html#StockerKBK01</url>
+<pages>575-584</pages>
+<ee>http://doi.ieeecomputersociety.org/10.1109/ICDE.2001.914872</ee>
+</inproceedings>
+    <inproceedings mdate="2007-07-26" key="conf/icde/TanGO01">
+<author>Kian-Lee Tan</author>
+<author>Shen-Tat Goh</author>
+<author>Beng Chin Ooi</author>
+<title>Cache-on-Demand: Recycling with Certainty.</title>
+<year>2001</year>
+<crossref>conf/icde/2001</crossref>
+<booktitle>ICDE</booktitle>
+<url>db/conf/icde/icde2001.html#TanGO01</url>
+<pages>633-640</pages>
+<ee>http://doi.ieeecomputersociety.org/10.1109/ICDE.2001.914878</ee>
+</inproceedings>
+    <inproceedings mdate="2007-07-26" key="conf/icde/TungHH01">
+<author>Anthony K. H. Tung</author>
+<author>Jean Hou</author>
+<author>Jiawei Han</author>
+<title>Spatial Clustering in the Presence of Obstacles.</title>
+<year>2001</year>
+<crossref>conf/icde/2001</crossref>
+<booktitle>ICDE</booktitle>
+<url>db/conf/icde/icde2001.html#TungHH01</url>
+<pages>359-367</pages>
+<ee>http://doi.ieeecomputersociety.org/10.1109/ICDE.2001.914848</ee>
+</inproceedings>
+    <inproceedings mdate="2007-07-26" key="conf/icde/WangYM01">
+<author>Wei Wang</author>
+<author>Jiong Yang</author>
+<author>Richard R. Muntz</author>
+<title>TAR: Temporal Association Rules on Evolving Numerical Attributes.</title>
+<year>2001</year>
+<crossref>conf/icde/2001</crossref>
+<booktitle>ICDE</booktitle>
+<url>db/conf/icde/icde2001.html#WangYM01</url>
+<pages>283-292</pages>
+<ee>http://doi.ieeecomputersociety.org/10.1109/ICDE.2001.914839</ee>
+</inproceedings>
+    <inproceedings mdate="2007-07-26" key="conf/icde/YangL01">
+<author>Congjun Yang</author>
+<author>King-Ip Lin</author>
+<title>An Index Structure for Efficient Reverse Nearest Neighbor Queries.</title>
+<year>2001</year>
+<crossref>conf/icde/2001</crossref>
+<booktitle>ICDE</booktitle>
+<url>db/conf/icde/icde2001.html#YangL01</url>
+<pages>485-492</pages>
+<ee>http://doi.ieeecomputersociety.org/10.1109/ICDE.2001.914862</ee>
+</inproceedings>
+    <inproceedings mdate="2007-07-26" key="conf/icde/YangW01">
+<author>Jun Yang</author>
+<author>Jennifer Widom</author>
+<title>Incremental Computation and Maintenance of Temporal Aggregates.</title>
+<year>2001</year>
+<crossref>conf/icde/2001</crossref>
+<booktitle>ICDE</booktitle>
+<url>db/conf/icde/icde2001.html#YangW01</url>
+<pages>51-60</pages>
+<ee>http://doi.ieeecomputersociety.org/10.1109/ICDE.2001.914813</ee>
+</inproceedings>
+</dblp>

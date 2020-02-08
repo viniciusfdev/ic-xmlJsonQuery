@@ -1,0 +1,2738 @@
+<SigmodRecord>
+<issues>
+    <issue>
+        <volume>23</volume>
+ <number>1</number>
+    <articles>
+            <article>
+                <title>A Consensus Glossary of Temporal Database Concepts.</title>
+ <initPage>52</initPage>
+ <endPage>64</endPage>
+          <authors>
+                    <author position="00">Christian S. Jensen</author>
+ <author position="01">James Clifford</author>
+ <author position="02">Ramez Elmasri</author>
+ <author position="03">Shashi K. Gadia</author>
+ <author position="04">Pat Hayes</author>
+ <author position="05">Sushil Jajodia</author>
+          </authors>
+     </article>
+
+     <article>
+                <title>A Hypertext Query Language for Images.</title>
+ <initPage>16</initPage>
+ <endPage>20</endPage>
+          <authors>
+                    <author position="00">Li Yang</author>
+          </authors>
+     </article>
+
+     <article>
+                <title>Comprehension Syntax.</title>
+ <initPage>87</initPage>
+ <endPage>96</endPage>
+          <authors>
+                    <author position="00">Peter Buneman</author>
+ <author position="01">Leonid Libkin</author>
+ <author position="02">Dan Suciu</author>
+ <author position="03">Val Tannen</author>
+ <author position="04">Limsoon Wong</author>
+          </authors>
+     </article>
+
+     <article>
+                <title>Constructing the Next 100 Database Management Systems.</title>
+ <initPage>27</initPage>
+ <endPage>33</endPage>
+          <authors>
+                    <author position="00">Andreas Geppert</author>
+ <author position="01">Klaus R. Dittrich</author>
+          </authors>
+     </article>
+
+     <article>
+                <title>Databases for GIS.</title>
+ <initPage>107</initPage>
+ <endPage>115</endPage>
+          <authors>
+                    <author position="00">Claudia Bauzer Medeiros</author>
+ <author position="01">Fatima Pires</author>
+          </authors>
+     </article>
+
+     <article>
+                <title>Editor's Notes.</title>
+ <initPage>2</initPage>
+ <endPage>2</endPage>
+          <authors>
+                    <author position="00">Arie Segev</author>
+ <author position="00">Jennifer Widom</author>
+ <author position="00">Michael J. Franklin</author>
+          </authors>
+     </article>
+
+     <article>
+                <title>In Memory of Bob Kooi (1951-1993).</title>
+ <initPage>3</initPage>
+ <endPage>3</endPage>
+          <authors>
+                    <author position="00">Michael Stonebraker</author>
+          </authors>
+     </article>
+
+     <article>
+                <title>Influencing Database Language Standards.</title>
+ <initPage>122</initPage>
+ <endPage>127</endPage>
+          <authors>
+                    <author position="00">Leonard Gallagher</author>
+          </authors>
+     </article>
+
+     <article>
+                <title>Observations on the ODMG-93 Proposal.</title>
+ <initPage>4</initPage>
+ <endPage>9</endPage>
+          <authors>
+                    <author position="00">Won Kim</author>
+          </authors>
+     </article>
+
+     <article>
+                <title>Overview of the Special Section on Temporal Database Infrastructure.</title>
+ <initPage>34</initPage>
+ <endPage>34</endPage>
+          <authors>
+                    <author position="00">Richard T. Snodgrass</author>
+          </authors>
+     </article>
+
+     <article>
+                <title>Progress on HPCC and NII.</title>
+ <initPage>129</initPage>
+ <endPage>133</endPage>
+          <authors>
+                    <author position="00">Marianne Winslett</author>
+          </authors>
+     </article>
+
+     <article>
+                <title>Research Perspectives for Time Series Management Systems.</title>
+ <initPage>10</initPage>
+ <endPage>15</endPage>
+          <authors>
+                    <author position="00">Werner Dreyer</author>
+ <author position="01">Angelika Kotz Dittrich</author>
+ <author position="02">Duri Schmidt</author>
+          </authors>
+     </article>
+
+     <article>
+                <title>Supporting Dynamic Displays Using Active Rules.</title>
+ <initPage>21</initPage>
+ <endPage>26</endPage>
+          <authors>
+                    <author position="00">Oscar Daz</author>
+ <author position="01">Arturo Jaime</author>
+ <author position="02">Norman W. Paton</author>
+ <author position="03">Ghassan al-Qaimari</author>
+          </authors>
+     </article>
+
+     <article>
+                <title>Text Databases: A Survey of Text Models and Systems.</title>
+ <initPage>97</initPage>
+ <endPage>106</endPage>
+          <authors>
+                    <author position="00">Arjan Loeffen</author>
+          </authors>
+     </article>
+
+     <article>
+                <title>The Database Research Group at ETH Zurich.</title>
+ <initPage>116</initPage>
+ <endPage>121</endPage>
+          <authors>
+                    <author position="00">Moira C. Norrie</author>
+ <author position="01">Stephen Blott</author>
+ <author position="02">Hans-Jrg Schek</author>
+ <author position="03">Gerhard Weikum</author>
+          </authors>
+     </article>
+
+     <article>
+                <title>Towards an Infrastructure for Temporal Databases: Report of an Invitational ARPA/NSF Workshop.</title>
+ <initPage>35</initPage>
+ <endPage>51</endPage>
+          <authors>
+                    <author position="00">Niki Pissinou</author>
+ <author position="01">Richard T. Snodgrass</author>
+ <author position="02">Ramez Elmasri</author>
+ <author position="03">Inderpal Singh Mumick</author>
+ <author position="04">M. Tamer zsu</author>
+ <author position="05">Barbara Pernici</author>
+ <author position="06">Arie Segev</author>
+ <author position="07">Babis Theodoulidis</author>
+ <author position="08">Umeshwar Dayal</author>
+          </authors>
+     </article>
+
+     <article>
+                <title>Trade Press News.</title>
+ <initPage>128</initPage>
+ <endPage>128</endPage>
+          <authors>
+                    <author position="00">Rafael Alonso</author>
+          </authors>
+     </article>
+
+     <article>
+                <title>TSQL2 Language Specification.</title>
+ <initPage>65</initPage>
+ <endPage>86</endPage>
+          <authors>
+                    <author position="00">Richard T. Snodgrass</author>
+ <author position="01">Ilsoo Ahn</author>
+ <author position="02">Gadi Ariav</author>
+ <author position="03">Don S. Batory</author>
+ <author position="04">James Clifford</author>
+ <author position="05">Curtis E. Dyreson</author>
+ <author position="06">Ramez Elmasri</author>
+ <author position="07">Fabio Grandi</author>
+ <author position="08">Christian S. Jensen</author>
+ <author position="09">Wolfgang Kfer</author>
+ <author position="10">Nick Kline</author>
+ <author position="11">Krishna G. Kulkarni</author>
+ <author position="12">T. Y. Cliff Leung</author>
+ <author position="13">Nikos A. Lorentzos</author>
+ <author position="14">John F. Roddick</author>
+ <author position="15">Arie Segev</author>
+ <author position="16">Michael D. Soo</author>
+ <author position="17">Suryanarayana M. Sripada</author>
+          </authors>
+     </article>
+
+    </articles>
+  </issue>
+    <issue>
+        <volume>23</volume>
+ <number>2</number>
+    <articles>
+            <article>
+                <title>A Language Based Multidatabase System.</title>
+ <initPage>509</initPage>
+ <endPage>509</endPage>
+          <authors>
+                    <author position="00">eva Khn</author>
+ <author position="01">Thomas Tschernko</author>
+ <author position="02">Konrad Schwarz</author>
+          </authors>
+     </article>
+
+     <article>
+                <title>A Performance Study of Transitive Closure Algorithms.</title>
+ <initPage>454</initPage>
+ <endPage>465</endPage>
+          <authors>
+                    <author position="00">Shaul Dar</author>
+ <author position="01">Raghu Ramakrishnan</author>
+          </authors>
+     </article>
+
+     <article>
+                <title>A Survey and Critique of Advanced Transaction Models.</title>
+ <initPage>521</initPage>
+ <endPage>521</endPage>
+          <authors>
+                    <author position="00">C. Mohan</author>
+          </authors>
+     </article>
+
+     <article>
+                <title>Adaptive Selectivity Estimation Using Query Feedback.</title>
+ <initPage>161</initPage>
+ <endPage>172</endPage>
+          <authors>
+                    <author position="00">Chungmin Melvin Chen</author>
+ <author position="01">Nick Roussopoulos</author>
+          </authors>
+     </article>
+
+     <article>
+                <title>AlphaSort: A RISC Machine Sort.</title>
+ <initPage>233</initPage>
+ <endPage>242</endPage>
+          <authors>
+                    <author position="00">Chris Nyberg</author>
+ <author position="01">Tom Barclay</author>
+ <author position="02">Zarka Cvetanovic</author>
+ <author position="03">Jim Gray</author>
+ <author position="04">David B. Lomet</author>
+          </authors>
+     </article>
+
+     <article>
+                <title>ARIES/CSA: A Method for Database Recovery in Client-Server Architectures.</title>
+ <initPage>55</initPage>
+ <endPage>66</endPage>
+          <authors>
+                    <author position="00">C. Mohan</author>
+ <author position="01">Inderpal Narang</author>
+          </authors>
+     </article>
+
+     <article>
+                <title>ASSET: A System for Supporting Extended Transactions.</title>
+ <initPage>44</initPage>
+ <endPage>54</endPage>
+          <authors>
+                    <author position="00">Alexandros Biliris</author>
+ <author position="01">Shaul Dar</author>
+ <author position="02">Narain H. Gehani</author>
+ <author position="03">H. V. Jagadish</author>
+ <author position="04">Krithi Ramamritham</author>
+          </authors>
+     </article>
+
+     <article>
+                <title>Combinatorial Pattern Discovery for Scientific Data: Some Preliminary Results.</title>
+ <initPage>115</initPage>
+ <endPage>125</endPage>
+          <authors>
+                    <author position="00">Jason Tsong-Li Wang</author>
+ <author position="01">Gung-Wei Chirn</author>
+ <author position="02">Thomas G. Marr</author>
+ <author position="03">Bruce A. Shapiro</author>
+ <author position="04">Dennis Shasha</author>
+ <author position="05">Kaizhong Zhang</author>
+          </authors>
+     </article>
+
+     <article>
+                <title>COSS: The Common Object Services Specifications.</title>
+ <initPage>479</initPage>
+ <endPage>479</endPage>
+          <authors>
+                    <author position="00">Bruce E. Martin</author>
+          </authors>
+     </article>
+
+     <article>
+                <title>Data Modeling of Time-Based Media.</title>
+ <initPage>91</initPage>
+ <endPage>102</endPage>
+          <authors>
+                    <author position="00">Simon J. Gibbs</author>
+ <author position="01">Christian Breiteneder</author>
+ <author position="02">Dennis Tsichritzis</author>
+          </authors>
+     </article>
+
+     <article>
+                <title>Data Replication for Mobile Computers.</title>
+ <initPage>13</initPage>
+ <endPage>24</endPage>
+          <authors>
+                    <author position="00">Yixiu Huang</author>
+ <author position="01">A. Prasad Sistla</author>
+ <author position="02">Ouri Wolfson</author>
+          </authors>
+     </article>
+
+     <article>
+                <title>Database in Crisis and Transition: A Technical Agenda for the Year 2001.</title>
+ <initPage>484</initPage>
+ <endPage>489</endPage>
+          <authors>
+                    <author position="00">David Vaskevitch</author>
+          </authors>
+     </article>
+
+     <article>
+                <title>Database Issues in Telecommunications Network Management.</title>
+ <initPage>37</initPage>
+ <endPage>43</endPage>
+          <authors>
+                    <author position="00">Ilsoo Ahn</author>
+          </authors>
+     </article>
+
+     <article>
+                <title>Databases for Networks.</title>
+ <initPage>522</initPage>
+ <endPage>522</endPage>
+          <authors>
+                    <author position="00">H. V. Jagadish</author>
+          </authors>
+     </article>
+
+     <article>
+                <title>DBLearn: A System Prototype for Knowledge Discovery in Relational Databases.</title>
+ <initPage>516</initPage>
+ <endPage>516</endPage>
+          <authors>
+                    <author position="00">Jiawei Han</author>
+ <author position="01">Yongjian Fu</author>
+ <author position="02">Yue Huang</author>
+ <author position="03">Yandong Cai</author>
+ <author position="04">Nick Cercone</author>
+          </authors>
+     </article>
+
+     <article>
+                <title>DEC Data Distributor: for Data Replication and Data Warehousing.</title>
+ <initPage>468</initPage>
+ <endPage>468</endPage>
+          <authors>
+                    <author position="00">Daniel J. Dietterich</author>
+          </authors>
+     </article>
+
+     <article>
+                <title>Distributed File Organization with Scalable Cost/Performance.</title>
+ <initPage>253</initPage>
+ <endPage>264</endPage>
+          <authors>
+                    <author position="00">Radek Vingralek</author>
+ <author position="01">Yuri Breitbart</author>
+ <author position="02">Gerhard Weikum</author>
+          </authors>
+     </article>
+
+     <article>
+                <title>Distributing a Search Tree Among a Growing Number of Processors.</title>
+ <initPage>265</initPage>
+ <endPage>276</endPage>
+          <authors>
+                    <author position="00">Brigitte Krll</author>
+ <author position="01">Peter Widmayer</author>
+          </authors>
+     </article>
+
+     <article>
+                <title>Energy Efficient Indexing on Air.</title>
+ <initPage>25</initPage>
+ <endPage>36</endPage>
+          <authors>
+                    <author position="00">Tomasz Imielinski</author>
+ <author position="01">S. Viswanathan</author>
+ <author position="02">B. R. Badrinath</author>
+          </authors>
+     </article>
+
+     <article>
+                <title>Ensuring Relaxed Atomicity for Flexible Transactions in Multidatabase Systems.</title>
+ <initPage>67</initPage>
+ <endPage>78</endPage>
+          <authors>
+                    <author position="00">Aidong Zhang</author>
+ <author position="01">Marian H. Nodine</author>
+ <author position="02">Bharat K. Bhargava</author>
+ <author position="03">Omran A. Bukhres</author>
+          </authors>
+     </article>
+
+     <article>
+                <title>Enterprise Information Architectures -- They're Finally Changing.</title>
+ <initPage>493</initPage>
+ <endPage>504</endPage>
+          <authors>
+                    <author position="00">Wesley P. Melling</author>
+          </authors>
+     </article>
+
+     <article>
+                <title>EOS: An Extensible Object Store.</title>
+ <initPage>517</initPage>
+ <endPage>517</endPage>
+          <authors>
+                    <author position="00">Alexandros Biliris</author>
+ <author position="01">Euthimios Panagos</author>
+          </authors>
+     </article>
+
+     <article>
+                <title>Estimating Page Fetches for Index Scans with Finite LRU Buffers.</title>
+ <initPage>173</initPage>
+ <endPage>184</endPage>
+          <authors>
+                    <author position="00">Arun N. Swami</author>
+ <author position="01">K. Bernhard Schiefer</author>
+          </authors>
+     </article>
+
+     <article>
+                <title>Evolving Teradata Decision Support for Massively Parallel Processing with UNIX.</title>
+ <initPage>490</initPage>
+ <endPage>490</endPage>
+          <authors>
+                    <author position="00">Carrie Ballinger</author>
+          </authors>
+     </article>
+
+     <article>
+                <title>Fast Subsequence Matching in Time-Series Databases.</title>
+ <initPage>419</initPage>
+ <endPage>429</endPage>
+          <authors>
+                    <author position="00">Christos Faloutsos</author>
+ <author position="01">M. Ranganathan</author>
+ <author position="02">Yannis Manolopoulos</author>
+          </authors>
+     </article>
+
+     <article>
+                <title>Fine-Grained Sharing in a Page Server OODBMS.</title>
+ <initPage>359</initPage>
+ <endPage>370</endPage>
+          <authors>
+                    <author position="00">Michael J. Carey</author>
+ <author position="01">Michael J. Franklin</author>
+ <author position="02">Markos Zaharioudakis</author>
+          </authors>
+     </article>
+
+     <article>
+                <title>From Structured Documents to Novel Query Facilities.</title>
+ <initPage>313</initPage>
+ <endPage>324</endPage>
+          <authors>
+                    <author position="00">Vassilis Christophides</author>
+ <author position="01">Serge Abiteboul</author>
+ <author position="02">Sophie Cluet</author>
+ <author position="03">Michel Scholl</author>
+          </authors>
+     </article>
+
+     <article>
+                <title>GENESYS: A System for Efficient Spatial Query Processing.</title>
+ <initPage>519</initPage>
+ <endPage>519</endPage>
+          <authors>
+                    <author position="00">Thomas Brinkhoff</author>
+ <author position="01">Hans-Peter Kriegel</author>
+ <author position="02">Ralf Schneider</author>
+ <author position="03">Bernhard Seeger</author>
+          </authors>
+     </article>
+
+     <article>
+                <title>Implementation of Magic-sets in a Relational Database System.</title>
+ <initPage>103</initPage>
+ <endPage>114</endPage>
+          <authors>
+                    <author position="00">Inderpal Singh Mumick</author>
+ <author position="01">Hamid Pirahesh</author>
+          </authors>
+     </article>
+
+     <article>
+                <title>Incomplete Path Expressions and their Disambiguation.</title>
+ <initPage>138</initPage>
+ <endPage>149</endPage>
+          <authors>
+                    <author position="00">Yannis E. Ioannidis</author>
+ <author position="01">Yezdi Lashkari</author>
+          </authors>
+     </article>
+
+     <article>
+                <title>Incremental Updates of Inverted Lists for Text Document Retrieval.</title>
+ <initPage>289</initPage>
+ <endPage>300</endPage>
+          <authors>
+                    <author position="00">Anthony Tomasic</author>
+ <author position="01">Hector Garcia-Molina</author>
+ <author position="02">Kurt A. Shoens</author>
+          </authors>
+     </article>
+
+     <article>
+                <title>Managing Memory for Real-Time Queries.</title>
+ <initPage>221</initPage>
+ <endPage>232</endPage>
+          <authors>
+                    <author position="00">HweeHwa Pang</author>
+ <author position="01">Michael J. Carey</author>
+ <author position="02">Miron Livny</author>
+          </authors>
+     </article>
+
+     <article>
+                <title>METU Object-Oriented DBMS.</title>
+ <initPage>513</initPage>
+ <endPage>513</endPage>
+          <authors>
+                    <author position="00">Asuman Dogac</author>
+ <author position="01">Budak Arpinar</author>
+ <author position="02">Cem Evrendilek</author>
+ <author position="03">Cetin Ozkan</author>
+ <author position="04">Ilker Altintas</author>
+ <author position="05">Ilker Durusoy</author>
+ <author position="06">Mehmet Altinel</author>
+ <author position="07">Tansel Okay</author>
+ <author position="08">Yuksel Saygin</author>
+          </authors>
+     </article>
+
+     <article>
+                <title>MOSAICO - A System for Conceptual Modeling and Rapid Prototyping of Object-Oriented Database Application.</title>
+ <initPage>508</initPage>
+ <endPage>508</endPage>
+          <authors>
+                    <author position="00">Michele Missikoff</author>
+ <author position="01">M. Toiati</author>
+          </authors>
+     </article>
+
+     <article>
+                <title>Multi-Step Processing of Spatial Joins.</title>
+ <initPage>197</initPage>
+ <endPage>208</endPage>
+          <authors>
+                    <author position="00">Thomas Brinkhoff</author>
+ <author position="01">Hans-Peter Kriegel</author>
+ <author position="02">Ralf Schneider</author>
+ <author position="03">Bernhard Seeger</author>
+          </authors>
+     </article>
+
+     <article>
+                <title>NonStop SQL: Scalability and Availability for Decision Support.</title>
+ <initPage>491</initPage>
+ <endPage>491</endPage>
+          <authors>
+                    <author position="00">Susanne Englert</author>
+          </authors>
+     </article>
+
+     <article>
+                <title>Object-Oriented Extensions in SQL3: A Status Report.</title>
+ <initPage>478</initPage>
+ <endPage>478</endPage>
+          <authors>
+                    <author position="00">Krishna G. Kulkarni</author>
+          </authors>
+     </article>
+
+     <article>
+                <title>Object-Oriented Features of DB2 Client/Server.</title>
+ <initPage>483</initPage>
+ <endPage>483</endPage>
+          <authors>
+                    <author position="00">Hamid Pirahesh</author>
+          </authors>
+     </article>
+
+     <article>
+                <title>ODMG-93: A Standard for Object-Oriented DBMSs.</title>
+ <initPage>480</initPage>
+ <endPage>480</endPage>
+          <authors>
+                    <author position="00">R. G. G. Cattell</author>
+          </authors>
+     </article>
+
+     <article>
+                <title>On Parallel Execution of Multiple Pipelined Hash Joins.</title>
+ <initPage>185</initPage>
+ <endPage>196</endPage>
+          <authors>
+                    <author position="00">Hui-I Hsiao</author>
+ <author position="01">Ming-Syan Chen</author>
+ <author position="02">Philip S. Yu</author>
+          </authors>
+     </article>
+
+     <article>
+                <title>Open Object Database Management Systems.</title>
+ <initPage>520</initPage>
+ <endPage>520</endPage>
+          <authors>
+                    <author position="00">Jos A. Blakeley</author>
+          </authors>
+     </article>
+
+     <article>
+                <title>Optimization of Dynamic Query Evaluation Plans.</title>
+ <initPage>150</initPage>
+ <endPage>160</endPage>
+          <authors>
+                    <author position="00">Richard L. Cole</author>
+ <author position="01">Goetz Graefe</author>
+          </authors>
+     </article>
+
+     <article>
+                <title>Optimizing Disjunctive Queries with Expensive Predicates.</title>
+ <initPage>336</initPage>
+ <endPage>347</endPage>
+          <authors>
+                    <author position="00">Alfons Kemper</author>
+ <author position="01">Guido Moerkotte</author>
+ <author position="02">Klaus Peithner</author>
+ <author position="03">Michael Steinbrunn</author>
+          </authors>
+     </article>
+
+     <article>
+                <title>Optimizing Queries on Files.</title>
+ <initPage>301</initPage>
+ <endPage>312</endPage>
+          <authors>
+                    <author position="00">Mariano P. Consens</author>
+ <author position="01">Tova Milo</author>
+          </authors>
+     </article>
+
+     <article>
+                <title>Oracle Media Server: Providing Consumer Based Interactive Access to Multimedia Data.</title>
+ <initPage>470</initPage>
+ <endPage>477</endPage>
+          <authors>
+                    <author position="00">Andrew Laursen</author>
+ <author position="01">Jeffrey Olkin</author>
+ <author position="02">Mark Porter</author>
+          </authors>
+     </article>
+
+     <article>
+                <title>Oracle's Symmetric Replication Technology and Implications for Application Design.</title>
+ <initPage>467</initPage>
+ <endPage>467</endPage>
+          <authors>
+                    <author position="00">Dean Daniels</author>
+ <author position="01">Lip Boon Doo</author>
+ <author position="02">Alan Downing</author>
+ <author position="03">Curtis Elsbernd</author>
+ <author position="04">Gary Hallmark</author>
+ <author position="05">Sandeep Jain</author>
+ <author position="06">Bob Jenkins</author>
+ <author position="07">Peter Lim</author>
+ <author position="08">Gordon Smith</author>
+ <author position="09">Benny Souder</author>
+ <author position="10">Jim Stamos</author>
+          </authors>
+     </article>
+
+     <article>
+                <title>Outerjoins as Disjunctions.</title>
+ <initPage>348</initPage>
+ <endPage>358</endPage>
+          <authors>
+                    <author position="00">Csar A. Galindo-Legaria</author>
+          </authors>
+     </article>
+
+     <article>
+                <title>Parallel Database Systems in the 1990's.</title>
+ <initPage>466</initPage>
+ <endPage>466</endPage>
+          <authors>
+                    <author position="00">Michael J. Carey</author>
+          </authors>
+     </article>
+
+     <article>
+                <title>Partition Selection Policies in Object Database Garbage Collection.</title>
+ <initPage>371</initPage>
+ <endPage>382</endPage>
+          <authors>
+                    <author position="00">Jonathan E. Cook</author>
+ <author position="01">Alexander L. Wolf</author>
+ <author position="02">Benjamin G. Zorn</author>
+          </authors>
+     </article>
+
+     <article>
+                <title>Practical Predicate Placement.</title>
+ <initPage>325</initPage>
+ <endPage>335</endPage>
+          <authors>
+                    <author position="00">Joseph M. Hellerstein</author>
+          </authors>
+     </article>
+
+     <article>
+                <title>Predictive Dynamic Load Balancing of Parallel and Distributed Rule and Query Processing.</title>
+ <initPage>277</initPage>
+ <endPage>288</endPage>
+          <authors>
+                    <author position="00">Hasanat M. Dewan</author>
+ <author position="01">Salvatore J. Stolfo</author>
+ <author position="02">Mauricio A. Hernndez</author>
+ <author position="03">Jae-Jun Hwang</author>
+          </authors>
+     </article>
+
+     <article>
+                <title>Ptool: A Scalable Persistent Object Manager.</title>
+ <initPage>510</initPage>
+ <endPage>510</endPage>
+          <authors>
+                    <author position="00">Robert L. Grossman</author>
+ <author position="01">X. Qin</author>
+          </authors>
+     </article>
+
+     <article>
+                <title>Query by Diagram: A Graphical Environment for Querying Databases.</title>
+ <initPage>515</initPage>
+ <endPage>515</endPage>
+          <authors>
+                    <author position="00">Tiziana Catarci</author>
+ <author position="01">Giuseppe Santucci</author>
+          </authors>
+     </article>
+
+     <article>
+                <title>Quest: A Project on Database Mining.</title>
+ <initPage>514</initPage>
+ <endPage>514</endPage>
+          <authors>
+                    <author position="00">Rakesh Agrawal</author>
+ <author position="01">Michael J. Carey</author>
+ <author position="02">Christos Faloutsos</author>
+ <author position="03">Sakti P. Ghosh</author>
+ <author position="04">Maurice A. W. Houtsma</author>
+ <author position="05">Tomasz Imielinski</author>
+ <author position="06">Balakrishna R. Iyer</author>
+ <author position="07">A. Mahboob</author>
+ <author position="08">H. Miranda</author>
+ <author position="09">Ramakrishnan Srikant</author>
+ <author position="10">Arun N. Swami</author>
+          </authors>
+     </article>
+
+     <article>
+                <title>Quickly Generating Billion-Record Synthetic Databases.</title>
+ <initPage>243</initPage>
+ <endPage>252</endPage>
+          <authors>
+                    <author position="00">Jim Gray</author>
+ <author position="01">Prakash Sundaresan</author>
+ <author position="02">Susanne Englert</author>
+ <author position="03">Kenneth Baclawski</author>
+ <author position="04">Peter J. Weinberger</author>
+          </authors>
+     </article>
+
+     <article>
+                <title>QuickStore: A High Performance Mapped Object Store.</title>
+ <initPage>395</initPage>
+ <endPage>406</endPage>
+          <authors>
+                    <author position="00">Seth J. White</author>
+ <author position="01">David J. DeWitt</author>
+          </authors>
+     </article>
+
+     <article>
+                <title>Red Brick Warehouse: A Read-Mostly RDBMS for Open SMP Platforms.</title>
+ <initPage>492</initPage>
+ <endPage>492</endPage>
+          <authors>
+                    <author position="00">Phillip M. Fernandez</author>
+          </authors>
+     </article>
+
+     <article>
+                <title>Relaxed Transaction Processing.</title>
+ <initPage>505</initPage>
+ <endPage>505</endPage>
+          <authors>
+                    <author position="00">Munindar P. Singh</author>
+ <author position="01">Christine Tomlinson</author>
+ <author position="02">Darrell Woelk</author>
+          </authors>
+     </article>
+
+     <article>
+                <title>Self-Adaptive, On-Line Reclustering of Complex Object Data.</title>
+ <initPage>407</initPage>
+ <endPage>418</endPage>
+          <authors>
+                    <author position="00">William J. McIver Jr.</author>
+ <author position="01">Roger King</author>
+          </authors>
+     </article>
+
+     <article>
+                <title>Sequence Query Processing.</title>
+ <initPage>430</initPage>
+ <endPage>441</endPage>
+          <authors>
+                    <author position="00">Praveen Seshadri</author>
+ <author position="01">Miron Livny</author>
+ <author position="02">Raghu Ramakrishnan</author>
+          </authors>
+     </article>
+
+     <article>
+                <title>Shoring Up Persistent Applications.</title>
+ <initPage>383</initPage>
+ <endPage>394</endPage>
+          <authors>
+                    <author position="00">Michael J. Carey</author>
+ <author position="01">David J. DeWitt</author>
+ <author position="02">Michael J. Franklin</author>
+ <author position="03">Nancy E. Hall</author>
+ <author position="04">Mark L. McAuliffe</author>
+ <author position="05">Jeffrey F. Naughton</author>
+ <author position="06">Daniel T. Schuh</author>
+ <author position="07">Marvin H. Solomon</author>
+ <author position="08">C. K. Tan</author>
+ <author position="09">Odysseas G. Tsatalos</author>
+ <author position="10">Seth J. White</author>
+ <author position="11">Michael J. Zwilling</author>
+          </authors>
+     </article>
+
+     <article>
+                <title>Sleepers and Workaholics: Caching Strategies in Mobile Environments.</title>
+ <initPage>1</initPage>
+ <endPage>12</endPage>
+          <authors>
+                    <author position="00">Daniel Barbar</author>
+ <author position="01">Tomasz Imielinski</author>
+          </authors>
+     </article>
+
+     <article>
+                <title>Spatial Joins Using Seeded Trees.</title>
+ <initPage>209</initPage>
+ <endPage>220</endPage>
+          <authors>
+                    <author position="00">Ming-Ling Lo</author>
+ <author position="01">Chinya V. Ravishankar</author>
+          </authors>
+     </article>
+
+     <article>
+                <title>Staggered Striping in Multimedia Information Systems.</title>
+ <initPage>79</initPage>
+ <endPage>90</endPage>
+          <authors>
+                    <author position="00">Steven Berson</author>
+ <author position="01">Shahram Ghandeharizadeh</author>
+ <author position="02">Richard R. Muntz</author>
+ <author position="03">Xiangyu Ju</author>
+          </authors>
+     </article>
+
+     <article>
+                <title>Sybase Replication Server.</title>
+ <initPage>469</initPage>
+ <endPage>469</endPage>
+          <authors>
+                    <author position="00">Alex Gorelik</author>
+ <author position="01">Yongdong Wang</author>
+ <author position="02">Mark Deppe</author>
+          </authors>
+     </article>
+
+     <article>
+                <title>The Effectiveness of GlOSS for the Text Database Discovery Problem.</title>
+ <initPage>126</initPage>
+ <endPage>137</endPage>
+          <authors>
+                    <author position="00">Luis Gravano</author>
+ <author position="01">Hector Garcia-Molina</author>
+ <author position="02">Anthony Tomasic</author>
+          </authors>
+     </article>
+
+     <article>
+                <title>The IMPRESS DDT: A Database Design Toolbox Based on a Formal Specification Language.</title>
+ <initPage>506</initPage>
+ <endPage>506</endPage>
+          <authors>
+                    <author position="00">Jan Flokstra</author>
+ <author position="01">Maurice van Keulen</author>
+ <author position="02">Jacek Skowronek</author>
+          </authors>
+     </article>
+
+     <article>
+                <title>The MEDUSA Project: Autonomous Data Management in a Shared-Nothing Parallel Database Machine.</title>
+ <initPage>507</initPage>
+ <endPage>507</endPage>
+          <authors>
+                    <author position="00">George M. Bryan</author>
+ <author position="01">Wayne E. Moore</author>
+ <author position="02">B. J. Curry</author>
+ <author position="03">K. W. Lodge</author>
+ <author position="04">J. Geyer</author>
+          </authors>
+     </article>
+
+     <article>
+                <title>The Montage Extensible DataBlade Achitecture.</title>
+ <initPage>482</initPage>
+ <endPage>482</endPage>
+          <authors>
+                    <author position="00">Michael Ubell</author>
+          </authors>
+     </article>
+
+     <article>
+                <title>The MYRIAD Federated Database Prototype.</title>
+ <initPage>518</initPage>
+ <endPage>518</endPage>
+          <authors>
+                    <author position="00">San-Yih Hwang</author>
+ <author position="01">Ee-Peng Lim</author>
+ <author position="02">H.-R. Yang</author>
+ <author position="03">S. Musukula</author>
+ <author position="04">K. Mediratta</author>
+ <author position="05">M. Ganesh</author>
+ <author position="06">D. Clements</author>
+ <author position="07">J. Stenoien</author>
+ <author position="08">Jaideep Srivastava</author>
+          </authors>
+     </article>
+
+     <article>
+                <title>The ORES Temporal Database Management System.</title>
+ <initPage>511</initPage>
+ <endPage>511</endPage>
+          <authors>
+                    <author position="00">Babis Theodoulidis</author>
+ <author position="01">Aziz Ait-Braham</author>
+ <author position="02">George Andrianopoulos</author>
+ <author position="03">Jayant Chaudhary</author>
+ <author position="04">George Karvelis</author>
+ <author position="05">Simon Sou</author>
+          </authors>
+     </article>
+
+     <article>
+                <title>UniSQL/X Unified Relational and Object-Oriented Database System.</title>
+ <initPage>481</initPage>
+ <endPage>481</endPage>
+          <authors>
+                    <author position="00">Won Kim</author>
+          </authors>
+     </article>
+
+     <article>
+                <title>XSB as a Deductive Database.</title>
+ <initPage>512</initPage>
+ <endPage>512</endPage>
+          <authors>
+                    <author position="00">Konstantinos F. Sagonas</author>
+ <author position="01">Terrance Swift</author>
+ <author position="02">David Scott Warren</author>
+          </authors>
+     </article>
+
+     <article>
+                <title>XSB as an Efficient Deductive Database Engine.</title>
+ <initPage>442</initPage>
+ <endPage>453</endPage>
+          <authors>
+                    <author position="00">Konstantinos F. Sagonas</author>
+ <author position="01">Terrance Swift</author>
+ <author position="02">David Scott Warren</author>
+          </authors>
+     </article>
+
+    </articles>
+  </issue>
+    <issue>
+        <volume>23</volume>
+ <number>3</number>
+    <articles>
+            <article>
+                <title>A TSQL2 Tutorial.</title>
+ <initPage>27</initPage>
+ <endPage>33</endPage>
+          <authors>
+                    <author position="00">Richard T. Snodgrass</author>
+ <author position="01">Ilsoo Ahn</author>
+ <author position="02">Gad Ariav</author>
+ <author position="03">Don S. Batory</author>
+ <author position="04">James Clifford</author>
+ <author position="05">Curtis E. Dyreson</author>
+ <author position="06">Ramez Elmasri</author>
+ <author position="07">Fabio Grandi</author>
+ <author position="08">Christian S. Jensen</author>
+ <author position="09">Wolfgang Kfer</author>
+ <author position="10">Nick Kline</author>
+ <author position="11">Krishna G. Kulkarni</author>
+ <author position="12">T. Y. Cliff Leung</author>
+ <author position="13">Nikos A. Lorentzos</author>
+ <author position="14">John F. Roddick</author>
+ <author position="15">Arie Segev</author>
+ <author position="16">Michael D. Soo</author>
+ <author position="17">Suryanarayana M. Sripada</author>
+          </authors>
+     </article>
+
+     <article>
+                <title>Database Research at NTHU and ITRI.</title>
+ <initPage>54</initPage>
+ <endPage>59</endPage>
+          <authors>
+                    <author position="00">Arbee L. P. Chen</author>
+          </authors>
+     </article>
+
+     <article>
+                <title>Editor's Notes.</title>
+ <initPage>2</initPage>
+ <endPage>2</endPage>
+          <authors>
+                    <author position="00">Arie Segev</author>
+ <author position="00">Jennifer Widom</author>
+ <author position="00">Michael J. Franklin</author>
+          </authors>
+     </article>
+
+     <article>
+                <title>How to Modify SQL Queries in Order to Guarantee Sure Answers.</title>
+ <initPage>14</initPage>
+ <endPage>20</endPage>
+          <authors>
+                    <author position="00">H.-J. Klein</author>
+          </authors>
+     </article>
+
+     <article>
+                <title>Jumping on the NII Bandwagon.</title>
+ <initPage>61</initPage>
+ <endPage>65</endPage>
+          <authors>
+                    <author position="00">Xiaolei Qian</author>
+          </authors>
+     </article>
+
+     <article>
+                <title>Medical Information Systems: Characterization and Challenges.</title>
+ <initPage>44</initPage>
+ <endPage>53</endPage>
+          <authors>
+                    <author position="00">Jorge C. G. Ramirez</author>
+ <author position="01">Lon A. Smith</author>
+ <author position="02">Lynn L. Petterson</author>
+          </authors>
+     </article>
+
+     <article>
+                <title>Performance Evaluation of a New Distributed Deadlock Detection Algorithm.</title>
+ <initPage>21</initPage>
+ <endPage>26</endPage>
+          <authors>
+                    <author position="00">Chim-fu Yeung</author>
+ <author position="01">Sheung-lun Hung</author>
+ <author position="02">Kam-yiu Lam</author>
+          </authors>
+     </article>
+
+     <article>
+                <title>Research Issues in Active Database Systems: Report from the Closing Panel at RIDE-ADS '94.</title>
+ <initPage>41</initPage>
+ <endPage>43</endPage>
+          <authors>
+                    <author position="00">Jennifer Widom</author>
+          </authors>
+     </article>
+
+     <article>
+                <title>Research Issues in Databases for ARCS: Active Rapidly Changing Data Systems.</title>
+ <initPage>8</initPage>
+ <endPage>13</endPage>
+          <authors>
+                    <author position="00">Anindya Datta</author>
+          </authors>
+     </article>
+
+     <article>
+                <title>Response to the March 1994 ODMG-93 Commentary Written by Dr. Won Kim of UniSQL, Inc.</title>
+ <initPage>3</initPage>
+ <endPage>7</endPage>
+          <authors>
+                    <author position="00">Object Database Management Group</author>
+          </authors>
+     </article>
+
+     <article>
+                <title>The Impact of Database Research on Industrial Products (Panel Summary).</title>
+ <initPage>35</initPage>
+ <endPage>40</endPage>
+          <authors>
+                    <author position="00">Daniel Barbar</author>
+ <author position="01">Jos A. Blakeley</author>
+ <author position="02">Daniel H. Fishman</author>
+ <author position="03">David B. Lomet</author>
+ <author position="04">Michael Stonebraker</author>
+          </authors>
+     </article>
+
+     <article>
+                <title>The TSQL2 Final Language Definition Announcement.</title>
+ <initPage>34</initPage>
+ <endPage>34</endPage>
+          <authors>
+                    <author position="00">X</author>
+          </authors>
+     </article>
+
+     <article>
+                <title>Trade Press News.</title>
+ <initPage>60</initPage>
+ <endPage>60</endPage>
+          <authors>
+                    <author position="00">Rafael Alonso</author>
+          </authors>
+     </article>
+
+    </articles>
+  </issue>
+    <issue>
+        <volume>23</volume>
+ <number>4</number>
+    <articles>
+            <article>
+                <title>A Metadatabase System for Semantic Image Search by a Mathematical Model of Meaning.</title>
+ <initPage>34</initPage>
+ <endPage>41</endPage>
+          <authors>
+                    <author position="00">Yasushi Kiyoki</author>
+ <author position="01">Takashi Kitagawa</author>
+ <author position="02">Takanari Hayama</author>
+          </authors>
+     </article>
+
+     <article>
+                <title>A New Join Algorithm.</title>
+ <initPage>13</initPage>
+ <endPage>18</endPage>
+          <authors>
+                    <author position="00">Dong Keun Shin</author>
+ <author position="01">Arnold Charles Meltzer</author>
+          </authors>
+     </article>
+
+     <article>
+                <title>Announcements from NSF, NASA, and Elsewhere.</title>
+ <initPage>104</initPage>
+ <endPage>107</endPage>
+          <authors>
+                    <author position="00">Xiaolei Qian</author>
+          </authors>
+     </article>
+
+     <article>
+                <title>Are the Terms "Version" and "Variant" Orthogonal to One Another? A Critical Assessment of the STEP Standardization.</title>
+ <initPage>3</initPage>
+ <endPage>7</endPage>
+          <authors>
+                    <author position="00">Hartmut Wedekind</author>
+          </authors>
+     </article>
+
+     <article>
+                <title>Data Modelling in the Large.</title>
+ <initPage>8</initPage>
+ <endPage>12</endPage>
+          <authors>
+                    <author position="00">Martin Bertram</author>
+          </authors>
+     </article>
+
+     <article>
+                <title>Editor's Notes and Erratum.</title>
+ <initPage>2</initPage>
+ <endPage>2</endPage>
+          <authors>
+                    <author position="00">Arie Segev</author>
+          </authors>
+     </article>
+
+     <article>
+                <title>Loading Databases Using Dataflow Parallelism.</title>
+ <initPage>72</initPage>
+ <endPage>83</endPage>
+          <authors>
+                    <author position="00">Tom Barclay</author>
+ <author position="01">Robert Barnes</author>
+ <author position="02">Jim Gray</author>
+ <author position="03">Prakash Sundaresan</author>
+          </authors>
+     </article>
+
+     <article>
+                <title>Metadata for Digital Media: Introduction to the Special Issue.</title>
+ <initPage>19</initPage>
+ <endPage>20</endPage>
+          <authors>
+                    <author position="00">Wolfgang Klas</author>
+ <author position="01">Amit P. Sheth</author>
+          </authors>
+     </article>
+
+     <article>
+                <title>Metadata for Integrating Speech Documents in a Text Retrieval System.</title>
+ <initPage>57</initPage>
+ <endPage>63</endPage>
+          <authors>
+                    <author position="00">Ulrike Glavitsch</author>
+ <author position="01">Peter Schuble</author>
+ <author position="02">Martin Wechsler</author>
+          </authors>
+     </article>
+
+     <article>
+                <title>Metadata for Mixed-Media Access.</title>
+ <initPage>64</initPage>
+ <endPage>71</endPage>
+          <authors>
+                    <author position="00">Francine Chen</author>
+ <author position="01">Marti A. Hearst</author>
+ <author position="02">Julian Kupiec</author>
+ <author position="03">Jan O. Pedersen</author>
+ <author position="04">Lynn Wilcox</author>
+          </authors>
+     </article>
+
+     <article>
+                <title>Metadata for Multimedia Documents.</title>
+ <initPage>21</initPage>
+ <endPage>26</endPage>
+          <authors>
+                    <author position="00">Klemens Bhm</author>
+ <author position="01">Thomas C. Rakow</author>
+          </authors>
+     </article>
+
+     <article>
+                <title>Metadata in Video Databases.</title>
+ <initPage>27</initPage>
+ <endPage>33</endPage>
+          <authors>
+                    <author position="00">Ramesh Jain</author>
+ <author position="01">Arun Hampapur</author>
+          </authors>
+     </article>
+
+     <article>
+                <title>Recent Design Trade-offs in SQL3.</title>
+ <initPage>84</initPage>
+ <endPage>89</endPage>
+          <authors>
+                    <author position="00">Nelson Mendona Mattos</author>
+ <author position="01">Linda G. DeMichiel</author>
+          </authors>
+     </article>
+
+     <article>
+                <title>SEQUOIA 2000 Metadata Schema for Satellite Images.</title>
+ <initPage>42</initPage>
+ <endPage>48</endPage>
+          <authors>
+                    <author position="00">Jean T. Anderson</author>
+ <author position="01">Michael Stonebraker</author>
+          </authors>
+     </article>
+
+     <article>
+                <title>Trade Press News - Announcement and Preface.</title>
+ <initPage>90</initPage>
+ <endPage>90</endPage>
+          <authors>
+                    <author position="00">Rafael Alonso</author>
+          </authors>
+     </article>
+
+     <article>
+                <title>Unix RDBMS: The Next Generation.</title>
+ <initPage>91</initPage>
+ <endPage>103</endPage>
+          <authors>
+                    <author position="00">Bill Rosneblatt</author>
+          </authors>
+     </article>
+
+     <article>
+                <title>Using Metadata for the Intelligent Browsing of Structured Media Objects.</title>
+ <initPage>49</initPage>
+ <endPage>56</endPage>
+          <authors>
+                    <author position="00">William I. Grosky</author>
+ <author position="01">Farshad Fotouhi</author>
+ <author position="02">Ishwar K. Sethi</author>
+          </authors>
+     </article>
+
+    </articles>
+  </issue>
+    <issue>
+        <volume>23</volume>
+ <number>1</number>
+    <articles>
+            <article>
+                <title>A Consensus Glossary of Temporal Database Concepts.</title>
+ <initPage>52</initPage>
+ <endPage>64</endPage>
+          <authors>
+                    <author position="00">Christian S. Jensen</author>
+ <author position="01">James Clifford</author>
+ <author position="02">Ramez Elmasri</author>
+ <author position="03">Shashi K. Gadia</author>
+ <author position="04">Pat Hayes</author>
+ <author position="05">Sushil Jajodia</author>
+          </authors>
+     </article>
+
+     <article>
+                <title>A Hypertext Query Language for Images.</title>
+ <initPage>16</initPage>
+ <endPage>20</endPage>
+          <authors>
+                    <author position="00">Li Yang</author>
+          </authors>
+     </article>
+
+     <article>
+                <title>Comprehension Syntax.</title>
+ <initPage>87</initPage>
+ <endPage>96</endPage>
+          <authors>
+                    <author position="00">Peter Buneman</author>
+ <author position="01">Leonid Libkin</author>
+ <author position="02">Dan Suciu</author>
+ <author position="03">Val Tannen</author>
+ <author position="04">Limsoon Wong</author>
+          </authors>
+     </article>
+
+     <article>
+                <title>Constructing the Next 100 Database Management Systems.</title>
+ <initPage>27</initPage>
+ <endPage>33</endPage>
+          <authors>
+                    <author position="00">Andreas Geppert</author>
+ <author position="01">Klaus R. Dittrich</author>
+          </authors>
+     </article>
+
+     <article>
+                <title>Databases for GIS.</title>
+ <initPage>107</initPage>
+ <endPage>115</endPage>
+          <authors>
+                    <author position="00">Claudia Bauzer Medeiros</author>
+ <author position="01">Fatima Pires</author>
+          </authors>
+     </article>
+
+     <article>
+                <title>Editor's Notes.</title>
+ <initPage>2</initPage>
+ <endPage>2</endPage>
+          <authors>
+                    <author position="00">Arie Segev</author>
+ <author position="00">Jennifer Widom</author>
+ <author position="00">Michael J. Franklin</author>
+          </authors>
+     </article>
+
+     <article>
+                <title>In Memory of Bob Kooi (1951-1993).</title>
+ <initPage>3</initPage>
+ <endPage>3</endPage>
+          <authors>
+                    <author position="00">Michael Stonebraker</author>
+          </authors>
+     </article>
+
+     <article>
+                <title>Influencing Database Language Standards.</title>
+ <initPage>122</initPage>
+ <endPage>127</endPage>
+          <authors>
+                    <author position="00">Leonard Gallagher</author>
+          </authors>
+     </article>
+
+     <article>
+                <title>Observations on the ODMG-93 Proposal.</title>
+ <initPage>4</initPage>
+ <endPage>9</endPage>
+          <authors>
+                    <author position="00">Won Kim</author>
+          </authors>
+     </article>
+
+     <article>
+                <title>Overview of the Special Section on Temporal Database Infrastructure.</title>
+ <initPage>34</initPage>
+ <endPage>34</endPage>
+          <authors>
+                    <author position="00">Richard T. Snodgrass</author>
+          </authors>
+     </article>
+
+     <article>
+                <title>Progress on HPCC and NII.</title>
+ <initPage>129</initPage>
+ <endPage>133</endPage>
+          <authors>
+                    <author position="00">Marianne Winslett</author>
+          </authors>
+     </article>
+
+     <article>
+                <title>Research Perspectives for Time Series Management Systems.</title>
+ <initPage>10</initPage>
+ <endPage>15</endPage>
+          <authors>
+                    <author position="00">Werner Dreyer</author>
+ <author position="01">Angelika Kotz Dittrich</author>
+ <author position="02">Duri Schmidt</author>
+          </authors>
+     </article>
+
+     <article>
+                <title>Supporting Dynamic Displays Using Active Rules.</title>
+ <initPage>21</initPage>
+ <endPage>26</endPage>
+          <authors>
+                    <author position="00">Oscar Daz</author>
+ <author position="01">Arturo Jaime</author>
+ <author position="02">Norman W. Paton</author>
+ <author position="03">Ghassan al-Qaimari</author>
+          </authors>
+     </article>
+
+     <article>
+                <title>Text Databases: A Survey of Text Models and Systems.</title>
+ <initPage>97</initPage>
+ <endPage>106</endPage>
+          <authors>
+                    <author position="00">Arjan Loeffen</author>
+          </authors>
+     </article>
+
+     <article>
+                <title>The Database Research Group at ETH Zurich.</title>
+ <initPage>116</initPage>
+ <endPage>121</endPage>
+          <authors>
+                    <author position="00">Moira C. Norrie</author>
+ <author position="01">Stephen Blott</author>
+ <author position="02">Hans-Jrg Schek</author>
+ <author position="03">Gerhard Weikum</author>
+          </authors>
+     </article>
+
+     <article>
+                <title>Towards an Infrastructure for Temporal Databases: Report of an Invitational ARPA/NSF Workshop.</title>
+ <initPage>35</initPage>
+ <endPage>51</endPage>
+          <authors>
+                    <author position="00">Niki Pissinou</author>
+ <author position="01">Richard T. Snodgrass</author>
+ <author position="02">Ramez Elmasri</author>
+ <author position="03">Inderpal Singh Mumick</author>
+ <author position="04">M. Tamer zsu</author>
+ <author position="05">Barbara Pernici</author>
+ <author position="06">Arie Segev</author>
+ <author position="07">Babis Theodoulidis</author>
+ <author position="08">Umeshwar Dayal</author>
+          </authors>
+     </article>
+
+     <article>
+                <title>Trade Press News.</title>
+ <initPage>128</initPage>
+ <endPage>128</endPage>
+          <authors>
+                    <author position="00">Rafael Alonso</author>
+          </authors>
+     </article>
+
+     <article>
+                <title>TSQL2 Language Specification.</title>
+ <initPage>65</initPage>
+ <endPage>86</endPage>
+          <authors>
+                    <author position="00">Richard T. Snodgrass</author>
+ <author position="01">Ilsoo Ahn</author>
+ <author position="02">Gadi Ariav</author>
+ <author position="03">Don S. Batory</author>
+ <author position="04">James Clifford</author>
+ <author position="05">Curtis E. Dyreson</author>
+ <author position="06">Ramez Elmasri</author>
+ <author position="07">Fabio Grandi</author>
+ <author position="08">Christian S. Jensen</author>
+ <author position="09">Wolfgang Kfer</author>
+ <author position="10">Nick Kline</author>
+ <author position="11">Krishna G. Kulkarni</author>
+ <author position="12">T. Y. Cliff Leung</author>
+ <author position="13">Nikos A. Lorentzos</author>
+ <author position="14">John F. Roddick</author>
+ <author position="15">Arie Segev</author>
+ <author position="16">Michael D. Soo</author>
+ <author position="17">Suryanarayana M. Sripada</author>
+          </authors>
+     </article>
+
+    </articles>
+  </issue>
+    <issue>
+        <volume>23</volume>
+ <number>2</number>
+    <articles>
+            <article>
+                <title>A Language Based Multidatabase System.</title>
+ <initPage>509</initPage>
+ <endPage>509</endPage>
+          <authors>
+                    <author position="00">eva Khn</author>
+ <author position="01">Thomas Tschernko</author>
+ <author position="02">Konrad Schwarz</author>
+          </authors>
+     </article>
+
+     <article>
+                <title>A Performance Study of Transitive Closure Algorithms.</title>
+ <initPage>454</initPage>
+ <endPage>465</endPage>
+          <authors>
+                    <author position="00">Shaul Dar</author>
+ <author position="01">Raghu Ramakrishnan</author>
+          </authors>
+     </article>
+
+     <article>
+                <title>A Survey and Critique of Advanced Transaction Models.</title>
+ <initPage>521</initPage>
+ <endPage>521</endPage>
+          <authors>
+                    <author position="00">C. Mohan</author>
+          </authors>
+     </article>
+
+     <article>
+                <title>Adaptive Selectivity Estimation Using Query Feedback.</title>
+ <initPage>161</initPage>
+ <endPage>172</endPage>
+          <authors>
+                    <author position="00">Chungmin Melvin Chen</author>
+ <author position="01">Nick Roussopoulos</author>
+          </authors>
+     </article>
+
+     <article>
+                <title>AlphaSort: A RISC Machine Sort.</title>
+ <initPage>233</initPage>
+ <endPage>242</endPage>
+          <authors>
+                    <author position="00">Chris Nyberg</author>
+ <author position="01">Tom Barclay</author>
+ <author position="02">Zarka Cvetanovic</author>
+ <author position="03">Jim Gray</author>
+ <author position="04">David B. Lomet</author>
+          </authors>
+     </article>
+
+     <article>
+                <title>ARIES/CSA: A Method for Database Recovery in Client-Server Architectures.</title>
+ <initPage>55</initPage>
+ <endPage>66</endPage>
+          <authors>
+                    <author position="00">C. Mohan</author>
+ <author position="01">Inderpal Narang</author>
+          </authors>
+     </article>
+
+     <article>
+                <title>ASSET: A System for Supporting Extended Transactions.</title>
+ <initPage>44</initPage>
+ <endPage>54</endPage>
+          <authors>
+                    <author position="00">Alexandros Biliris</author>
+ <author position="01">Shaul Dar</author>
+ <author position="02">Narain H. Gehani</author>
+ <author position="03">H. V. Jagadish</author>
+ <author position="04">Krithi Ramamritham</author>
+          </authors>
+     </article>
+
+     <article>
+                <title>Combinatorial Pattern Discovery for Scientific Data: Some Preliminary Results.</title>
+ <initPage>115</initPage>
+ <endPage>125</endPage>
+          <authors>
+                    <author position="00">Jason Tsong-Li Wang</author>
+ <author position="01">Gung-Wei Chirn</author>
+ <author position="02">Thomas G. Marr</author>
+ <author position="03">Bruce A. Shapiro</author>
+ <author position="04">Dennis Shasha</author>
+ <author position="05">Kaizhong Zhang</author>
+          </authors>
+     </article>
+
+     <article>
+                <title>COSS: The Common Object Services Specifications.</title>
+ <initPage>479</initPage>
+ <endPage>479</endPage>
+          <authors>
+                    <author position="00">Bruce E. Martin</author>
+          </authors>
+     </article>
+
+     <article>
+                <title>Data Modeling of Time-Based Media.</title>
+ <initPage>91</initPage>
+ <endPage>102</endPage>
+          <authors>
+                    <author position="00">Simon J. Gibbs</author>
+ <author position="01">Christian Breiteneder</author>
+ <author position="02">Dennis Tsichritzis</author>
+          </authors>
+     </article>
+
+     <article>
+                <title>Data Replication for Mobile Computers.</title>
+ <initPage>13</initPage>
+ <endPage>24</endPage>
+          <authors>
+                    <author position="00">Yixiu Huang</author>
+ <author position="01">A. Prasad Sistla</author>
+ <author position="02">Ouri Wolfson</author>
+          </authors>
+     </article>
+
+     <article>
+                <title>Database in Crisis and Transition: A Technical Agenda for the Year 2001.</title>
+ <initPage>484</initPage>
+ <endPage>489</endPage>
+          <authors>
+                    <author position="00">David Vaskevitch</author>
+          </authors>
+     </article>
+
+     <article>
+                <title>Database Issues in Telecommunications Network Management.</title>
+ <initPage>37</initPage>
+ <endPage>43</endPage>
+          <authors>
+                    <author position="00">Ilsoo Ahn</author>
+          </authors>
+     </article>
+
+     <article>
+                <title>Databases for Networks.</title>
+ <initPage>522</initPage>
+ <endPage>522</endPage>
+          <authors>
+                    <author position="00">H. V. Jagadish</author>
+          </authors>
+     </article>
+
+     <article>
+                <title>DBLearn: A System Prototype for Knowledge Discovery in Relational Databases.</title>
+ <initPage>516</initPage>
+ <endPage>516</endPage>
+          <authors>
+                    <author position="00">Jiawei Han</author>
+ <author position="01">Yongjian Fu</author>
+ <author position="02">Yue Huang</author>
+ <author position="03">Yandong Cai</author>
+ <author position="04">Nick Cercone</author>
+          </authors>
+     </article>
+
+     <article>
+                <title>DEC Data Distributor: for Data Replication and Data Warehousing.</title>
+ <initPage>468</initPage>
+ <endPage>468</endPage>
+          <authors>
+                    <author position="00">Daniel J. Dietterich</author>
+          </authors>
+     </article>
+
+     <article>
+                <title>Distributed File Organization with Scalable Cost/Performance.</title>
+ <initPage>253</initPage>
+ <endPage>264</endPage>
+          <authors>
+                    <author position="00">Radek Vingralek</author>
+ <author position="01">Yuri Breitbart</author>
+ <author position="02">Gerhard Weikum</author>
+          </authors>
+     </article>
+
+     <article>
+                <title>Distributing a Search Tree Among a Growing Number of Processors.</title>
+ <initPage>265</initPage>
+ <endPage>276</endPage>
+          <authors>
+                    <author position="00">Brigitte Krll</author>
+ <author position="01">Peter Widmayer</author>
+          </authors>
+     </article>
+
+     <article>
+                <title>Energy Efficient Indexing on Air.</title>
+ <initPage>25</initPage>
+ <endPage>36</endPage>
+          <authors>
+                    <author position="00">Tomasz Imielinski</author>
+ <author position="01">S. Viswanathan</author>
+ <author position="02">B. R. Badrinath</author>
+          </authors>
+     </article>
+
+     <article>
+                <title>Ensuring Relaxed Atomicity for Flexible Transactions in Multidatabase Systems.</title>
+ <initPage>67</initPage>
+ <endPage>78</endPage>
+          <authors>
+                    <author position="00">Aidong Zhang</author>
+ <author position="01">Marian H. Nodine</author>
+ <author position="02">Bharat K. Bhargava</author>
+ <author position="03">Omran A. Bukhres</author>
+          </authors>
+     </article>
+
+     <article>
+                <title>Enterprise Information Architectures -- They're Finally Changing.</title>
+ <initPage>493</initPage>
+ <endPage>504</endPage>
+          <authors>
+                    <author position="00">Wesley P. Melling</author>
+          </authors>
+     </article>
+
+     <article>
+                <title>EOS: An Extensible Object Store.</title>
+ <initPage>517</initPage>
+ <endPage>517</endPage>
+          <authors>
+                    <author position="00">Alexandros Biliris</author>
+ <author position="01">Euthimios Panagos</author>
+          </authors>
+     </article>
+
+     <article>
+                <title>Estimating Page Fetches for Index Scans with Finite LRU Buffers.</title>
+ <initPage>173</initPage>
+ <endPage>184</endPage>
+          <authors>
+                    <author position="00">Arun N. Swami</author>
+ <author position="01">K. Bernhard Schiefer</author>
+          </authors>
+     </article>
+
+     <article>
+                <title>Evolving Teradata Decision Support for Massively Parallel Processing with UNIX.</title>
+ <initPage>490</initPage>
+ <endPage>490</endPage>
+          <authors>
+                    <author position="00">Carrie Ballinger</author>
+          </authors>
+     </article>
+
+     <article>
+                <title>Fast Subsequence Matching in Time-Series Databases.</title>
+ <initPage>419</initPage>
+ <endPage>429</endPage>
+          <authors>
+                    <author position="00">Christos Faloutsos</author>
+ <author position="01">M. Ranganathan</author>
+ <author position="02">Yannis Manolopoulos</author>
+          </authors>
+     </article>
+
+     <article>
+                <title>Fine-Grained Sharing in a Page Server OODBMS.</title>
+ <initPage>359</initPage>
+ <endPage>370</endPage>
+          <authors>
+                    <author position="00">Michael J. Carey</author>
+ <author position="01">Michael J. Franklin</author>
+ <author position="02">Markos Zaharioudakis</author>
+          </authors>
+     </article>
+
+     <article>
+                <title>From Structured Documents to Novel Query Facilities.</title>
+ <initPage>313</initPage>
+ <endPage>324</endPage>
+          <authors>
+                    <author position="00">Vassilis Christophides</author>
+ <author position="01">Serge Abiteboul</author>
+ <author position="02">Sophie Cluet</author>
+ <author position="03">Michel Scholl</author>
+          </authors>
+     </article>
+
+     <article>
+                <title>GENESYS: A System for Efficient Spatial Query Processing.</title>
+ <initPage>519</initPage>
+ <endPage>519</endPage>
+          <authors>
+                    <author position="00">Thomas Brinkhoff</author>
+ <author position="01">Hans-Peter Kriegel</author>
+ <author position="02">Ralf Schneider</author>
+ <author position="03">Bernhard Seeger</author>
+          </authors>
+     </article>
+
+     <article>
+                <title>Implementation of Magic-sets in a Relational Database System.</title>
+ <initPage>103</initPage>
+ <endPage>114</endPage>
+          <authors>
+                    <author position="00">Inderpal Singh Mumick</author>
+ <author position="01">Hamid Pirahesh</author>
+          </authors>
+     </article>
+
+     <article>
+                <title>Incomplete Path Expressions and their Disambiguation.</title>
+ <initPage>138</initPage>
+ <endPage>149</endPage>
+          <authors>
+                    <author position="00">Yannis E. Ioannidis</author>
+ <author position="01">Yezdi Lashkari</author>
+          </authors>
+     </article>
+
+     <article>
+                <title>Incremental Updates of Inverted Lists for Text Document Retrieval.</title>
+ <initPage>289</initPage>
+ <endPage>300</endPage>
+          <authors>
+                    <author position="00">Anthony Tomasic</author>
+ <author position="01">Hector Garcia-Molina</author>
+ <author position="02">Kurt A. Shoens</author>
+          </authors>
+     </article>
+
+     <article>
+                <title>Managing Memory for Real-Time Queries.</title>
+ <initPage>221</initPage>
+ <endPage>232</endPage>
+          <authors>
+                    <author position="00">HweeHwa Pang</author>
+ <author position="01">Michael J. Carey</author>
+ <author position="02">Miron Livny</author>
+          </authors>
+     </article>
+
+     <article>
+                <title>METU Object-Oriented DBMS.</title>
+ <initPage>513</initPage>
+ <endPage>513</endPage>
+          <authors>
+                    <author position="00">Asuman Dogac</author>
+ <author position="01">Budak Arpinar</author>
+ <author position="02">Cem Evrendilek</author>
+ <author position="03">Cetin Ozkan</author>
+ <author position="04">Ilker Altintas</author>
+ <author position="05">Ilker Durusoy</author>
+ <author position="06">Mehmet Altinel</author>
+ <author position="07">Tansel Okay</author>
+ <author position="08">Yuksel Saygin</author>
+          </authors>
+     </article>
+
+     <article>
+                <title>MOSAICO - A System for Conceptual Modeling and Rapid Prototyping of Object-Oriented Database Application.</title>
+ <initPage>508</initPage>
+ <endPage>508</endPage>
+          <authors>
+                    <author position="00">Michele Missikoff</author>
+ <author position="01">M. Toiati</author>
+          </authors>
+     </article>
+
+     <article>
+                <title>Multi-Step Processing of Spatial Joins.</title>
+ <initPage>197</initPage>
+ <endPage>208</endPage>
+          <authors>
+                    <author position="00">Thomas Brinkhoff</author>
+ <author position="01">Hans-Peter Kriegel</author>
+ <author position="02">Ralf Schneider</author>
+ <author position="03">Bernhard Seeger</author>
+          </authors>
+     </article>
+
+     <article>
+                <title>NonStop SQL: Scalability and Availability for Decision Support.</title>
+ <initPage>491</initPage>
+ <endPage>491</endPage>
+          <authors>
+                    <author position="00">Susanne Englert</author>
+          </authors>
+     </article>
+
+     <article>
+                <title>Object-Oriented Extensions in SQL3: A Status Report.</title>
+ <initPage>478</initPage>
+ <endPage>478</endPage>
+          <authors>
+                    <author position="00">Krishna G. Kulkarni</author>
+          </authors>
+     </article>
+
+     <article>
+                <title>Object-Oriented Features of DB2 Client/Server.</title>
+ <initPage>483</initPage>
+ <endPage>483</endPage>
+          <authors>
+                    <author position="00">Hamid Pirahesh</author>
+          </authors>
+     </article>
+
+     <article>
+                <title>ODMG-93: A Standard for Object-Oriented DBMSs.</title>
+ <initPage>480</initPage>
+ <endPage>480</endPage>
+          <authors>
+                    <author position="00">R. G. G. Cattell</author>
+          </authors>
+     </article>
+
+     <article>
+                <title>On Parallel Execution of Multiple Pipelined Hash Joins.</title>
+ <initPage>185</initPage>
+ <endPage>196</endPage>
+          <authors>
+                    <author position="00">Hui-I Hsiao</author>
+ <author position="01">Ming-Syan Chen</author>
+ <author position="02">Philip S. Yu</author>
+          </authors>
+     </article>
+
+     <article>
+                <title>Open Object Database Management Systems.</title>
+ <initPage>520</initPage>
+ <endPage>520</endPage>
+          <authors>
+                    <author position="00">Jos A. Blakeley</author>
+          </authors>
+     </article>
+
+     <article>
+                <title>Optimization of Dynamic Query Evaluation Plans.</title>
+ <initPage>150</initPage>
+ <endPage>160</endPage>
+          <authors>
+                    <author position="00">Richard L. Cole</author>
+ <author position="01">Goetz Graefe</author>
+          </authors>
+     </article>
+
+     <article>
+                <title>Optimizing Disjunctive Queries with Expensive Predicates.</title>
+ <initPage>336</initPage>
+ <endPage>347</endPage>
+          <authors>
+                    <author position="00">Alfons Kemper</author>
+ <author position="01">Guido Moerkotte</author>
+ <author position="02">Klaus Peithner</author>
+ <author position="03">Michael Steinbrunn</author>
+          </authors>
+     </article>
+
+     <article>
+                <title>Optimizing Queries on Files.</title>
+ <initPage>301</initPage>
+ <endPage>312</endPage>
+          <authors>
+                    <author position="00">Mariano P. Consens</author>
+ <author position="01">Tova Milo</author>
+          </authors>
+     </article>
+
+     <article>
+                <title>Oracle Media Server: Providing Consumer Based Interactive Access to Multimedia Data.</title>
+ <initPage>470</initPage>
+ <endPage>477</endPage>
+          <authors>
+                    <author position="00">Andrew Laursen</author>
+ <author position="01">Jeffrey Olkin</author>
+ <author position="02">Mark Porter</author>
+          </authors>
+     </article>
+
+     <article>
+                <title>Oracle's Symmetric Replication Technology and Implications for Application Design.</title>
+ <initPage>467</initPage>
+ <endPage>467</endPage>
+          <authors>
+                    <author position="00">Dean Daniels</author>
+ <author position="01">Lip Boon Doo</author>
+ <author position="02">Alan Downing</author>
+ <author position="03">Curtis Elsbernd</author>
+ <author position="04">Gary Hallmark</author>
+ <author position="05">Sandeep Jain</author>
+ <author position="06">Bob Jenkins</author>
+ <author position="07">Peter Lim</author>
+ <author position="08">Gordon Smith</author>
+ <author position="09">Benny Souder</author>
+ <author position="10">Jim Stamos</author>
+          </authors>
+     </article>
+
+     <article>
+                <title>Outerjoins as Disjunctions.</title>
+ <initPage>348</initPage>
+ <endPage>358</endPage>
+          <authors>
+                    <author position="00">Csar A. Galindo-Legaria</author>
+          </authors>
+     </article>
+
+     <article>
+                <title>Parallel Database Systems in the 1990's.</title>
+ <initPage>466</initPage>
+ <endPage>466</endPage>
+          <authors>
+                    <author position="00">Michael J. Carey</author>
+          </authors>
+     </article>
+
+     <article>
+                <title>Partition Selection Policies in Object Database Garbage Collection.</title>
+ <initPage>371</initPage>
+ <endPage>382</endPage>
+          <authors>
+                    <author position="00">Jonathan E. Cook</author>
+ <author position="01">Alexander L. Wolf</author>
+ <author position="02">Benjamin G. Zorn</author>
+          </authors>
+     </article>
+
+     <article>
+                <title>Practical Predicate Placement.</title>
+ <initPage>325</initPage>
+ <endPage>335</endPage>
+          <authors>
+                    <author position="00">Joseph M. Hellerstein</author>
+          </authors>
+     </article>
+
+     <article>
+                <title>Predictive Dynamic Load Balancing of Parallel and Distributed Rule and Query Processing.</title>
+ <initPage>277</initPage>
+ <endPage>288</endPage>
+          <authors>
+                    <author position="00">Hasanat M. Dewan</author>
+ <author position="01">Salvatore J. Stolfo</author>
+ <author position="02">Mauricio A. Hernndez</author>
+ <author position="03">Jae-Jun Hwang</author>
+          </authors>
+     </article>
+
+     <article>
+                <title>Ptool: A Scalable Persistent Object Manager.</title>
+ <initPage>510</initPage>
+ <endPage>510</endPage>
+          <authors>
+                    <author position="00">Robert L. Grossman</author>
+ <author position="01">X. Qin</author>
+          </authors>
+     </article>
+
+     <article>
+                <title>Query by Diagram: A Graphical Environment for Querying Databases.</title>
+ <initPage>515</initPage>
+ <endPage>515</endPage>
+          <authors>
+                    <author position="00">Tiziana Catarci</author>
+ <author position="01">Giuseppe Santucci</author>
+          </authors>
+     </article>
+
+     <article>
+                <title>Quest: A Project on Database Mining.</title>
+ <initPage>514</initPage>
+ <endPage>514</endPage>
+          <authors>
+                    <author position="00">Rakesh Agrawal</author>
+ <author position="01">Michael J. Carey</author>
+ <author position="02">Christos Faloutsos</author>
+ <author position="03">Sakti P. Ghosh</author>
+ <author position="04">Maurice A. W. Houtsma</author>
+ <author position="05">Tomasz Imielinski</author>
+ <author position="06">Balakrishna R. Iyer</author>
+ <author position="07">A. Mahboob</author>
+ <author position="08">H. Miranda</author>
+ <author position="09">Ramakrishnan Srikant</author>
+ <author position="10">Arun N. Swami</author>
+          </authors>
+     </article>
+
+     <article>
+                <title>Quickly Generating Billion-Record Synthetic Databases.</title>
+ <initPage>243</initPage>
+ <endPage>252</endPage>
+          <authors>
+                    <author position="00">Jim Gray</author>
+ <author position="01">Prakash Sundaresan</author>
+ <author position="02">Susanne Englert</author>
+ <author position="03">Kenneth Baclawski</author>
+ <author position="04">Peter J. Weinberger</author>
+          </authors>
+     </article>
+
+     <article>
+                <title>QuickStore: A High Performance Mapped Object Store.</title>
+ <initPage>395</initPage>
+ <endPage>406</endPage>
+          <authors>
+                    <author position="00">Seth J. White</author>
+ <author position="01">David J. DeWitt</author>
+          </authors>
+     </article>
+
+     <article>
+                <title>Red Brick Warehouse: A Read-Mostly RDBMS for Open SMP Platforms.</title>
+ <initPage>492</initPage>
+ <endPage>492</endPage>
+          <authors>
+                    <author position="00">Phillip M. Fernandez</author>
+          </authors>
+     </article>
+
+     <article>
+                <title>Relaxed Transaction Processing.</title>
+ <initPage>505</initPage>
+ <endPage>505</endPage>
+          <authors>
+                    <author position="00">Munindar P. Singh</author>
+ <author position="01">Christine Tomlinson</author>
+ <author position="02">Darrell Woelk</author>
+          </authors>
+     </article>
+
+     <article>
+                <title>Self-Adaptive, On-Line Reclustering of Complex Object Data.</title>
+ <initPage>407</initPage>
+ <endPage>418</endPage>
+          <authors>
+                    <author position="00">William J. McIver Jr.</author>
+ <author position="01">Roger King</author>
+          </authors>
+     </article>
+
+     <article>
+                <title>Sequence Query Processing.</title>
+ <initPage>430</initPage>
+ <endPage>441</endPage>
+          <authors>
+                    <author position="00">Praveen Seshadri</author>
+ <author position="01">Miron Livny</author>
+ <author position="02">Raghu Ramakrishnan</author>
+          </authors>
+     </article>
+
+     <article>
+                <title>Shoring Up Persistent Applications.</title>
+ <initPage>383</initPage>
+ <endPage>394</endPage>
+          <authors>
+                    <author position="00">Michael J. Carey</author>
+ <author position="01">David J. DeWitt</author>
+ <author position="02">Michael J. Franklin</author>
+ <author position="03">Nancy E. Hall</author>
+ <author position="04">Mark L. McAuliffe</author>
+ <author position="05">Jeffrey F. Naughton</author>
+ <author position="06">Daniel T. Schuh</author>
+ <author position="07">Marvin H. Solomon</author>
+ <author position="08">C. K. Tan</author>
+ <author position="09">Odysseas G. Tsatalos</author>
+ <author position="10">Seth J. White</author>
+ <author position="11">Michael J. Zwilling</author>
+          </authors>
+     </article>
+
+     <article>
+                <title>Sleepers and Workaholics: Caching Strategies in Mobile Environments.</title>
+ <initPage>1</initPage>
+ <endPage>12</endPage>
+          <authors>
+                    <author position="00">Daniel Barbar</author>
+ <author position="01">Tomasz Imielinski</author>
+          </authors>
+     </article>
+
+     <article>
+                <title>Spatial Joins Using Seeded Trees.</title>
+ <initPage>209</initPage>
+ <endPage>220</endPage>
+          <authors>
+                    <author position="00">Ming-Ling Lo</author>
+ <author position="01">Chinya V. Ravishankar</author>
+          </authors>
+     </article>
+
+     <article>
+                <title>Staggered Striping in Multimedia Information Systems.</title>
+ <initPage>79</initPage>
+ <endPage>90</endPage>
+          <authors>
+                    <author position="00">Steven Berson</author>
+ <author position="01">Shahram Ghandeharizadeh</author>
+ <author position="02">Richard R. Muntz</author>
+ <author position="03">Xiangyu Ju</author>
+          </authors>
+     </article>
+
+     <article>
+                <title>Sybase Replication Server.</title>
+ <initPage>469</initPage>
+ <endPage>469</endPage>
+          <authors>
+                    <author position="00">Alex Gorelik</author>
+ <author position="01">Yongdong Wang</author>
+ <author position="02">Mark Deppe</author>
+          </authors>
+     </article>
+
+     <article>
+                <title>The Effectiveness of GlOSS for the Text Database Discovery Problem.</title>
+ <initPage>126</initPage>
+ <endPage>137</endPage>
+          <authors>
+                    <author position="00">Luis Gravano</author>
+ <author position="01">Hector Garcia-Molina</author>
+ <author position="02">Anthony Tomasic</author>
+          </authors>
+     </article>
+
+     <article>
+                <title>The IMPRESS DDT: A Database Design Toolbox Based on a Formal Specification Language.</title>
+ <initPage>506</initPage>
+ <endPage>506</endPage>
+          <authors>
+                    <author position="00">Jan Flokstra</author>
+ <author position="01">Maurice van Keulen</author>
+ <author position="02">Jacek Skowronek</author>
+          </authors>
+     </article>
+
+     <article>
+                <title>The MEDUSA Project: Autonomous Data Management in a Shared-Nothing Parallel Database Machine.</title>
+ <initPage>507</initPage>
+ <endPage>507</endPage>
+          <authors>
+                    <author position="00">George M. Bryan</author>
+ <author position="01">Wayne E. Moore</author>
+ <author position="02">B. J. Curry</author>
+ <author position="03">K. W. Lodge</author>
+ <author position="04">J. Geyer</author>
+          </authors>
+     </article>
+
+     <article>
+                <title>The Montage Extensible DataBlade Achitecture.</title>
+ <initPage>482</initPage>
+ <endPage>482</endPage>
+          <authors>
+                    <author position="00">Michael Ubell</author>
+          </authors>
+     </article>
+
+     <article>
+                <title>The MYRIAD Federated Database Prototype.</title>
+ <initPage>518</initPage>
+ <endPage>518</endPage>
+          <authors>
+                    <author position="00">San-Yih Hwang</author>
+ <author position="01">Ee-Peng Lim</author>
+ <author position="02">H.-R. Yang</author>
+ <author position="03">S. Musukula</author>
+ <author position="04">K. Mediratta</author>
+ <author position="05">M. Ganesh</author>
+ <author position="06">D. Clements</author>
+ <author position="07">J. Stenoien</author>
+ <author position="08">Jaideep Srivastava</author>
+          </authors>
+     </article>
+
+     <article>
+                <title>The ORES Temporal Database Management System.</title>
+ <initPage>511</initPage>
+ <endPage>511</endPage>
+          <authors>
+                    <author position="00">Babis Theodoulidis</author>
+ <author position="01">Aziz Ait-Braham</author>
+ <author position="02">George Andrianopoulos</author>
+ <author position="03">Jayant Chaudhary</author>
+ <author position="04">George Karvelis</author>
+ <author position="05">Simon Sou</author>
+          </authors>
+     </article>
+
+     <article>
+                <title>UniSQL/X Unified Relational and Object-Oriented Database System.</title>
+ <initPage>481</initPage>
+ <endPage>481</endPage>
+          <authors>
+                    <author position="00">Won Kim</author>
+          </authors>
+     </article>
+
+     <article>
+                <title>XSB as a Deductive Database.</title>
+ <initPage>512</initPage>
+ <endPage>512</endPage>
+          <authors>
+                    <author position="00">Konstantinos F. Sagonas</author>
+ <author position="01">Terrance Swift</author>
+ <author position="02">David Scott Warren</author>
+          </authors>
+     </article>
+
+     <article>
+                <title>XSB as an Efficient Deductive Database Engine.</title>
+ <initPage>442</initPage>
+ <endPage>453</endPage>
+          <authors>
+                    <author position="00">Konstantinos F. Sagonas</author>
+ <author position="01">Terrance Swift</author>
+ <author position="02">David Scott Warren</author>
+          </authors>
+     </article>
+
+    </articles>
+  </issue>
+    <issue>
+        <volume>23</volume>
+ <number>3</number>
+    <articles>
+            <article>
+                <title>A TSQL2 Tutorial.</title>
+ <initPage>27</initPage>
+ <endPage>33</endPage>
+          <authors>
+                    <author position="00">Richard T. Snodgrass</author>
+ <author position="01">Ilsoo Ahn</author>
+ <author position="02">Gad Ariav</author>
+ <author position="03">Don S. Batory</author>
+ <author position="04">James Clifford</author>
+ <author position="05">Curtis E. Dyreson</author>
+ <author position="06">Ramez Elmasri</author>
+ <author position="07">Fabio Grandi</author>
+ <author position="08">Christian S. Jensen</author>
+ <author position="09">Wolfgang Kfer</author>
+ <author position="10">Nick Kline</author>
+ <author position="11">Krishna G. Kulkarni</author>
+ <author position="12">T. Y. Cliff Leung</author>
+ <author position="13">Nikos A. Lorentzos</author>
+ <author position="14">John F. Roddick</author>
+ <author position="15">Arie Segev</author>
+ <author position="16">Michael D. Soo</author>
+ <author position="17">Suryanarayana M. Sripada</author>
+          </authors>
+     </article>
+
+     <article>
+                <title>Database Research at NTHU and ITRI.</title>
+ <initPage>54</initPage>
+ <endPage>59</endPage>
+          <authors>
+                    <author position="00">Arbee L. P. Chen</author>
+          </authors>
+     </article>
+
+     <article>
+                <title>Editor's Notes.</title>
+ <initPage>2</initPage>
+ <endPage>2</endPage>
+          <authors>
+                    <author position="00">Arie Segev</author>
+ <author position="00">Jennifer Widom</author>
+ <author position="00">Michael J. Franklin</author>
+          </authors>
+     </article>
+
+     <article>
+                <title>How to Modify SQL Queries in Order to Guarantee Sure Answers.</title>
+ <initPage>14</initPage>
+ <endPage>20</endPage>
+          <authors>
+                    <author position="00">H.-J. Klein</author>
+          </authors>
+     </article>
+
+     <article>
+                <title>Jumping on the NII Bandwagon.</title>
+ <initPage>61</initPage>
+ <endPage>65</endPage>
+          <authors>
+                    <author position="00">Xiaolei Qian</author>
+          </authors>
+     </article>
+
+     <article>
+                <title>Medical Information Systems: Characterization and Challenges.</title>
+ <initPage>44</initPage>
+ <endPage>53</endPage>
+          <authors>
+                    <author position="00">Jorge C. G. Ramirez</author>
+ <author position="01">Lon A. Smith</author>
+ <author position="02">Lynn L. Petterson</author>
+          </authors>
+     </article>
+
+     <article>
+                <title>Performance Evaluation of a New Distributed Deadlock Detection Algorithm.</title>
+ <initPage>21</initPage>
+ <endPage>26</endPage>
+          <authors>
+                    <author position="00">Chim-fu Yeung</author>
+ <author position="01">Sheung-lun Hung</author>
+ <author position="02">Kam-yiu Lam</author>
+          </authors>
+     </article>
+
+     <article>
+                <title>Research Issues in Active Database Systems: Report from the Closing Panel at RIDE-ADS '94.</title>
+ <initPage>41</initPage>
+ <endPage>43</endPage>
+          <authors>
+                    <author position="00">Jennifer Widom</author>
+          </authors>
+     </article>
+
+     <article>
+                <title>Research Issues in Databases for ARCS: Active Rapidly Changing Data Systems.</title>
+ <initPage>8</initPage>
+ <endPage>13</endPage>
+          <authors>
+                    <author position="00">Anindya Datta</author>
+          </authors>
+     </article>
+
+     <article>
+                <title>Response to the March 1994 ODMG-93 Commentary Written by Dr. Won Kim of UniSQL, Inc.</title>
+ <initPage>3</initPage>
+ <endPage>7</endPage>
+          <authors>
+                    <author position="00">Object Database Management Group</author>
+          </authors>
+     </article>
+
+     <article>
+                <title>The Impact of Database Research on Industrial Products (Panel Summary).</title>
+ <initPage>35</initPage>
+ <endPage>40</endPage>
+          <authors>
+                    <author position="00">Daniel Barbar</author>
+ <author position="01">Jos A. Blakeley</author>
+ <author position="02">Daniel H. Fishman</author>
+ <author position="03">David B. Lomet</author>
+ <author position="04">Michael Stonebraker</author>
+          </authors>
+     </article>
+
+     <article>
+                <title>The TSQL2 Final Language Definition Announcement.</title>
+ <initPage>34</initPage>
+ <endPage>34</endPage>
+          <authors>
+                    <author position="00">X</author>
+          </authors>
+     </article>
+
+     <article>
+                <title>Trade Press News.</title>
+ <initPage>60</initPage>
+ <endPage>60</endPage>
+          <authors>
+                    <author position="00">Rafael Alonso</author>
+          </authors>
+     </article>
+
+    </articles>
+  </issue>
+    <issue>
+        <volume>23</volume>
+ <number>4</number>
+    <articles>
+            <article>
+                <title>A Metadatabase System for Semantic Image Search by a Mathematical Model of Meaning.</title>
+ <initPage>34</initPage>
+ <endPage>41</endPage>
+          <authors>
+                    <author position="00">Yasushi Kiyoki</author>
+ <author position="01">Takashi Kitagawa</author>
+ <author position="02">Takanari Hayama</author>
+          </authors>
+     </article>
+
+     <article>
+                <title>A New Join Algorithm.</title>
+ <initPage>13</initPage>
+ <endPage>18</endPage>
+          <authors>
+                    <author position="00">Dong Keun Shin</author>
+ <author position="01">Arnold Charles Meltzer</author>
+          </authors>
+     </article>
+
+     <article>
+                <title>Announcements from NSF, NASA, and Elsewhere.</title>
+ <initPage>104</initPage>
+ <endPage>107</endPage>
+          <authors>
+                    <author position="00">Xiaolei Qian</author>
+          </authors>
+     </article>
+
+     <article>
+                <title>Are the Terms "Version" and "Variant" Orthogonal to One Another? A Critical Assessment of the STEP Standardization.</title>
+ <initPage>3</initPage>
+ <endPage>7</endPage>
+          <authors>
+                    <author position="00">Hartmut Wedekind</author>
+          </authors>
+     </article>
+
+     <article>
+                <title>Data Modelling in the Large.</title>
+ <initPage>8</initPage>
+ <endPage>12</endPage>
+          <authors>
+                    <author position="00">Martin Bertram</author>
+          </authors>
+     </article>
+
+     <article>
+                <title>Editor's Notes and Erratum.</title>
+ <initPage>2</initPage>
+ <endPage>2</endPage>
+          <authors>
+                    <author position="00">Arie Segev</author>
+          </authors>
+     </article>
+
+     <article>
+                <title>Loading Databases Using Dataflow Parallelism.</title>
+ <initPage>72</initPage>
+ <endPage>83</endPage>
+          <authors>
+                    <author position="00">Tom Barclay</author>
+ <author position="01">Robert Barnes</author>
+ <author position="02">Jim Gray</author>
+ <author position="03">Prakash Sundaresan</author>
+          </authors>
+     </article>
+
+     <article>
+                <title>Metadata for Digital Media: Introduction to the Special Issue.</title>
+ <initPage>19</initPage>
+ <endPage>20</endPage>
+          <authors>
+                    <author position="00">Wolfgang Klas</author>
+ <author position="01">Amit P. Sheth</author>
+          </authors>
+     </article>
+
+     <article>
+                <title>Metadata for Integrating Speech Documents in a Text Retrieval System.</title>
+ <initPage>57</initPage>
+ <endPage>63</endPage>
+          <authors>
+                    <author position="00">Ulrike Glavitsch</author>
+ <author position="01">Peter Schuble</author>
+ <author position="02">Martin Wechsler</author>
+          </authors>
+     </article>
+
+     <article>
+                <title>Metadata for Mixed-Media Access.</title>
+ <initPage>64</initPage>
+ <endPage>71</endPage>
+          <authors>
+                    <author position="00">Francine Chen</author>
+ <author position="01">Marti A. Hearst</author>
+ <author position="02">Julian Kupiec</author>
+ <author position="03">Jan O. Pedersen</author>
+ <author position="04">Lynn Wilcox</author>
+          </authors>
+     </article>
+
+     <article>
+                <title>Metadata for Multimedia Documents.</title>
+ <initPage>21</initPage>
+ <endPage>26</endPage>
+          <authors>
+                    <author position="00">Klemens Bhm</author>
+ <author position="01">Thomas C. Rakow</author>
+          </authors>
+     </article>
+
+     <article>
+                <title>Metadata in Video Databases.</title>
+ <initPage>27</initPage>
+ <endPage>33</endPage>
+          <authors>
+                    <author position="00">Ramesh Jain</author>
+ <author position="01">Arun Hampapur</author>
+          </authors>
+     </article>
+
+     <article>
+                <title>Recent Design Trade-offs in SQL3.</title>
+ <initPage>84</initPage>
+ <endPage>89</endPage>
+          <authors>
+                    <author position="00">Nelson Mendona Mattos</author>
+ <author position="01">Linda G. DeMichiel</author>
+          </authors>
+     </article>
+
+     <article>
+                <title>SEQUOIA 2000 Metadata Schema for Satellite Images.</title>
+ <initPage>42</initPage>
+ <endPage>48</endPage>
+          <authors>
+                    <author position="00">Jean T. Anderson</author>
+ <author position="01">Michael Stonebraker</author>
+          </authors>
+     </article>
+
+     <article>
+                <title>Trade Press News - Announcement and Preface.</title>
+ <initPage>90</initPage>
+ <endPage>90</endPage>
+          <authors>
+                    <author position="00">Rafael Alonso</author>
+          </authors>
+     </article>
+
+     <article>
+                <title>Unix RDBMS: The Next Generation.</title>
+ <initPage>91</initPage>
+ <endPage>103</endPage>
+          <authors>
+                    <author position="00">Bill Rosneblatt</author>
+          </authors>
+     </article>
+
+     <article>
+                <title>Using Metadata for the Intelligent Browsing of Structured Media Objects.</title>
+ <initPage>49</initPage>
+ <endPage>56</endPage>
+          <authors>
+                    <author position="00">William I. Grosky</author>
+ <author position="01">Farshad Fotouhi</author>
+ <author position="02">Ishwar K. Sethi</author>
+          </authors>
+     </article>
+
+    </articles>
+  </issue>
+</issues>
+</SigmodRecord>

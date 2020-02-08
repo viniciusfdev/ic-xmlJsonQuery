@@ -21,15 +21,15 @@ public class Main {
         //fileType true = xml
         //fileType false = fileType
 
-        int expr = 4; 
-        int nTouL = 2;
+        int expr = 2; 
+        int nTouL = 0;
         int nGroups = 1;
-        int nThreads = 1;
-        int nQueries = 100;
-        String baseName = "";
+        int nThreads = 8;
+        int nQueries = 50000;
+        String baseName = "icde";
         String absPath = "";
-        boolean semantic = false;
-        boolean fileType = false;
+        boolean semantic = true;
+        boolean fileType = true;
 
         if(args.length > 0){
             expr = Integer.parseInt(args[0]);
@@ -42,6 +42,7 @@ public class Main {
                 }
             }
         }
+        System.out.println("dasdsa");
         if(expr == 0){
             experimento0(absPath, semantic, nQueries, nThreads, nGroups, fileType);
         }else if(expr == 1){

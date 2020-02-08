@@ -6,10 +6,13 @@
 
 module load jdk8
 
-#mkdir /tmp/files-$JOBID
+expr=$1
+base=$2
+nTouL=''
 
-#mv * /tmp/files-$JOBID
-
-java main/Main 3 xmark 2
-
-#mv /tmp/files-$JOBID/* ./
+if [ "$#" -gt 2 ]; then
+	nTouL=$3
+	java main/Main $expr $base $nTouL
+else
+	java main/Main $expr $base
+fi

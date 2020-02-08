@@ -1,6 +1,3 @@
 Initiate
 100;1;91
 Terminate
-Initiate
-100;1;0
-Terminate
