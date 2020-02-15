@@ -14,6 +14,8 @@ import node.HashResult;
 
 import java.io.*;
 import java.util.*;
+import java.util.logging.Level;
+import java.util.logging.Logger;
 
 /**
  * @author Evandrino Barros, Jônatas Tonholo
@@ -25,26 +27,30 @@ public class QueryProcessor {
 	private String XMLFilePath;
 	private ArrayList<String> arrayOfQueries;
 	private Hashtable resultsSummary;
-	private int numberOfQueries;
+	private static int numberOfQueries;
 	public static int cont = 0;
-    public static double numberOfQueryChecks = 0;
-    public static double numberOfCheckedNodes = 0;
-    public static double numberOfNodes = 0;
-    private static HashResult hashResult;
-
+        public static double numberOfQueryChecks = 0;
+        public static double numberOfCheckedNodes = 0;
+        public static double numberOfNodes = 0;
+        private static HashResult hashResult;
+        private static int nThreads = 1;
+        private static long media = 0;
+        private static String query_file;
+        private static String absPath;
 	/**
 	 * Constructor
 	 * 
 	 * @param XMLFilePath
 	 * @param queriesFileName
 	 */
-	public QueryProcessor(String XMLFilePath, String queriesFileName) {
-		this.XMLFilePath = XMLFilePath;
-		this.queriesFileName = queriesFileName;
-		this.numberOfQueries = 0;
-		this.arrayOfQueries = new ArrayList<String>();
-		this.resultsSummary = new Hashtable();
-  
+	public QueryProcessor(String XMLFilePath, String queriesFileName, String absPath) {
+	    this.absPath = absPath;
+            this.numberOfQueries = 0;
+            this.XMLFilePath = XMLFilePath;
+            this.resultsSummary = new Hashtable();
+            this.queriesFileName = queriesFileName;
+            this.arrayOfQueries = new ArrayList<String>();
+                
 	}
 
 	/**
@@ -166,7 +172,7 @@ public class QueryProcessor {
 	public static void run(String args[]) throws FileNotFoundException {
 		//System.out.println("MKEStream 2.0");
 		//String initialTime = DateUtils.now();
-		if (args.length != 9) {
+		if (args.length < 9) {
 			System.out.println("Invalid number of parameters.");
 			System.out.println("Parameters: <0 - dir of XML docs>");
 			System.out.println("            <1 - query file>");
@@ -196,9 +202,11 @@ public class QueryProcessor {
 		int fileCounter = 0;
 		long totalProcessingTimePerFile = 0;
 
-		QueryProcessor QP = new QueryProcessor(args[0], args[1]);
-		// String base_dir = QP.XMLFilePath; //aArgs[0]
-		String query_file = QP.queriesFileName; // aArg2[1]
+		query_file = args[1];
+                System.out.println(query_file);
+		QueryProcessor QP = new QueryProcessor(args[0], args[9]+""+args[1], args[9]);
+		//String base_dir = QP.XMLFilePath; //aArgs[0]
+                
 		String algorithm = args[2].trim(); // aArgs[2]
 		String semantics = new String(args[3].trim());
 		//System.out.println("Semantics: "+semantics);
@@ -210,6 +218,8 @@ public class QueryProcessor {
 		int numberOfThreads = args[8].equalsIgnoreCase("") ? 0 : new Integer(
 				args[8].trim());
 		boolean ELCASemantics = false;
+                
+                nThreads = Integer.parseInt(args[8]);
 		// boolean allNodes = aArgs[7].trim()=="allNodes"?true:false;
 		// String pushing_type = aArgs[7].trim().toLowerCase();
 
@@ -751,7 +761,7 @@ public class QueryProcessor {
         
         
 		long tt = System.currentTimeMillis() - time;
-		long media = tt + p1.getTempo() + p3.getTempo() + p4.getTempo() + p5.getTempo() + p6.getTempo() + p7.getTempo() + p8.getTempo();
+		media = tt + p1.getTempo() + p3.getTempo() + p4.getTempo() + p5.getTempo() + p6.getTempo() + p7.getTempo() + p8.getTempo();
 		startTime = s2.getStartTime()+p1.getStartTime() + p3.getStartTime() + p4.getStartTime() + 
 				         p5.getStartTime() + p6.getStartTime() + p7.getStartTime() + p8.getStartTime();
 		endTime = 	s2.getEndTime()+p1.getEndTime() + p3.getEndTime() + p4.getEndTime() + 
@@ -932,6 +942,7 @@ public class QueryProcessor {
         //System.out.println("---------------------------------------------------");
         
         //hashResult.printAllHashResult();
+        writeTimeForSearch();
         
 	}
 
@@ -960,4 +971,17 @@ public class QueryProcessor {
 	public String[] getXMLFileList() {
 		return XMLFileList;
 	}
+        
+        public static void writeTimeForSearch(){
+            try {
+                BufferedWriter wr = new BufferedWriter(new FileWriter(absPath+"results/time_"+query_file, true));
+                String q = numberOfQueries+";"+nThreads+";"+media;
+                wr.write(q, 0, q.length());
+                wr.newLine();
+                wr.close();
+            } catch (IOException ex) {
+                Logger.getLogger(QueryProcessor.class.getName()).log(Level.SEVERE, null, ex);
+            }
+        }
+    
 }
