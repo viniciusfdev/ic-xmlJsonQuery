@@ -203,7 +203,7 @@ public class QueryProcessor {
 		long totalProcessingTimePerFile = 0;
 
 		query_file = args[1];
-                System.out.println(query_file);
+                //System.out.println(query_file);
 		QueryProcessor QP = new QueryProcessor(args[0], args[9]+""+args[1], args[9]);
 		//String base_dir = QP.XMLFilePath; //aArgs[0]
                 
@@ -804,7 +804,7 @@ public class QueryProcessor {
             //                   QGH.getTotalNumberOfQueryComparisons()+
             //     ";#EvaluatedQueries;"+QGH.getNumberOfEvaluatedQueries()+
             //     ";mediaPerQuery;"+QGH.getTotalNumberOfQueryComparisons()/QGH.getNumberOfEvaluatedQueries());
-            System.out.println(tt);
+            //System.out.println(tt);
             //System.out.print("; Number of nodes; "+numberOfNodes);
             //System.out.print("; Number of query checks; "+numberOfQueryChecks);
             //System.out.print("; Number of checked nodes; "+numberOfCheckedNodes);
@@ -844,7 +844,7 @@ public class QueryProcessor {
              //System.out.println("Number of files: " + QP.XMLFileList.length);
              
              long numberOfMemoryChecks = memory_tracker.getMemoryUsage("numberofmemorychecks");
-             System.out.print("#memory_checks;"+numberOfMemoryChecks);
+             //System.out.print("#memory_checks;"+numberOfMemoryChecks);
              
              //-- total memory allocated --//
              long maxTotalMemory = memory_tracker.getMemoryUsageInKB("maxtotalmemory");
@@ -860,9 +860,9 @@ public class QueryProcessor {
              
              //-- used memory (total allocated minus free memory released) --//
              long maxUsedMemory = memory_tracker.getMemoryUsageInKB("maxusedmemory");
-             System.out.print(";Max_of_used_memory(Kbytes);" + maxUsedMemory);
+             //System.out.print(";Max_of_used_memory(Kbytes);" + maxUsedMemory);
              long sumUsedMemory = memory_tracker.getMemoryUsageInKB("sumusedmemory");
-             System.out.println(";Average_used_memory(Kbtyes);"+ Math.round(sumUsedMemory/numberOfMemoryChecks));
+             //System.out.println(";Average_used_memory(Kbtyes);"+ Math.round(sumUsedMemory/numberOfMemoryChecks));
              //System.out.print("maxusedmemory;"+);
              
 	//System.out.println(media + "\t" + maxTotalMemory + "\t" + Math.round(sumTotalMemory/numberOfMemoryChecks)+ "\t" +

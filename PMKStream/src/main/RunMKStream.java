@@ -44,10 +44,7 @@ public class RunMKStream {
         args[3] = "2";
         args[4] = "1";
         
-        int op = -1;
-
-        for(int i=0; i < 4 ; i++){
-            registerState("Initiate");
+        for(int i=0; i < 4 ; i++) {
             lArgs[0] = defaultDir+"xml/datasets/"+args[0].toLowerCase()+"/";
             if(args[3].equals("2"))
                     lArgs[1] = args[0].toLowerCase()+"_test_0l5t_50000.txt";
@@ -88,7 +85,7 @@ public class RunMKStream {
         }
     }
     
-    public static void registerState(String msg){
+    public static void registerState(String msg, String queryFileName){
         try {
             BufferedWriter wr = new BufferedWriter(new FileWriter("/xml/queries/results/time_"+queryFileName, true));
             wr.write(msg, 0, msg.length());

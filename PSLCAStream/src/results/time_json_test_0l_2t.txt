@@ -1,3 +1,0 @@
-Initiate
-100;1;91
-Terminate

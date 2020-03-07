@@ -15,11 +15,11 @@ import java.util.logging.Logger;
 public class Main {
 
     public static void main(String[] args) {
-        //String []bases = {"xmark", "isfdb", "sigmod"};
+        //String []bases = {"icde", "isfdb", "sigmod"};
         //semantic true = SLCA
         //semantic false = ELCA
         //fileType true = xml
-        //fileType false = fileType
+        //fileType false = json
 
         int expr = 2; 
         int nTouL = 0;
@@ -27,7 +27,7 @@ public class Main {
         int nThreads = 8;
         int nQueries = 50000;
         String baseName = "icde";
-        String absPath = "";
+        String absPath = "/";
         boolean semantic = true;
         boolean fileType = true;
 
@@ -38,11 +38,14 @@ public class Main {
             if(args.length > 2){
                 nTouL = Integer.parseInt(args[2]);
                 if(args.length > 3){
-                    absPath = args[3]+"/";
+                    semantic = Boolean.parseBoolean(args[3]);
+                    if(args.length > 4) {
+                        absPath = args[4]+"/";
+                    }
                 }
             }
         }
-        System.out.println("dasdsa");
+        
         if(expr == 0){
             experimento0(absPath, semantic, nQueries, nThreads, nGroups, fileType);
         }else if(expr == 1){
@@ -66,7 +69,7 @@ public class Main {
         queryFileName += "0l_"+nTokens+"t.txt";
         File listOfFiles[] = folder.listFiles();
         
-        for(int j = 0; j < 1 ; j++){
+        for(int j = 0; j < 5 ; j++){
             registerState(queryFileName,"Initiate", absPath);
             for(int i = 1; i <= nThreads ; i = i*2){
                 QueryProcessor qp = new QueryProcessor(queryFileName, listOfFiles, semantic, nQueries, i, nGroups, fileType, absPath);
@@ -85,7 +88,7 @@ public class Main {
         queryFileName += "0l"+nTokens+"t_50000.txt";
         File listOfFiles[] = folder.listFiles();
         
-        for(int j = 0; j < 3 ; j++){
+        for(int j = 0; j < 5 ; j++){
             registerState(queryFileName,"Initiate", absPath);
             for(int i = 1; i <= nThreads ; i = i*2){
                 QueryProcessor qp = new QueryProcessor(queryFileName, listOfFiles, semantic, nQueries, i, nGroups, fileType, absPath);
@@ -104,7 +107,7 @@ public class Main {
         queryFileName += nLabels+"l5t_50000.txt";
         File listOfFiles[] = folder.listFiles();
         
-        for(int j = 0; j < 10 ; j++){
+        for(int j = 0; j < 5 ; j++){
             registerState(queryFileName,"Initiate", absPath);
             for(int i = 1; i <= nThreads ; i = i*2){
                 QueryProcessor qp = new QueryProcessor(queryFileName, listOfFiles, semantic, nQueries, i, nGroups, fileType, absPath);
@@ -124,7 +127,7 @@ public class Main {
         queryFileName += "0l4t_50000.txt";
         File listOfFiles[] = folder.listFiles();
         
-        for(int j = 0; j < 10 ; j++){
+        for(int j = 0; j < 5 ; j++){
             registerState(queryFileName,"Initiate", absPath);
             for(int q = 10000; q <= nQueries ; q += 10000){
                 for(int i = 1; i <= nThreads ; i = i*2){
