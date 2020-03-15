@@ -27,7 +27,7 @@ public class Main {
         int nThreads = 8;
         int nQueries = 50000;
         String baseName = "icde";
-        String absPath = "/";
+        String absPath = "";
         boolean semantic = true;
         boolean fileType = true;
 

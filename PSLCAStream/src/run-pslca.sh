@@ -2,7 +2,7 @@
 #SBATCH --ntask=1
 #SBATCH --qos=qos-7d
 #SBTACH --cpus-per-task=8
-#SBATCH --partition=large
+#SBATCH --partition=lsi-1
 
 module load jdk8
 

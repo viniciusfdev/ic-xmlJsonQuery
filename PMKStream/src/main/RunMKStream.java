@@ -32,38 +32,37 @@ public class RunMKStream {
 
 
     public static void main(String ... args) {
-        String defaultDir = System.getProperty("user.dir")+"/src/";
+        String defaultDir = System.getProperty("user.dir")+"/";
         
-        System.out.println(defaultDir);
+        //System.out.println(defaultDir);
         
         //netbeans
-        args = new String[5];
-        args[0] = "isfdb";
-        args[1] = "100";
-        args[2] = "1";
-        args[3] = "2";
-        args[4] = "1";
+//        args = new String[5];
+//        args[0] = "isfdb";
+//        args[1] = "50000";
+//        args[2] = "1"; //stacks
+//        args[3] = "2"; //experimento
+//        args[4] = "1"; //threads
         
-        for(int i=0; i < 4 ; i++) {
-            lArgs[0] = defaultDir+"xml/datasets/"+args[0].toLowerCase()+"/";
-            if(args[3].equals("2"))
-                    lArgs[1] = args[0].toLowerCase()+"_test_0l5t_50000.txt";
-            else if(args[3].equals("3"))
-                    lArgs[1] = args[0].toLowerCase()+"_test_1l5t_50000.txt";
-            else if(args[3].equals("4"))
-                    lArgs[1] = args[0].toLowerCase()+"_test_2l5t_50000.txt";
-            else if(args[3].equals("5"))
-                    lArgs[1] = args[0].toLowerCase()+"_test_3l5t_50000.txt";
-            else if(args[3].equals("6"))
-                    lArgs[1] = args[0].toLowerCase()+"_test_0l2t_50000.txt";
-            else if(args[3].equals("7"))
-                    lArgs[1] = args[0].toLowerCase()+"_test_0l4t_50000.txt";
-            else if(args[3].equals("8"))
-                    lArgs[1] = args[0].toLowerCase()+"_test_0l6t_50000.txt";
-            else if(args[3].equals("1"))
-                    lArgs[1] = args[0].toLowerCase()+"_test_0l4t_50000.txt";
+        lArgs[0] = defaultDir+"xml/datasets/"+args[0].toLowerCase()+"/";
+        if(args[3].equals("2"))
+                lArgs[1] = args[0].toLowerCase()+"_test_0l5t_50000.txt";
+        else if(args[3].equals("3"))
+                lArgs[1] = args[0].toLowerCase()+"_test_1l5t_50000.txt";
+        else if(args[3].equals("4"))
+                lArgs[1] = args[0].toLowerCase()+"_test_2l5t_50000.txt";
+        else if(args[3].equals("5"))
+                lArgs[1] = args[0].toLowerCase()+"_test_3l5t_50000.txt";
+        else if(args[3].equals("6"))
+                lArgs[1] = args[0].toLowerCase()+"_test_0l2t_50000.txt";
+        else if(args[3].equals("7"))
+                lArgs[1] = args[0].toLowerCase()+"_test_0l4t_50000.txt";
+        else if(args[3].equals("8"))
+                lArgs[1] = args[0].toLowerCase()+"_test_0l6t_50000.txt";
 
-            for(int j=1; j <= 8 ; j=j*2){
+        for(int i=0; i < 5 ; i++) {
+            registerState("Initiate", lArgs[1], defaultDir);
+            for(int j=1; j <= 8 ; j=j*2) {
                 lArgs[2] = processor;
                 lArgs[3] = args[0];
                 lArgs[4] = args[1];
@@ -82,12 +81,13 @@ public class RunMKStream {
                     e.printStackTrace();
                 }
             }
+            registerState("Terminate", lArgs[1], defaultDir);
         }
     }
     
-    public static void registerState(String msg, String queryFileName){
+    public static void registerState(String msg, String queryFileName, String defaultPath){
         try {
-            BufferedWriter wr = new BufferedWriter(new FileWriter("/xml/queries/results/time_"+queryFileName, true));
+            BufferedWriter wr = new BufferedWriter(new FileWriter(defaultPath+"/xml/queries/results/time_"+queryFileName, true));
             wr.write(msg, 0, msg.length());
             wr.newLine();
             wr.close();

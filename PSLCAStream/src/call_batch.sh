@@ -1,4 +1,4 @@
-!/bin/bash
+#!/bin/bash
 
 sbatch ./run-pslca.sh 2 icde 0 &
 sbatch ./run-pslca.sh 2 icde 1 &
