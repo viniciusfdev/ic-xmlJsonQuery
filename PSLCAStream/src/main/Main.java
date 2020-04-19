@@ -21,15 +21,15 @@ public class Main {
         //fileType true = xml
         //fileType false = json
 
-        int expr = 2; 
-        int nTouL = 0;
+        int expr = 4; 
+        int nTouL = 2;
         int nGroups = 1;
         int nThreads = 8;
         int nQueries = 50000;
         String baseName = "icde";
-        String absPath = "";
+        String absPath = "src/";
         boolean semantic = true;
-        boolean fileType = true;
+        boolean fileType = false;
 
         if(args.length > 0){
             expr = Integer.parseInt(args[0]);
@@ -69,7 +69,7 @@ public class Main {
         queryFileName += "0l_"+nTokens+"t.txt";
         File listOfFiles[] = folder.listFiles();
         
-        for(int j = 0; j < 5 ; j++){
+        for(int j = 0; j < 1 ; j++){
             registerState(queryFileName,"Initiate", absPath);
             for(int i = 1; i <= nThreads ; i = i*2){
                 QueryProcessor qp = new QueryProcessor(queryFileName, listOfFiles, semantic, nQueries, i, nGroups, fileType, absPath);

@@ -94,7 +94,7 @@ public class QueryProcessor {
             }
             for(Thread t: threads){
                 t.start();
-                //t.sleep(t.getId()*100); //ordena o resultado printado
+                t.sleep(t.getId()*100); //ordena o resultado printado
             }
             for(Thread t: threads){
                 t.join();

@@ -3,8 +3,10 @@ package node;
 import query.Query;
 
 import java.util.ArrayList;
+import java.util.Collections;
 import java.util.HashMap;
 import java.util.Iterator;
+import java.util.List;
 import java.util.Set;
 
 /**
@@ -45,12 +47,19 @@ public class HashResult {
     /**
      * Count no SLCA and Only SLCA
      */
-    public void countNoSLCAAndOnlySLCA () {
-        Set keyset = this.hashResult.keySet();
+    public synchronized void countNoSLCAAndOnlySLCA () {
+        HashMap tempHash = new HashMap();
+        while(true) {
+            try {
+                tempHash = (HashMap)this.hashResult.clone();
+                break;
+            } catch (Exception e) {}
+        }
+        Set keyset = tempHash.keySet();
         Iterator i = keyset.iterator();
         while (i.hasNext()) {
             Query key = (Query) i.next();
-            ArrayList<ResultNode> rNodeList = this.hashResult.get(key);
+            List<ResultNode> rNodeList = Collections.synchronizedList(this.hashResult.get(key));
             for (ResultNode rNode : rNodeList){
                 if (rNode.getNodeType().contentEquals("onlySLCA"))
                     this.countOnlySLCA++;

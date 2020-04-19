@@ -1,0 +1,14 @@
+<bib>
+    <book>
+        <title>XML DB</title>
+        <author>John</author>
+    </book>
+    <book>
+        <title>XPath</title>
+        <chapter>
+            <title>XPath</title>
+            <author>John</author>
+        </chapter>
+        <author>Mike</author>
+    </book>
+</bib>

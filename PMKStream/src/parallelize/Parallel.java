@@ -8,9 +8,6 @@ import util.MemoryTracker;
 import engine.QueryProcessor;
 import engine.SaxParser;
 import engine.SearchEngine;
-import util.DateUtils;
-import util.OnlyExtension;
-import util.TimeTracker;
 import node.HashResult;
 
 public class Parallel implements Runnable {
@@ -208,11 +205,11 @@ public class Parallel implements Runnable {
 		    //System.out.println("End Time (inside Parallel class):"+endTime);
 		    charTime = SE.getCharTime();
 		    startTime = SE.getStartTime();
-			SE.cleanResultsAndTermOccurrences();
-            this.numberOfCheckedNodes = SE.getNumberOfCheckedNodes();
-            this.numberOfQueryChecks = SE.getNumberOfQueryChecks();
-            this.numberOfNodes = SE.getNumberOfNodes();
-			first = false;
+                    SE.cleanResultsAndTermOccurrences();
+                    this.numberOfCheckedNodes = SE.getNumberOfCheckedNodes();
+                    this.numberOfQueryChecks = SE.getNumberOfQueryChecks();
+                    this.numberOfNodes = SE.getNumberOfNodes();
+                    first = false;
 		}
 		if(t == 0) {
 			t = System.currentTimeMillis() - time;

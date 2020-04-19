@@ -68,8 +68,11 @@ public class Query implements Cloneable {
      */
     public Integer nMatches(Integer nodeId){
         Integer matches;
-        if((matches = matchedTerms.get(nodeId).getnOcurrences()) != null)
+        if(matchedTerms != null &&
+          (matchedTerms.get(nodeId) != null) &&
+          (matches = matchedTerms.get(nodeId).getnOcurrences()) != null){
             return matches;
+        }
         else return 0;
     }
 

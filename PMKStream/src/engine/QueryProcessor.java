@@ -941,7 +941,7 @@ public class QueryProcessor {
         //QGH.printHowManyOccurencesPerTermInQueriesAndDataSets();
         //System.out.println("---------------------------------------------------");
         
-        //hashResult.printAllHashResult();
+        hashResult.printAllHashResult();
         writeTimeForSearch();
         
 	}

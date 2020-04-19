@@ -120,17 +120,22 @@ public class SearchEngine extends DefaultHandler {
      */
     public void cleanResultsAndTermOccurrences(){
         Set<Map.Entry<Query,ArrayList<ResultNode>>> querySet = this.hashResult.getHashResult().entrySet();
-        for (Map.Entry<Query,ArrayList<ResultNode>> entry: querySet){
-            Query query = entry.getKey();
-            query.setResultList(new ArrayList<ResultNode>());
-            //if (ELCASemantics){
-            //    query.setTermOccur(new HashMap<String,ArrayList<Integer>>());
-            //    for (String term: query.getVectorOfQueryTerms()){
-            //        query.getTermOccur().put(term, new ArrayList<Integer>());
-            //    }
-            //}
+        while(true) {
+            try {
+                for (Map.Entry<Query,ArrayList<ResultNode>> entry: querySet){
+                    Query query = entry.getKey();
+                    query.setResultList(new ArrayList<ResultNode>());
+                    //if (ELCASemantics){
+                    //    query.setTermOccur(new HashMap<String,ArrayList<Integer>>());
+                    //    for (String term: query.getVectorOfQueryTerms()){
+                    //        query.getTermOccur().put(term, new ArrayList<Integer>());
+                    //    }
+                    //}
+                }
+                this.hashResult = new HashResult(this.numberOfQueries);
+                break;
+            } catch (Exception e) {}
         }
-        this.hashResult = new HashResult(this.numberOfQueries);
     }
 
     /**
