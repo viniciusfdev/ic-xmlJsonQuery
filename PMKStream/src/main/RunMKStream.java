@@ -32,17 +32,17 @@ public class RunMKStream {
 
 
     public static void main(String ... args) {
-        String defaultDir = System.getProperty("user.dir")+"/src/";
-        System.out.println("base;#queries;#stacks;#experiment;#threads;");
+        String defaultDir = System.getProperty("user.dir")+"/";
+        //System.out.println("base;#queries;#stacks;#experiment;#threads;");
         //System.out.println(defaultDir);
         
         //netbeans
-        args = new String[5];
-        args[0] = "isfdb";
-        args[1] = "50000";
-        args[2] = "1"; //stacks
-        args[3] = "2"; //experimento
-        
+//        args = new String[5];
+//        args[0] = "isfdb";
+//        args[1] = "50000";
+//        args[2] = "1"; //stacks
+//        args[3] = "2"; //experimento
+//        
         lArgs[0] = defaultDir+"xml/datasets/"+args[0].toLowerCase()+"/";
         if(args[3].equals("1"))
                 lArgs[1] = args[0].toLowerCase()+"_precision.txt";
@@ -61,9 +61,9 @@ public class RunMKStream {
         else if(args[3].equals("8"))
                 lArgs[1] = args[0].toLowerCase()+"_test_0l6t_50000.txt";
 
-        for(int i=0; i < 1 ; i++) {
+        for(int i=0; i < 6 ; i++) {
             registerState("Initiate", lArgs[1], defaultDir);
-            for(int j=1; j <= 1 ; j=j*2) {
+            for(int j=1; j <= 8 ; j=j*2) {
                 lArgs[2] = processor;
                 lArgs[3] = args[0];
                 lArgs[4] = args[1];

@@ -71,7 +71,7 @@ public class QueryProcessor {
 		this.XMLFileList = new java.io.File(this.XMLFilePath).list(xmlExt); // Get
 																			// list
 																			// of
-																			// names
+                //System.out.println(this.XMLFileList);
 		java.util.Arrays.sort(this.XMLFileList); // Sort it (Data Structuring
 													// chapter))
 	}
@@ -941,7 +941,7 @@ public class QueryProcessor {
         //QGH.printHowManyOccurencesPerTermInQueriesAndDataSets();
         //System.out.println("---------------------------------------------------");
         
-        hashResult.printAllHashResult();
+        //hashResult.printAllHashResult();
         writeTimeForSearch();
         
 	}
