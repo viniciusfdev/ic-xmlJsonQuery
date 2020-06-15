@@ -20,16 +20,16 @@ public class Main {
         //semantic false = ELCA
         //fileType true = xml
         //fileType false = json
-
-        int expr = 4; 
+        
+        int expr = 3; 
         int nTouL = 2;
         int nGroups = 1;
         int nThreads = 8;
-        int nQueries = 50000;
+        int nQueries = 20000;
         String baseName = "icde";
         String absPath = "src/";
         boolean semantic = true;
-        boolean fileType = false;
+        boolean fileType = true;
 
         if(args.length > 0){
             expr = Integer.parseInt(args[0]);
@@ -88,7 +88,7 @@ public class Main {
         queryFileName += "0l"+nTokens+"t_50000.txt";
         File listOfFiles[] = folder.listFiles();
         
-        for(int j = 0; j < 5 ; j++){
+        for(int j = 0; j < 1 ; j++){
             registerState(queryFileName,"Initiate", absPath);
             for(int i = 1; i <= nThreads ; i = i*2){
                 QueryProcessor qp = new QueryProcessor(queryFileName, listOfFiles, semantic, nQueries, i, nGroups, fileType, absPath);

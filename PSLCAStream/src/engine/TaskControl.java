@@ -84,8 +84,8 @@ public class TaskControl implements Runnable{
                             }else{
                                 search.parserJson(file.getAbsolutePath());
                             }
-                            search.printResultsByQuery();
-                            System.out.println("Numero de comparacoes: "+search.getComp());
+                            //search.printResultsByQuery();
+                            //System.out.println("Numero de comparacoes: "+search.getComp());
                         }
                         long finalTime = System.currentTimeMillis();
                         execTime = finalTime - initTime;

@@ -94,7 +94,7 @@ public class QueryProcessor {
             }
             for(Thread t: threads){
                 t.start();
-                t.sleep(t.getId()*100); //ordena o resultado printado
+                //t.sleep(t.getId()*100); //ordena o resultado printado
             }
             for(Thread t: threads){
                 t.join();
@@ -309,7 +309,9 @@ public class QueryProcessor {
      */
     public void buildQueryIndexGroup(int nThreads){
         try {
+            long t1 = System.currentTimeMillis();
             gulousGroupQueries();
+            System.out.println("Time to group gulous: " + (System.currentTimeMillis() - t1));
             if(nQueriesPerGroup > 0)
             for(int index = 0; index < nThreads; index++){
                 queryIndex[index] = new QueryGroupHash();
