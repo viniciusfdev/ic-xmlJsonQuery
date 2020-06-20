@@ -589,14 +589,14 @@ public class QueryProcessor {
 //        numberOfCheckedNodes = s2.getNumberOfCheckedNodes() + p1.getNumberOfCheckedNodes() + p3.getNumberOfCheckedNodes() + p4.getNumberOfCheckedNodes() + p5.getNumberOfCheckedNodes() + p6.getNumberOfCheckedNodes() + p7.getNumberOfCheckedNodes() + p8.getNumberOfCheckedNodes();
 //        numberOfNodes = s2.getNumberOfNodes() + p1.getNumberOfNodes() + p3.getNumberOfNodes() + p4.getNumberOfNodes() + p5.getNumberOfNodes() + p6.getNumberOfNodes() + p7.getNumberOfNodes() + p8.getNumberOfNodes();
         
-        System.out.println(p1.getTempo());
-        System.out.println(p2.getTempo());
-        System.out.println(p3.getTempo());
-        System.out.println(p4.getTempo());
-        System.out.println(p5.getTempo());
-        System.out.println(p6.getTempo());
-        System.out.println(p7.getTempo());
-        System.out.println(p8.getTempo());
+//        System.out.println(p1.getTempo());
+//        System.out.println(p2.getTempo());
+//        System.out.println(p3.getTempo());
+//        System.out.println(p4.getTempo());
+//        System.out.println(p5.getTempo());
+//        System.out.println(p6.getTempo());
+//        System.out.println(p7.getTempo());
+//        System.out.println(p8.getTempo());
         
         media = 0;
         if (numberOfThreads > 1) {

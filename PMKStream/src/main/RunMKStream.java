@@ -37,11 +37,11 @@ public class RunMKStream {
         //System.out.println(defaultDir);
         
         //netbeans
-        args = new String[5];
-        args[0] = "icde";
-        args[1] = "50000";
-        args[2] = "1"; //stacks
-        args[3] = "6"; //experimento
+//        args = new String[5];
+//        args[0] = "isfdb";
+//        args[1] = "50000";
+//        args[2] = "1"; //stacks
+//        args[3] = "6"; //experimento
 //        
         lArgs[0] = defaultDir+"xml/datasets/"+args[0].toLowerCase()+"/";
         if(args[3].equals("1"))
