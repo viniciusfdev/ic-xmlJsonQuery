@@ -15,7 +15,7 @@ import java.util.logging.Logger;
 public class Main {
 
     public static void main(String[] args) {
-        //String []bases = {"icde", "isfdb", "sigmod"};
+        //bases = {"icde", "isfdb", "sigmod"};
         //semantic true = SLCA
         //semantic false = ELCA
         //fileType true = xml
@@ -25,7 +25,7 @@ public class Main {
         int nTouL = 2;
         int nGroups = 1;
         int nThreads = 8;
-        int nQueries = 20000;
+        int nQueries = 50000;
         String baseName = "icde";
         String absPath = "src/";
         boolean semantic = true;

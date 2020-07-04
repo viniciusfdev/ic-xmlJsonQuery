@@ -7,10 +7,8 @@ package engine;
 
 import exception.PSLCAStreamException;
 import java.io.File;
-import java.io.File;
 import java.io.FileReader;
 import java.io.IOException;
-import java.util.HashMap;
 import java.util.Iterator;
 import java.util.List;
 import java.util.Map;
@@ -68,11 +66,10 @@ public class TaskControl implements Runnable{
                 queryIndexGroups[index].getQueryGroupHash().put((String)pair.getKey(), (List<Query>)pair.getValue());
                 count++;
             }
-            
+            long initTime = System.currentTimeMillis();
             for(QueryGroupHash queryIndex: queryIndexGroups){
                 if(queryIndex != null){
                     if(!queryIndex.getQueryGroupHash().isEmpty()){
-                        long initTime = System.currentTimeMillis();
                         for(File file: fileList){
                             search = new SearchEngine(queryIndex, semantic);
                             if(fileType){
@@ -87,8 +84,6 @@ public class TaskControl implements Runnable{
                             //search.printResultsByQuery();
                             //System.out.println("Numero de comparacoes: "+search.getComp());
                         }
-                        long finalTime = System.currentTimeMillis();
-                        execTime = finalTime - initTime;
                     }else{
                         throw new PSLCAStreamException("Query Index => não possui consultas");
                     }
@@ -96,6 +91,10 @@ public class TaskControl implements Runnable{
                     throw new PSLCAStreamException("Query Index => argumento nulo");
                 }
             }
+                
+            long finalTime = System.currentTimeMillis();
+            execTime = finalTime - initTime;
+            
         } catch (SAXException ex) {
             Logger.getLogger(TaskControl.class.getName()).log(Level.SEVERE, null, ex);
         } catch (IOException ex) {

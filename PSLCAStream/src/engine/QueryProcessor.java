@@ -71,7 +71,7 @@ public class QueryProcessor {
     
     /**
      * Initializes and separates the queries for parallel process and
-     * process multiple queries for each document D and set the results for each it.
+     * process multiple queries for each document D and set the results for each.
      */
     public void multipleQueriesStart(){
         queryIndex = new QueryGroupHash[nThreads];
@@ -90,7 +90,7 @@ public class QueryProcessor {
             }else{
                 tasks.add(new TaskControl(fileList, 
                             queryIndex[0], semantic, nGroups, fileType));
-                    threads.add(new Thread(tasks.get(0)));
+                threads.add(new Thread(tasks.get(0)));
             }
             for(Thread t: threads){
                 t.start();
@@ -202,8 +202,7 @@ public class QueryProcessor {
     /**
      * Optimal group all queries with have common terms to accelerate the search engine.
      */
-    public void optimalGroupQueries(){
-        Boolean groupQuery = true;
+    public void optimalGroupQueries(Boolean groupQuery){
         BufferedReader queryFile;
         Query queryAux = null;
         int countQueries = 0;
@@ -228,7 +227,6 @@ public class QueryProcessor {
         nQueriesPerGroup = countQueries/nThreads;
         queryGroup.add(new ArrayList<>());
         
-        long init = System.currentTimeMillis();
         if(groupQuery){
             queryGroup.get(index).add(queries.get(0).clone());
             queries.remove(0);
@@ -278,7 +276,6 @@ public class QueryProcessor {
             queryGroup.get(index).add(queries.remove(0));
         }
         long finalT = System.currentTimeMillis();
-        System.out.println("Time to group "+nQueries+" queries:"+(finalT-init));
         //writeGroupedQueries();
     }
     
@@ -309,9 +306,8 @@ public class QueryProcessor {
      */
     public void buildQueryIndexGroup(int nThreads){
         try {
-            long t1 = System.currentTimeMillis();
-            gulousGroupQueries();
-            System.out.println("Time to group gulous: " + (System.currentTimeMillis() - t1));
+            optimalGroupQueries(false);
+            
             if(nQueriesPerGroup > 0)
             for(int index = 0; index < nThreads; index++){
                 queryIndex[index] = new QueryGroupHash();
